@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a81e5aae-5a31-4592-b16f-1c3ef042a227"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CargaArchivoEnlatados"
+	namespace="CardaData.PC">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8189502d-c683-4c13-b4f9-4eac9620dd8e"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="91345270-bee8-4e5c-a8c0-b67c0c953478"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'AgentTemplatePage-tbody']//span[@innertext='Cargar Archivo']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
+	name="CardaDataRepository"
+	relativepath="..\CardaDataRepository.rxrep">
+		<codegen
+		classname="CardaDataRepository"
+		namespace="CardaData">
+		</codegen>
+		<rootfolder
+		id="468d5898-f181-4143-93ca-5cfb8eaaac90"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CargaArchivoEnlatados.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a276c199-0ed7-4a4e-bbc0-cc50b4222db7"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SubMenu_Clasif_AsistAutos"
+	namespace="CardaData.Menu">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3c8dea0d-ed72-4699-8b1e-ab8681041745"
+		sx="1143"
+		sy="336"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f7d674a3-1af1-4d22-a850-aaef2d574b4b"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="1091,324,105,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="class"
+					type="System.String">
+						x-menu-item-text x-menu-item-text-default x-menu-item-indent-no-separator
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						TabBar:AdminTab:Admin_Rating:Rating_CA7AssistanceSuraPage-textEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Asistencias Autos
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-menu-item-indent-no-separator x-menu-item-text x-menu-item-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]/body/div[13]/div/div[2]/div/div[7]/?/?/span[@innertext='Asistencias Autos']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
+	name="CardaDataRepository"
+	relativepath="..\CardaDataRepository.rxrep">
+		<codegen
+		classname="CardaDataRepository"
+		namespace="CardaData">
+		</codegen>
+		<rootfolder
+		id="468d5898-f181-4143-93ca-5cfb8eaaac90"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SubMenu_Clasif_AsistAutos.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

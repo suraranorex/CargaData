@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6fc2f5a0-2265-44cf-a7b1-6365023f3462"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SubMenu_Clasif_Hogar_PlanesProd"
+	namespace="CardaData.Menu">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c786ae1b-070c-4f55-9f9c-0eebc4dabefb"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="19eb0944-09aa-49c9-92d1-3a9a68960621"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext='Planes por Productor']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
+	name="CardaDataRepository"
+	relativepath="..\CardaDataRepository.rxrep">
+		<codegen
+		classname="CardaDataRepository"
+		namespace="CardaData">
+		</codegen>
+		<rootfolder
+		id="468d5898-f181-4143-93ca-5cfb8eaaac90"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SubMenu_Clasif_Hogar_PlanesProd.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

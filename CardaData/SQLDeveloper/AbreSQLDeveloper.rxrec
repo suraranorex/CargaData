@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="537430f0-2598-4701-85b0-be2855f5e23e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AbreSQLDeveloper"
+	namespace="CardaData.SQLDeveloper">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		duration="1842ms"
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\Users\maruiz\Desktop\sqldeveloper-19.2.1.247.2212-x64\sqldeveloper\sqldeveloper.exe
+			</filename>
+			<workingdir>
+				C:\Users\maruiz\Desktop\sqldeveloper-19.2.1.247.2212-x64\sqldeveloper
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+		<mouseitem
+		action="DoubleClick"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="96;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="77b0f4a6-76ca-427f-b666-f3b988ab5a10"
+		sx="119"
+		sy="154"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3578a500-2adf-4df2-9b87-66fa56c0f6bf"
+			sourcename="Recorder">
+				<element
+				capabilities=""
+				dontcache="False"
+				enabled="True"
+				flavor="java"
+				hasfocus="False"
+				index="0"
+				prefcap="treeitem"
+				rect="23,148,204,17"
+				role="treeitem"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="expanded"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						129.144.10.17 - DevD-QA_SUPPORT
+					</attribute>
+					<dynamicattribute
+					description="A Java object field value."
+					name="__lock__"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="AllowsChildren"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="ChildCount"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="ChildNodes"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java object field value."
+					name="children"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="Class"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="Color"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="Depth"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="Element"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="Filtered"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="FirstChild"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="FirstLeaf"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="hCode"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="Icon"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="ItemInstance"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="LastChild"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="LastLeaf"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="Leaf"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="LeafCount"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="Level"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="LongLabel"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java object field value."
+					name="m_cache"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java object field value."
+					name="m_childObserver"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java object field value."
+					name="m_children"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java object field value."
+					name="m_comp"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java object field value."
+					name="m_instance"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java object field value."
+					name="m_owner"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java object field value."
+					name="m_tooltip"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="NextLeaf"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="NextNode"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="NextSibling"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="OwningNavigatorTree"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java object field value."
+					name="parent"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="Path"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="PreviousLeaf"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="PreviousNode"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="PreviousSibling"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="Root"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="ShortLabel"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="SiblingCount"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="ToolTipText"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="UserObject"
+					readonly="False"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="A Java getter-/setter-style property value."
+					name="UserObjectPath"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+					</dynamicattribute>
+					<dynamicaction
+					description="A Java object method."
+					displayName="add">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="breadthFirstEnumeration">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="canHaveFilter">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="children">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="clearFilter">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="clone">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="depthFirstEnumeration">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="equals">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="findAncestorElement">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<argument
+						description="Argument value."
+						displayName="arg2"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="findAncestorTreeNode">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<argument
+						description="Argument value."
+						displayName="arg2"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="getChildAfter">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="getChildAt">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="getChildBefore">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="getIndex">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="getSharedAncestor">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="insert">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<argument
+						description="Argument value."
+						displayName="arg2"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="isNodeAncestor">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="isNodeChild">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="isNodeDescendant">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="isNodeRelated">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="isNodeSibling">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="notify">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="notifyAll">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="pathFromAncestorEnumeration">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="postorderEnumeration">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="preorderEnumeration">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="promptForFilter">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="remove">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="removeAllChildren">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="removeFromParent">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="toString">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="update">
+						<argument
+						description="Argument value."
+						displayName="arg1"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<argument
+						description="Argument value."
+						displayName="arg2"
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="A Java object method."
+					displayName="wait">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title&gt;'Oracle SQL Developer : C:']/container[@type='JPanel']//container[@type='MultiSplitPane']/container[@type='MultiSplitPane']/container[1]/?/?/container[@name='Content displayer']//container[@name='gui']/?/?/container[@name='viewport']/tree[@name='nav-DatabaseNavigatorWindow.Default']//treeitem[@text&gt;'129.144.10.17 - DevD-QA_S']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="94225541-54f8-4698-9d13-ee58636280f6">
+				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
+uh/kKS8/g/Gl0r/j3f8A66H+QpvYS3LtFFFIYUy3/wCPeP8A3B/Kn0y3/wCPeP8A3B/KgDM0P/jz
+f/rof5CtGs7Q/wDjzf8A66H+QrRpR2Na38RhRRRTMgooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooArXn8H40ulf8e7/wDXQ/yFJefwfjS6V/x7v/10P8hT
+ewluXaKKKQwplv8A8e8f+4P5U+mW/wDx7x/7g/lQBmaH/wAeb/8AXQ/yFaNZ2h/8eb/9dD/IVo0o
+7Gtb+IwooopmQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAVrz+D8aXSv+Pd/+uh/kKS8/g/Gl0r/AI93/wCuh/kKb2Ety7RRRSGFMt/+PeP/AHB/Kn0y
+3/494/8AcH8qAMzQ/wDjzf8A66H+QrRrO0P/AI83/wCuh/kK0aUdjWt/EYUUUUzIKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAK15/B+NLpX/AB7v/wBd
+D/IUl5/B+NLpX/Hu/wD10P8AIU3sJbl2iiikMKZb/wDHvH/uD+VPplv/AMe8f+4P5UAZmh/8eb/9
+dD/IVo1naH/x5v8A9dD/ACFaNKOxrW/iMKKKKZkFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAFa8/g/Gl0r/j3f8A66H+QpLz+D8aXSv+Pd/+uh/kKb2E
+ty7RRRSGFMt/+PeP/cH8qfTLf/j3j/3B/KgDM0NlWxcsOkh/kKvxSCQE7QBnAqhoX/Hm/wD10P8A
+IVdhGN4H980o7Gtb+IxgmMjHaQqj2FP3H+9+gqvB0NS1pYwuP3H+9+go3H+9+gplFFguP3H+9+go
+3H+9+gplFFguP3H+9+go3H+9+gplFFguP3H+9+go3H+9+gplFFguP3H+9+go3H+9+gplFFguP3H+
+9+go3H+9+gplFFguP3H+9+go3H+9+gplFFguP3H+9+go3H+9+gplFFguP3H+9+go3H+9+gplFFgu
+P3H+9+go3H+9+gplFFguOLHHDj8hSwzBiVYDcPQdaZTbb/Xv9KTQJlrK/wB0flRlf7o/KkoqShcr
+/dH5UxpVWUIVGCODjvTqZj/Sf+Af1oAivCDswMdaNK/493/66H+QovP4Pxo0r/j3f/rof5Cm9hLc
+u0UUUhhTLf8A494/9wfyp9Mt/wDj3j/3B/KgD//Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
+	name="CardaDataRepository"
+	relativepath="..\CardaDataRepository.rxrep">
+		<codegen
+		classname="CardaDataRepository"
+		namespace="CardaData">
+		</codegen>
+		<rootfolder
+		id="468d5898-f181-4143-93ca-5cfb8eaaac90"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AbreSQLDeveloper.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

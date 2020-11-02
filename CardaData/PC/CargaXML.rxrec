@@ -1,0 +1,1004 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0884ce06-c3a1-46b2-bccb-d50fc1172cd7"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CargaXML"
+	namespace="CardaData.PC">
+	</codegen>
+	<variables>
+		<var
+		id="cd97bd5b-cce5-4470-ab64-c7c7b896349d"
+		name="NombArchCACGCCPA">
+			CACGCCPA_AP_01.xml
+		</var>
+		<var
+		id="05771ab3-fe5e-4cce-99f8-a9060059ca5c"
+		name="NombreArchivoXML">
+			sura_ca7_vehicle_assistance.xml
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="1814c738-ecb0-41f0-8c9f-45f7089c0f36"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="18dc771c-c747-4386-9367-780f092aa34e"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'Admin:MenuLinks-body']//span[@innertext='Utilidades']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c19f8c40-fdda-4498-955b-84c59f6c7fbd"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="80b69dff-12b0-49f7-990f-a3e5eb9da557"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="227,212,323,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ImportWizard:ImportWizard_UploadScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Importar datos administrativos
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']/table/tbody/tr[1]/td//span[@innertext&gt;'Importar datos administra']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="bfd27b43-6a9d-45fb-a306-c3d13daffd4d"
+		sx="702"
+		sy="239"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6a71e08e-68e0-472b-a38a-6f4d80401786"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="666,231,72,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						filefield-1098-button-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Examinar...
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext~'Examinar...']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="3cdca71b-654e-4d41-a054-cfc0e7faaccb"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c493acc8-3736-4177-914c-b138f3367f65"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Abrir']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Ventana Emergente
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6345e40a-f34b-498d-b78b-4a84f923a9d4"
+		sx="455"
+		sy="68"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="829777a6-7188-4a5e-bfbf-e845474bda15"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativeitem, checkable"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="80,35,35,21"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Escritorio
+					</attribute>
+					<attribute
+					name="commandid"
+					type="System.Int32">
+						1280
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Open' or @title='Abrir']/element[@class='WorkerW']/container[@controlid='40965']//toolbar[@controlid='1001']/button[@text='Escritorio']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="C:\Carga_Inicial_QA\PC\tablas"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="ee1c7404-1051-4304-b5fb-6dd21d403041">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="ecf42d7a-973e-47f6-bcc2-963f72541bc9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="48fd5342-0ed6-4dc5-94a8-f94e0e959e19"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e8927a4f-e6ab-489e-8caf-91dd19f5283f"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="2"
+				prefcap="text"
+				rect="0,0,0,0"
+				role="text"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Edit
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						1115942
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Overlapped
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Open']/?/?/text[@controlid='1148']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="$NombArch"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="ee1c7404-1051-4304-b5fb-6dd21d403041">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="NombreArchivoXML">
+				</binding>
+			</bindings>
+		</keysequenceitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="47;13"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e3467051-989e-47dd-bfd4-64e91b40d8fb"
+		sx="887"
+		sy="455"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6ae3de6f-31ed-43a5-99b8-6b867f2ac478"
+			sourcename="Recorder">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="5"
+				prefcap="button"
+				rect="840,442,88,26"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;Abrir
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						1837968
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						12856
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						chrome
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;Abrir
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Abrir']/button[@text='&amp;Abrir']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="d7fe0d9a-4a5b-422d-a747-d98b5b529221">
+				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
+D//Z
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="True"
+		searchpropertyid="7832251a-4f32-41c6-a772-513bc0e22c19"
+		waitaction="Exists"
+		waittimeout="60000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c700ddd2-617c-4c37-92bc-29d46d8861b5"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[@innertext='100%']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="04191eb1-7d87-40d5-9377-e96868ec78b5"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c389c0bf-9505-4b08-ae31-33cc5ed45de2"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']//label[@innertext&gt;'No se encontraron conflictos']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="04191eb1-7d87-40d5-9377-e96868ec78b5"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c389c0bf-9505-4b08-ae31-33cc5ed45de2"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']//label[@innertext&gt;'No se encontraron conflictos']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="1b61cb30-d913-4d2d-9ab2-293944acb47f"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="53eaa850-8d11-4821-a93a-b8fff9a1a16d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[#'ImportWizard:Finish-btnInnerEl']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="dab58bab-672d-4726-8a67-5244ebe1b8dd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="53eaa850-8d11-4821-a93a-b8fff9a1a16d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[#'ImportWizard:Finish-btnInnerEl']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="AttributeContains"
+		enabled="True"
+		optional="False"
+		searchpropertyid="26c6917d-6f53-4085-994d-4b2288587d1a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5bfcf0be-0132-4330-971e-36b266278077"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="labeltag"
+				rect="219,190,735,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-component x-component-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ImportResults:ImportResultsScreen:ImportResultsDV:0
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Datos importados correctamente. Se insertaron 8 registros, se actualizaron 0 registros y se eliminaron 0 registros.
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-component x-component-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'ImportResults-tbody']/tr[3]/td/?/?/table//label[@innertext&gt;'Datos importados correctamente.']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Datos importados correctamente.
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
+	name="CardaDataRepository"
+	relativepath="..\CardaDataRepository.rxrep">
+		<codegen
+		classname="CardaDataRepository"
+		namespace="CardaData">
+		</codegen>
+		<rootfolder
+		id="468d5898-f181-4143-93ca-5cfb8eaaac90"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CargaXML.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
