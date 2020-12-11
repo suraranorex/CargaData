@@ -77,6 +77,15 @@ name="CardaDataRepository">
 			<item
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
+			id="cb792193-8505-4295-aaaa-2eca180a0732"
+			name="btn_AceptarError"
+			refimgid="465a1140-e6a3-4813-ab34-259149478a49"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//span[@innertext='Aceptar' and @visible='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
 			id="fa493492-f34c-4507-9fbe-423818204041"
 			name="Nuevo"
 			refimgid="095f07bf-321d-4508-9e9d-60de480f679f"
@@ -303,7 +312,7 @@ name="CardaDataRepository">
 			name="Copy_of_CargandoArchivoS"
 			refimgid="8c0f1c7e-34d0-4cee-89bd-dcab7f25c17a"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[@innertext~'Cargando archivo(s)...']
+				/dom[@domain=$Ambiente]//body//div[@class='x-box-target']//div[@innertext='Cargando archivo(s)...' and @visible='true']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -375,7 +384,25 @@ name="CardaDataRepository">
 			name="lbl_100Percent"
 			refimgid="e73f918b-2034-43bc-8eb8-891c38776b82"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]/body/div[12]/div[2]/div/div/div[2]/div[2]/div[@innertext='100%']
+				/dom[@domain=$Ambiente]//div[@innertext~'100%']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="aa80ab73-b032-4b09-a5b2-4bbaaeba2fd5"
+			name="lbl_100percent_QA4"
+			refimgid="8e41f281-b062-4d78-bf36-705b5ef831b5"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]/body/div[16]/div[2]/div/div/div[2]/div[2]/div[@innertext='100%']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="797bd7d0-2081-48d3-b4a9-d19da1a8626b"
+			name="DivTag100Percent"
+			refimgid="0ab19acf-b14c-44d5-adc6-423f780cced1"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]/body/div[15]/div[2]/div/div/div[2]/div[2]/div[@innertext='100%']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -452,6 +479,15 @@ name="CardaDataRepository">
 			refimgid="17a3ae04-03cf-4fd8-a05f-b9e895e981b5"
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ScheduleInvoiceSuraWizard/upload']/table/tbody/tr[4]//table//div/div/div/div/div[2]/div//input[@tagvalue='InvoiceSchedule Prueba.xls']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2c1b90f7-8429-43ad-8145-127bc8adf647"
+			name="txt_ArchivoCargado_qa2"
+			refimgid="17a3ae04-03cf-4fd8-a05f-b9e895e981b5"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[#'AdminDataLoaderWizard/upload']//input[@name~'textfield-[0-9]+']
 			</item>
 			<folder
 			addcaps="unknown,webelement,tabletag"
@@ -691,12 +727,12 @@ name="CardaDataRepository">
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
-			capname="spantag"
+			capname="unknown"
 			id="928044c9-ac25-470b-9dc9-7be5ace8ab96"
 			name="Nav_SubM2"
 			refimgid="d2918d04-155f-46e4-a958-6a5b4b442b29"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//span[@innertext=$SubM2]
+				/dom[@domain=$Ambiente]//*[@innertext=$SubM2]
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -706,6 +742,15 @@ name="CardaDataRepository">
 			refimgid="d2918d04-155f-46e4-a958-6a5b4b442b29"
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@id='TabBar:SearchTab-btnWrap']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="ba0fde11-c23f-43f7-b197-322c4a0ddaa7"
+			name="Copy_of_Menu_Buscar"
+			refimgid="d2918d04-155f-46e4-a958-6a5b4b442b29"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//span[@id='TabBar:SearchTab-btnWrap' and @data-tabindexsaved='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -730,6 +775,15 @@ name="CardaDataRepository">
 			<item
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
+			id="4947a7d9-3daa-4cc8-94d4-90b2982e3f3d"
+			name="lbl_CambioDeDatos_QA4_Oci2"
+			refimgid="c7533b0f-0663-478c-bd40-ab92932bc6c8"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//span[@id='DataChangePage:DataChangeScreen:ttlBar']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
 			id="80b69dff-12b0-49f7-990f-a3e5eb9da557"
 			name="ImportarDatosAdministrativos"
 			refimgid="42fd6521-e146-4650-9998-9b0d7c7c7417"
@@ -742,9 +796,8 @@ name="CardaDataRepository">
 			id="f3d2e290-794a-4171-a259-0327a0313f1c"
 			name="lbl_SeEncontraronErroresEnElArchivo"
 			refimgid="3b23d8f1-4cdc-4257-b165-6d5f16c9551c"
-			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'ImportWizard/Upload']/table/tbody/tr[4]/td/label[@innertext>'Se encontraron errores en el archivo: [ UserContact(sura_pc:3549).EmailAddress1 ]  El valor &quot;laueli2011.@gmail.com&quot; no tiene el formato correcto para el campo &quot;EmailAddress1&quot;: EmailAddress1 debe ser una dirección de correo electrónico válida[ UserContact(sura_pc:3549).EmailAddress1']"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']/table//label[@innertext&gt;'Se encontraron errores en']
+				/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']/table//label[@innertext~'Se encontraron errores en']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -762,9 +815,8 @@ name="CardaDataRepository">
 			id="b284ed9e-d17e-49ac-98ad-21fbf98d1a35"
 			name="lbl_ErrorEnLaSolicitudDeHTTP503"
 			refimgid="49992f28-2e78-4b95-8ec2-190a327bf3d5"
-			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[17]/div[2]/div/div/div[1]/div/div/div[2]/div/div/div[@innertext='Error en la solicitud de HTTP: 503']"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]/body/div[17]/div[2]/div/div/div[1]/div/div/div[2]//div[@innertext&gt;'Error en la solicitud de HTTP:']
+				/dom[@domain=$Ambiente]//div[@innertext~'Error en la solicitud de HTTP:' and @visible='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -772,9 +824,8 @@ name="CardaDataRepository">
 			id="1aee83d8-2981-4d9b-91d0-87526e3b322f"
 			name="lbl_ResultadosDeImportacion"
 			refimgid="6ebf9162-8f41-4476-85e9-8c31828b716c"
-			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'ImportResults-tbody']/tr[1]/td/div/div/div/div/div/span[@innertext='Resultados de importación']"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'ImportResults-tbody']/tr[1]/td/div//span[@innertext='Resultados de importaci&#243;n']
+				/dom[@domain=$Ambiente]//tbody[#'ImportResults-tbody']//span[@innertext='Resultados de importaci&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,labeltag"
@@ -783,7 +834,7 @@ name="CardaDataRepository">
 			name="lbl_Resulyado_DatosImportados"
 			refimgid="184034b7-f21c-423a-b644-592e79f907a0"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'ImportResults-tbody']/tr[3]/td/?/?/table//label[@innertext&gt;'  .']
+				/dom[@domain=$Ambiente]//tbody[#'ImportResults-tbody']//label[@innertext~'Datos importados correctamente.']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -957,6 +1008,15 @@ name="CardaDataRepository">
 			refimgid="34fbc960-e487-446a-b980-586aaa54d96d"
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']//label[@innertext~'encontraron']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="cd351737-60fa-403d-a493-53041125a82d"
+			name="Copy_of_lbl_resultadoFormCarga"
+			refimgid="34fbc960-e487-446a-b980-586aaa54d96d"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']//label[@innertext~'&quot;Finalizar&quot;']
 			</item>
 			<item
 			addcaps="unknown,webelement,labeltag"
@@ -1231,9 +1291,8 @@ name="CardaDataRepository">
 			id="b555ef22-c891-4d60-a615-36de7d45dedc"
 			name="Sec_ViewLoadProducerInfoButtonSura"
 			refimgid="23403bf9-4fbc-451e-b324-3c0e2166c60c"
-			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'ScriptParametersPage-tbody']/tr[3]/td/div/div[3]/div[1]/div/table[5]/tbody/tr/td[1]/div/a[@innertext='ViewLoadProducerInfoButtonSura']"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'ScriptParametersPage-tbody']/tr[3]/td/div/div[3]/div[1]/div/table[5]/?/?/tr/td[1]/?/?/a[@innertext&gt;'ViewLoadProducerInfoButto']
+				/dom[@domain=$Ambiente]//tbody[#'ScriptParametersPage-tbody']//a[@innertext&gt;'ViewLoadProducerInfoButto']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1332,6 +1391,15 @@ name="CardaDataRepository">
 			refimgid="723d675f-2792-477e-99e7-c0d74cf063ce"
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'TabBar:LogoutTabBarLink']/?/?/span[@innertext~'Cerrar sesi&#243;n']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="4949f988-89c6-4966-9fbc-4f94539b2f3f"
+			name="Copy_of_CerrarSesionGral"
+			refimgid="2380562e-bab1-44f9-b101-f4fc37609ad3"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//span[@innertext~'Cerrar sesi&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1515,7 +1583,7 @@ name="CardaDataRepository">
 			name="Copy_of_Btn_CargarInformacionActual"
 			refimgid="4ac5072c-8705-42d6-ba55-d6f94962523c"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Cargar Informaci&#243;n Actual']
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Cargar Informaci&#243;n Actual' and @data-tabindexsaved='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1765,7 +1833,16 @@ name="CardaDataRepository">
 			name="Ejecutar"
 			refimgid="0528e033-8f74-4a30-876f-46f8a33936db"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']/table/tbody/tr[3]/td/?/?/table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[1]/td/div/div/div/a[2]//span[@innertext='Ejecutar']
+				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//span[@innertext='Ejecutar']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="d7782e14-b79d-4901-b0be-0b30847e42e5"
+			name="Copy_of_Ejecutar"
+			refimgid="0528e033-8f74-4a30-876f-46f8a33936db"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//span[@innertext='Ejecutar' and @data-tabindexsaved='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,textareatag"
@@ -1785,6 +1862,16 @@ name="CardaDataRepository">
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Información de proceso por lotes']"
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[1]//span[@innertext&gt;'Informaci&#243;n de proceso por']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="bda240c6-a51d-4502-abf9-f7d7b2e44772"
+			name="AsistenciasHogar"
+			refimgid="1913a87e-b746-4d4a-a991-f461d3694472"
+			refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[12]/div/div[2]/div/div[8]/a/span[@innertext='Asistencias Hogar']"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]/body/div[12]/div/div[2]/div/div[8]/?/?/span[@innertext='Asistencias Hogar']
 			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
@@ -2036,7 +2123,7 @@ ix0AAAAASUVORK5CYII=
 			id="a2929b82-0454-49c8-a911-c1bd5c2e4bac"
 			name="bttn_Aceptar"
 			refimgid="6011cdad-eb8c-41b9-a443-79109bd0404e"
-			searchtimeout="10000ms">
+			searchtimeout="5000ms">
 				/dom[@domain=$Ambiente]/body//span[@innertext~'Aceptar' and @visible='True']
 			</item>
 			<item
@@ -2057,9 +2144,65 @@ ix0AAAAASUVORK5CYII=
 			searchtimeout="10000ms">
 				/dom[@domain=$Ambiente]//div[@innertext~'100%']
 			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="c40165b4-282b-464b-a4c7-39ad8cd1300b"
+			name="lbl_ErrorEnLaSolicitudDeHTTP503_COF"
+			refimgid="49992f28-2e78-4b95-8ec2-190a327bf3d5"
+			searchtimeout="5000ms">
+				/dom[@domain=$Ambiente]//div[@innertext~'Error en la solicitud de HTTP:' and @visible='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="29500b0a-24b7-4844-abe8-e2c4911116ca"
+			name="Btn_Finalizar_PlanComisiones_COF"
+			refimgid="4481773f-0ca3-4f16-b32f-e561c3b86da0"
+			searchtimeout="5000ms">
+				/dom[@domain=$Ambiente]//a[#'AdminDataLoaderWizard:Finish']/span/?/?/span[@innertext~'inalizar']
+			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
 			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="af75bdc4-4c03-4f5a-a41d-fccdc2b90fa5"
+		isrooted="True"
+		name="AvisoChrome_COF"
+		refpath="/form[@title='¿Deseas volver a cargar el sitio?']"
+		searchtimeout="5000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="0efc7232-e348-4b5e-a88b-6768c95b1ea6"
+			name="CargarDeNuevo"
+			refimgid="75b18b7d-d175-4e11-9137-84814e72cfb0"
+			refpath="/form[@title='¿Deseas volver a cargar el sitio?']/container[@accessiblename='']/container[2]/container[@accessiblerole='Pane']/button[@accessiblename='Cargar de nuevo']"
+			searchtimeout="0ms">
+				/form[@title&gt;'&#191;Deseas volver a cargar el']/container[@accessiblename='']//button[@accessiblename='Cargar de nuevo']
+			</item>
+			<basepath>
+				/form[@title&gt;'&#191;Deseas volver a cargar el']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
 		</appfolder>
 		<basepath>
 		</basepath>
@@ -2073,7 +2216,7 @@ ix0AAAAASUVORK5CYII=
 		<var
 		id="658183a5-d45d-4ec1-a6ea-51dbf041ea2b"
 		name="NombreArchivo">
-			BCPlanDataLoader.xls
+			BCAdminDataLoader
 		</var>
 		<var
 		id="dd98d9a5-78b7-46d6-a36a-39545de6d6d8"

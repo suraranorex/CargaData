@@ -237,7 +237,7 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="dcfce05a-5199-4dc0-a676-08f8ac146b0f"
 		waitaction="Exists"

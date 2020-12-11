@@ -96,8 +96,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.Btn_CargarInformacionActual.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 3m to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Btn_CargarInformacionActual'", repo.ApplicationUnderTest.Copy_of_Btn_CargarInformacionActualInfo, new ActionTimeout(180000), new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Copy_of_Btn_CargarInformacionActualInfo.WaitForNotExists(180000);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(2));
+            Delay.Duration(5000, false);
             
         }
 

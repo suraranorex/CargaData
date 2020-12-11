@@ -284,57 +284,8 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="53c41f24-322b-44e8-9817-d08662d365d0"
+			id="4947a7d9-3daa-4cc8-94d4-90b2982e3f3d"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, spantag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="spantag"
-				rect="335,165,176,22"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						g-title
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						DataChangePage:DataChangeScreen:ttlBar
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						Cambio de datos
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						g-title
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						span
-					</attribute>
-				</element>
 				<path>
 					/dom[@domain=$Ambiente]//div[#'DataChangePage/details']/table/tbody/tr[1]/td//span[@innertext='Cambio de datos']
 				</path>
@@ -425,15 +376,24 @@ mode="Global">
 				</path>
 			</info>
 		</mouseitem>
-		<explicitdelayitem
-		duration="30000ms"
+		<WaitForRecordItem
 		enabled="True"
-		optional="False">
+		optional="False"
+		searchpropertyid="fd2dc45f-0988-42c9-a602-84d896406ffa"
+		waitaction="NotExists"
+		waittimeout="60000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-		</explicitdelayitem>
+			<info
+			id="d7782e14-b79d-4901-b0be-0b30847e42e5"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//span[@innertext='Ejecutar' and @data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<keyitem
 		action="Press"
 		data="F5"
@@ -449,12 +409,84 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</keyitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0e4fb22a-3bb3-46f5-9c67-cbbb24b7be48"
+		sx="743"
+		sy="185"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0efc7232-e348-4b5e-a88b-6768c95b1ea6"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="682,169,122,32"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Cargar de nuevo
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						hacer clic
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Cargar de nuevo
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Default, Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'&#191;Deseas volver a cargar el']/container[@accessiblename='']//button[@accessiblename='Cargar de nuevo']
+				</path>
+			</info>
+		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
 		searchpropertyid="61dc96bb-8f64-4370-9146-9a34ae85d1ed"
 		waitaction="Exists"
-		waittimeout="30000ms">
+		waittimeout="60000ms">
 			<comment>
 			</comment>
 			<bindings>
@@ -577,11 +609,11 @@ mode="Global">
 			</info>
 		</WaitForRecordItem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="f2e87394-f86a-4e67-a8cf-9c4822e19372"
 		waitaction="Exists"
-		waittimeout="30000ms">
+		waittimeout="60000ms">
 			<comment>
 			</comment>
 			<bindings>

@@ -110,27 +110,31 @@ namespace CardaData.CC
             //Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(5));
             //Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_CambioDeDatos'", repo.ApplicationUnderTest.lbl_CambioDeDatosInfo, new ActionTimeout(30000), new RecordItemIndex(6));
-            repo.ApplicationUnderTest.lbl_CambioDeDatosInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_CambioDeDatos_QA4_Oci2'", repo.ApplicationUnderTest.lbl_CambioDeDatos_QA4_Oci2Info, new ActionTimeout(30000), new RecordItemIndex(6));
+            repo.ApplicationUnderTest.lbl_CambioDeDatos_QA4_Oci2Info.WaitForExists(30000);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Ejecutar' at Center.", repo.ApplicationUnderTest.EjecutarInfo, new RecordItemIndex(7));
             repo.ApplicationUnderTest.Ejecutar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(8));
-            Delay.Duration(30000, false);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Ejecutar'", repo.ApplicationUnderTest.Copy_of_EjecutarInfo, new ActionTimeout(60000), new RecordItemIndex(8));
+            repo.ApplicationUnderTest.Copy_of_EjecutarInfo.WaitForNotExists(60000);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key 'F5' Press.", new RecordItemIndex(9));
             Keyboard.Press(System.Windows.Forms.Keys.F5, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_ResultadoDataChengeCCWeb'", repo.ApplicationUnderTest.lbl_ResultadoDataChengeCCWebInfo, new ActionTimeout(30000), new RecordItemIndex(10));
-            repo.ApplicationUnderTest.lbl_ResultadoDataChengeCCWebInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AvisoChrome_COF.CargarDeNuevo' at Center.", repo.AvisoChrome_COF.CargarDeNuevoInfo, new RecordItemIndex(10));
+            repo.AvisoChrome_COF.CargarDeNuevo.Click();
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.Estado_Completado'", repo.ApplicationUnderTest.Estado_CompletadoInfo, new ActionTimeout(30000), new RecordItemIndex(11));
-            repo.ApplicationUnderTest.Estado_CompletadoInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'ApplicationUnderTest.lbl_ResultadoDataChengeCCWeb'", repo.ApplicationUnderTest.lbl_ResultadoDataChengeCCWebInfo, new ActionTimeout(60000), new RecordItemIndex(11));
+            repo.ApplicationUnderTest.lbl_ResultadoDataChengeCCWebInfo.WaitForExists(60000);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Completado') on item 'ApplicationUnderTest.Estado_Completado'.", repo.ApplicationUnderTest.Estado_CompletadoInfo, new RecordItemIndex(12));
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'ApplicationUnderTest.Estado_Completado'", repo.ApplicationUnderTest.Estado_CompletadoInfo, new ActionTimeout(60000), new RecordItemIndex(12));
+            //repo.ApplicationUnderTest.Estado_CompletadoInfo.WaitForExists(60000);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Completado') on item 'ApplicationUnderTest.Estado_Completado'.", repo.ApplicationUnderTest.Estado_CompletadoInfo, new RecordItemIndex(13));
             Validate.AttributeContains(repo.ApplicationUnderTest.Estado_CompletadoInfo, "InnerText", "Completado");
             Delay.Milliseconds(0);
             

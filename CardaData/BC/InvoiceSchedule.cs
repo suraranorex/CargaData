@@ -148,8 +148,8 @@ namespace CardaData.BC
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(12));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 2m to exist. Associated repository item: 'ApplicationUnderTest.lbl_100Percent'", repo.ApplicationUnderTest.lbl_100PercentInfo, new ActionTimeout(120000), new RecordItemIndex(13));
-            repo.ApplicationUnderTest.lbl_100PercentInfo.WaitForExists(120000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 2m to exist. Associated repository item: 'ApplicationUnderTest.lbl_100Percent'", repo.ApplicationUnderTest.lbl_100PercentInfo, new ActionTimeout(120000), new RecordItemIndex(13));
+            //repo.ApplicationUnderTest.lbl_100PercentInfo.WaitForExists(120000);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_SubirArchivoExcel'", repo.ApplicationUnderTest.lbl_SubirArchivoExcelInfo, new ActionTimeout(30000), new RecordItemIndex(14));
             repo.ApplicationUnderTest.lbl_SubirArchivoExcelInfo.WaitForExists(30000);

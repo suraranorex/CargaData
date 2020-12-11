@@ -41,6 +41,7 @@ namespace CardaData.Admin
         /// </summary>
         public ValidaColaMensajeria()
         {
+            estado = "";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace CardaData.Admin
         }
 
 #region Variables
+
+        string _estado;
+
+        /// <summary>
+        /// Gets or sets the value of variable estado.
+        /// </summary>
+        [TestVariable("9a375142-64ef-49f2-84f1-31311519a6c2")]
+        public string estado
+        {
+            get { return _estado; }
+            set { _estado = value; }
+        }
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -108,6 +121,15 @@ namespace CardaData.Admin
             Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.Check_SistemaDeFacturacion'.", repo.ApplicationUnderTest.Check_SistemaDeFacturacionInfo, new RecordItemIndex(4));
             Validate.Exists(repo.ApplicationUnderTest.Check_SistemaDeFacturacionInfo);
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Check_SistemaDeFacturacion' and assigning its value to variable 'estado'.", repo.ApplicationUnderTest.Check_SistemaDeFacturacionInfo, new RecordItemIndex(5));
+            estado = repo.ApplicationUnderTest.Check_SistemaDeFacturacion.Element.GetAttributeValueText("InnerText");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "Cola de Sistema De facturación:", new RecordItemIndex(6));
+            
+            // Estado de Cola de Mensajeria SistemaDeFacturacion
+            Report.Log(ReportLevel.Info, "User", estado, new RecordItemIndex(7));
             
         }
 

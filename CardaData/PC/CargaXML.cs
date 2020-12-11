@@ -158,26 +158,29 @@ namespace CardaData.PC
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(12));
             Delay.Duration(2000, false);
             
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5m to exist. Associated repository item: 'ApplicationUnderTest.Copy_of_lbl_resultadoFormCarga'", repo.ApplicationUnderTest.Copy_of_lbl_resultadoFormCargaInfo, new ActionTimeout(300000), new RecordItemIndex(13));
+            repo.ApplicationUnderTest.Copy_of_lbl_resultadoFormCargaInfo.WaitForExists(300000);
+            
             try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 1m to exist. Associated repository item: 'ContinueOnFail.Copy_of_lbl_100Percent'", repo.ContinueOnFail.Copy_of_lbl_100PercentInfo, new ActionTimeout(60000), new RecordItemIndex(13));
-                repo.ContinueOnFail.Copy_of_lbl_100PercentInfo.WaitForExists(60000);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(13)); }
+                //Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 1m to exist. Associated repository item: 'ContinueOnFail.Copy_of_lbl_100Percent'", repo.ContinueOnFail.Copy_of_lbl_100PercentInfo, new ActionTimeout(60000), new RecordItemIndex(14));
+                //repo.ContinueOnFail.Copy_of_lbl_100PercentInfo.WaitForExists(60000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(14)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_resultadoFormCargaAsistMedica'", repo.ApplicationUnderTest.lbl_resultadoFormCargaAsistMedicaInfo, new ActionTimeout(30000), new RecordItemIndex(14));
-            repo.ApplicationUnderTest.lbl_resultadoFormCargaAsistMedicaInfo.WaitForExists(30000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_resultadoFormCargaAsistMedica'", repo.ApplicationUnderTest.lbl_resultadoFormCargaAsistMedicaInfo, new ActionTimeout(30000), new RecordItemIndex(15));
+            //repo.ApplicationUnderTest.lbl_resultadoFormCargaAsistMedicaInfo.WaitForExists(30000);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_resultadoFormCargaAsistMedica'", repo.ApplicationUnderTest.lbl_resultadoFormCargaAsistMedicaInfo, new ActionTimeout(30000), new RecordItemIndex(15));
-            repo.ApplicationUnderTest.lbl_resultadoFormCargaAsistMedicaInfo.WaitForExists(30000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_resultadoFormCargaAsistMedica'", repo.ApplicationUnderTest.lbl_resultadoFormCargaAsistMedicaInfo, new ActionTimeout(30000), new RecordItemIndex(16));
+            //repo.ApplicationUnderTest.lbl_resultadoFormCargaAsistMedicaInfo.WaitForExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.btn_FinalizarCargaDataPC' at Center.", repo.ApplicationUnderTest.btn_FinalizarCargaDataPCInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.btn_FinalizarCargaDataPC' at Center.", repo.ApplicationUnderTest.btn_FinalizarCargaDataPCInfo, new RecordItemIndex(17));
             repo.ApplicationUnderTest.btn_FinalizarCargaDataPC.MoveTo();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.btn_FinalizarCargaDataPC' at Center.", repo.ApplicationUnderTest.btn_FinalizarCargaDataPCInfo, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.btn_FinalizarCargaDataPC' at Center.", repo.ApplicationUnderTest.btn_FinalizarCargaDataPCInfo, new RecordItemIndex(18));
             repo.ApplicationUnderTest.btn_FinalizarCargaDataPC.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Datos importados correctamente.') on item 'ApplicationUnderTest.lbl_Resultado_DatosImportadosFormAsistMed'.", repo.ApplicationUnderTest.lbl_Resultado_DatosImportadosFormAsistMedInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Datos importados correctamente.') on item 'ApplicationUnderTest.lbl_Resultado_DatosImportadosFormAsistMed'.", repo.ApplicationUnderTest.lbl_Resultado_DatosImportadosFormAsistMedInfo, new RecordItemIndex(19));
             Validate.AttributeContains(repo.ApplicationUnderTest.lbl_Resultado_DatosImportadosFormAsistMedInfo, "InnerText", "Datos importados correctamente.");
             Delay.Milliseconds(0);
             

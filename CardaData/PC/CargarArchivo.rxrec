@@ -764,17 +764,56 @@ FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAMHf6n+dLSDv9T/OloAKKKKACiiigAooooAKKKKACiiig
 D//Z
 			</helperscreenshot>
 		</mouseitem>
-		<explicitdelayitem
-		duration="2000ms"
+		<WaitForRecordItem
 		enabled="True"
+		optional="False"
+		searchpropertyid="2e8ff726-2d14-4a0e-a460-2b034099605c"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ec3bc363-bc3f-443f-a7f7-8a465602e6f5"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[@innertext~'Cargando archivo(s)...']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<userrecorditem
+		classname="CargarArchivo"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="EsperaFinalizarCarga"
+		namespace="CardaData.PC"
 		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-		</explicitdelayitem>
-		<WaitForRecordItem
+			<arguments
+			id="39b85088-11e1-446a-bbef-c931c9602028">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="CargarArchivo"
 		enabled="True"
+		isexternaltestmethod="False"
+		methodname="EsperaFinalizarProceso"
+		namespace="CardaData.PC"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="705ca158-17ac-4b46-9764-e3507fd2e956">
+			</arguments>
+		</userrecorditem>
+		<WaitForRecordItem
+		enabled="False"
 		optional="False"
 		searchpropertyid="856eea71-c480-492a-8eaf-7372d39abf8e"
 		waitaction="Exists"
@@ -792,7 +831,7 @@ D//Z
 			</info>
 		</WaitForRecordItem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="722ec4b8-5bf2-4a66-9675-8523c370f8fd"
 		waitaction="Exists"
@@ -864,7 +903,7 @@ D//Z
 		</WaitForRecordItem>
 		<explicitdelayitem
 		duration="6000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -1014,7 +1053,7 @@ D//Z
 		optional="True"
 		searchpropertyid="00d53bb4-4928-4829-b358-6f287f89dc58"
 		waitaction="Exists"
-		waittimeout="3600000ms">
+		waittimeout="180000ms">
 			<comment>
 			</comment>
 			<bindings>
@@ -1082,9 +1121,183 @@ D//Z
 				</path>
 			</info>
 		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="94b508f1-b005-4ed0-8078-8451633fe29a"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cb792193-8505-4295-aaaa-2eca180a0732"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext='Aceptar' and @visible='True']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="54d52b92-0239-4f74-b6a9-d98d9c302a2d"
+		sx="0"
+		sy="103"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="53eaa850-8d11-4821-a93a-b8fff9a1a16d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="0,103,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//span[#'ImportWizard:Finish-btnInnerEl']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="False"
+		optional="True"
+		searchpropertyid="00d53bb4-4928-4829-b358-6f287f89dc58"
+		waitaction="Exists"
+		waittimeout="180000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b284ed9e-d17e-49ac-98ad-21fbf98d1a35"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="573,403,220,17"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-component x-window-text x-box-item x-component-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						messagebox-1001-msg
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Error en la solicitud de HTTP: 503
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-box-item x-component x-component-default x-window-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]/body/div[17]/div[2]/div/div/div[1]/div/div/div[2]//div[@innertext&gt;'Error en la solicitud de HTTP:']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="94b508f1-b005-4ed0-8078-8451633fe29a"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cb792193-8505-4295-aaaa-2eca180a0732"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext='Aceptar' and @visible='True']
+				</path>
+			</info>
+		</mouseitem>
 		<explicitdelayitem
 		duration="3600000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -1182,7 +1395,7 @@ D//Z
 		optional="False"
 		searchpropertyid="c55c6696-0c3f-4a54-8623-2d91520d5b0c"
 		waitaction="Exists"
-		waittimeout="180000ms">
+		waittimeout="900000ms">
 			<comment>
 			</comment>
 			<bindings>

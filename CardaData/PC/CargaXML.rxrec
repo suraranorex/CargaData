@@ -799,6 +799,24 @@ D//Z
 		</explicitdelayitem>
 		<WaitForRecordItem
 		enabled="True"
+		optional="False"
+		searchpropertyid="597ccaad-9ad0-4454-a25f-99dbbbd95e07"
+		waitaction="Exists"
+		waittimeout="300000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cd351737-60fa-403d-a493-53041125a82d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']//label[@innertext~'encontraron']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<WaitForRecordItem
+		enabled="False"
 		optional="True"
 		searchpropertyid="7832251a-4f32-41c6-a772-513bc0e22c19"
 		waitaction="Exists"
@@ -816,7 +834,7 @@ D//Z
 			</info>
 		</WaitForRecordItem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="04191eb1-7d87-40d5-9377-e96868ec78b5"
 		waitaction="Exists"
@@ -834,7 +852,7 @@ D//Z
 			</info>
 		</WaitForRecordItem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="04191eb1-7d87-40d5-9377-e96868ec78b5"
 		waitaction="Exists"

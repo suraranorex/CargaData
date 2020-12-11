@@ -29,7 +29,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -110,6 +110,26 @@ mode="Global">
 				</path>
 			</info>
 		</mouseitem>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ae44ac56-6536-4475-a935-6818b6b1d60b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f7d674a3-1af1-4d22-a850-aaef2d574b4b"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]/body/div[13]/div/div[2]/div/div[7]/?/?/span[@innertext='Asistencias Autos']
+				</path>
+			</info>
+			<arguments
+			id="d7f41dbf-08c1-494f-8642-766e035685f4">
+			</arguments>
+		</invokeactionrecorditem>
 	</recorditems>
 	<repository
 	id="2a0a9fab-6d64-4305-908d-893e5460c59f"

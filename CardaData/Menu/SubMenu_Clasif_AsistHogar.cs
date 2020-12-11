@@ -89,8 +89,12 @@ namespace CardaData.Menu
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubMenu_Clasif_AsistHogar' at Center.", repo.ApplicationUnderTest.SubMenu_Clasif_AsistHogarInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.SubMenu_Clasif_AsistHogar.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AsistenciasHogar' at Center.", repo.ApplicationUnderTest.AsistenciasHogarInfo, new RecordItemIndex(0));
+            //repo.ApplicationUnderTest.AsistenciasHogar.Click();
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'ApplicationUnderTest.AsistenciasHogar'.", repo.ApplicationUnderTest.AsistenciasHogarInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.AsistenciasHogar.PerformClick();
             Delay.Milliseconds(0);
             
         }

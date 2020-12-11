@@ -811,7 +811,7 @@ D//Z
 			</bindings>
 		</explicitdelayitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="856eea71-c480-492a-8eaf-7372d39abf8e"
 		waitaction="Exists"

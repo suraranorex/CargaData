@@ -113,21 +113,25 @@ namespace CardaData.Menu
             repo.ApplicationUnderTest.Nav_MenuAdmin_cc.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.Nav_SubM1'", repo.ApplicationUnderTest.Nav_SubM1Info, new ActionTimeout(30000), new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Nav_SubM1Info.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'ApplicationUnderTest.Nav_SubM1'", repo.ApplicationUnderTest.Nav_SubM1Info, new ActionTimeout(40000), new RecordItemIndex(1));
+            repo.ApplicationUnderTest.Nav_SubM1Info.WaitForExists(40000);
             
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(2));
-            //Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(2));
+            Delay.Duration(2000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Nav_SubM1' at Center.", repo.ApplicationUnderTest.Nav_SubM1Info, new RecordItemIndex(3));
             repo.ApplicationUnderTest.Nav_SubM1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.Nav_SubM2'", repo.ApplicationUnderTest.Nav_SubM2Info, new ActionTimeout(30000), new RecordItemIndex(4));
-            repo.ApplicationUnderTest.Nav_SubM2Info.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.Nav_SubM2_Visible' at Center.", repo.ApplicationUnderTest.Nav_SubM2_VisibleInfo, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.Nav_SubM2_Visible.MoveTo();
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Nav_SubM2' at Center.", repo.ApplicationUnderTest.Nav_SubM2Info, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.Nav_SubM2.Click();
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'ApplicationUnderTest.Nav_SubM2_Visible'", repo.ApplicationUnderTest.Nav_SubM2_VisibleInfo, new ActionTimeout(40000), new RecordItemIndex(5));
+            repo.ApplicationUnderTest.Nav_SubM2_VisibleInfo.WaitForExists(40000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Nav_SubM2_Visible' at Center.", repo.ApplicationUnderTest.Nav_SubM2_VisibleInfo, new RecordItemIndex(6));
+            repo.ApplicationUnderTest.Nav_SubM2_Visible.Click();
             Delay.Milliseconds(0);
             
         }

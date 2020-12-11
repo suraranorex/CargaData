@@ -3,7 +3,6 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
-			enabled="False"
 			id="000b973b-8668-4c06-8855-271137c9dd52"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -60,7 +59,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="06509dad-61bb-42e4-9ab4-8af833e2ad39"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -83,7 +81,6 @@
 			name="teardown">
 			</teardown>
 			<testmodule
-			enabled="False"
 			id="09a26468-91fc-48fb-971e-aa4faf06ee89"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -130,7 +127,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="0dc7bdd7-9d70-44f4-b45f-c2d62f561b12"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -183,7 +179,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="16d53681-1390-4e7e-a4e9-3fd2c0b15a5a"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -201,8 +196,8 @@
 			datarangeactive="True"
 			datasource="CargaCampaniasPC"
 			id="17111c78-b3d9-4f00-80ef-665d0258d840"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="CargarCampañasPC">
 			</testcase>
 			<testmodule
@@ -366,8 +361,8 @@
 			datarangeactive="True"
 			datasource="CargaAdmDataPC"
 			id="2511387e-d494-463e-b6da-bd567f768e9b"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="Carga_AdmDataLoader_PC">
 			</testcase>
 			<testmodule
@@ -385,7 +380,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="273686d5-d96e-4e0e-8e9c-ddbfda573c4a"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -466,7 +460,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="31ce11c6-d13f-4a27-b523-ba36dde64170"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -600,7 +593,6 @@
 			name="teardown">
 			</teardown>
 			<testmodule
-			enabled="False"
 			id="42c5525e-844f-459e-97c7-8bc1355f7452"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -703,6 +695,14 @@
 			name="ValidarPlanesComisiones"
 			ref="5ce31611-13ca-4811-aa9e-a23cb0d49167"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="7416748d-7447-407f-8379-3acaaf26039e"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<setup
 			id="4797110c-f491-4edc-90d4-804fb298b420"
@@ -741,6 +741,9 @@
 			name="MenuPpalBuscar"
 			ref="fc1e161a-6316-4def-b60f-298e656890a2"
 			type="Recording">
+				<description>
+					<![CDATA[Se agregó Código para ValidarContenidoMenu]]>
+				</description>
 			</testmodule>
 			<testmodule
 			id="4b18ab27-8c3e-4c36-9d31-21590ab196fa"
@@ -931,7 +934,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="5874996a-0f47-4e4f-b657-4a870c3c11e4"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -986,7 +988,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="5b38204d-572b-4532-9e1b-93a2e11c6f16"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -1018,8 +1019,8 @@
 			datarangeactive="True"
 			datasource="DataChange_CC"
 			id="5bb7c8d7-1c4d-4a72-bae5-c9a6bf1bfed3"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="DataChange_CC">
 			</testcase>
 			<testmodule
@@ -1051,7 +1052,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="5e494528-f2ff-4d7d-8cf2-535fa7772583"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -1094,6 +1094,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="62fd83b9-8160-47b8-8a5f-e8a4f66e4392"
 			name="SubMenu_Clasif_LibroDeTasas"
 			ref="5dab2099-cf25-4841-9225-6d87086a65f9"
@@ -1182,8 +1183,8 @@
 			datarangeactive="True"
 			datasource="CargaXMLTarifa"
 			id="6bc1e7f1-cb21-4fc9-9183-319c4b846ffc"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="CargaXMLTarifa">
 			</testcase>
 			<testmodule
@@ -1225,7 +1226,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="7470e7f3-e33a-47e5-be4f-ed8b3c8416a8"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -1282,7 +1282,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="789c9859-4780-414d-a144-e5e25c2d552c"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -1461,7 +1460,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="844ba8d6-8264-4bc9-a1c9-3a052214ccb2"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -1480,7 +1478,6 @@
 			name="teardown">
 			</teardown>
 			<testmodule
-			enabled="False"
 			id="8533bfc6-737a-484d-9c17-74fdcd393aba"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -1643,7 +1640,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="979ee636-c269-48b9-997f-e9ffa27cdb57"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -1658,7 +1654,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="982f9005-08d8-4ab2-8ac6-afd56740f84b"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -1750,7 +1745,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="a504aa25-98c1-427d-8f96-4bf316b91548"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -1779,7 +1773,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="a5439248-337d-44b0-a302-4590ea9b9b9b"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -1808,7 +1801,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="a8a64079-cd5c-4caa-b9f0-f74da18d731c"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -1826,8 +1818,8 @@
 			datarangeactive="True"
 			datasource="CargaPlanesEnlatados_PC"
 			id="a9b6fef7-4f75-4c35-8f13-3d71dfec58c1"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="CargarPlanesEnlatados">
 			</testcase>
 			<testmodule
@@ -1848,8 +1840,8 @@
 			datarangeactive="True"
 			datasource="ValidaPlanesComisones_BC"
 			id="aa56df55-901a-40ac-865f-8d2439624532"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="Validar_PlanesComisiones_BC">
 			</testcase>
 			<testmodule
@@ -1870,8 +1862,8 @@
 			datarangeactive="True"
 			datasource="ValidaMensajeria"
 			id="ac46303b-adec-45ee-a99a-f3c5f2857712"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="Validar_Mensajeria_SistemaFacturacion">
 			</testcase>
 			<testmodule
@@ -1966,8 +1958,8 @@
 			datarangeactive="True"
 			datasource="XML_Asist_EnMemoria"
 			id="b922c33f-e2dd-48cb-9803-7152b01e08e8"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="Carga_XML_Asist_EnMemoria">
 			</testcase>
 			<testmodule
@@ -2000,8 +1992,8 @@
 			datarangeactive="True"
 			datasource="InvoiceShedule"
 			id="ba491309-c9ca-47e7-9629-e2f7b520af3a"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="InvoiceShedule">
 			</testcase>
 			<setup
@@ -2013,7 +2005,6 @@
 			name="setup">
 			</setup>
 			<testmodule
-			enabled="False"
 			id="c0218cd8-2705-4391-86c0-49065807c562"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -2085,9 +2076,10 @@
 			<testcase
 			datarangeactive="True"
 			datasource="CargaXMLVarios"
+			errorbehavior="ContinueNextIteration"
 			id="c566a963-678c-47a1-a5aa-4e62ff489896"
-			maxrange="14"
-			minrange="0"
+			maxrange="50"
+			minrange="34"
 			name="CargarXMLVarios">
 			</testcase>
 			<teardown
@@ -2112,8 +2104,8 @@
 			datarangeactive="True"
 			datasource="CargaLataFlex2344"
 			id="c68ea05f-77ca-4512-91bd-34aa497817eb"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="CargarLataFlex_2344">
 			</testcase>
 			<testmodule
@@ -2162,16 +2154,16 @@
 			datarangeactive="True"
 			datasource="CargaProveedoresAB"
 			id="cdc6ca54-c944-4487-b9a0-7e317e6eb5be"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="Carga_Proveedores_AB">
 			</testcase>
 			<testcase
 			datarangeactive="True"
 			datasource="CargaFormsPC"
 			id="cf6f1038-0179-4c88-93c4-56286538b128"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="CargaFormsPC">
 			</testcase>
 			<teardown
@@ -2179,6 +2171,7 @@
 			name="teardown">
 			</teardown>
 			<testmodule
+			enabled="False"
 			id="d4fb64c4-2dc5-421c-b526-2558c5c53410"
 			name="SubMenu_Clasif_LibroDeTasas"
 			ref="5dab2099-cf25-4841-9225-6d87086a65f9"
@@ -2196,8 +2189,8 @@
 			datarangeactive="True"
 			datasource="CargaPlanesDePago_BC"
 			id="d5c5f314-e30a-45de-92d3-3419392b754f"
-			maxrange="0"
-			minrange="0"
+			maxrange="2"
+			minrange="2"
 			name="CargaPlanesDePagoBC">
 			</testcase>
 			<testmodule
@@ -2229,7 +2222,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="d93a4376-5e21-44c4-9cee-1cefb6abed46"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -2332,7 +2324,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="dfb5ab42-0894-418d-b82d-6b9346075b6e"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -2421,7 +2412,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="ebf822e2-7dc1-48f0-81ee-6c7b8a46c0c6"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -2561,8 +2551,8 @@
 			datarangeactive="True"
 			datasource="CargaPlanesComisionesBC"
 			id="f785edf4-c1c1-4d1a-b64d-99ee1cce3b2f"
-			maxrange="0"
-			minrange="0"
+			maxrange="1"
+			minrange="1"
 			name="CargaPlanesComisiones_BC">
 			</testcase>
 			<setup
@@ -3404,7 +3394,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaAdmDataPC.xlsx"
 		id="213c0142-c946-4a43-9d18-1a344440f5c3"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="CargaAdmDataPC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3456,7 +3446,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaCampaniasPC.xlsx"
 		id="bfc5d527-bfd4-4b69-bd8c-42fdcdad9df9"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="CargaCampaniasPC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3508,7 +3498,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaFormsPC.xlsx"
 		id="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="CargaFormsPC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3534,7 +3524,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaLataflex2344.xlsx"
 		id="29b05c48-d6eb-4484-8fef-62f4178d332d"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="CargaLataFlex2344"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3560,7 +3550,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaPlanesComisiones_BC.xlsx"
 		id="20f8dd55-639f-4344-a1c7-fc197298492f"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="CargaPlanesComisionesBC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3586,7 +3576,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaPlanesPago_BC.xlsx"
 		id="02590535-358d-4d92-b77a-0fb24a9f46b6"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="CargaPlanesDePago_BC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3612,7 +3602,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaPlanesEnlatadosPC.xlsx"
 		id="0219d181-45e7-4f5a-b43a-e87056b43d34"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="CargaPlanesEnlatados_PC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3638,7 +3628,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaProveedoresAB.xlsx"
 		id="f74e1ad6-7a0d-4236-be3e-c46dcaf2db14"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="CargaProveedoresAB"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3670,7 +3660,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaXMLTarifa.xlsx"
 		id="3d7a0f12-a136-4680-80f8-c038c04e3b83"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="CargaXMLTarifa"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3696,7 +3686,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaXMLVariosPC.xlsx"
 		id="eed024c5-0b3c-4035-8722-63d5d28a82cf"
 		includefile="Unchecked"
-		lastknownrowcount="32"
+		lastknownrowcount="51"
 		name="CargaXMLVarios"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3725,7 +3715,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - DataChange_CC.xlsx"
 		id="98955795-76af-4125-b69c-b699e9c86017"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="DataChange_CC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3757,7 +3747,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - InvoiceShedule.xlsx"
 		id="b65ca71b-ee75-4037-b0b7-a332d78f0910"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="InvoiceShedule"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3818,7 +3808,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - ValidarMensajeria.xlsx"
 		id="5b95dc2d-52cb-4176-a0dd-d39db74fb7e5"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="ValidaMensajeria"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3844,7 +3834,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - ValidaPlanesComisiones_BC.xlsx"
 		id="7416748d-7447-407f-8379-3acaaf26039e"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="ValidaPlanesComisones_BC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3896,7 +3886,7 @@
 		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaXML_Asist_EnMemoria.xlsx"
 		id="36fdacf9-2598-4edc-957f-02587b75c522"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="XML_Asist_EnMemoria"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3924,9 +3914,6 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="0f922fba-f32d-4092-b8ae-2d4eb9320ed2">
-			</testcontainer>
-			<testcontainer
 			id="17111c78-b3d9-4f00-80ef-665d0258d840">
 			</testcontainer>
 			<testcontainer
@@ -3934,9 +3921,6 @@
 			</testcontainer>
 			<testcontainer
 			id="5bb7c8d7-1c4d-4a72-bae5-c9a6bf1bfed3">
-			</testcontainer>
-			<testcontainer
-			id="632108de-e3e2-4d01-9fa4-93cf6c43ba49">
 			</testcontainer>
 			<testcontainer
 			id="6bc1e7f1-cb21-4fc9-9183-319c4b846ffc">
@@ -3973,9 +3957,6 @@
 			</testcontainer>
 			<testcontainer
 			id="d5c5f314-e30a-45de-92d3-3419392b754f">
-			</testcontainer>
-			<testcontainer
-			id="daa7855f-f823-4fd8-912f-1584667b4ff9">
 			</testcontainer>
 			<testcontainer
 			id="f785edf4-c1c1-4d1a-b64d-99ee1cce3b2f">

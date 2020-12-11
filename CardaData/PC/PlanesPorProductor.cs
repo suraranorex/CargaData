@@ -194,8 +194,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.txt_CanalProductor.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(29));
-            Delay.Duration(300, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(29));
+            Delay.Duration(1000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Canal_DirectoAnswer' at Center.", repo.ApplicationUnderTest.Canal_DirectoAnswerInfo, new RecordItemIndex(30));
             repo.ApplicationUnderTest.Canal_DirectoAnswer.Click();
@@ -230,8 +230,8 @@ namespace CardaData.PC
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(38));
             Delay.Duration(300, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Plan_LFCountry' at Center.", repo.ApplicationUnderTest.Plan_LFCountryInfo, new RecordItemIndex(39));
-            repo.ApplicationUnderTest.Plan_LFCountry.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LFCountry' at Center.", repo.ApplicationUnderTest.LFCountryInfo, new RecordItemIndex(39));
+            repo.ApplicationUnderTest.LFCountry.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Actalizar_Pas2344' at Center.", repo.ApplicationUnderTest.Btn_Actalizar_Pas2344Info, new RecordItemIndex(40));

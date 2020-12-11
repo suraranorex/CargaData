@@ -33,5 +33,65 @@ namespace CardaData.PC
             // Your recording specific initialization code goes here.
         }
 
+        public void EsperaFinalizarCarga()
+        {
+            // TODO: Replace the following line with your code implementation.
+            //throw new NotImplementedException();
+            
+            bool x = true;
+            int i = 0;
+            Report.Info("Info: ","Inicia carga de archivo...");
+            while (x) {
+            	
+            	i++;
+            	if(repo.ApplicationUnderTest.Copy_of_CargandoArchivoSInfo.Exists(5000)){
+            		
+            		Delay.Milliseconds(25000);
+            		
+            	}else{
+            		Report.Success("Éxito: ","Finalizó la carga del archivo.");
+            		x = false;
+            	}
+            	
+            	if (i == 20){
+            		Report.Failure("Error:","Tiempo de espera agotado para la carga de archivo.");
+            		x = false;
+            	}
+            
+            }
+            
+            
+        }
+
+        public void EsperaFinalizarProceso()
+        {
+            // TODO: Replace the following line with your code implementation.
+            //throw new NotImplementedException();
+            
+            int i =0;
+            Report.Info("Info: ","Inicia procesamiento de archivo...");
+            while(!repo.ApplicationUnderTest.lbl_SeEncontraronErroresEnElArchivoInfo.Exists(5000)){
+            	i++;
+            	Delay.Milliseconds(115000);
+            	
+            	if(repo.ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503Info.Exists(5000)){
+            		Report.Info("Info: ","Mostró el Error HTTP503");
+            		repo.ApplicationUnderTest.btn_AceptarError.Click();
+            		Keyboard.Press("{F5}");
+            		Report.Info("Info: ","Se presionó F5...");
+            	}
+            	
+            	if( i == 20 ){
+            		Report.Failure("Error:","Tiempo de espera agotado para el procesamiento de archivo.");
+            	
+            	}
+            
+            }
+            
+            Report.Success("Éxito: ","Finalizó el procesamiento del archivo.");
+            //Keyboard.Press("{F5}");
+            
+        }
+
     }
 }

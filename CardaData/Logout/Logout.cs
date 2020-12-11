@@ -93,20 +93,24 @@ namespace CardaData.Logout
             repo.ApplicationUnderTest.bttn_Configuracion.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.bttn_CerrarSesion' at Center.", repo.ApplicationUnderTest.bttn_CerrarSesionInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.bttn_CerrarSesion.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.bttn_CerrarSesion' at Center.", repo.ApplicationUnderTest.bttn_CerrarSesionInfo, new RecordItemIndex(1));
+            //repo.ApplicationUnderTest.bttn_CerrarSesion.Click();
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Copy_of_CerrarSesionGral' at Center.", repo.ApplicationUnderTest.Copy_of_CerrarSesionGralInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.Copy_of_CerrarSesionGral.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_bttn_CerrarSesion'", repo.ApplicationUnderTest.Copy_of_bttn_CerrarSesionInfo, new ActionTimeout(30000), new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_bttn_CerrarSesion'", repo.ApplicationUnderTest.Copy_of_bttn_CerrarSesionInfo, new ActionTimeout(30000), new RecordItemIndex(3));
             repo.ApplicationUnderTest.Copy_of_bttn_CerrarSesionInfo.WaitForNotExists(30000);
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ContinueOnFail.bttn_Aceptar' at Center.", repo.ContinueOnFail.bttn_AceptarInfo, new RecordItemIndex(3));
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ContinueOnFail.bttn_Aceptar' at Center.", repo.ContinueOnFail.bttn_AceptarInfo, new RecordItemIndex(4));
                 repo.ContinueOnFail.bttn_Aceptar.Click();
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.Login.bttn_IniciarSesion'.", repo.ApplicationUnderTest.Login.bttn_IniciarSesionInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.Login.bttn_IniciarSesion'.", repo.ApplicationUnderTest.Login.bttn_IniciarSesionInfo, new RecordItemIndex(5));
             Validate.Exists(repo.ApplicationUnderTest.Login.bttn_IniciarSesionInfo);
             Delay.Milliseconds(100);
             

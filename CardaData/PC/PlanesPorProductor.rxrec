@@ -1126,7 +1126,7 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<explicitdelayitem
-		duration="300ms"
+		duration="1000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -1532,99 +1532,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="67b23838-1d4f-4a7d-834f-5f9d48aa8da3"
+			id="ec3a56b1-9f6e-42c9-a14d-375208296a5a"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, litag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="4"
-				prefcap="litag"
-				rect="0,103,0,0"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="False">
-					<attribute
-					name="class"
-					type="System.String">
-						x-boundlist-item x-boundlist-selected
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						ext-element-1248
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						L.F. Country
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						x-boundlist-item
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						li
-					</attribute>
-					<attribute
-					name="tagvalue"
-					type="System.String">
-						0
-					</attribute>
-					<attribute
-					name="value"
-					type="System.String">
-						0
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="data-boundview"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="data-recordid"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="data-recordindex"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="role"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="tabindex"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
 				<path>
-					/dom[@domain=$Ambiente]/body/div[23]/?/?/ul/li[@innertext='L.F. Country']
+					/dom[@domain=$Ambiente]//li[@innertext='L.F. Country']
 				</path>
 			</info>
 		</mouseitem>

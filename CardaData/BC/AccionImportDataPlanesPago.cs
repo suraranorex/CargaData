@@ -179,11 +179,11 @@ namespace CardaData.BC
             Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.CargandoArchivoS'", repo.ApplicationUnderTest.CargandoArchivoSInfo, new ActionTimeout(5000), new RecordItemIndex(21));
             repo.ApplicationUnderTest.CargandoArchivoSInfo.WaitForExists(5000);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 2m to exist. Associated repository item: 'ApplicationUnderTest.lbl_100Percent'", repo.ApplicationUnderTest.lbl_100PercentInfo, new ActionTimeout(120000), new RecordItemIndex(22));
-            repo.ApplicationUnderTest.lbl_100PercentInfo.WaitForExists(120000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 2m to exist. Associated repository item: 'ApplicationUnderTest.lbl_100Percent'", repo.ApplicationUnderTest.lbl_100PercentInfo, new ActionTimeout(120000), new RecordItemIndex(22));
+            //repo.ApplicationUnderTest.lbl_100PercentInfo.WaitForExists(120000);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.lbl_100Percent'", repo.ApplicationUnderTest.lbl_100PercentInfo, new ActionTimeout(30000), new RecordItemIndex(23));
-            repo.ApplicationUnderTest.lbl_100PercentInfo.WaitForNotExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'ApplicationUnderTest.DivTag100Percent'", repo.ApplicationUnderTest.DivTag100PercentInfo, new ActionTimeout(40000), new RecordItemIndex(23));
+            repo.ApplicationUnderTest.DivTag100PercentInfo.WaitForNotExists(40000);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(24));
             Delay.Duration(300, false);

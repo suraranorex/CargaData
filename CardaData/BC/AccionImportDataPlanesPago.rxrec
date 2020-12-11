@@ -1220,7 +1220,7 @@ D//Z
 			</info>
 		</WaitForRecordItem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="940f5ea6-2cf2-4b62-a197-e4642847c4f3"
 		waitaction="Exists"
@@ -1297,16 +1297,16 @@ D//Z
 		optional="False"
 		searchpropertyid="f8a7ee83-a469-48aa-9356-d3d4164f52b0"
 		waitaction="NotExists"
-		waittimeout="30000ms">
+		waittimeout="40000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="05abd998-1221-4a10-a2c2-b757c503efe0"
+			id="797bd7d0-2081-48d3-b4a9-d19da1a8626b"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]/body/div[12]/div[2]/div/div/div[2]/div[2]/div[@innertext='100%']
+					/dom[@domain=$Ambiente]/body/div[15]/div[2]/div/div/div[2]/div[2]/div[@innertext='100%']
 				</path>
 			</info>
 		</WaitForRecordItem>

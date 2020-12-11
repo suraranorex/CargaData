@@ -149,7 +149,7 @@ Y2iMGW1gVlOQRGAQanoooA//2Q==
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -300,6 +300,30 @@ VewtZ0kmeeMKXII5z6+9X0iwc4FTCa5LDxEL1rp9vyRNRRRUgFFFFABRRRQAUUUUAFFFFAFTUo1N
 o84yssCtJG46ggfyPcVVl1S4XSVuQI/MK+hxRRTAt6YgXT4nyS0qiR2PUs3JqxH/AKtfoKKKQDqK
 KKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
 			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c43538a5-4ecb-405e-90ac-cabf991ed0c3"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4949f988-89c6-4966-9fbc-4f94539b2f3f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]/body/div[15]/div/div[2]//span[@innertext~'Cerrar sesi&#243;n']
+				</path>
+			</info>
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"

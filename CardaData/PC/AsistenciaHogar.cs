@@ -107,8 +107,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.Btn_Actualizar_AsistAutos.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Btn_Actualizar_AsistAutos'", repo.ApplicationUnderTest.Copy_of_Btn_Actualizar_AsistAutosInfo, new ActionTimeout(30000), new RecordItemIndex(5));
-            repo.ApplicationUnderTest.Copy_of_Btn_Actualizar_AsistAutosInfo.WaitForExists(30000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Btn_Actualizar_AsistAutos'", repo.ApplicationUnderTest.Copy_of_Btn_Actualizar_AsistAutosInfo, new ActionTimeout(30000), new RecordItemIndex(5));
+            //repo.ApplicationUnderTest.Copy_of_Btn_Actualizar_AsistAutosInfo.WaitForExists(30000);
             
         }
 

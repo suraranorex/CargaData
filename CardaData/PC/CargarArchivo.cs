@@ -151,43 +151,66 @@ namespace CardaData.PC
             repo.Ventana_Emergente_Abrir.ButtonAbrir.Click("47;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(11));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.Copy_of_CargandoArchivoS'", repo.ApplicationUnderTest.Copy_of_CargandoArchivoSInfo, new ActionTimeout(30000), new RecordItemIndex(11));
+            repo.ApplicationUnderTest.Copy_of_CargandoArchivoSInfo.WaitForExists(30000);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 1h to exist. Associated repository item: 'ApplicationUnderTest.lbl_100Percent'", repo.ApplicationUnderTest.lbl_100PercentInfo, new ActionTimeout(3600000), new RecordItemIndex(12));
-            repo.ApplicationUnderTest.lbl_100PercentInfo.WaitForExists(3600000);
+            EsperaFinalizarCarga();
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 1h to exist. Associated repository item: 'ApplicationUnderTest.lbl_SeEncontraronErroresEnElArchivo'", repo.ApplicationUnderTest.lbl_SeEncontraronErroresEnElArchivoInfo, new ActionTimeout(3600000), new RecordItemIndex(13));
-            repo.ApplicationUnderTest.lbl_SeEncontraronErroresEnElArchivoInfo.WaitForExists(3600000);
+            EsperaFinalizarProceso();
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 6s.", new RecordItemIndex(14));
-            Delay.Duration(6000, false);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 1h to exist. Associated repository item: 'ApplicationUnderTest.lbl_100Percent'", repo.ApplicationUnderTest.lbl_100PercentInfo, new ActionTimeout(3600000), new RecordItemIndex(14));
+            //repo.ApplicationUnderTest.lbl_100PercentInfo.WaitForExists(3600000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.btn_FinalizarCargaDataPC' at Center.", repo.ApplicationUnderTest.btn_FinalizarCargaDataPCInfo, new RecordItemIndex(15));
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 1h to exist. Associated repository item: 'ApplicationUnderTest.lbl_SeEncontraronErroresEnElArchivo'", repo.ApplicationUnderTest.lbl_SeEncontraronErroresEnElArchivoInfo, new ActionTimeout(3600000), new RecordItemIndex(15));
+            //repo.ApplicationUnderTest.lbl_SeEncontraronErroresEnElArchivoInfo.WaitForExists(3600000);
+            
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 6s.", new RecordItemIndex(16));
+            //Delay.Duration(6000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.btn_FinalizarCargaDataPC' at Center.", repo.ApplicationUnderTest.btn_FinalizarCargaDataPCInfo, new RecordItemIndex(17));
             repo.ApplicationUnderTest.btn_FinalizarCargaDataPC.MoveTo();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.btn_FinalizarCargaDataPC' at Center.", repo.ApplicationUnderTest.btn_FinalizarCargaDataPCInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.btn_FinalizarCargaDataPC' at Center.", repo.ApplicationUnderTest.btn_FinalizarCargaDataPCInfo, new RecordItemIndex(18));
             repo.ApplicationUnderTest.btn_FinalizarCargaDataPC.Click();
             Delay.Milliseconds(0);
             
             try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 1h to exist. Associated repository item: 'ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503'", repo.ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503Info, new ActionTimeout(3600000), new RecordItemIndex(17));
-                repo.ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503Info.WaitForExists(3600000);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(17)); }
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 3m to exist. Associated repository item: 'ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503'", repo.ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503Info, new ActionTimeout(180000), new RecordItemIndex(19));
+                repo.ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503Info.WaitForExists(180000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(19)); }
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1h.", new RecordItemIndex(18));
-            Delay.Duration(3600000, false);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.btn_AceptarError' at Center.", repo.ApplicationUnderTest.btn_AceptarErrorInfo, new RecordItemIndex(20));
+            repo.ApplicationUnderTest.btn_AceptarError.Click();
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'F5' Press with focus on 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(19));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.btn_FinalizarCargaDataPC' at Center.", repo.ApplicationUnderTest.btn_FinalizarCargaDataPCInfo, new RecordItemIndex(21));
+            //repo.ApplicationUnderTest.btn_FinalizarCargaDataPC.Click();
+            //Delay.Milliseconds(0);
+            
+            try {
+                //Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 3m to exist. Associated repository item: 'ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503'", repo.ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503Info, new ActionTimeout(180000), new RecordItemIndex(22));
+                //repo.ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503Info.WaitForExists(180000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(22)); }
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.btn_AceptarError' at Center.", repo.ApplicationUnderTest.btn_AceptarErrorInfo, new RecordItemIndex(23));
+            //repo.ApplicationUnderTest.btn_AceptarError.Click();
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 1h.", new RecordItemIndex(24));
+            //Delay.Duration(3600000, false);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'F5' Press with focus on 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(25));
             Keyboard.PrepareFocus(repo.ApplicationUnderTest.Self);
             Keyboard.Press(System.Windows.Forms.Keys.F5, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 3m to exist. Associated repository item: 'ApplicationUnderTest.lbl_ResultadosDeImportacion'", repo.ApplicationUnderTest.lbl_ResultadosDeImportacionInfo, new ActionTimeout(180000), new RecordItemIndex(20));
-            repo.ApplicationUnderTest.lbl_ResultadosDeImportacionInfo.WaitForExists(180000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15m to exist. Associated repository item: 'ApplicationUnderTest.lbl_ResultadosDeImportacion'", repo.ApplicationUnderTest.lbl_ResultadosDeImportacionInfo, new ActionTimeout(900000), new RecordItemIndex(26));
+            repo.ApplicationUnderTest.lbl_ResultadosDeImportacionInfo.WaitForExists(900000);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (InnerText~'Datos importados correctamente') on item 'ApplicationUnderTest.lbl_Resulyado_DatosImportados'.", repo.ApplicationUnderTest.lbl_Resulyado_DatosImportadosInfo, new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (InnerText~'Datos importados correctamente') on item 'ApplicationUnderTest.lbl_Resulyado_DatosImportados'.", repo.ApplicationUnderTest.lbl_Resulyado_DatosImportadosInfo, new RecordItemIndex(27));
             Validate.AttributeRegex(repo.ApplicationUnderTest.lbl_Resulyado_DatosImportadosInfo, "InnerText", new Regex("Datos importados correctamente"));
             Delay.Milliseconds(0);
             

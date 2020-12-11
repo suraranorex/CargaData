@@ -89,8 +89,12 @@ namespace CardaData.Menu
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubMenu_Clasif_AsistenciasAutos' at Center.", repo.ApplicationUnderTest.SubMenu_Clasif_AsistenciasAutosInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.SubMenu_Clasif_AsistenciasAutos.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubMenu_Clasif_AsistenciasAutos' at Center.", repo.ApplicationUnderTest.SubMenu_Clasif_AsistenciasAutosInfo, new RecordItemIndex(0));
+            //repo.ApplicationUnderTest.SubMenu_Clasif_AsistenciasAutos.Click();
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'ApplicationUnderTest.SubMenu_Clasif_AsistenciasAutos'.", repo.ApplicationUnderTest.SubMenu_Clasif_AsistenciasAutosInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.SubMenu_Clasif_AsistenciasAutos.PerformClick();
             Delay.Milliseconds(0);
             
         }

@@ -93,6 +93,9 @@ namespace CardaData.Menu
             repo.ApplicationUnderTest.Menu_Buscar.Click(Location.CenterRight);
             Delay.Milliseconds(0);
             
+            ValidaContenidoMenu();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

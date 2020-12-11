@@ -33,5 +33,28 @@ namespace CardaData.Menu
             // Your recording specific initialization code goes here.
         }
 
+        public void ValidaContenidoMenu()
+        {
+            // TODO: Replace the following line with your code implementation.
+            //throw new NotImplementedException();
+            int i=0;
+            
+            while( i < 30){
+            	
+            	if(!repo.ApplicationUnderTest.SubMenu_CodigosDeProductorInfo.Exists(1000))
+            	{
+            		Delay.Milliseconds(1000);
+            		repo.ApplicationUnderTest.Menu_Buscar.Click(Location.CenterRight);
+            		
+            	}else{
+            	
+            		break;
+            	}
+            	
+            	i++;
+            }
+            
+        }
+
     }
 }

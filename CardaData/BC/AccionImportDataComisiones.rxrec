@@ -26,7 +26,7 @@ mode="Global">
 		<var
 		id="45d6aff9-2889-479f-a4de-9521a3ce4bf5"
 		name="NombreArchivo">
-			BCAdminDataLoader.xls
+			BCAdminDataLoader
 		</var>
 		<var
 		id="45f3857e-44ed-4b14-8b0e-2670d901fa6a"
@@ -35,6 +35,24 @@ mode="Global">
 		</var>
 	</variables>
 	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="True"
+		searchpropertyid="7751bc98-3bfa-4ff6-b7ad-d7684700150a"
+		waitaction="Exists"
+		waittimeout="2500ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c40165b4-282b-464b-a4c7-39ad8cd1300b"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[@innertext~'Error en la solicitud de HTTP:' and @visible='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -1305,7 +1323,7 @@ D//Z
 		optional="False"
 		searchpropertyid="9bb308c2-f86b-4ba7-8ae8-cdc1d794fa6d"
 		waitaction="Exists"
-		waittimeout="5000ms">
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>
@@ -1379,106 +1397,52 @@ D//Z
 				</path>
 			</info>
 		</WaitForRecordItem>
-		<WaitForRecordItem
-		enabled="True"
-		optional="False"
-		searchpropertyid="940f5ea6-2cf2-4b62-a197-e4642847c4f3"
-		waitaction="Exists"
-		waittimeout="120000ms">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="05abd998-1221-4a10-a2c2-b757c503efe0"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, divtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="divtag"
-				rect="573,-9844,220,20"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="False">
-					<attribute
-					name="class"
-					type="System.String">
-						x-progress-text
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						ext-element-66
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						100%
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						x-progress-text
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						div
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="style"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
-				<path>
-					/dom[@domain=$Ambiente]/body/div[12]/div[2]/div/div/div[2]/div[2]/div[@innertext='99%']
-				</path>
-			</info>
-		</WaitForRecordItem>
-		<WaitForRecordItem
-		enabled="True"
-		optional="False"
-		searchpropertyid="d40403cd-b264-4908-9bf4-d8f8e8b364af"
-		waitaction="NotExists"
-		waittimeout="30000ms">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="05abd998-1221-4a10-a2c2-b757c503efe0"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain=$Ambiente]/body/div[12]/div[2]/div/div/div[2]/div[2]/div[@innertext='100%']
-				</path>
-			</info>
-		</WaitForRecordItem>
 		<explicitdelayitem
-		duration="300ms"
-		enabled="True"
+		duration="5000ms"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		matchname="Value"
+		matchvalue="yourValue"
+		optional="False"
+		searchpropertyid="744e1084-19a3-429c-bfd2-228d609dbcdd"
+		waitaction="AttributeContains"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="NombreArchivo">
+				</binding>
+			</bindings>
+			<info
+			id="2c1b90f7-8429-43ad-8145-127bc8adf647"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'AdminDataLoaderWizard/upload']//input[@name~'textfield-[0-9]+']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="False"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="55f325ac-0202-4c0b-bad6-49002ad82493">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 		<mouseitem
 		action="Move"
 		button="Left"
@@ -1612,7 +1576,7 @@ D//Z
 		optional="False"
 		searchpropertyid="79d29cb1-e887-43b9-88b1-983cab512f82"
 		waitaction="Exists"
-		waittimeout="60000ms">
+		waittimeout="180000ms">
 			<comment>
 			</comment>
 			<bindings>
@@ -1674,6 +1638,19 @@ D//Z
 				</path>
 			</info>
 		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="False"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="8122b1da-eee3-4ff2-8b27-21c5c5e2170c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -1699,11 +1676,78 @@ D//Z
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
+		duration="300ms"
+		enabled="True"
+		optional="True"
+		searchpropertyid="ccfcc64b-fc77-42e5-a7c4-70b9c3fa0be9"
+		waitaction="Exists"
+		waittimeout="2500ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c40165b4-282b-464b-a4c7-39ad8cd1300b"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[@innertext~'Error en la solicitud de HTTP:' and @visible='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="66c2fd12-9e6a-4da6-8b12-c8990838b030"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a2929b82-0454-49c8-a911-c1bd5c2e4bac"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]/body//span[@innertext~'Aceptar' and @visible='True']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="17d98e49-48a5-4429-aeae-ed840f18356d"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="29500b0a-24b7-4844-abe8-e2c4911116ca"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//a[#'AdminDataLoaderWizard:Finish']/span/?/?/span[@innertext~'inalizar']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
 		enabled="True"
 		optional="False"
 		searchpropertyid="0e55c1cc-5a3f-4f1f-ab47-d811e636509b"
 		waitaction="Exists"
-		waittimeout="120000ms">
+		waittimeout="180000ms">
 			<comment>
 			</comment>
 			<bindings>
@@ -1769,6 +1813,19 @@ D//Z
 				</path>
 			</info>
 		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="False"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="d5b81de9-9200-4f16-a1c3-8e7206df898e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
