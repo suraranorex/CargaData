@@ -943,6 +943,139 @@
       <id>2f73698c-3b50-416f-83f0-d43109dd2adf</id>
       <recordtableid>f14587b0-7c80-4198-8a00-c19bd3ac86b6</recordtableid>
     </None>
+    <Content Include="DataSource - CargaAdmDataPC.xlsx">
+      <Link>DataSource - CargaAdmDataPC.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e1a5cafd-da94-4ca1-bd85-0149104d85d5</id>
+    </Content>
+    <Content Include="DataSource - CargaXML_Asist_EnMemoria.xlsx">
+      <Link>DataSource - CargaXML_Asist_EnMemoria.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>97f15468-a522-46fd-945f-ff8124664a24</id>
+    </Content>
+    <Content Include="DataSource - CargaCampaniasPC.xlsx">
+      <Link>DataSource - CargaCampaniasPC.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>f8a8b293-c77e-42de-afaa-554a7d399ff4</id>
+    </Content>
+    <Content Include="DataSource - CargaData.xlsx">
+      <Link>DataSource - CargaData.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>29357f65-8f8a-4e0b-b013-fbcbd3721775</id>
+    </Content>
+    <Content Include="DataSource - CargaFormsPC.xlsx">
+      <Link>DataSource - CargaFormsPC.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e59e1192-8056-47cf-8830-1032e02da7a6</id>
+    </Content>
+    <Content Include="DataSource - CargaLataflex2344.xlsx">
+      <Link>DataSource - CargaLataflex2344.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>399b85aa-adc6-49c1-981e-bcd7108e7c2e</id>
+    </Content>
+    <Content Include="DataSource - CargaPlanesComisiones_BC.xlsx">
+      <Link>DataSource - CargaPlanesComisiones_BC.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>be84142c-9edf-40ff-943c-64ccd0964b75</id>
+    </Content>
+    <Content Include="DataSource - CargaPlanesPago_BC.xlsx">
+      <Link>DataSource - CargaPlanesPago_BC.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>0a7226e4-fe7e-4170-b887-cb79ada088c0</id>
+    </Content>
+    <Content Include="DataSource - CargaPlanesEnlatadosPC.xlsx">
+      <Link>DataSource - CargaPlanesEnlatadosPC.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>5675fb17-289d-4b0e-80cd-4b6e4c6182ed</id>
+    </Content>
+    <Content Include="DataSource - CargaProveedoresAB.xlsx">
+      <Link>DataSource - CargaProveedoresAB.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e8ca03c0-cb58-445b-9a80-7e5e853be2f3</id>
+    </Content>
+    <Content Include="DataSource - CargaXMLTarifa.xlsx">
+      <Link>DataSource - CargaXMLTarifa.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>ae327dc3-32cf-4147-a778-579dd37bca96</id>
+    </Content>
+    <Content Include="DataSource - CargaXMLVariosPC.xlsx">
+      <Link>DataSource - CargaXMLVariosPC.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>421529e3-b465-4998-bac6-fdd30054294a</id>
+    </Content>
+    <Content Include="DataSource - DataChange_CC.xlsx">
+      <Link>DataSource - DataChange_CC.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>6d9e9346-6faf-464d-8b4a-16561c434038</id>
+    </Content>
+    <Content Include="DataSource - InvoiceShedule.xlsx">
+      <Link>DataSource - InvoiceShedule.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>03ab822f-ed1d-4bf6-a454-b587a57e7318</id>
+    </Content>
+    <Content Include="DataSource - PruebaMenu.xlsx">
+      <Link>DataSource - PruebaMenu.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e1d786b9-a652-418b-9199-28274a7338a9</id>
+    </Content>
+    <Content Include="DataSource - ValidarMensajeria.xlsx">
+      <Link>DataSource - ValidarMensajeria.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>9008ae0f-cbeb-4a2f-a913-198fe9c3700b</id>
+    </Content>
+    <Content Include="DataSource - ValidaPlanesComisiones_BC.xlsx">
+      <Link>DataSource - ValidaPlanesComisiones_BC.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>fefd5dff-1bdc-465a-805c-025e1597a810</id>
+    </Content>
+    <Content Include="DataSource - ValidaPlanesPago_BC.xlsx">
+      <Link>DataSource - ValidaPlanesPago_BC.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>93069544-485c-4612-a4f1-22a0f7944c28</id>
+    </Content>
+    <Content Include="DataSource - CargaXML_Asist_EnMemoria.xlsx">
+      <Link>DataSource - CargaXML_Asist_EnMemoria.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>99a316aa-96cd-49f8-a4af-22289c00eb56</id>
+    </Content>
     <None Include="Login\Login.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>00d871e1-a77e-4fa5-b710-ad329f8ee3a8</id>

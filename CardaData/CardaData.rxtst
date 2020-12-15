@@ -2154,8 +2154,8 @@
 			datarangeactive="True"
 			datasource="CargaProveedoresAB"
 			id="cdc6ca54-c944-4487-b9a0-7e317e6eb5be"
-			maxrange="2"
-			minrange="2"
+			maxrange="1"
+			minrange="1"
 			name="Carga_Proveedores_AB">
 			</testcase>
 			<testcase
@@ -3391,9 +3391,9 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaAdmDataPC.xlsx"
+		filename="DataSource - CargaAdmDataPC.xlsx"
 		id="213c0142-c946-4a43-9d18-1a344440f5c3"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="CargaAdmDataPC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3417,10 +3417,10 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaAsistMemoria.xlsx"
+		filename="DataSource - CargaXML_Asist_EnMemoria.xlsx"
 		id="07c3e472-7970-4c9e-8910-f0d2c9995101"
-		includefile="Unchecked"
-		lastknownrowcount="1"
+		includefile="Checked"
+		lastknownrowcount="3"
 		name="CargaAsistMemoria"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -3443,9 +3443,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaCampaniasPC.xlsx"
+		filename="DataSource - CargaCampaniasPC.xlsx"
 		id="bfc5d527-bfd4-4b69-bd8c-42fdcdad9df9"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="CargaCampaniasPC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3469,9 +3469,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaData.xlsx"
+		filename="DataSource - CargaData.xlsx"
 		id="c38551d0-8869-451a-bcca-fab3d7772bf1"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="1"
 		name="CargaData"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3495,9 +3495,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaFormsPC.xlsx"
+		filename="DataSource - CargaFormsPC.xlsx"
 		id="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="CargaFormsPC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3521,9 +3521,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaLataflex2344.xlsx"
+		filename="DataSource - CargaLataflex2344.xlsx"
 		id="29b05c48-d6eb-4484-8fef-62f4178d332d"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="CargaLataFlex2344"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3547,9 +3547,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaPlanesComisiones_BC.xlsx"
+		filename="DataSource - CargaPlanesComisiones_BC.xlsx"
 		id="20f8dd55-639f-4344-a1c7-fc197298492f"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="CargaPlanesComisionesBC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3573,9 +3573,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaPlanesPago_BC.xlsx"
+		filename="DataSource - CargaPlanesPago_BC.xlsx"
 		id="02590535-358d-4d92-b77a-0fb24a9f46b6"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="CargaPlanesDePago_BC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3599,9 +3599,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaPlanesEnlatadosPC.xlsx"
+		filename="DataSource - CargaPlanesEnlatadosPC.xlsx"
 		id="0219d181-45e7-4f5a-b43a-e87056b43d34"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="CargaPlanesEnlatados_PC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3625,9 +3625,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaProveedoresAB.xlsx"
+		filename="DataSource - CargaProveedoresAB.xlsx"
 		id="f74e1ad6-7a0d-4236-be3e-c46dcaf2db14"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="CargaProveedoresAB"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3657,9 +3657,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaXMLTarifa.xlsx"
+		filename="DataSource - CargaXMLTarifa.xlsx"
 		id="3d7a0f12-a136-4680-80f8-c038c04e3b83"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="CargaXMLTarifa"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3683,9 +3683,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaXMLVariosPC.xlsx"
+		filename="DataSource - CargaXMLVariosPC.xlsx"
 		id="eed024c5-0b3c-4035-8722-63d5d28a82cf"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="51"
 		name="CargaXMLVarios"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3712,9 +3712,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - DataChange_CC.xlsx"
+		filename="DataSource - DataChange_CC.xlsx"
 		id="98955795-76af-4125-b69c-b699e9c86017"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="DataChange_CC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3744,9 +3744,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - InvoiceShedule.xlsx"
+		filename="DataSource - InvoiceShedule.xlsx"
 		id="b65ca71b-ee75-4037-b0b7-a332d78f0910"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="InvoiceShedule"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3770,9 +3770,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - PruebaMenu.xlsx"
+		filename="DataSource - PruebaMenu.xlsx"
 		id="af6ab085-8924-498c-bbe0-c5fce11d122a"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="1"
 		name="PruebaMenu"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3805,9 +3805,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - ValidarMensajeria.xlsx"
+		filename="DataSource - ValidarMensajeria.xlsx"
 		id="5b95dc2d-52cb-4176-a0dd-d39db74fb7e5"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="ValidaMensajeria"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3831,9 +3831,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - ValidaPlanesComisiones_BC.xlsx"
+		filename="DataSource - ValidaPlanesComisiones_BC.xlsx"
 		id="7416748d-7447-407f-8379-3acaaf26039e"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="ValidaPlanesComisones_BC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3857,9 +3857,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - ValidaPlanesPago_BC.xlsx"
+		filename="DataSource - ValidaPlanesPago_BC.xlsx"
 		id="c6778b8e-ee68-4eef-a155-e0696ff01a2c"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="2"
 		name="ValidaPlanesPago_BC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -3883,9 +3883,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\DataSource\DataSource - CargaXML_Asist_EnMemoria.xlsx"
+		filename="DataSource - CargaXML_Asist_EnMemoria.xlsx"
 		id="36fdacf9-2598-4edc-957f-02587b75c522"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="XML_Asist_EnMemoria"
 		type="Ranorex.Core.Data.ExcelDataConnector"
