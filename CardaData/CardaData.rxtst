@@ -3910,20 +3910,68 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="TestRun">
+	default="CargaProveedores">
 		<testconfiguration
-		name="TestRun">
-			<testcontainer
-			id="17111c78-b3d9-4f00-80ef-665d0258d840">
-			</testcontainer>
+		name="ArchivodelaMuerte">
 			<testcontainer
 			id="2511387e-d494-463e-b6da-bd567f768e9b">
 			</testcontainer>
 			<testcontainer
+			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="CargaProveedores">
+			<testcontainer
+			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
+			</testcontainer>
+			<testcontainer
+			id="cdc6ca54-c944-4487-b9a0-7e317e6eb5be">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="DataChangeCC">
+			<testcontainer
 			id="5bb7c8d7-1c4d-4a72-bae5-c9a6bf1bfed3">
 			</testcontainer>
 			<testcontainer
+			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="InvoiceMensajeria">
+			<testcontainer
+			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
+			</testcontainer>
+			<testcontainer
+			id="ac46303b-adec-45ee-a99a-f3c5f2857712">
+			</testcontainer>
+			<testcontainer
+			id="ba491309-c9ca-47e7-9629-e2f7b520af3a">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="LataFlexXML">
+			<testcontainer
 			id="6bc1e7f1-cb21-4fc9-9183-319c4b846ffc">
+			</testcontainer>
+			<testcontainer
+			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
+			</testcontainer>
+			<testcontainer
+			id="b922c33f-e2dd-48cb-9803-7152b01e08e8">
+			</testcontainer>
+			<testcontainer
+			id="c566a963-678c-47a1-a5aa-4e62ff489896">
+			</testcontainer>
+			<testcontainer
+			id="c68ea05f-77ca-4512-91bd-34aa497817eb">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="P_EnlatadosCampaniasForms">
+			<testcontainer
+			id="17111c78-b3d9-4f00-80ef-665d0258d840">
 			</testcontainer>
 			<testcontainer
 			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
@@ -3932,28 +3980,16 @@
 			id="a9b6fef7-4f75-4c35-8f13-3d71dfec58c1">
 			</testcontainer>
 			<testcontainer
-			id="aa56df55-901a-40ac-865f-8d2439624532">
-			</testcontainer>
-			<testcontainer
-			id="ac46303b-adec-45ee-a99a-f3c5f2857712">
-			</testcontainer>
-			<testcontainer
-			id="b922c33f-e2dd-48cb-9803-7152b01e08e8">
-			</testcontainer>
-			<testcontainer
-			id="ba491309-c9ca-47e7-9629-e2f7b520af3a">
-			</testcontainer>
-			<testcontainer
-			id="c566a963-678c-47a1-a5aa-4e62ff489896">
-			</testcontainer>
-			<testcontainer
-			id="c68ea05f-77ca-4512-91bd-34aa497817eb">
-			</testcontainer>
-			<testcontainer
-			id="cdc6ca54-c944-4487-b9a0-7e317e6eb5be">
-			</testcontainer>
-			<testcontainer
 			id="cf6f1038-0179-4c88-93c4-56286538b128">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="PlanesComisionesPlanPagoBC">
+			<testcontainer
+			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
+			</testcontainer>
+			<testcontainer
+			id="aa56df55-901a-40ac-865f-8d2439624532">
 			</testcontainer>
 			<testcontainer
 			id="d5c5f314-e30a-45de-92d3-3419392b754f">
