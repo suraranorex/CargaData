@@ -18,6 +18,7 @@ name="CardaDataRepository">
 		id="f871b418-aa5b-483b-bc50-320ef4c8bb8f"
 		isrooted="True"
 		name="ApplicationUnderTest"
+		refimgid="78683e5b-e2e0-42a6-99af-b4fc76556f32"
 		searchtimeout="30000ms"
 		usecache="False">
 			<folder
@@ -1807,6 +1808,15 @@ name="CardaDataRepository">
 			refimgid="3dce2e73-caa8-403d-8b35-375347b6c4ab"
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'VendorImportSura:LoadSampleDataButton']//span[@innertext&gt;'Importar Proveedores de S']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="2ffe194f-1194-4ce5-ab82-6cb5eff1af0a"
+			name="btn_ImportarProveedoresDeSura1_EnEspera"
+			refimgid="3dce2e73-caa8-403d-8b35-375347b6c4ab"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//a[#'VendorImportSura:LoadSampleDataButton']//span[@innertext&gt;'Importar Proveedores de S' and @data-tabindexsaved='true']
 			</item>
 			<item
 			addcaps="unknown,webelement,labeltag"

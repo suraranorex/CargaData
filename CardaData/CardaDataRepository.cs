@@ -489,6 +489,7 @@ namespace CardaData
             RepoItemInfo _cambiodedatosInfo;
             RepoItemInfo _importarproveedoresdesuraInfo;
             RepoItemInfo _btn_importarproveedoresdesura1Info;
+            RepoItemInfo _btn_importarproveedoresdesura1_enesperaInfo;
             RepoItemInfo _resultadocargaproveedoresabInfo;
             RepoItemInfo _lbl_importarproveedoressuraInfo;
             RepoItemInfo _ejecutarInfo;
@@ -685,6 +686,7 @@ namespace CardaData
                 _cambiodedatosInfo = new RepoItemInfo(this, "CambioDeDatos", ".//div[#'Admin:MenuLinks-body']/div[1]/div/table[11]//span[@innertext='Cambio de datos']", 30000, null, "55eb81ce-86c7-4f12-8afa-64fa0cc7cce8");
                 _importarproveedoresdesuraInfo = new RepoItemInfo(this, "ImportarProveedoresDeSura", ".//div[#'Admin:MenuLinks-body']/div[1]/div/table[9]//span[@innertext>'Importar Proveedores de S']", 30000, null, "9d7a19c2-d6f9-4fb8-bb64-c6d216ca874c");
                 _btn_importarproveedoresdesura1Info = new RepoItemInfo(this, "btn_ImportarProveedoresDeSura1", ".//a[#'VendorImportSura:LoadSampleDataButton']//span[@innertext>'Importar Proveedores de S']", 30000, null, "b55a8246-6873-444c-b84e-284e4e45c573");
+                _btn_importarproveedoresdesura1_enesperaInfo = new RepoItemInfo(this, "btn_ImportarProveedoresDeSura1_EnEspera", ".//a[#'VendorImportSura:LoadSampleDataButton']//span[@innertext>'Importar Proveedores de S' and @data-tabindexsaved='true']", 30000, null, "2ffe194f-1194-4ce5-ab82-6cb5eff1af0a");
                 _resultadocargaproveedoresabInfo = new RepoItemInfo(this, "ResultadoCargaProveedoresAB", ".//label[@innertext~'Fueron']", 30000, null, "b0272b46-2225-4c08-866c-f25d2e2d8579");
                 _lbl_importarproveedoressuraInfo = new RepoItemInfo(this, "lbl_ImportarProveedoresSura", ".//label[@innertext~'Importar Proveedores de Sura']", 30000, null, "1ad7c60e-ceee-4244-a42c-35ae83a78022");
                 _ejecutarInfo = new RepoItemInfo(this, "Ejecutar", ".//div[#'DataChangePage/details']//span[@innertext='Ejecutar']", 30000, null, "a03ad682-0fb9-4c2b-9ef9-c6460aa5c570");
@@ -5011,6 +5013,30 @@ namespace CardaData
                 get
                 {
                     return _btn_importarproveedoresdesura1Info;
+                }
+            }
+
+            /// <summary>
+            /// The btn_ImportarProveedoresDeSura1_EnEspera item.
+            /// </summary>
+            [RepositoryItem("2ffe194f-1194-4ce5-ab82-6cb5eff1af0a")]
+            public virtual Ranorex.SpanTag btn_ImportarProveedoresDeSura1_EnEspera
+            {
+                get
+                {
+                    return _btn_importarproveedoresdesura1_enesperaInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The btn_ImportarProveedoresDeSura1_EnEspera item info.
+            /// </summary>
+            [RepositoryItemInfo("2ffe194f-1194-4ce5-ab82-6cb5eff1af0a")]
+            public virtual RepoItemInfo btn_ImportarProveedoresDeSura1_EnEsperaInfo
+            {
+                get
+                {
+                    return _btn_importarproveedoresdesura1_enesperaInfo;
                 }
             }
 
