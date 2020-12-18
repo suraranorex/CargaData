@@ -551,7 +551,7 @@ mode="Global">
 		optional="True"
 		searchpropertyid="570b21ae-e614-493a-8a87-042acb0f8300"
 		waitaction="Exists"
-		waittimeout="120000ms">
+		waittimeout="180000ms">
 			<comment>
 			</comment>
 			<bindings>

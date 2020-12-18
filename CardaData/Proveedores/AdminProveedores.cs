@@ -131,8 +131,8 @@ namespace CardaData.Proveedores
             Report.Log(ReportLevel.Info, "Section", "Acciones para el ambiente QA2 que da timeout", new RecordItemIndex(11));
             
             try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 2m to exist. Associated repository item: 'ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COF'", repo.ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COFInfo, new ActionTimeout(120000), new RecordItemIndex(12));
-                repo.ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COFInfo.WaitForExists(120000);
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 3m to exist. Associated repository item: 'ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COF'", repo.ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COFInfo, new ActionTimeout(180000), new RecordItemIndex(12));
+                repo.ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COFInfo.WaitForExists(180000);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(12)); }
             
             try {
