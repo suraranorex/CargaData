@@ -1019,8 +1019,8 @@
 			datarangeactive="True"
 			datasource="DataChange_CC"
 			id="5bb7c8d7-1c4d-4a72-bae5-c9a6bf1bfed3"
-			maxrange="2"
-			minrange="2"
+			maxrange="1"
+			minrange="1"
 			name="DataChange_CC">
 			</testcase>
 			<testmodule
@@ -1840,8 +1840,8 @@
 			datarangeactive="True"
 			datasource="ValidaPlanesComisones_BC"
 			id="aa56df55-901a-40ac-865f-8d2439624532"
-			maxrange="2"
-			minrange="2"
+			maxrange="1"
+			minrange="1"
 			name="Validar_PlanesComisiones_BC">
 			</testcase>
 			<testmodule
@@ -1862,8 +1862,8 @@
 			datarangeactive="True"
 			datasource="ValidaMensajeria"
 			id="ac46303b-adec-45ee-a99a-f3c5f2857712"
-			maxrange="2"
-			minrange="2"
+			maxrange="0"
+			minrange="0"
 			name="Validar_Mensajeria_SistemaFacturacion">
 			</testcase>
 			<testmodule
@@ -1992,8 +1992,8 @@
 			datarangeactive="True"
 			datasource="InvoiceShedule"
 			id="ba491309-c9ca-47e7-9629-e2f7b520af3a"
-			maxrange="2"
-			minrange="2"
+			maxrange="0"
+			minrange="0"
 			name="InvoiceShedule">
 			</testcase>
 			<setup
@@ -2189,8 +2189,8 @@
 			datarangeactive="True"
 			datasource="CargaPlanesDePago_BC"
 			id="d5c5f314-e30a-45de-92d3-3419392b754f"
-			maxrange="2"
-			minrange="2"
+			maxrange="0"
+			minrange="0"
 			name="CargaPlanesDePagoBC">
 			</testcase>
 			<testmodule
@@ -3910,7 +3910,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="CargaProveedores">
+	default="DataChangeCC">
 		<testconfiguration
 		name="ArchivodelaMuerte">
 			<testcontainer
