@@ -488,6 +488,15 @@ name="CardaDataRepository">
 			name="txt_ArchivoCargado_qa2"
 			refimgid="17a3ae04-03cf-4fd8-a05f-b9e895e981b5"
 			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[@id~'DataLoaderWizard/upload']//input[@name~'textfield-[0-9]+']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ba81fc94-c517-49fd-885b-88625355ce13"
+			name="Copy_of_txt_ArchivoCargado_qa2"
+			refimgid="17a3ae04-03cf-4fd8-a05f-b9e895e981b5"
+			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'AdminDataLoaderWizard/upload']//input[@name~'textfield-[0-9]+']
 			</item>
 			<folder
@@ -1882,6 +1891,16 @@ name="CardaDataRepository">
 			refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[12]/div/div[2]/div/div[8]/a/span[@innertext='Asistencias Hogar']"
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[12]/div/div[2]/div/div[8]/?/?/span[@innertext='Asistencias Hogar']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9ccd1d02-51ea-4ef6-bc0d-4322ac80e55f"
+			name="Textfield1224"
+			refimgid="a051f00e-2113-4635-a0f1-9d9db3935c17"
+			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]/td/div/table/tbody/tr[2]/td/div/table/tbody/tr[2]/td/div/div/div/div/div[2]/div/div/div/input[@name='textfield-1224']"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]//table/tbody/tr[2]/td/div/div/div/div/div[2]/div//input[@name='textfield-1224']
 			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]

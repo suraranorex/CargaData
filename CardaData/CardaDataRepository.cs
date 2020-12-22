@@ -354,6 +354,7 @@ namespace CardaData
             RepoItemInfo _lbl_programadecuotasInfo;
             RepoItemInfo _txt_archivocargadoInfo;
             RepoItemInfo _txt_archivocargado_qa2Info;
+            RepoItemInfo _copy_of_txt_archivocargado_qa2Info;
             RepoItemInfo _menuadmInfo;
             RepoItemInfo _nav_menuppalInfo;
             RepoItemInfo _nav_menuadmin_abInfo;
@@ -497,6 +498,7 @@ namespace CardaData
             RepoItemInfo _lbl_resultadodatachengeccwebInfo;
             RepoItemInfo _lbl_informaciondeprocesoporlotesInfo;
             RepoItemInfo _asistenciashogarInfo;
+            RepoItemInfo _textfield1224Info;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -550,7 +552,8 @@ namespace CardaData
                 _lbl_revisiondedatoscargadosInfo = new RepoItemInfo(this, "lbl_RevisionDeDatosCargados", ".//div[#'ScheduleInvoiceSuraWizard/confirmation']/table/tbody/tr[1]/td//span[@innertext>'Revisión de datos cargado']", 30000, null, "b9cfb27a-0660-44e5-bdf1-743bc5989d5b");
                 _lbl_programadecuotasInfo = new RepoItemInfo(this, "lbl_ProgramaDeCuotas", ".//div[#'ScheduleInvoiceSura/invoices']/table/tbody/tr[1]/td//span[@innertext='Programa de cuotas']", 30000, null, "c6d6d2df-6791-412e-9ae9-76d0d7f16f60");
                 _txt_archivocargadoInfo = new RepoItemInfo(this, "txt_ArchivoCargado", ".//div[#'ScheduleInvoiceSuraWizard/upload']/table/tbody/tr[4]//table//div/div/div/div/div[2]/div//input[@tagvalue='InvoiceSchedule Prueba.xls']", 30000, null, "3c57b5bf-c759-41c8-bb34-a3343cce809c");
-                _txt_archivocargado_qa2Info = new RepoItemInfo(this, "txt_ArchivoCargado_qa2", ".//div[#'AdminDataLoaderWizard/upload']//input[@name~'textfield-[0-9]+']", 30000, null, "2c1b90f7-8429-43ad-8145-127bc8adf647");
+                _txt_archivocargado_qa2Info = new RepoItemInfo(this, "txt_ArchivoCargado_qa2", ".//div[@id~'DataLoaderWizard/upload']//input[@name~'textfield-[0-9]+']", 30000, null, "2c1b90f7-8429-43ad-8145-127bc8adf647");
+                _copy_of_txt_archivocargado_qa2Info = new RepoItemInfo(this, "Copy_of_txt_ArchivoCargado_qa2", ".//div[#'AdminDataLoaderWizard/upload']//input[@name~'textfield-[0-9]+']", 30000, null, "ba81fc94-c517-49fd-885b-88625355ce13");
                 _menuadmInfo = new RepoItemInfo(this, "MenuAdm", ".//span[@id='TabBar:AdministrationTab-btnWrap' or @id='TabBar:AdminTab-btnWrap']", 30000, null, "5c0b47c5-6521-41ca-b20d-58c3c66026de");
                 _nav_menuppalInfo = new RepoItemInfo(this, "Nav_MenuPpal", ".//span[@innertext=$MenuPpal]/../..//span[@class~'wrap']", 30000, null, "15938c73-b55f-48df-b536-3781cbd24e6f");
                 _nav_menuadmin_abInfo = new RepoItemInfo(this, "Nav_MenuAdmin_ab", ".//a[#'TabBar:AdminTab']//span[@innertext='Adinistración']", 30000, null, "62a5f657-0162-47eb-bee6-879bb7d48dc8");
@@ -694,6 +697,7 @@ namespace CardaData
                 _lbl_resultadodatachengeccwebInfo = new RepoItemInfo(this, "lbl_ResultadoDataChengeCCWeb", ".//div[#'DataChangePage/details']//textarea[@innertext~'REFID_001 terminó correct']", 30000, null, "2a098d18-9d8c-487b-92fe-52f5b2d6280d");
                 _lbl_informaciondeprocesoporlotesInfo = new RepoItemInfo(this, "Lbl_InformacionDeProcesoPorLotes", ".//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[1]//span[@innertext>'Información de proceso por']", 30000, null, "de0d7e3c-5372-4c26-8748-1c6bab8b34d9");
                 _asistenciashogarInfo = new RepoItemInfo(this, "AsistenciasHogar", "body/div[12]/div/div[2]/div/div[8]/?/?/span[@innertext='Asistencias Hogar']", 30000, null, "bda240c6-a51d-4502-abf9-f7d7b2e44772");
+                _textfield1224Info = new RepoItemInfo(this, "Textfield1224", ".//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]//table/tbody/tr[2]/td/div/div/div/div/div[2]/div//input[@name='textfield-1224']", 30000, null, "9ccd1d02-51ea-4ef6-bc0d-4322ac80e55f");
             }
 
             /// <summary>
@@ -1773,6 +1777,30 @@ namespace CardaData
                 get
                 {
                     return _txt_archivocargado_qa2Info;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_txt_ArchivoCargado_qa2 item.
+            /// </summary>
+            [RepositoryItem("ba81fc94-c517-49fd-885b-88625355ce13")]
+            public virtual Ranorex.InputTag Copy_of_txt_ArchivoCargado_qa2
+            {
+                get
+                {
+                    return _copy_of_txt_archivocargado_qa2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_txt_ArchivoCargado_qa2 item info.
+            /// </summary>
+            [RepositoryItemInfo("ba81fc94-c517-49fd-885b-88625355ce13")]
+            public virtual RepoItemInfo Copy_of_txt_ArchivoCargado_qa2Info
+            {
+                get
+                {
+                    return _copy_of_txt_archivocargado_qa2Info;
                 }
             }
 
@@ -5205,6 +5233,30 @@ namespace CardaData
                 get
                 {
                     return _asistenciashogarInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Textfield1224 item.
+            /// </summary>
+            [RepositoryItem("9ccd1d02-51ea-4ef6-bc0d-4322ac80e55f")]
+            public virtual Ranorex.InputTag Textfield1224
+            {
+                get
+                {
+                    return _textfield1224Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Textfield1224 item info.
+            /// </summary>
+            [RepositoryItemInfo("9ccd1d02-51ea-4ef6-bc0d-4322ac80e55f")]
+            public virtual RepoItemInfo Textfield1224Info
+            {
+                get
+                {
+                    return _textfield1224Info;
                 }
             }
 
