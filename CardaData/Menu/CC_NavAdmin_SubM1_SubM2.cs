@@ -123,8 +123,8 @@ namespace CardaData.Menu
             repo.ApplicationUnderTest.Nav_SubM1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.Nav_SubM2_Visible' at Center.", repo.ApplicationUnderTest.Nav_SubM2_VisibleInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.Nav_SubM2_Visible.MoveTo();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.Nav_SubM2' at Center.", repo.ApplicationUnderTest.Nav_SubM2Info, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.Nav_SubM2.MoveTo();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'ApplicationUnderTest.Nav_SubM2_Visible'", repo.ApplicationUnderTest.Nav_SubM2_VisibleInfo, new ActionTimeout(40000), new RecordItemIndex(5));

@@ -180,29 +180,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="5880c726-44a7-4ec3-8cde-79dd9467500e"
+			id="928044c9-ac25-470b-9dc9-7be5ace8ab96"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, spantag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="3"
-				prefcap="spantag"
-				rect="0,0,0,0"
-				role="unknown"
-				snapElem=""
-				valid="False"
-				visible="False">
-					<attribute
-					name="tagname"
-					type="System.String">
-						span
-					</attribute>
-				</element>
 				<path>
-					/dom[@domain=$Ambiente]//span[@innertext=$SubM2 and @visible='true']
+					/dom[@domain=$Ambiente]//*[@innertext=$SubM2]
 				</path>
 			</info>
 		</mouseitem>
