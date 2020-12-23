@@ -20,9 +20,9 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace CardaData.PC
+namespace CardaData.Generales.CargaArchivo
 {
-    public partial class CargarArchivo
+    public partial class CargaArchivosGeneral
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
@@ -31,6 +31,35 @@ namespace CardaData.PC
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        public void EsperaFinalizarProceso()
+        {
+            // TODO: Replace the following line with your code implementation.
+            //throw new NotImplementedException();
+            
+            int i =0;
+            Report.Info("Info: ","Inicia procesamiento de archivo...");
+            while(!repo.ApplicationUnderTest.Copy_of_txt_ArchivoCargado_qa2Info.Exists(5000)){
+            	i++;
+            	Delay.Milliseconds(25000);
+            	
+            	if(repo.ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503Info.Exists(5000)){
+            		Report.Info("Info: ","Mostró el Error HTTP503");
+            		repo.ApplicationUnderTest.btn_AceptarError.Click();
+            		Keyboard.Press("{F5}");
+            		Report.Info("Info: ","Se presionó F5...");
+            	}
+            	
+            	if( i == 60 ){ //verificar para incluir o no la carga del archivo de la muerte
+            		Report.Failure("Error:","Tiempo de espera agotado para el procesamiento de archivo.");
+            	
+            	}
+            
+            }
+            
+            Report.Success("Éxito: ","Finalizó el procesamiento del archivo.");
+            //Keyboard.Press("{F5}");
         }
 
         public void EsperaFinalizarCarga()
@@ -59,38 +88,6 @@ namespace CardaData.PC
             	}
             
             }
-            
-            
-        }
-
-        public void EsperaFinalizarProceso()
-        {
-            // TODO: Replace the following line with your code implementation.
-            //throw new NotImplementedException();
-            
-            int i =0;
-            Report.Info("Info: ","Inicia procesamiento de archivo...");
-            while(!repo.ApplicationUnderTest.lbl_SeEncontraronErroresEnElArchivoInfo.Exists(5000)){
-            	i++;
-            	Delay.Milliseconds(115000);
-            	
-            	if(repo.ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503Info.Exists(5000)){
-            		Report.Info("Info: ","Mostró el Error HTTP503");
-            		repo.ApplicationUnderTest.btn_AceptarError.Click();
-            		Keyboard.Press("{F5}");
-            		Report.Info("Info: ","Se presionó F5...");
-            	}
-            	
-            	if( i == 30 ){
-            		Report.Error("Error:","Tiempo de espera agotado para el procesamiento de archivo.");
-            	
-            	}
-            
-            }
-            
-            Report.Success("Éxito: ","Finalizó el procesamiento del archivo.");
-            //Keyboard.Press("{F5}");
-            
         }
 
     }

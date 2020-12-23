@@ -497,7 +497,7 @@ name="CardaDataRepository">
 			name="Copy_of_txt_ArchivoCargado_qa2"
 			refimgid="17a3ae04-03cf-4fd8-a05f-b9e895e981b5"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[#'AdminDataLoaderWizard/upload']//input[@name~'textfield-[0-9]+']
+				/dom[@domain=$Ambiente]//div[@id~'DataLoaderWizard/upload']//input[@value&gt;$NombreArchivo]
 			</item>
 			<folder
 			addcaps="unknown,webelement,tabletag"
