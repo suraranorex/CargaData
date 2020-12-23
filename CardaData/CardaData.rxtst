@@ -3910,7 +3910,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="PlanesComisionesPlanPagoBC">
+	default="PC_EnlatadosCampaniasForms">
 		<testconfiguration
 		name="ArchivodelaMuerte">
 			<testcontainer
@@ -3969,7 +3969,7 @@
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration
-		name="P_EnlatadosCampaniasForms">
+		name="PC_EnlatadosCampaniasForms">
 			<testcontainer
 			id="17111c78-b3d9-4f00-80ef-665d0258d840">
 			</testcontainer>
