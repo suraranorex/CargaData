@@ -196,8 +196,8 @@
 			datarangeactive="True"
 			datasource="CargaCampaniasPC"
 			id="17111c78-b3d9-4f00-80ef-665d0258d840"
-			maxrange="2"
-			minrange="2"
+			maxrange="0"
+			minrange="0"
 			name="CargarCampañasPC">
 			</testcase>
 			<testmodule
@@ -361,8 +361,8 @@
 			datarangeactive="True"
 			datasource="CargaAdmDataPC"
 			id="2511387e-d494-463e-b6da-bd567f768e9b"
-			maxrange="2"
-			minrange="2"
+			maxrange="0"
+			minrange="0"
 			name="Carga_AdmDataLoader_PC">
 			</testcase>
 			<testmodule
@@ -1818,8 +1818,8 @@
 			datarangeactive="True"
 			datasource="CargaPlanesEnlatados_PC"
 			id="a9b6fef7-4f75-4c35-8f13-3d71dfec58c1"
-			maxrange="2"
-			minrange="2"
+			maxrange="0"
+			minrange="0"
 			name="CargarPlanesEnlatados">
 			</testcase>
 			<testmodule
@@ -2162,8 +2162,8 @@
 			datarangeactive="True"
 			datasource="CargaFormsPC"
 			id="cf6f1038-0179-4c88-93c4-56286538b128"
-			maxrange="2"
-			minrange="2"
+			maxrange="0"
+			minrange="0"
 			name="CargaFormsPC">
 			</testcase>
 			<teardown
