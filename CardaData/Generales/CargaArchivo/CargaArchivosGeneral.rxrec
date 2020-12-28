@@ -30,7 +30,7 @@ mode="Global">
 		<var
 		id="658183a5-d45d-4ec1-a6ea-51dbf041ea2b"
 		name="NombreArchivo">
-			BCAdminDataLoader
+			InvoiceSchedule.xls
 		</var>
 	</variables>
 	<recorditems>
@@ -399,6 +399,22 @@ mode="Global">
 				</binding>
 			</bindings>
 		</keysequenceitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="81719a1e-2adf-446d-9419-a33b864ae2de">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="NombreArchivo">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 		<explicitdelayitem
 		duration="3000ms"
 		enabled="True"

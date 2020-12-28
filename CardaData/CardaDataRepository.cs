@@ -73,7 +73,7 @@ namespace CardaData
             set { _Ambiente = value; }
         }
 
-        string _NombreArchivo = "BCAdminDataLoader";
+        string _NombreArchivo = "InvoiceSchedule.xls";
 
         /// <summary>
         /// Gets or sets the value of variable NombreArchivo.
@@ -553,7 +553,7 @@ namespace CardaData
                 _lbl_programadecuotasInfo = new RepoItemInfo(this, "lbl_ProgramaDeCuotas", ".//div[#'ScheduleInvoiceSura/invoices']/table/tbody/tr[1]/td//span[@innertext='Programa de cuotas']", 30000, null, "c6d6d2df-6791-412e-9ae9-76d0d7f16f60");
                 _txt_archivocargadoInfo = new RepoItemInfo(this, "txt_ArchivoCargado", ".//div[#'ScheduleInvoiceSuraWizard/upload']/table/tbody/tr[4]//table//div/div/div/div/div[2]/div//input[@tagvalue='InvoiceSchedule Prueba.xls']", 30000, null, "3c57b5bf-c759-41c8-bb34-a3343cce809c");
                 _txt_archivocargado_qa2Info = new RepoItemInfo(this, "txt_ArchivoCargado_qa2", ".//div[@id~'DataLoaderWizard/upload']//input[@name~'textfield-[0-9]+']", 30000, null, "2c1b90f7-8429-43ad-8145-127bc8adf647");
-                _copy_of_txt_archivocargado_qa2Info = new RepoItemInfo(this, "Copy_of_txt_ArchivoCargado_qa2", ".//div[@id~'DataLoaderWizard/upload']//input[@value>$NombreArchivo]", 30000, null, "ba81fc94-c517-49fd-885b-88625355ce13");
+                _copy_of_txt_archivocargado_qa2Info = new RepoItemInfo(this, "Copy_of_txt_ArchivoCargado_qa2", ".//div[@id~'Wizard/upload']//input[@value>$NombreArchivo]", 30000, null, "ba81fc94-c517-49fd-885b-88625355ce13");
                 _menuadmInfo = new RepoItemInfo(this, "MenuAdm", ".//span[@id='TabBar:AdministrationTab-btnWrap' or @id='TabBar:AdminTab-btnWrap']", 30000, null, "5c0b47c5-6521-41ca-b20d-58c3c66026de");
                 _nav_menuppalInfo = new RepoItemInfo(this, "Nav_MenuPpal", ".//span[@innertext=$MenuPpal]/../..//span[@class~'wrap']", 30000, null, "15938c73-b55f-48df-b536-3781cbd24e6f");
                 _nav_menuadmin_abInfo = new RepoItemInfo(this, "Nav_MenuAdmin_ab", ".//a[#'TabBar:AdminTab']//span[@innertext='Adinistración']", 30000, null, "62a5f657-0162-47eb-bee6-879bb7d48dc8");

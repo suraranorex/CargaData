@@ -41,6 +41,7 @@ namespace CardaData.Generales.CargaArchivo
             int i =0;
             Report.Info("Info: ","Inicia procesamiento de archivo...");
             while(!repo.ApplicationUnderTest.Copy_of_txt_ArchivoCargado_qa2Info.Exists(5000)){
+            	Report.Info("Info - Nombre del Archivo es:",NombreArchivo);
             	i++;
             	Delay.Milliseconds(25000);
             	

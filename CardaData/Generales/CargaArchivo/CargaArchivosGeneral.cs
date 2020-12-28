@@ -42,7 +42,7 @@ namespace CardaData.Generales.CargaArchivo
         public CargaArchivosGeneral()
         {
             RutaArchivo = "";
-            NombreArchivo = "BCAdminDataLoader";
+            NombreArchivo = "InvoiceSchedule.xls";
         }
 
         /// <summary>
@@ -146,14 +146,16 @@ namespace CardaData.Generales.CargaArchivo
             Keyboard.Press(NombreArchivo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "User", NombreArchivo, new RecordItemIndex(9));
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(10));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Ventana_Emergente_Abrir.ButtonAbrir' at 47;13.", repo.Ventana_Emergente_Abrir.ButtonAbrirInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Ventana_Emergente_Abrir.ButtonAbrir' at 47;13.", repo.Ventana_Emergente_Abrir.ButtonAbrirInfo, new RecordItemIndex(11));
             repo.Ventana_Emergente_Abrir.ButtonAbrir.Click("47;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.Copy_of_CargandoArchivoS'", repo.ApplicationUnderTest.Copy_of_CargandoArchivoSInfo, new ActionTimeout(30000), new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.Copy_of_CargandoArchivoS'", repo.ApplicationUnderTest.Copy_of_CargandoArchivoSInfo, new ActionTimeout(30000), new RecordItemIndex(12));
             repo.ApplicationUnderTest.Copy_of_CargandoArchivoSInfo.WaitForExists(30000);
             
             EsperaFinalizarCarga();

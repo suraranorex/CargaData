@@ -497,7 +497,7 @@ name="CardaDataRepository">
 			name="Copy_of_txt_ArchivoCargado_qa2"
 			refimgid="17a3ae04-03cf-4fd8-a05f-b9e895e981b5"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[@id~'DataLoaderWizard/upload']//input[@value&gt;$NombreArchivo]
+				/dom[@domain=$Ambiente]//div[@id~'Wizard/upload']//input[@value&gt;$NombreArchivo]
 			</item>
 			<folder
 			addcaps="unknown,webelement,tabletag"
@@ -2245,7 +2245,7 @@ AAAASUVORK5CYII=
 		<var
 		id="658183a5-d45d-4ec1-a6ea-51dbf041ea2b"
 		name="NombreArchivo">
-			BCAdminDataLoader
+			InvoiceSchedule.xls
 		</var>
 		<var
 		id="dd98d9a5-78b7-46d6-a36a-39545de6d6d8"
