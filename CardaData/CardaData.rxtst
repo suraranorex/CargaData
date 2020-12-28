@@ -792,6 +792,20 @@
 			name="setup">
 			</setup>
 			<testmodule
+			id="507f8e68-59f4-4abf-bf39-8592365e36c7"
+			name="NavegaMenuPlanesPagoBC"
+			ref="e11f2a85-9da9-4008-9ca9-db195c0f3183"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="02590535-358d-4d92-b77a-0fb24a9f46b6"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="516a4ad4-3997-4cc5-aa78-e13b0d3715b6"
 			name="Login"
 			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
@@ -826,6 +840,20 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="36fdacf9-2598-4edc-957f-02587b75c522"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="51958bbe-73c8-4126-a64e-2d7a0d05d6a2"
+			name="FinalizaCargaComisionesBC"
+			ref="b2265a24-fe39-4bb3-a7ad-abb7ecdf0fed"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="20f8dd55-639f-4344-a1c7-fc197298492f"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
@@ -1117,6 +1145,32 @@
 			id="638adc0e-117d-41e5-b8e5-523ada8e8916"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="663406d6-82ba-44b7-a7c6-ef7f27c5f02b"
+			name="CargaArchivosGeneral"
+			ref="8e12e590-b4f5-42ff-87f7-ee8b8e4da839"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="20f8dd55-639f-4344-a1c7-fc197298492f"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="NombreArchivo"
+					datasourceid="f785edf4-c1c1-4d1a-b64d-99ee1cce3b2f"
+					variableid="658183a5-d45d-4ec1-a6ea-51dbf041ea2b"
+					variablename="NombreArchivo">
+					</var>
+					<var
+					dataname="RutaArchivo"
+					datasourceid="f785edf4-c1c1-4d1a-b64d-99ee1cce3b2f"
+					variableid="a26fe692-3319-4eb3-b594-05efee2057f3"
+					variablename="RutaArchivo">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="67af95de-f1d2-42cd-b3e6-1ded7d393fb4"
 			name="teardown">
@@ -1456,6 +1510,38 @@
 					datasourceid="20f8dd55-639f-4344-a1c7-fc197298492f"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
+					</var>
+					<var
+					dataname="NombreArchivo"
+					datasourceid="f785edf4-c1c1-4d1a-b64d-99ee1cce3b2f"
+					variableid="45d6aff9-2889-479f-a4de-9521a3ce4bf5"
+					variablename="NombreArchivo">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="832f57d2-f80d-42f3-85da-cea1ec1b2eb8"
+			name="CargaArchivosGeneral"
+			ref="8e12e590-b4f5-42ff-87f7-ee8b8e4da839"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="NombreArchivo"
+					datasourceid="d5c5f314-e30a-45de-92d3-3419392b754f"
+					variableid="658183a5-d45d-4ec1-a6ea-51dbf041ea2b"
+					variablename="NombreArchivo">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="02590535-358d-4d92-b77a-0fb24a9f46b6"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="RutaArchivo"
+					datasourceid="d5c5f314-e30a-45de-92d3-3419392b754f"
+					variableid="a26fe692-3319-4eb3-b594-05efee2057f3"
+					variablename="RutaArchivo">
 					</var>
 				</databinding>
 			</testmodule>
@@ -2192,6 +2278,16 @@
 			maxrange="0"
 			minrange="0"
 			name="CargaPlanesDePagoBC">
+				<parameters>
+					<param
+					name="NombreArchivo"
+					value="BCPlanDataLoader.xls">
+					</param>
+					<param
+					name="RutaArchivo"
+					value="C:\Carga_Inicial_QA\BC">
+					</param>
+				</parameters>
 			</testcase>
 			<testmodule
 			id="d6b9cef8-31fd-4162-8be4-94298f9e38c3"
@@ -2320,6 +2416,12 @@
 					datasourceid="02590535-358d-4d92-b77a-0fb24a9f46b6"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
+					</var>
+					<var
+					dataname="NombreArchivo"
+					datasourceid="d5c5f314-e30a-45de-92d3-3419392b754f"
+					variableid="6afbba72-5bce-41a7-be69-d1bcb1640c27"
+					variablename="NombreArchivo">
 					</var>
 				</databinding>
 			</testmodule>
@@ -2554,6 +2656,16 @@
 			maxrange="1"
 			minrange="1"
 			name="CargaPlanesComisiones_BC">
+				<parameters>
+					<param
+					name="NombreArchivo"
+					value="BCAdminDataLoader">
+					</param>
+					<param
+					name="RutaArchivo"
+					value="C:\Carga_Inicial_QA\BC">
+					</param>
+				</parameters>
 			</testcase>
 			<setup
 			id="fb2e2929-cbda-4ce1-96f6-08cbc1663765"
@@ -2708,6 +2820,14 @@
 						id="830903cc-1087-407c-9d9b-de7756ac1cf3"
 						name="AccionImportDataComisiones">
 						</testmodule>
+						<testmodule
+						id="663406d6-82ba-44b7-a7c6-ef7f27c5f02b"
+						name="CargaArchivosGeneral">
+						</testmodule>
+						<testmodule
+						id="51958bbe-73c8-4126-a64e-2d7a0d05d6a2"
+						name="FinalizaCargaComisionesBC">
+						</testmodule>
 						<teardown
 						id="b826b847-5507-46dc-ae14-8bbbda0648b7"
 						name="teardown">
@@ -2771,6 +2891,14 @@
 						<testmodule
 						id="76b6fde7-4639-4692-b0c1-6743862532b3"
 						name="CapturaTeclas">
+						</testmodule>
+						<testmodule
+						id="507f8e68-59f4-4abf-bf39-8592365e36c7"
+						name="NavegaMenuPlanesPagoBC">
+						</testmodule>
+						<testmodule
+						id="832f57d2-f80d-42f3-85da-cea1ec1b2eb8"
+						name="CargaArchivosGeneral">
 						</testmodule>
 						<testmodule
 						id="def80596-961b-4a49-8a2b-d74e19253147"

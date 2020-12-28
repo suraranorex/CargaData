@@ -42,7 +42,6 @@ namespace CardaData.BC
         public AccionImportDataComisiones()
         {
             NombreArchivo = "BCAdminDataLoader";
-            NombreArchivoPlanesComisiones = "BCAdminDataLoader";
         }
 
         /// <summary>
@@ -54,18 +53,6 @@ namespace CardaData.BC
         }
 
 #region Variables
-
-        string _NombreArchivoPlanesComisiones;
-
-        /// <summary>
-        /// Gets or sets the value of variable NombreArchivoPlanesComisiones.
-        /// </summary>
-        [TestVariable("45f3857e-44ed-4b14-8b0e-2670d901fa6a")]
-        public string NombreArchivoPlanesComisiones
-        {
-            get { return _NombreArchivoPlanesComisiones; }
-            set { _NombreArchivoPlanesComisiones = value; }
-        }
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -140,95 +127,56 @@ namespace CardaData.BC
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(6));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Examinar2' at Center.", repo.ApplicationUnderTest.Btn_Examinar2Info, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.Btn_Examinar2.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Examinar2' at Center.", repo.ApplicationUnderTest.Btn_Examinar2Info, new RecordItemIndex(7));
+            //repo.ApplicationUnderTest.Btn_Examinar2.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'Ventana_Emergente_Abrir'", repo.Ventana_Emergente_Abrir.SelfInfo, new ActionTimeout(5000), new RecordItemIndex(8));
-            repo.Ventana_Emergente_Abrir.SelfInfo.WaitForExists(5000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'Ventana_Emergente_Abrir'", repo.Ventana_Emergente_Abrir.SelfInfo, new ActionTimeout(5000), new RecordItemIndex(8));
+            //repo.Ventana_Emergente_Abrir.SelfInfo.WaitForExists(5000);
             
             // Ventana Emergente
-            Report.Log(ReportLevel.Info, "Section", "Ventana Emergente", new RecordItemIndex(9));
+            //Report.Log(ReportLevel.Info, "Section", "Ventana Emergente", new RecordItemIndex(9));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VentanaEmergente_Examinar.Escritorio' at Center.", repo.VentanaEmergente_Examinar.EscritorioInfo, new RecordItemIndex(10));
-            repo.VentanaEmergente_Examinar.Escritorio.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VentanaEmergente_Examinar.Escritorio' at Center.", repo.VentanaEmergente_Examinar.EscritorioInfo, new RecordItemIndex(10));
+            //repo.VentanaEmergente_Examinar.Escritorio.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\Carga_Inicial_QA\\BC'.", new RecordItemIndex(11));
-            Keyboard.Press("C:\\Carga_Inicial_QA\\BC");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\Carga_Inicial_QA\\BC'.", new RecordItemIndex(11));
+            //Keyboard.Press("C:\\Carga_Inicial_QA\\BC");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(12));
-            Keyboard.Press("{Return}");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(12));
+            //Keyboard.Press("{Return}");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VentanaEmergente_Examinar.BarraInferior' at Center.", repo.VentanaEmergente_Examinar.BarraInferiorInfo, new RecordItemIndex(13));
-            repo.VentanaEmergente_Examinar.BarraInferior.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VentanaEmergente_Examinar.BarraInferior' at Center.", repo.VentanaEmergente_Examinar.BarraInferiorInfo, new RecordItemIndex(13));
+            //repo.VentanaEmergente_Examinar.BarraInferior.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NombreArchivoPlanesComisiones'.", new RecordItemIndex(14));
-            Keyboard.Press(NombreArchivoPlanesComisiones);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NombreArchivo'.", new RecordItemIndex(14));
+            //Keyboard.Press(NombreArchivo);
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(15));
-            Delay.Duration(3000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(15));
+            //Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Ventana_Emergente_Abrir.ButtonAbrir' at 47;13.", repo.Ventana_Emergente_Abrir.ButtonAbrirInfo, new RecordItemIndex(16));
-            repo.Ventana_Emergente_Abrir.ButtonAbrir.Click("47;13");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Ventana_Emergente_Abrir.ButtonAbrir' at 47;13.", repo.Ventana_Emergente_Abrir.ButtonAbrirInfo, new RecordItemIndex(16));
+            //repo.Ventana_Emergente_Abrir.ButtonAbrir.Click("47;13");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(17));
-            Delay.Duration(2000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(17));
+            //Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.CargandoArchivoS'", repo.ApplicationUnderTest.CargandoArchivoSInfo, new ActionTimeout(30000), new RecordItemIndex(18));
-            repo.ApplicationUnderTest.CargandoArchivoSInfo.WaitForExists(30000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.CargandoArchivoS'", repo.ApplicationUnderTest.CargandoArchivoSInfo, new ActionTimeout(30000), new RecordItemIndex(18));
+            //repo.ApplicationUnderTest.CargandoArchivoSInfo.WaitForExists(30000);
             
             //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(19));
             //Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s for the attribute 'Value' to contain the specified value $NombreArchivo. Associated repository item: 'ApplicationUnderTest.txt_ArchivoCargado_qa2'", repo.ApplicationUnderTest.txt_ArchivoCargado_qa2Info, new RecordItemIndex(20));
-            repo.ApplicationUnderTest.txt_ArchivoCargado_qa2Info.WaitForAttributeContains(30000, "Value", NombreArchivo);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s for the attribute 'Value' to contain the specified value $NombreArchivo. Associated repository item: 'ApplicationUnderTest.txt_ArchivoCargado_qa2'", repo.ApplicationUnderTest.txt_ArchivoCargado_qa2Info, new RecordItemIndex(20));
+            //repo.ApplicationUnderTest.txt_ArchivoCargado_qa2Info.WaitForAttributeContains(30000, "Value", NombreArchivo);
             
             //Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(21));
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.Siguiente1' at Center.", repo.ApplicationUnderTest.Siguiente1Info, new RecordItemIndex(22));
-            repo.ApplicationUnderTest.Siguiente1.MoveTo();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Siguiente1' at Center.", repo.ApplicationUnderTest.Siguiente1Info, new RecordItemIndex(23));
-            repo.ApplicationUnderTest.Siguiente1.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 3m to exist. Associated repository item: 'ApplicationUnderTest.lbl_ReviewPlanDataUpload'", repo.ApplicationUnderTest.lbl_ReviewPlanDataUploadInfo, new ActionTimeout(180000), new RecordItemIndex(24));
-            repo.ApplicationUnderTest.lbl_ReviewPlanDataUploadInfo.WaitForExists(180000);
-            
-            //Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(25));
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Finalizar_PlanComisiones' at Center.", repo.ApplicationUnderTest.Btn_Finalizar_PlanComisionesInfo, new RecordItemIndex(26));
-            repo.ApplicationUnderTest.Btn_Finalizar_PlanComisiones.Click();
-            Delay.Milliseconds(0);
-            
-            try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 2.5s to exist. Associated repository item: 'ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COF'", repo.ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COFInfo, new ActionTimeout(2500), new RecordItemIndex(27));
-                repo.ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COFInfo.WaitForExists(2500);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(27)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ContinueOnFail.bttn_Aceptar' at Center.", repo.ContinueOnFail.bttn_AceptarInfo, new RecordItemIndex(28));
-                repo.ContinueOnFail.bttn_Aceptar.Click();
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(28)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ContinueOnFail.Btn_Finalizar_PlanComisiones_COF' at Center.", repo.ContinueOnFail.Btn_Finalizar_PlanComisiones_COFInfo, new RecordItemIndex(29));
-                repo.ContinueOnFail.Btn_Finalizar_PlanComisiones_COF.Click();
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(29)); }
-            
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 3m to exist. Associated repository item: 'ApplicationUnderTest.lblResultadoCargaPlanesComision'", repo.ApplicationUnderTest.lblResultadoCargaPlanesComisionInfo, new ActionTimeout(180000), new RecordItemIndex(30));
-            repo.ApplicationUnderTest.lblResultadoCargaPlanesComisionInfo.WaitForExists(180000);
-            
-            //Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(31));
             
         }
 

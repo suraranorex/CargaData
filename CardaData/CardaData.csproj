@@ -177,6 +177,18 @@
       <UserCode>true</UserCode>
       <id>6167365b-c893-4919-99b5-ad3724733efc</id>
     </Compile>
+    <Compile Include="BC\FinalizaCargaComisionesBC.cs">
+      <BoundTo>075a8322-ae91-404d-8447-dc7457a79980</BoundTo>
+      <DependentUpon>FinalizaCargaComisionesBC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dccaa354-fd6b-43ac-843c-90d167c1fac8</id>
+    </Compile>
+    <Compile Include="BC\FinalizaCargaComisionesBC.UserCode.cs">
+      <BoundTo>075a8322-ae91-404d-8447-dc7457a79980</BoundTo>
+      <DependentUpon>FinalizaCargaComisionesBC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>27be6ce5-64c0-4328-a59c-4625e505cd4e</id>
+    </Compile>
     <Compile Include="BC\InvoiceSchedule.cs">
       <BoundTo>9dcc392e-622a-414c-bf97-8d0f4275bf6b</BoundTo>
       <DependentUpon>InvoiceSchedule.rxrec</DependentUpon>
@@ -200,6 +212,18 @@
       <DependentUpon>InvoiceSchedule_2.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>5c1f9d9b-d68c-4b11-9c20-5e7ecac66304</id>
+    </Compile>
+    <Compile Include="BC\NavegaMenuPlanesPagoBC.cs">
+      <BoundTo>70b7748e-97b1-47fe-9ae8-7a8a489831dd</BoundTo>
+      <DependentUpon>NavegaMenuPlanesPagoBC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6c9a40db-9440-46e2-9e1d-d732a500858c</id>
+    </Compile>
+    <Compile Include="BC\NavegaMenuPlanesPagoBC.UserCode.cs">
+      <BoundTo>70b7748e-97b1-47fe-9ae8-7a8a489831dd</BoundTo>
+      <DependentUpon>NavegaMenuPlanesPagoBC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>68c9141c-74e6-4f0e-9395-bd4d912c923e</id>
     </Compile>
     <Compile Include="BC\ValidarPlanesComisiones.cs">
       <BoundTo>7fd32c01-847a-4fe8-9ebb-977ab615603c</BoundTo>
@@ -254,6 +278,18 @@
       <DependentUpon>CargaArchivosGeneral.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>8c5ef998-da02-4142-ab68-00efefa4171c</id>
+    </Compile>
+    <Compile Include="Generales\CargaArchivo\ContinuarProceso.cs">
+      <BoundTo>bc54d274-9df9-45c4-8f39-0f3e0a9d272e</BoundTo>
+      <DependentUpon>ContinuarProceso.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d29398bd-97e9-4b62-b524-5f132cf615ef</id>
+    </Compile>
+    <Compile Include="Generales\CargaArchivo\ContinuarProceso.UserCode.cs">
+      <BoundTo>bc54d274-9df9-45c4-8f39-0f3e0a9d272e</BoundTo>
+      <DependentUpon>ContinuarProceso.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7bb9af65-427e-4949-8b51-c6d807cbaf99</id>
     </Compile>
     <Compile Include="Generales\Login\Login.cs">
       <BoundTo>00d871e1-a77e-4fa5-b710-ad329f8ee3a8</BoundTo>
@@ -919,6 +955,11 @@
       <id>65ebee0b-6f5f-4745-8788-fb5ca4a9fa0f</id>
       <recordtableid>49cb08ef-929e-4a3c-96df-eaa3f3148d96</recordtableid>
     </None>
+    <None Include="BC\FinalizaCargaComisionesBC.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>075a8322-ae91-404d-8447-dc7457a79980</id>
+      <recordtableid>b2265a24-fe39-4bb3-a7ad-abb7ecdf0fed</recordtableid>
+    </None>
     <None Include="BC\InvoiceSchedule.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>9dcc392e-622a-414c-bf97-8d0f4275bf6b</id>
@@ -928,6 +969,11 @@
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>bd00b01a-2a57-43e0-a796-4b4b689d2be6</id>
       <recordtableid>8a37a284-63d4-4711-b4b3-ba1082f2568d</recordtableid>
+    </None>
+    <None Include="BC\NavegaMenuPlanesPagoBC.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>70b7748e-97b1-47fe-9ae8-7a8a489831dd</id>
+      <recordtableid>e11f2a85-9da9-4008-9ca9-db195c0f3183</recordtableid>
     </None>
     <None Include="BC\ValidarPlanesComisiones.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
@@ -1092,6 +1138,11 @@
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>c91b98d7-578a-42f4-a00e-2abdcbaacbb5</id>
       <recordtableid>8e12e590-b4f5-42ff-87f7-ee8b8e4da839</recordtableid>
+    </None>
+    <None Include="Generales\CargaArchivo\ContinuarProceso.rxrec">
+      <id>bc54d274-9df9-45c4-8f39-0f3e0a9d272e</id>
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <recordtableid>99a4628f-c5e5-472e-98b8-5283decce00c</recordtableid>
     </None>
     <None Include="Generales\Login\Login.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>

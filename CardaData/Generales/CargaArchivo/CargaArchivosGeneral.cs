@@ -41,7 +41,8 @@ namespace CardaData.Generales.CargaArchivo
         /// </summary>
         public CargaArchivosGeneral()
         {
-            NombreArchivoPC = "AdminDataLoader_Part_3.0.9-DEV.xml";
+            RutaArchivo = "";
+            NombreArchivo = "BCAdminDataLoader";
         }
 
         /// <summary>
@@ -53,6 +54,18 @@ namespace CardaData.Generales.CargaArchivo
         }
 
 #region Variables
+
+        string _RutaArchivo;
+
+        /// <summary>
+        /// Gets or sets the value of variable RutaArchivo.
+        /// </summary>
+        [TestVariable("a26fe692-3319-4eb3-b594-05efee2057f3")]
+        public string RutaArchivo
+        {
+            get { return _RutaArchivo; }
+            set { _RutaArchivo = value; }
+        }
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -72,16 +85,6 @@ namespace CardaData.Generales.CargaArchivo
         {
             get { return repo.NombreArchivo; }
             set { repo.NombreArchivo = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable NombreArchivoPC.
-        /// </summary>
-        [TestVariable("57917d37-b7fd-456c-a710-afe2ae095502")]
-        public string NombreArchivoPC
-        {
-            get { return repo.NombreArchivoPC; }
-            set { repo.NombreArchivoPC = value; }
         }
 
 #endregion
@@ -127,8 +130,8 @@ namespace CardaData.Generales.CargaArchivo
             repo.VentanaEmergente_Examinar.Escritorio.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\Carga_Inicial_QA\\PC\\admin'.", new RecordItemIndex(5));
-            Keyboard.Press("C:\\Carga_Inicial_QA\\PC\\admin");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$RutaArchivo'.", new RecordItemIndex(5));
+            Keyboard.Press(RutaArchivo);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(6));
@@ -139,8 +142,8 @@ namespace CardaData.Generales.CargaArchivo
             repo.VentanaEmergente_Examinar.BarraInferior.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NombreArchivoPC'.", new RecordItemIndex(8));
-            Keyboard.Press(NombreArchivoPC);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NombreArchivo'.", new RecordItemIndex(8));
+            Keyboard.Press(NombreArchivo);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(9));
@@ -157,51 +160,6 @@ namespace CardaData.Generales.CargaArchivo
             Delay.Milliseconds(0);
             
             EsperaFinalizarProceso();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.btn_FinalizarCargaDataPC' at Center.", repo.ApplicationUnderTest.btn_FinalizarCargaDataPCInfo, new RecordItemIndex(14));
-            repo.ApplicationUnderTest.btn_FinalizarCargaDataPC.MoveTo();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.btn_FinalizarCargaDataPC' at Center.", repo.ApplicationUnderTest.btn_FinalizarCargaDataPCInfo, new RecordItemIndex(15));
-            repo.ApplicationUnderTest.btn_FinalizarCargaDataPC.Click();
-            Delay.Milliseconds(0);
-            
-            try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 3m to exist. Associated repository item: 'ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503'", repo.ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503Info, new ActionTimeout(180000), new RecordItemIndex(16));
-                repo.ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503Info.WaitForExists(180000);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(16)); }
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.btn_AceptarError' at Center.", repo.ApplicationUnderTest.btn_AceptarErrorInfo, new RecordItemIndex(17));
-            repo.ApplicationUnderTest.btn_AceptarError.Click();
-            Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.btn_FinalizarCargaDataPC' at Center.", repo.ApplicationUnderTest.btn_FinalizarCargaDataPCInfo, new RecordItemIndex(18));
-            //repo.ApplicationUnderTest.btn_FinalizarCargaDataPC.Click();
-            //Delay.Milliseconds(0);
-            
-            try {
-                //Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 3m to exist. Associated repository item: 'ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503'", repo.ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503Info, new ActionTimeout(180000), new RecordItemIndex(19));
-                //repo.ApplicationUnderTest.lbl_ErrorEnLaSolicitudDeHTTP503Info.WaitForExists(180000);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(19)); }
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.btn_AceptarError' at Center.", repo.ApplicationUnderTest.btn_AceptarErrorInfo, new RecordItemIndex(20));
-            //repo.ApplicationUnderTest.btn_AceptarError.Click();
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 1h.", new RecordItemIndex(21));
-            //Delay.Duration(3600000, false);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'F5' Press with focus on 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(22));
-            Keyboard.PrepareFocus(repo.ApplicationUnderTest.Self);
-            Keyboard.Press(System.Windows.Forms.Keys.F5, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 15m to exist. Associated repository item: 'ApplicationUnderTest.lbl_ResultadosDeImportacion'", repo.ApplicationUnderTest.lbl_ResultadosDeImportacionInfo, new ActionTimeout(900000), new RecordItemIndex(23));
-            repo.ApplicationUnderTest.lbl_ResultadosDeImportacionInfo.WaitForExists(900000);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeRegex (InnerText~'Datos importados correctamente') on item 'ApplicationUnderTest.lbl_Resulyado_DatosImportados'.", repo.ApplicationUnderTest.lbl_Resulyado_DatosImportadosInfo, new RecordItemIndex(24));
-            Validate.AttributeRegex(repo.ApplicationUnderTest.lbl_Resulyado_DatosImportadosInfo, "InnerText", new Regex("Datos importados correctamente"));
             Delay.Milliseconds(0);
             
         }

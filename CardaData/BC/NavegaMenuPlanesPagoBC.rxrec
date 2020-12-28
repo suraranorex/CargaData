@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e11f2a85-9da9-4008-9ca9-db195c0f3183"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NavegaMenuPlanesPagoBC"
+	namespace="CardaData.BC">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="49;12"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="46cbf435-21c1-4247-bd7d-3d3102640078"
+		sx="91"
+		sy="183"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5362af01-7add-4da0-b950-45caee71b704"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//a[#'ServerTools:InternalToolsMenuActions']//span[@innertext='cciones']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="41;13"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8ad8892e-6932-4850-992c-b645ec960d01"
+		sx="100"
+		sy="235"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="44b3d211-fdd3-4e1f-97be-d0921f8c81b1"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]/body/div[11]/div/div[2]/div/div[2]/?/?/span[@innertext='Import Data']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="dc014d61-01a7-4fd7-a2b2-972984561c36"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8ad5240c-d2bf-4c57-af99-0870101c8900"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]/body/div[13]/div/div[2]/div/div[1]/?/?/span[@innertext='Admin Data Wizard']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7a9cb4f4-751a-4e6d-844d-1ee9ff40b2d3"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f4db2b6d-12eb-4e24-9394-51b7a4c48ff4"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]/body/div[13]/div/div[2]/div/div[2]/?/?/span[@innertext='Plan Data Wizard']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="36b4c229-da02-424e-b2b6-e1062c872c25"
+		sx="284"
+		sy="256"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f4db2b6d-12eb-4e24-9394-51b7a4c48ff4"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="224,244,92,20"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-menu-item-text x-menu-item-text-default x-menu-item-indent-no-separator
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ServerTools:InternalToolsMenuActions:importData:planDataLoader-textEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Plan Data Wizard
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-menu-item-indent-no-separator x-menu-item-text x-menu-item-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[13]/div/div[2]/div/div[2]/?/?/span[@innertext='Plan Data Wizard']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="43f07eef-4816-4592-9459-73a4680c513a">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="a869dfaa-509b-4699-a9a0-025d4f746dc3"
+		waitaction="Exists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f0eba019-019a-4b08-afbc-c057f12aca5e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="219,154,289,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PlanDataLoaderWizard:PlanDataUploadImportScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Upload Plan Data Excel File
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[1]/td/div/div/div/div/?/?/span[@innertext&gt;'Upload Plan Data Excel Fi']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="12;8"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9b108f90-90da-4697-9d07-32d098837e8c"
+		sx="414"
+		sy="290"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="45d72592-40a3-4cb8-b598-4d051e663c67"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="402,282,13,13"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-radio x-form-radio-default x-form-cb x-form-cb-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PlanDataLoaderWizard:PlanDataUploadImportScreen:IsLoadingFromConfig_false-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-cb x-form-cb-default x-form-field x-form-radio x-form-radio-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="tabindex"
+					type="System.String">
+						-1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="hidefocus"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]//table/tbody/tr[1]/td/div/div/?/?/table/?/?/tr/td[2]/div/div/?/?/input[@type='button']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="61ec7bf7-5817-4c53-bb68-bb40ad80ef28">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAtAEADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDofKX/
+AGv++jR5S/7X/fRp9FADPKX/AGv++jR5S/7X/fRpZZBFE8jZIRSxx7Vnf27a/wDPOb8h/jScktzS
+FKc/hRoeUv8Atf8AfRo8pf8Aa/76NZ/9u2v/ADzm/If41cs7uO8iMkYYANt+Yf59aSknsOVGcFeS
+JPKX/a/76NHlL/tf99Gn0VRkRySMsDOq7mAOB6mo45mMYPnQyFmCgqpA9x1PNTbWEeFIDepGRmoR
+bMZPMkkUvuBO1cDjPv70AOvf+PGf/rm38qraQc6bEM4Azn8zVm9/48Z/+ubfyrM06/trezjjkkw3
+ORtPHJqG0panRGMpUWoq+v6GsflGQTgdc1kaTO0FkCqhgZjuHfG0Hin3t5aXkK2wfeJJY1IwRkbx
+mltYf7OuY7aZj5bSFoZT/ESMbD6H+dPd3ROsIOElZuxofaFBcsRsGMEDJOf51JHIsq5Qnrg5BBH4
+GoFs9m7ZJj5wyZGQvHT3HWpYYjHvLMGd23MQMDoB0/CqMSSiiigBGAZSrAEEYIPeovsdr/z7Q/8A
+fAqaiiw1JrZlG9toI4UZIY1YTRYIQAj94tQXmo29xbSosSzxb1Ry7bE2k43g9wGGMj0rTkjSVCkq
+K6HqrDINVrnTobjGGaHEZiPlhRlDjjkHjjigG29ySyjmitUS4ffIuQWznjPHOBk4xzip6KKBH//Z
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
+	name="CardaDataRepository"
+	relativepath="..\CardaDataRepository.rxrep">
+		<codegen
+		classname="CardaDataRepository"
+		namespace="CardaData">
+		</codegen>
+		<rootfolder
+		id="468d5898-f181-4143-93ca-5cfb8eaaac90"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NavegaMenuPlanesPagoBC.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

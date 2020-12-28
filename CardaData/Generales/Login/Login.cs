@@ -127,8 +127,8 @@ namespace CardaData.Generales.Login
             repo.ApplicationUnderTest.Login.bttn_IniciarSesion.Click("26;3");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'ApplicationUnderTest.bttn_Configuracion1'", repo.ApplicationUnderTest.bttn_Configuracion1Info, new ActionTimeout(20000), new RecordItemIndex(3));
-            repo.ApplicationUnderTest.bttn_Configuracion1Info.WaitForExists(20000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'ApplicationUnderTest.bttn_Configuracion1'", repo.ApplicationUnderTest.bttn_Configuracion1Info, new ActionTimeout(40000), new RecordItemIndex(3));
+            repo.ApplicationUnderTest.bttn_Configuracion1Info.WaitForExists(40000);
             
         }
 
