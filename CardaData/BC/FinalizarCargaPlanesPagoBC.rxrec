@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="AccionImportDataPlanesPago"
+	classname="FinalizarCargaPlanesPagoBC"
 	namespace="CardaData.BC">
 	</codegen>
 	<variables>
@@ -1016,7 +1016,7 @@ D//Z
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		AccionImportDataPlanesPago.UserCode.cs
+		FinalizarCargaPlanesPagoBC.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

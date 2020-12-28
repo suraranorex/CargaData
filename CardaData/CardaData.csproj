@@ -165,15 +165,15 @@
       <UserCode>true</UserCode>
       <id>094dfa28-fb65-46b9-9cb8-0c3b77c4a82f</id>
     </Compile>
-    <Compile Include="BC\AccionImportDataPlanesPago.cs">
+    <Compile Include="BC\FinalizarCargaPlanesPagoBC.cs">
       <BoundTo>65ebee0b-6f5f-4745-8788-fb5ca4a9fa0f</BoundTo>
-      <DependentUpon>AccionImportDataPlanesPago.rxrec</DependentUpon>
+      <DependentUpon>FinalizarCargaPlanesPagoBC.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>e005318a-d2a6-4b2a-8796-b8a6b1dbb7f7</id>
     </Compile>
-    <Compile Include="BC\AccionImportDataPlanesPago.UserCode.cs">
+    <Compile Include="BC\FinalizarCargaPlanesPagoBC.UserCode.cs">
       <BoundTo>65ebee0b-6f5f-4745-8788-fb5ca4a9fa0f</BoundTo>
-      <DependentUpon>AccionImportDataPlanesPago.rxrec</DependentUpon>
+      <DependentUpon>FinalizarCargaPlanesPagoBC.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>6167365b-c893-4919-99b5-ad3724733efc</id>
     </Compile>
@@ -189,29 +189,41 @@
       <UserCode>true</UserCode>
       <id>27be6ce5-64c0-4328-a59c-4625e505cd4e</id>
     </Compile>
-    <Compile Include="BC\InvoiceSchedule.cs">
+    <Compile Include="BC\FinalizaCargaInvoiceSchedule.cs">
       <BoundTo>9dcc392e-622a-414c-bf97-8d0f4275bf6b</BoundTo>
-      <DependentUpon>InvoiceSchedule.rxrec</DependentUpon>
+      <DependentUpon>FinalizaCargaInvoiceSchedule.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>e5c2d3ca-491e-4947-b496-47ceb9049ce4</id>
     </Compile>
-    <Compile Include="BC\InvoiceSchedule.UserCode.cs">
+    <Compile Include="BC\FinalizaCargaInvoiceSchedule.UserCode.cs">
       <BoundTo>9dcc392e-622a-414c-bf97-8d0f4275bf6b</BoundTo>
-      <DependentUpon>InvoiceSchedule.rxrec</DependentUpon>
+      <DependentUpon>FinalizaCargaInvoiceSchedule.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>1566a0da-b24c-4419-a49f-e29e4d1bcf00</id>
     </Compile>
-    <Compile Include="BC\InvoiceSchedule_2.cs">
+    <Compile Include="BC\FinalizaCargaInvoiceSchedule_2.cs">
       <BoundTo>bd00b01a-2a57-43e0-a796-4b4b689d2be6</BoundTo>
-      <DependentUpon>InvoiceSchedule_2.rxrec</DependentUpon>
+      <DependentUpon>FinalizaCargaInvoiceSchedule_2.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>831951b1-8195-4d0f-8839-2c526db6460d</id>
     </Compile>
-    <Compile Include="BC\InvoiceSchedule_2.UserCode.cs">
+    <Compile Include="BC\FinalizaCargaInvoiceSchedule_2.UserCode.cs">
       <BoundTo>bd00b01a-2a57-43e0-a796-4b4b689d2be6</BoundTo>
-      <DependentUpon>InvoiceSchedule_2.rxrec</DependentUpon>
+      <DependentUpon>FinalizaCargaInvoiceSchedule_2.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>5c1f9d9b-d68c-4b11-9c20-5e7ecac66304</id>
+    </Compile>
+    <Compile Include="BC\NavegaMenuInvoice.cs">
+      <BoundTo>8e96e618-55c5-4306-ab3b-f8dce3d76250</BoundTo>
+      <DependentUpon>NavegaMenuInvoice.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4ad228cf-ed74-4340-81b9-cf9950f95dbb</id>
+    </Compile>
+    <Compile Include="BC\NavegaMenuInvoice.UserCode.cs">
+      <BoundTo>8e96e618-55c5-4306-ab3b-f8dce3d76250</BoundTo>
+      <DependentUpon>NavegaMenuInvoice.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>048831e8-55a3-4e09-894a-6444b8fb9646</id>
     </Compile>
     <Compile Include="BC\NavegaMenuPlanesPagoBC.cs">
       <BoundTo>70b7748e-97b1-47fe-9ae8-7a8a489831dd</BoundTo>
@@ -950,7 +962,7 @@
       <id>f1e87f6e-4bce-4d9b-bb50-80b60d4496b7</id>
       <recordtableid>7d14a49b-e6bb-450e-81d0-3e0233802dea</recordtableid>
     </None>
-    <None Include="BC\AccionImportDataPlanesPago.rxrec">
+    <None Include="BC\FinalizarCargaPlanesPagoBC.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>65ebee0b-6f5f-4745-8788-fb5ca4a9fa0f</id>
       <recordtableid>49cb08ef-929e-4a3c-96df-eaa3f3148d96</recordtableid>
@@ -960,15 +972,20 @@
       <id>075a8322-ae91-404d-8447-dc7457a79980</id>
       <recordtableid>b2265a24-fe39-4bb3-a7ad-abb7ecdf0fed</recordtableid>
     </None>
-    <None Include="BC\InvoiceSchedule.rxrec">
+    <None Include="BC\FinalizaCargaInvoiceSchedule.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>9dcc392e-622a-414c-bf97-8d0f4275bf6b</id>
       <recordtableid>aafda17e-04a6-4ce2-b519-17beb2cf6714</recordtableid>
     </None>
-    <None Include="BC\InvoiceSchedule_2.rxrec">
+    <None Include="BC\FinalizaCargaInvoiceSchedule_2.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>bd00b01a-2a57-43e0-a796-4b4b689d2be6</id>
       <recordtableid>8a37a284-63d4-4711-b4b3-ba1082f2568d</recordtableid>
+    </None>
+    <None Include="BC\NavegaMenuInvoice.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>8e96e618-55c5-4306-ab3b-f8dce3d76250</id>
+      <recordtableid>d2a2e85d-1e70-4a7b-953e-37dc0783d2df</recordtableid>
     </None>
     <None Include="BC\NavegaMenuPlanesPagoBC.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>

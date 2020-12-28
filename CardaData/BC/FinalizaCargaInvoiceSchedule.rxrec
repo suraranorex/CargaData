@@ -19,131 +19,17 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="InvoiceSchedule"
+	classname="FinalizaCargaInvoiceSchedule"
 	namespace="CardaData.BC">
 	</codegen>
 	<variables>
-		<var
-		id="934d4cfa-d1cf-4048-924c-06a573677ecd"
-		name="NombreArchivoInvoice">
-			InvoiceSchedule.xls
-		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="41c2b82b-f7fa-4936-bf47-7e069e6d97a6"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="81a5c194-a414-47a0-b1f2-bd718797e6b0"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain=$Ambiente]//span[@innertext~'cciones']
-				</path>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="5a5c1606-8c30-466a-adcc-e62972eea864"
-		sx="121"
-		sy="564"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="8c8a1afc-ef7f-4a2d-9df0-4843452bc858"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, spantag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="spantag"
-				rect="39,552,164,24"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="False">
-					<attribute
-					name="class"
-					type="System.String">
-						x-menu-item-text x-menu-item-text-default x-menu-item-indent-no-separator
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						Admin:AdminMenuActions:LoadScheduleInvoiceSura-textEl
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						Nueva programa de cuotas
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						x-menu-item-indent-no-separator x-menu-item-text x-menu-item-text-default
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						span
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="data-ref"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="unselectable"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
-				<path>
-					/dom[@domain=$Ambiente]/body/div[11]/div/div[2]/div/div[14]/?/?/span[@innertext='Nueva programa de cuotas']
-				</path>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -225,7 +111,7 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="3cdca71b-654e-4d41-a054-cfc0e7faaccb"
 		waitaction="Exists"
@@ -243,7 +129,7 @@ mode="Global">
 			</info>
 		</WaitForRecordItem>
 		<separatoritem
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 				Ventana Emergente
@@ -255,7 +141,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -312,7 +198,7 @@ mode="Global">
 		<keysequenceitem
 		KeySequence="C:\Carga_Inicial_QA\BC"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="ee1c7404-1051-4304-b5fb-6dd21d403041">
@@ -324,7 +210,7 @@ mode="Global">
 		<keysequenceitem
 		KeySequence="{Return}"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="ecf42d7a-973e-47f6-bcc2-963f72541bc9">
@@ -337,7 +223,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -467,24 +353,20 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="C:\TEMP\"
+		KeySequence=""
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="ee1c7404-1051-4304-b5fb-6dd21d403041">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="KeySequence"
-				variable="NombreArchivoInvoice">
-				</binding>
 			</bindings>
 		</keysequenceitem>
 		<explicitdelayitem
 		duration="3000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -495,7 +377,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="47;13"
 		movetime="300ms"
 		optional="False"
@@ -803,7 +685,7 @@ D//Z
 		</mouseitem>
 		<explicitdelayitem
 		duration="2000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -829,7 +711,7 @@ D//Z
 			</info>
 		</WaitForRecordItem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="79d29cb1-e887-43b9-88b1-983cab512f82"
 		waitaction="Exists"
@@ -848,7 +730,7 @@ D//Z
 		</WaitForRecordItem>
 		<explicitdelayitem
 		duration="6000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -1249,7 +1131,7 @@ D//Z
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		InvoiceSchedule.UserCode.cs
+		FinalizaCargaInvoiceSchedule.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

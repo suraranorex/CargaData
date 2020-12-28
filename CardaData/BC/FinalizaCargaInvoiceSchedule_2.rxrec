@@ -19,27 +19,17 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="InvoiceSchedule_2"
+	classname="FinalizaCargaInvoiceSchedule_2"
 	namespace="CardaData.BC">
 	</codegen>
 	<variables>
-		<var
-		id="3b555940-c749-4f28-8204-064274dae1dc"
-		name="NombreArchivoInvoice">
-			InvoiceSchedule.xls
-		</var>
-		<var
-		id="4dec21d5-72a1-4e90-aeca-91d9ece35d45"
-		name="NombreArchivoInvoice2">
-			InvoiceSchedule Prueba.xls
-		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -63,7 +53,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -148,7 +138,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -230,7 +220,7 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="3cdca71b-654e-4d41-a054-cfc0e7faaccb"
 		waitaction="Exists"
@@ -248,7 +238,7 @@ mode="Global">
 			</info>
 		</WaitForRecordItem>
 		<separatoritem
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 				Ventana Emergente
@@ -260,7 +250,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -317,7 +307,7 @@ mode="Global">
 		<keysequenceitem
 		KeySequence="C:\Carga_Inicial_QA\BC"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="ee1c7404-1051-4304-b5fb-6dd21d403041">
@@ -329,7 +319,7 @@ mode="Global">
 		<keysequenceitem
 		KeySequence="{Return}"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="ecf42d7a-973e-47f6-bcc2-963f72541bc9">
@@ -340,7 +330,7 @@ mode="Global">
 		</keysequenceitem>
 		<explicitdelayitem
 		duration="2000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -351,7 +341,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -481,24 +471,20 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="C:\TEMP\"
+		KeySequence=""
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="ee1c7404-1051-4304-b5fb-6dd21d403041">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="KeySequence"
-				variable="NombreArchivoInvoice2">
-				</binding>
 			</bindings>
 		</keysequenceitem>
 		<explicitdelayitem
 		duration="3000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -509,7 +495,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="47;13"
 		movetime="300ms"
 		optional="False"
@@ -816,7 +802,7 @@ D//Z
 			</helperscreenshot>
 		</mouseitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="24d2eee6-5243-4ba6-ac9f-f84990b0d0b2"
 		waitaction="Exists"
@@ -1892,7 +1878,7 @@ rvb+8fzo3t/eP50Af//Z
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		InvoiceSchedule_2.UserCode.cs
+		FinalizaCargaInvoiceSchedule_2.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

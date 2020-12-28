@@ -1577,6 +1577,32 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="86faddca-fa34-4c91-be8a-248cdb32d2d7"
+			name="CargaArchivosGeneral"
+			ref="8e12e590-b4f5-42ff-87f7-ee8b8e4da839"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="RutaArchivo"
+					datasourceid="ba491309-c9ca-47e7-9629-e2f7b520af3a"
+					variableid="a26fe692-3319-4eb3-b594-05efee2057f3"
+					variablename="RutaArchivo">
+					</var>
+					<var
+					dataname="NombreArchivo2"
+					datasourceid="ba491309-c9ca-47e7-9629-e2f7b520af3a"
+					variableid="658183a5-d45d-4ec1-a6ea-51dbf041ea2b"
+					variablename="NombreArchivo">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="b65ca71b-ee75-4037-b0b7-a332d78f0910"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="8762dec3-3f4c-4d0b-8558-a7f0065fbfb7"
 			name="teardown">
@@ -1763,6 +1789,20 @@
 			id="9ef73ac9-b80b-457c-a1bc-589c7bd865e0"
 			name="setup">
 			</setup>
+			<testmodule
+			id="9f4b821d-28a8-4363-bbe7-787e3b16f856"
+			name="NavegaMenuInvoice"
+			ref="d2a2e85d-1e70-4a7b-953e-37dc0783d2df"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b65ca71b-ee75-4037-b0b7-a332d78f0910"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			enabled="False"
 			id="9fd05fcb-06c5-4117-af6b-934201d6e099"
@@ -2081,6 +2121,20 @@
 			maxrange="0"
 			minrange="0"
 			name="InvoiceShedule">
+				<parameters>
+					<param
+					name="NombreArchivo1"
+					value="InvoiceSchedule.xls">
+					</param>
+					<param
+					name="NombreArchivo2"
+					value="InvoiceSchedule Prueba.xls">
+					</param>
+					<param
+					name="RutaArchivo"
+					value="C:\Carga_Inicial_QA\BC">
+					</param>
+				</parameters>
 			</testcase>
 			<setup
 			id="baaa77fa-0f53-4eef-a700-bdcfe02d38d9"
@@ -2318,6 +2372,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="d6e1213a-2581-46bc-8e63-de727acd4816"
+			name="NavegaMenuInvoice"
+			ref="d2a2e85d-1e70-4a7b-953e-37dc0783d2df"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b65ca71b-ee75-4037-b0b7-a332d78f0910"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="d93a4376-5e21-44c4-9cee-1cefb6abed46"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -2407,7 +2475,7 @@
 			</teardown>
 			<testmodule
 			id="def80596-961b-4a49-8a2b-d74e19253147"
-			name="AccionImportDataPlanesPago"
+			name="FinalizarCargaPlanesPagoBC"
 			ref="49cb08ef-929e-4a3c-96df-eaa3f3148d96"
 			type="Recording">
 				<databinding>
@@ -2480,6 +2548,32 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="36fdacf9-2598-4edc-957f-02587b75c522"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="e62e5a25-80ac-441c-bcf2-8d3d35540348"
+			name="CargaArchivosGeneral"
+			ref="8e12e590-b4f5-42ff-87f7-ee8b8e4da839"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="RutaArchivo"
+					datasourceid="ba491309-c9ca-47e7-9629-e2f7b520af3a"
+					variableid="a26fe692-3319-4eb3-b594-05efee2057f3"
+					variablename="RutaArchivo">
+					</var>
+					<var
+					dataname="NombreArchivo1"
+					datasourceid="ba491309-c9ca-47e7-9629-e2f7b520af3a"
+					variableid="658183a5-d45d-4ec1-a6ea-51dbf041ea2b"
+					variablename="NombreArchivo">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="b65ca71b-ee75-4037-b0b7-a332d78f0910"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
@@ -2631,13 +2725,21 @@
 			</testmodule>
 			<testmodule
 			id="f6ffe5d8-5ee5-4300-a6fa-2d313e8e96b6"
-			name="InvoiceSchedule_2"
+			name="FinalizaCargaInvoiceSchedule_2"
 			ref="8a37a284-63d4-4711-b4b3-ba1082f2568d"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b65ca71b-ee75-4037-b0b7-a332d78f0910"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="f720d592-9f0b-4029-a449-ed279bbc0284"
-			name="InvoiceSchedule"
+			name="FinalizaCargaInvoiceSchedule"
 			ref="aafda17e-04a6-4ce2-b519-17beb2cf6714"
 			type="Recording">
 				<databinding>
@@ -2902,7 +3004,7 @@
 						</testmodule>
 						<testmodule
 						id="def80596-961b-4a49-8a2b-d74e19253147"
-						name="AccionImportDataPlanesPago">
+						name="FinalizarCargaPlanesPagoBC">
 						</testmodule>
 						<teardown
 						id="c3405ae6-be07-45fb-9519-550c11fbb971"
@@ -2933,12 +3035,28 @@
 							</testmodule>
 						</setup>
 						<testmodule
+						id="9f4b821d-28a8-4363-bbe7-787e3b16f856"
+						name="NavegaMenuInvoice">
+						</testmodule>
+						<testmodule
+						id="e62e5a25-80ac-441c-bcf2-8d3d35540348"
+						name="CargaArchivosGeneral">
+						</testmodule>
+						<testmodule
 						id="f720d592-9f0b-4029-a449-ed279bbc0284"
-						name="InvoiceSchedule">
+						name="FinalizaCargaInvoiceSchedule">
+						</testmodule>
+						<testmodule
+						id="d6e1213a-2581-46bc-8e63-de727acd4816"
+						name="NavegaMenuInvoice">
+						</testmodule>
+						<testmodule
+						id="86faddca-fa34-4c91-be8a-248cdb32d2d7"
+						name="CargaArchivosGeneral">
 						</testmodule>
 						<testmodule
 						id="f6ffe5d8-5ee5-4300-a6fa-2d313e8e96b6"
-						name="InvoiceSchedule_2">
+						name="FinalizaCargaInvoiceSchedule_2">
 						</testmodule>
 						<teardown
 						id="c612b391-55df-4637-bb3a-800d544e6328"

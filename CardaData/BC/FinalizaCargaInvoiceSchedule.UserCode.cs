@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace CardaData.BC
 {
-    public partial class AccionImportDataPlanesPago
+    public partial class FinalizaCargaInvoiceSchedule
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

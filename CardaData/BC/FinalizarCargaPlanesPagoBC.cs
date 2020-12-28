@@ -24,22 +24,22 @@ namespace CardaData.BC
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The AccionImportDataPlanesPago recording.
+    ///The FinalizarCargaPlanesPagoBC recording.
     /// </summary>
     [TestModule("49cb08ef-929e-4a3c-96df-eaa3f3148d96", ModuleType.Recording, 1)]
-    public partial class AccionImportDataPlanesPago : ITestModule
+    public partial class FinalizarCargaPlanesPagoBC : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::CardaData.CardaDataRepository repository.
         /// </summary>
         public static global::CardaData.CardaDataRepository repo = global::CardaData.CardaDataRepository.Instance;
 
-        static AccionImportDataPlanesPago instance = new AccionImportDataPlanesPago();
+        static FinalizarCargaPlanesPagoBC instance = new FinalizarCargaPlanesPagoBC();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public AccionImportDataPlanesPago()
+        public FinalizarCargaPlanesPagoBC()
         {
             NombreArchivo = "BCPlanDataLoader.xls";
         }
@@ -47,7 +47,7 @@ namespace CardaData.BC
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static AccionImportDataPlanesPago Instance
+        public static FinalizarCargaPlanesPagoBC Instance
         {
             get { return instance; }
         }

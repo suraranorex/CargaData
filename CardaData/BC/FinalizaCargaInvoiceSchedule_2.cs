@@ -24,31 +24,29 @@ namespace CardaData.BC
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The InvoiceSchedule_2 recording.
+    ///The FinalizaCargaInvoiceSchedule_2 recording.
     /// </summary>
     [TestModule("8a37a284-63d4-4711-b4b3-ba1082f2568d", ModuleType.Recording, 1)]
-    public partial class InvoiceSchedule_2 : ITestModule
+    public partial class FinalizaCargaInvoiceSchedule_2 : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::CardaData.CardaDataRepository repository.
         /// </summary>
         public static global::CardaData.CardaDataRepository repo = global::CardaData.CardaDataRepository.Instance;
 
-        static InvoiceSchedule_2 instance = new InvoiceSchedule_2();
+        static FinalizaCargaInvoiceSchedule_2 instance = new FinalizaCargaInvoiceSchedule_2();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public InvoiceSchedule_2()
+        public FinalizaCargaInvoiceSchedule_2()
         {
-            NombreArchivoInvoice = "InvoiceSchedule.xls";
-            NombreArchivoInvoice2 = "InvoiceSchedule Prueba.xls";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static InvoiceSchedule_2 Instance
+        public static FinalizaCargaInvoiceSchedule_2 Instance
         {
             get { return instance; }
         }
@@ -63,26 +61,6 @@ namespace CardaData.BC
         {
             get { return repo.Ambiente; }
             set { repo.Ambiente = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable NombreArchivoInvoice.
-        /// </summary>
-        [TestVariable("3b555940-c749-4f28-8204-064274dae1dc")]
-        public string NombreArchivoInvoice
-        {
-            get { return repo.NombreArchivoInvoice; }
-            set { repo.NombreArchivoInvoice = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable NombreArchivoInvoice2.
-        /// </summary>
-        [TestVariable("4dec21d5-72a1-4e90-aeca-91d9ece35d45")]
-        public string NombreArchivoInvoice2
-        {
-            get { return repo.NombreArchivoInvoice2; }
-            set { repo.NombreArchivoInvoice2 = value; }
         }
 
 #endregion
@@ -111,56 +89,56 @@ namespace CardaData.BC
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Menu_Acciones' at Center.", repo.ApplicationUnderTest.Menu_AccionesInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.Menu_Acciones.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Menu_Acciones' at Center.", repo.ApplicationUnderTest.Menu_AccionesInfo, new RecordItemIndex(0));
+            //repo.ApplicationUnderTest.Menu_Acciones.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubMenu_NuevaProgramaDeCuotas' at Center.", repo.ApplicationUnderTest.SubMenu_NuevaProgramaDeCuotasInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.SubMenu_NuevaProgramaDeCuotas.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubMenu_NuevaProgramaDeCuotas' at Center.", repo.ApplicationUnderTest.SubMenu_NuevaProgramaDeCuotasInfo, new RecordItemIndex(1));
+            //repo.ApplicationUnderTest.SubMenu_NuevaProgramaDeCuotas.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Examinar2' at Center.", repo.ApplicationUnderTest.Btn_Examinar2Info, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Btn_Examinar2.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Examinar2' at Center.", repo.ApplicationUnderTest.Btn_Examinar2Info, new RecordItemIndex(2));
+            //repo.ApplicationUnderTest.Btn_Examinar2.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'Ventana_Emergente_Abrir'", repo.Ventana_Emergente_Abrir.SelfInfo, new ActionTimeout(5000), new RecordItemIndex(3));
-            repo.Ventana_Emergente_Abrir.SelfInfo.WaitForExists(5000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'Ventana_Emergente_Abrir'", repo.Ventana_Emergente_Abrir.SelfInfo, new ActionTimeout(5000), new RecordItemIndex(3));
+            //repo.Ventana_Emergente_Abrir.SelfInfo.WaitForExists(5000);
             
             // Ventana Emergente
-            Report.Log(ReportLevel.Info, "Section", "Ventana Emergente", new RecordItemIndex(4));
+            //Report.Log(ReportLevel.Info, "Section", "Ventana Emergente", new RecordItemIndex(4));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VentanaEmergente_Examinar.Escritorio' at Center.", repo.VentanaEmergente_Examinar.EscritorioInfo, new RecordItemIndex(5));
-            repo.VentanaEmergente_Examinar.Escritorio.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VentanaEmergente_Examinar.Escritorio' at Center.", repo.VentanaEmergente_Examinar.EscritorioInfo, new RecordItemIndex(5));
+            //repo.VentanaEmergente_Examinar.Escritorio.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\Carga_Inicial_QA\\BC'.", new RecordItemIndex(6));
-            Keyboard.Press("C:\\Carga_Inicial_QA\\BC");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\Carga_Inicial_QA\\BC'.", new RecordItemIndex(6));
+            //Keyboard.Press("C:\\Carga_Inicial_QA\\BC");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(7));
-            Keyboard.Press("{Return}");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(7));
+            //Keyboard.Press("{Return}");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(8));
-            Delay.Duration(2000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(8));
+            //Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VentanaEmergente_Examinar.BarraInferior' at Center.", repo.VentanaEmergente_Examinar.BarraInferiorInfo, new RecordItemIndex(9));
-            repo.VentanaEmergente_Examinar.BarraInferior.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VentanaEmergente_Examinar.BarraInferior' at Center.", repo.VentanaEmergente_Examinar.BarraInferiorInfo, new RecordItemIndex(9));
+            //repo.VentanaEmergente_Examinar.BarraInferior.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NombreArchivoInvoice2'.", new RecordItemIndex(10));
-            Keyboard.Press(NombreArchivoInvoice2);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence ''.", new RecordItemIndex(10));
+            //Keyboard.Press("");
+            //Delay.Milliseconds(20);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(11));
-            Delay.Duration(3000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(11));
+            //Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Ventana_Emergente_Abrir.ButtonAbrir' at 47;13.", repo.Ventana_Emergente_Abrir.ButtonAbrirInfo, new RecordItemIndex(12));
-            repo.Ventana_Emergente_Abrir.ButtonAbrir.Click("47;13");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Ventana_Emergente_Abrir.ButtonAbrir' at 47;13.", repo.Ventana_Emergente_Abrir.ButtonAbrirInfo, new RecordItemIndex(12));
+            //repo.Ventana_Emergente_Abrir.ButtonAbrir.Click("47;13");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'ApplicationUnderTest.txt_ArchivoCargado'", repo.ApplicationUnderTest.txt_ArchivoCargadoInfo, new ActionTimeout(40000), new RecordItemIndex(13));
-            repo.ApplicationUnderTest.txt_ArchivoCargadoInfo.WaitForExists(40000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'ApplicationUnderTest.txt_ArchivoCargado'", repo.ApplicationUnderTest.txt_ArchivoCargadoInfo, new ActionTimeout(40000), new RecordItemIndex(13));
+            //repo.ApplicationUnderTest.txt_ArchivoCargadoInfo.WaitForExists(40000);
             
             //Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(14));
             //Delay.Duration(15000, false);
