@@ -488,7 +488,7 @@ name="CardaDataRepository">
 			name="Copy_of_txt_ArchivoCargado_qa2"
 			refimgid="17a3ae04-03cf-4fd8-a05f-b9e895e981b5"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[@id~'Wizard/[U-u]+pload']//input[@value&gt;$NombreArchivo]
+				/dom[@domain=$Ambiente]//div[@id~'Wizard/(U|u)pload']//input[@value&gt;$NombreArchivo]
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -1170,16 +1170,16 @@ name="CardaDataRepository">
 			name="txt_CanalProductor"
 			refimgid="7e372dcd-0298-4336-82c0-884a4ede93ef"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/?/?/table/?/?/tr/td[2]/div
+				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div/table[$Fila]//div[@class='x-grid-cell-inner ' and @innertext='']
 			</item>
 			<item
 			addcaps="unknown,webelement,litag"
 			capname="litag"
 			id="0806abae-80f2-493a-8518-bf923e3adc57"
-			name="Canal_DirectoAnswer"
+			name="Select_Canal"
 			refimgid="20a6f095-2c93-4b5c-b864-e35f9b5d9268"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//li[@innertext='Directo (Answer)']
+				/dom[@domain=$Ambiente]//li[@innertext=$Canal]
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1197,9 +1197,17 @@ name="CardaDataRepository">
 			id="af51cb1f-71a2-4068-a087-59dfa2b29c95"
 			name="txt_CodPAS"
 			refimgid="75ff1232-9e40-4b23-a276-451d622bc8eb"
-			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table/tbody/tr/td[3]/div"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table/?/?/tr/td[3]/div
+				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table[$Fila]/?/?/tr/td[3]/div
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="inputtag"
+			id="bcefc2c9-fe79-40b1-98f8-54e850462c90"
+			name="Copy_of_txt_CodPAS"
+			refimgid="75ff1232-9e40-4b23-a276-451d622bc8eb"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table[$Fila]/?/?/tr/td[3]/div/..//input[@data-tabindexsaved='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1207,18 +1215,17 @@ name="CardaDataRepository">
 			id="21e5c55e-7c62-45b9-91af-262564f5a198"
 			name="txt_TipoVivienda"
 			refimgid="2084deeb-d263-4b2a-b0a0-1881594881a5"
-			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table/tbody/tr/td[4]/div"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table/?/?/tr/td[4]/div
+				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table[$Fila]/?/?/tr/td[4]/div
 			</item>
 			<item
 			addcaps="unknown,webelement,litag"
 			capname="litag"
 			id="599d7f68-983a-42e3-8a8d-3fac9863268a"
-			name="Vivienda_Permanente"
+			name="Select_TipoVivienda"
 			refimgid="e4dbb873-6425-4ec8-adea-f6718f0e7d6b"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//li[@innertext='Permanente']
+				/dom[@domain=$Ambiente]//li[@innertext=$TipoVivienda]
 			</item>
 			<item
 			addcaps="unknown,webelement,litag"
@@ -1227,7 +1234,7 @@ name="CardaDataRepository">
 			name="Copy_of_Vivienda_Permanente"
 			refimgid="e4dbb873-6425-4ec8-adea-f6718f0e7d6b"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//li[@innertext='Permanente']/..//input[@data-tabindexsaved='True']
+				/dom[@domain=$Ambiente]//li[@innertext=$TipoVivienda]/..//input[@data-tabindexsaved='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1235,18 +1242,26 @@ name="CardaDataRepository">
 			id="cf7ada42-72c5-4937-9c8c-dfa4e8232029"
 			name="txt_Plan"
 			refimgid="243172a7-114b-43b1-9a9f-027a319fb8a2"
-			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table/tbody/tr/td[5]/div"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table/?/?/tr/td[5]/div
+				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table[$Fila]/?/?/tr/td[5]/div
 			</item>
 			<item
 			addcaps="unknown,webelement,litag"
 			capname="litag"
 			id="9d05af49-7d6b-4ad6-bad4-73f6d43ff204"
-			name="Plan_LFCasaDptoPB1DegPiso"
+			name="Select_Plan"
 			refimgid="d04ea845-be66-4aee-b085-a4056013bc53"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//li[@innertext='L.F. Casa/Dpto PB 1&#176; Piso']
+				/dom[@domain=$Ambiente]//li[@innertext=$Plan]
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="6ef3db77-e1dd-4ac4-8508-c82b68efab94"
+			name="Copy_of_Select_Plan"
+			refimgid="d04ea845-be66-4aee-b085-a4056013bc53"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//li[@innertext=$Plan and @data-tabindexsaved='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1256,6 +1271,15 @@ name="CardaDataRepository">
 			refimgid="2510db1d-c56a-4ce6-af20-671e9c1aaaea"
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody//span[@innertext='Actalizar']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="82043c82-93e3-4ff3-b3eb-e7abe762daeb"
+			name="Copy_of_Btn_Actalizar_Pas2344"
+			refimgid="2510db1d-c56a-4ce6-af20-671e9c1aaaea"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody//span[@innertext='Actalizar' and @data-tabindexsaved='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,litag"
@@ -1902,6 +1926,16 @@ name="CardaDataRepository">
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]//table/tbody/tr[2]/td/div/div/div/div/div[2]/div//input[@name='textfield-1224']
 			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="4095072b-9704-42a3-8f51-02618fb029d6"
+			name="XGridCellInner"
+			refimgid="e8b42188-70ad-49d3-9fc5-89eb5ab03f41"
+			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table[2]/tbody/tr/td[2]/div"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table[2]/?/?/tr/td[2]/div
+			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
 			</basepath>
@@ -2270,6 +2304,23 @@ AAAASUVORK5CYII=
 		id="3e209b49-f075-415b-b2ff-947c6957ea01"
 		name="SubM2">
 			Cambio de datos
+		</var>
+		<var
+		id="e40a34e3-ace0-4418-a7ed-2024b36ea458"
+		name="Fila">
+			3
+		</var>
+		<var
+		id="319fd79e-d30a-41ce-8566-aaf9f89bb56f"
+		name="Canal">
+		</var>
+		<var
+		id="53b95d54-be4d-4cc7-869d-b63bd2b2ba32"
+		name="TipoVivienda">
+		</var>
+		<var
+		id="7b9a1314-0614-4a9d-b8a4-d55c810ad2ca"
+		name="Plan">
 		</var>
 	</variables>
 </repository>

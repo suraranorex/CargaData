@@ -639,15 +639,15 @@
       <UserCode>true</UserCode>
       <id>3e3a607e-c6d5-4eed-bd33-f15834a72908</id>
     </Compile>
-    <Compile Include="PC\CargaXML.cs">
+    <Compile Include="PC\FinalizaCargaXML.cs">
       <BoundTo>cf62531f-8d59-4bd3-86ae-3549f15a11e2</BoundTo>
-      <DependentUpon>CargaXML.rxrec</DependentUpon>
+      <DependentUpon>FinalizaCargaXML.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>d86f6649-6b07-4ea2-b461-5b50b5582190</id>
     </Compile>
-    <Compile Include="PC\CargaXML.UserCode.cs">
+    <Compile Include="PC\FinalizaCargaXML.UserCode.cs">
       <BoundTo>cf62531f-8d59-4bd3-86ae-3549f15a11e2</BoundTo>
-      <DependentUpon>CargaXML.rxrec</DependentUpon>
+      <DependentUpon>FinalizaCargaXML.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>41498620-1796-4015-a5dc-c854332fb747</id>
     </Compile>
@@ -1313,7 +1313,7 @@
       <id>3679e84e-6cb7-40db-a2d0-24ebcc97fa53</id>
       <recordtableid>3ae507f2-717e-4833-840c-544845243977</recordtableid>
     </None>
-    <None Include="PC\CargaXML.rxrec">
+    <None Include="PC\FinalizaCargaXML.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>cf62531f-8d59-4bd3-86ae-3549f15a11e2</id>
       <recordtableid>0884ce06-c3a1-46b2-bccb-d50fc1172cd7</recordtableid>

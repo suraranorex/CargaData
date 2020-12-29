@@ -19,20 +19,10 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="CargaXML"
+	classname="FinalizaCargaXML"
 	namespace="CardaData.PC">
 	</codegen>
 	<variables>
-		<var
-		id="cd97bd5b-cce5-4470-ab64-c7c7b896349d"
-		name="NombArchCACGCCPA">
-			CACGCCPA_AP_01.xml
-		</var>
-		<var
-		id="05771ab3-fe5e-4cce-99f8-a9060059ca5c"
-		name="NombreArchivoXML">
-			sura_ca7_vehicle_assistance.xml
-		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -130,7 +120,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -212,7 +202,7 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="3cdca71b-654e-4d41-a054-cfc0e7faaccb"
 		waitaction="Exists"
@@ -230,7 +220,7 @@ mode="Global">
 			</info>
 		</WaitForRecordItem>
 		<separatoritem
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 				Ventana Emergente
@@ -242,7 +232,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -299,7 +289,7 @@ mode="Global">
 		<keysequenceitem
 		KeySequence="C:\Carga_Inicial_QA\PC\tablas"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="ee1c7404-1051-4304-b5fb-6dd21d403041">
@@ -311,7 +301,7 @@ mode="Global">
 		<keysequenceitem
 		KeySequence="{Return}"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="ecf42d7a-973e-47f6-bcc2-963f72541bc9">
@@ -324,7 +314,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -454,24 +444,20 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="$NombArch"
+		KeySequence=""
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="ee1c7404-1051-4304-b5fb-6dd21d403041">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="KeySequence"
-				variable="NombreArchivoXML">
-				</binding>
 			</bindings>
 		</keysequenceitem>
 		<explicitdelayitem
 		duration="1000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -482,7 +468,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="47;13"
 		movetime="300ms"
 		optional="False"
@@ -790,7 +776,7 @@ D//Z
 		</mouseitem>
 		<explicitdelayitem
 		duration="2000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -798,7 +784,7 @@ D//Z
 			</bindings>
 		</explicitdelayitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="597ccaad-9ad0-4454-a25f-99dbbbd95e07"
 		waitaction="Exists"
@@ -1015,7 +1001,7 @@ D//Z
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		CargaXML.UserCode.cs
+		FinalizaCargaXML.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

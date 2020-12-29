@@ -121,6 +121,54 @@ namespace CardaData
             set { _SubM2 = value; }
         }
 
+        string _Fila = "3";
+
+        /// <summary>
+        /// Gets or sets the value of variable Fila.
+        /// </summary>
+        [TestVariable("e40a34e3-ace0-4418-a7ed-2024b36ea458")]
+        public string Fila
+        {
+            get { return _Fila; }
+            set { _Fila = value; }
+        }
+
+        string _Canal = "";
+
+        /// <summary>
+        /// Gets or sets the value of variable Canal.
+        /// </summary>
+        [TestVariable("319fd79e-d30a-41ce-8566-aaf9f89bb56f")]
+        public string Canal
+        {
+            get { return _Canal; }
+            set { _Canal = value; }
+        }
+
+        string _TipoVivienda = "";
+
+        /// <summary>
+        /// Gets or sets the value of variable TipoVivienda.
+        /// </summary>
+        [TestVariable("53b95d54-be4d-4cc7-869d-b63bd2b2ba32")]
+        public string TipoVivienda
+        {
+            get { return _TipoVivienda; }
+            set { _TipoVivienda = value; }
+        }
+
+        string _Plan = "";
+
+        /// <summary>
+        /// Gets or sets the value of variable Plan.
+        /// </summary>
+        [TestVariable("7b9a1314-0614-4a9d-b8a4-d55c810ad2ca")]
+        public string Plan
+        {
+            get { return _Plan; }
+            set { _Plan = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -326,15 +374,18 @@ namespace CardaData
             RepoItemInfo _resultadobuscarnombreproductoranswerInfo;
             RepoItemInfo _btn_agregarregistroInfo;
             RepoItemInfo _txt_canalproductorInfo;
-            RepoItemInfo _canal_directoanswerInfo;
+            RepoItemInfo _select_canalInfo;
             RepoItemInfo _filaregistrarproductorInfo;
             RepoItemInfo _txt_codpasInfo;
+            RepoItemInfo _copy_of_txt_codpasInfo;
             RepoItemInfo _txt_tipoviviendaInfo;
-            RepoItemInfo _vivienda_permanenteInfo;
+            RepoItemInfo _select_tipoviviendaInfo;
             RepoItemInfo _copy_of_vivienda_permanenteInfo;
             RepoItemInfo _txt_planInfo;
-            RepoItemInfo _plan_lfcasadptopb1degpisoInfo;
+            RepoItemInfo _select_planInfo;
+            RepoItemInfo _copy_of_select_planInfo;
             RepoItemInfo _btn_actalizar_pas2344Info;
+            RepoItemInfo _copy_of_btn_actalizar_pas2344Info;
             RepoItemInfo _plan_lfcountryInfo;
             RepoItemInfo _plan_lfdpto2degpisoosuperiorInfo;
             RepoItemInfo _submenu_util_parametrosdesecuenciaInfo;
@@ -403,6 +454,7 @@ namespace CardaData
             RepoItemInfo _lbl_informaciondeprocesoporlotesInfo;
             RepoItemInfo _asistenciashogarInfo;
             RepoItemInfo _textfield1224Info;
+            RepoItemInfo _xgridcellinnerInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -456,7 +508,7 @@ namespace CardaData
                 _lbl_programadecuotasInfo = new RepoItemInfo(this, "lbl_ProgramaDeCuotas", ".//div[#'ScheduleInvoiceSura/invoices']/table/tbody/tr[1]/td//span[@innertext='Programa de cuotas']", 30000, null, "c6d6d2df-6791-412e-9ae9-76d0d7f16f60");
                 _txt_archivocargadoInfo = new RepoItemInfo(this, "txt_ArchivoCargado", ".//div[#'ScheduleInvoiceSuraWizard/upload']/table/tbody/tr[4]//table//div/div/div/div/div[2]/div//input[@tagvalue='InvoiceSchedule Prueba.xls']", 30000, null, "3c57b5bf-c759-41c8-bb34-a3343cce809c");
                 _txt_archivocargado_qa2Info = new RepoItemInfo(this, "txt_ArchivoCargado_qa2", ".//div[@id~'DataLoaderWizard/upload']//input[@name~'textfield-[0-9]+']", 30000, null, "2c1b90f7-8429-43ad-8145-127bc8adf647");
-                _copy_of_txt_archivocargado_qa2Info = new RepoItemInfo(this, "Copy_of_txt_ArchivoCargado_qa2", ".//div[@id~'Wizard/[U-u]+pload']//input[@value>$NombreArchivo]", 30000, null, "ba81fc94-c517-49fd-885b-88625355ce13");
+                _copy_of_txt_archivocargado_qa2Info = new RepoItemInfo(this, "Copy_of_txt_ArchivoCargado_qa2", ".//div[@id~'Wizard/(U|u)pload']//input[@value>$NombreArchivo]", 30000, null, "ba81fc94-c517-49fd-885b-88625355ce13");
                 _copy_of_copy_of_txt_archivocargado_qa2Info = new RepoItemInfo(this, "Copy_of_Copy_of_txt_ArchivoCargado_qa2", ".//div[#'ImportWizard/Upload']/table/tbody/tr[4]//table/tbody/tr[2]/td/div/div/div/div/div[2]/div//input[@name='textfield-1111']", 30000, null, "2ac5e3ad-3bb2-4e35-b1bc-bad4bbdb2703");
                 _menuadmInfo = new RepoItemInfo(this, "MenuAdm", ".//span[@id='TabBar:AdministrationTab-btnWrap' or @id='TabBar:AdminTab-btnWrap']", 30000, null, "5c0b47c5-6521-41ca-b20d-58c3c66026de");
                 _nav_menuppalInfo = new RepoItemInfo(this, "Nav_MenuPpal", ".//span[@innertext=$MenuPpal]/../..//span[@class~'wrap']", 30000, null, "15938c73-b55f-48df-b536-3781cbd24e6f");
@@ -524,16 +576,19 @@ namespace CardaData
                 _select_nombreproductor_answerInfo = new RepoItemInfo(this, "Select_NombreProductor_Answer", ".//tbody[#'ProducerCodeSearchPopup-tbody']//div[@innertext>'Sura Marketing (Latin America)']/..//..//a[@innertext='Seleccionar']", 30000, null, "d2d7fc06-efbd-4120-8e00-5ff161b0490c");
                 _resultadobuscarnombreproductoranswerInfo = new RepoItemInfo(this, "ResultadoBuscarNombreProductorAnswer", ".//tbody[#'ProducerCodeSearchPopup-tbody']/tr[4]/td/div/div[4]/div[1]/div/table[1]/?/?/tr", 30000, null, "a1a85ceb-ab8a-4a87-99af-8d68f96d1d9b");
                 _btn_agregarregistroInfo = new RepoItemInfo(this, "Btn_AgregarRegistro", ".//div[#'HOPlansByProducerSuraPage']/table/tbody//span[@innertext='Agregar Registro']", 30000, null, "6451aa3e-a9bc-44e5-8e9e-2a3465f65dc9");
-                _txt_canalproductorInfo = new RepoItemInfo(this, "txt_CanalProductor", ".//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/?/?/table/?/?/tr/td[2]/div", 30000, null, "7d549658-f449-4506-bc04-d44003f199e0");
-                _canal_directoanswerInfo = new RepoItemInfo(this, "Canal_DirectoAnswer", ".//li[@innertext='Directo (Answer)']", 30000, null, "0806abae-80f2-493a-8518-bf923e3adc57");
+                _txt_canalproductorInfo = new RepoItemInfo(this, "txt_CanalProductor", ".//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div/table[$Fila]//div[@class='x-grid-cell-inner ' and @innertext='']", 30000, null, "7d549658-f449-4506-bc04-d44003f199e0");
+                _select_canalInfo = new RepoItemInfo(this, "Select_Canal", ".//li[@innertext=$Canal]", 30000, null, "0806abae-80f2-493a-8518-bf923e3adc57");
                 _filaregistrarproductorInfo = new RepoItemInfo(this, "FilaRegistrarProductor", ".//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]", 30000, null, "57e88c23-9f26-40f3-b539-df7d5e41fd47");
-                _txt_codpasInfo = new RepoItemInfo(this, "txt_CodPAS", ".//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table/?/?/tr/td[3]/div", 30000, null, "af51cb1f-71a2-4068-a087-59dfa2b29c95");
-                _txt_tipoviviendaInfo = new RepoItemInfo(this, "txt_TipoVivienda", ".//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table/?/?/tr/td[4]/div", 30000, null, "21e5c55e-7c62-45b9-91af-262564f5a198");
-                _vivienda_permanenteInfo = new RepoItemInfo(this, "Vivienda_Permanente", ".//li[@innertext='Permanente']", 30000, null, "599d7f68-983a-42e3-8a8d-3fac9863268a");
-                _copy_of_vivienda_permanenteInfo = new RepoItemInfo(this, "Copy_of_Vivienda_Permanente", ".//li[@innertext='Permanente']/..//input[@data-tabindexsaved='True']", 30000, null, "c2d1bdb7-5984-4059-889c-665ee6f20111");
-                _txt_planInfo = new RepoItemInfo(this, "txt_Plan", ".//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table/?/?/tr/td[5]/div", 30000, null, "cf7ada42-72c5-4937-9c8c-dfa4e8232029");
-                _plan_lfcasadptopb1degpisoInfo = new RepoItemInfo(this, "Plan_LFCasaDptoPB1DegPiso", ".//li[@innertext='L.F. Casa/Dpto PB 1° Piso']", 30000, null, "9d05af49-7d6b-4ad6-bad4-73f6d43ff204");
+                _txt_codpasInfo = new RepoItemInfo(this, "txt_CodPAS", ".//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table[$Fila]/?/?/tr/td[3]/div", 30000, null, "af51cb1f-71a2-4068-a087-59dfa2b29c95");
+                _copy_of_txt_codpasInfo = new RepoItemInfo(this, "Copy_of_txt_CodPAS", ".//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table[$Fila]/?/?/tr/td[3]/div/..//input[@data-tabindexsaved='True']", 30000, null, "bcefc2c9-fe79-40b1-98f8-54e850462c90");
+                _txt_tipoviviendaInfo = new RepoItemInfo(this, "txt_TipoVivienda", ".//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table[$Fila]/?/?/tr/td[4]/div", 30000, null, "21e5c55e-7c62-45b9-91af-262564f5a198");
+                _select_tipoviviendaInfo = new RepoItemInfo(this, "Select_TipoVivienda", ".//li[@innertext=$TipoVivienda]", 30000, null, "599d7f68-983a-42e3-8a8d-3fac9863268a");
+                _copy_of_vivienda_permanenteInfo = new RepoItemInfo(this, "Copy_of_Vivienda_Permanente", ".//li[@innertext=$TipoVivienda]/..//input[@data-tabindexsaved='True']", 30000, null, "c2d1bdb7-5984-4059-889c-665ee6f20111");
+                _txt_planInfo = new RepoItemInfo(this, "txt_Plan", ".//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table[$Fila]/?/?/tr/td[5]/div", 30000, null, "cf7ada42-72c5-4937-9c8c-dfa4e8232029");
+                _select_planInfo = new RepoItemInfo(this, "Select_Plan", ".//li[@innertext=$Plan]", 30000, null, "9d05af49-7d6b-4ad6-bad4-73f6d43ff204");
+                _copy_of_select_planInfo = new RepoItemInfo(this, "Copy_of_Select_Plan", ".//li[@innertext=$Plan and @data-tabindexsaved='True']", 30000, null, "6ef3db77-e1dd-4ac4-8508-c82b68efab94");
                 _btn_actalizar_pas2344Info = new RepoItemInfo(this, "Btn_Actalizar_Pas2344", ".//div[#'HOPlansByProducerSuraPage']/table/tbody//span[@innertext='Actalizar']", 30000, null, "6fd4867a-44ee-48c9-a9ad-65cbc1295e15");
+                _copy_of_btn_actalizar_pas2344Info = new RepoItemInfo(this, "Copy_of_Btn_Actalizar_Pas2344", ".//div[#'HOPlansByProducerSuraPage']/table/tbody//span[@innertext='Actalizar' and @data-tabindexsaved='True']", 30000, null, "82043c82-93e3-4ff3-b3eb-e7abe762daeb");
                 _plan_lfcountryInfo = new RepoItemInfo(this, "Plan_LFCountry", "body/div[23]/?/?/ul/li[@innertext='L.F. Country']", 30000, null, "67b23838-1d4f-4a7d-834f-5f9d48aa8da3");
                 _plan_lfdpto2degpisoosuperiorInfo = new RepoItemInfo(this, "Plan_LFDpto2DegPisoOSuperior", ".//li[@innertext>'L.F. Dpto 2° Piso o super']", 30000, null, "ea1223a9-8104-464d-ba88-7928b203ad56");
                 _submenu_util_parametrosdesecuenciaInfo = new RepoItemInfo(this, "SubMenu_util_ParametrosDeSecuencia", ".//span[@innertext='Parámetros de secuencia']", 30000, null, "e5cc9208-adc3-4d1a-a153-cdee361059b5");
@@ -602,6 +657,7 @@ namespace CardaData
                 _lbl_informaciondeprocesoporlotesInfo = new RepoItemInfo(this, "Lbl_InformacionDeProcesoPorLotes", ".//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[1]//span[@innertext>'Información de proceso por']", 30000, null, "de0d7e3c-5372-4c26-8748-1c6bab8b34d9");
                 _asistenciashogarInfo = new RepoItemInfo(this, "AsistenciasHogar", "body/div[12]/div/div[2]/div/div[8]/?/?/span[@innertext='Asistencias Hogar']", 30000, null, "bda240c6-a51d-4502-abf9-f7d7b2e44772");
                 _textfield1224Info = new RepoItemInfo(this, "Textfield1224", ".//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]//table/tbody/tr[2]/td/div/div/div/div/div[2]/div//input[@name='textfield-1224']", 30000, null, "9ccd1d02-51ea-4ef6-bc0d-4322ac80e55f");
+                _xgridcellinnerInfo = new RepoItemInfo(this, "XGridCellInner", ".//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table[2]/?/?/tr/td[2]/div", 30000, null, "4095072b-9704-42a3-8f51-02618fb029d6");
             }
 
             /// <summary>
@@ -3317,26 +3373,26 @@ namespace CardaData
             }
 
             /// <summary>
-            /// The Canal_DirectoAnswer item.
+            /// The Select_Canal item.
             /// </summary>
             [RepositoryItem("0806abae-80f2-493a-8518-bf923e3adc57")]
-            public virtual Ranorex.LiTag Canal_DirectoAnswer
+            public virtual Ranorex.LiTag Select_Canal
             {
                 get
                 {
-                    return _canal_directoanswerInfo.CreateAdapter<Ranorex.LiTag>(true);
+                    return _select_canalInfo.CreateAdapter<Ranorex.LiTag>(true);
                 }
             }
 
             /// <summary>
-            /// The Canal_DirectoAnswer item info.
+            /// The Select_Canal item info.
             /// </summary>
             [RepositoryItemInfo("0806abae-80f2-493a-8518-bf923e3adc57")]
-            public virtual RepoItemInfo Canal_DirectoAnswerInfo
+            public virtual RepoItemInfo Select_CanalInfo
             {
                 get
                 {
-                    return _canal_directoanswerInfo;
+                    return _select_canalInfo;
                 }
             }
 
@@ -3389,6 +3445,30 @@ namespace CardaData
             }
 
             /// <summary>
+            /// The Copy_of_txt_CodPAS item.
+            /// </summary>
+            [RepositoryItem("bcefc2c9-fe79-40b1-98f8-54e850462c90")]
+            public virtual Ranorex.InputTag Copy_of_txt_CodPAS
+            {
+                get
+                {
+                    return _copy_of_txt_codpasInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_txt_CodPAS item info.
+            /// </summary>
+            [RepositoryItemInfo("bcefc2c9-fe79-40b1-98f8-54e850462c90")]
+            public virtual RepoItemInfo Copy_of_txt_CodPASInfo
+            {
+                get
+                {
+                    return _copy_of_txt_codpasInfo;
+                }
+            }
+
+            /// <summary>
             /// The txt_TipoVivienda item.
             /// </summary>
             [RepositoryItem("21e5c55e-7c62-45b9-91af-262564f5a198")]
@@ -3413,26 +3493,26 @@ namespace CardaData
             }
 
             /// <summary>
-            /// The Vivienda_Permanente item.
+            /// The Select_TipoVivienda item.
             /// </summary>
             [RepositoryItem("599d7f68-983a-42e3-8a8d-3fac9863268a")]
-            public virtual Ranorex.LiTag Vivienda_Permanente
+            public virtual Ranorex.LiTag Select_TipoVivienda
             {
                 get
                 {
-                    return _vivienda_permanenteInfo.CreateAdapter<Ranorex.LiTag>(true);
+                    return _select_tipoviviendaInfo.CreateAdapter<Ranorex.LiTag>(true);
                 }
             }
 
             /// <summary>
-            /// The Vivienda_Permanente item info.
+            /// The Select_TipoVivienda item info.
             /// </summary>
             [RepositoryItemInfo("599d7f68-983a-42e3-8a8d-3fac9863268a")]
-            public virtual RepoItemInfo Vivienda_PermanenteInfo
+            public virtual RepoItemInfo Select_TipoViviendaInfo
             {
                 get
                 {
-                    return _vivienda_permanenteInfo;
+                    return _select_tipoviviendaInfo;
                 }
             }
 
@@ -3485,26 +3565,50 @@ namespace CardaData
             }
 
             /// <summary>
-            /// The Plan_LFCasaDptoPB1DegPiso item.
+            /// The Select_Plan item.
             /// </summary>
             [RepositoryItem("9d05af49-7d6b-4ad6-bad4-73f6d43ff204")]
-            public virtual Ranorex.LiTag Plan_LFCasaDptoPB1DegPiso
+            public virtual Ranorex.LiTag Select_Plan
             {
                 get
                 {
-                    return _plan_lfcasadptopb1degpisoInfo.CreateAdapter<Ranorex.LiTag>(true);
+                    return _select_planInfo.CreateAdapter<Ranorex.LiTag>(true);
                 }
             }
 
             /// <summary>
-            /// The Plan_LFCasaDptoPB1DegPiso item info.
+            /// The Select_Plan item info.
             /// </summary>
             [RepositoryItemInfo("9d05af49-7d6b-4ad6-bad4-73f6d43ff204")]
-            public virtual RepoItemInfo Plan_LFCasaDptoPB1DegPisoInfo
+            public virtual RepoItemInfo Select_PlanInfo
             {
                 get
                 {
-                    return _plan_lfcasadptopb1degpisoInfo;
+                    return _select_planInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_Select_Plan item.
+            /// </summary>
+            [RepositoryItem("6ef3db77-e1dd-4ac4-8508-c82b68efab94")]
+            public virtual Ranorex.LiTag Copy_of_Select_Plan
+            {
+                get
+                {
+                    return _copy_of_select_planInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_Select_Plan item info.
+            /// </summary>
+            [RepositoryItemInfo("6ef3db77-e1dd-4ac4-8508-c82b68efab94")]
+            public virtual RepoItemInfo Copy_of_Select_PlanInfo
+            {
+                get
+                {
+                    return _copy_of_select_planInfo;
                 }
             }
 
@@ -3529,6 +3633,30 @@ namespace CardaData
                 get
                 {
                     return _btn_actalizar_pas2344Info;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_Btn_Actalizar_Pas2344 item.
+            /// </summary>
+            [RepositoryItem("82043c82-93e3-4ff3-b3eb-e7abe762daeb")]
+            public virtual Ranorex.SpanTag Copy_of_Btn_Actalizar_Pas2344
+            {
+                get
+                {
+                    return _copy_of_btn_actalizar_pas2344Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_Btn_Actalizar_Pas2344 item info.
+            /// </summary>
+            [RepositoryItemInfo("82043c82-93e3-4ff3-b3eb-e7abe762daeb")]
+            public virtual RepoItemInfo Copy_of_Btn_Actalizar_Pas2344Info
+            {
+                get
+                {
+                    return _copy_of_btn_actalizar_pas2344Info;
                 }
             }
 
@@ -5161,6 +5289,30 @@ namespace CardaData
                 get
                 {
                     return _textfield1224Info;
+                }
+            }
+
+            /// <summary>
+            /// The XGridCellInner item.
+            /// </summary>
+            [RepositoryItem("4095072b-9704-42a3-8f51-02618fb029d6")]
+            public virtual Ranorex.DivTag XGridCellInner
+            {
+                get
+                {
+                    return _xgridcellinnerInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The XGridCellInner item info.
+            /// </summary>
+            [RepositoryItemInfo("4095072b-9704-42a3-8f51-02618fb029d6")]
+            public virtual RepoItemInfo XGridCellInnerInfo
+            {
+                get
+                {
+                    return _xgridcellinnerInfo;
                 }
             }
 

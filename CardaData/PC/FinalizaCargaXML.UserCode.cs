@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace CardaData.PC
 {
-    public partial class CargaXML
+    public partial class FinalizaCargaXML
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
