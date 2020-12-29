@@ -55,6 +55,30 @@ namespace CardaData.PC
 
 #region Variables
 
+        string _NombreArchivoInvoice;
+
+        /// <summary>
+        /// Gets or sets the value of variable NombreArchivoInvoice.
+        /// </summary>
+        [TestVariable("de6ea408-39d7-4a54-b4c0-e567252033dd")]
+        public string NombreArchivoInvoice
+        {
+            get { return _NombreArchivoInvoice; }
+            set { _NombreArchivoInvoice = value; }
+        }
+
+        string _NombreArchivoPC;
+
+        /// <summary>
+        /// Gets or sets the value of variable NombreArchivoPC.
+        /// </summary>
+        [TestVariable("e02f29ec-c60b-4daa-8163-70929c5f2f26")]
+        public string NombreArchivoPC
+        {
+            get { return _NombreArchivoPC; }
+            set { _NombreArchivoPC = value; }
+        }
+
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
         /// </summary>
@@ -63,26 +87,6 @@ namespace CardaData.PC
         {
             get { return repo.Ambiente; }
             set { repo.Ambiente = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable NombreArchivoInvoice.
-        /// </summary>
-        [TestVariable("de6ea408-39d7-4a54-b4c0-e567252033dd")]
-        public string NombreArchivoInvoice
-        {
-            get { return repo.NombreArchivoInvoice; }
-            set { repo.NombreArchivoInvoice = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable NombreArchivoPC.
-        /// </summary>
-        [TestVariable("e02f29ec-c60b-4daa-8163-70929c5f2f26")]
-        public string NombreArchivoPC
-        {
-            get { return repo.NombreArchivoPC; }
-            set { repo.NombreArchivoPC = value; }
         }
 
 #endregion
@@ -151,8 +155,8 @@ namespace CardaData.PC
             repo.Ventana_Emergente_Abrir.ButtonAbrir.Click("47;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.Copy_of_CargandoArchivoS'", repo.ApplicationUnderTest.Copy_of_CargandoArchivoSInfo, new ActionTimeout(30000), new RecordItemIndex(11));
-            repo.ApplicationUnderTest.Copy_of_CargandoArchivoSInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ContinueOnFail.Copy_of_CargandoArchivoS_cof'", repo.ContinueOnFail.Copy_of_CargandoArchivoS_cofInfo, new ActionTimeout(30000), new RecordItemIndex(11));
+            repo.ContinueOnFail.Copy_of_CargandoArchivoS_cofInfo.WaitForExists(30000);
             
             EsperaFinalizarCarga();
             Delay.Milliseconds(0);

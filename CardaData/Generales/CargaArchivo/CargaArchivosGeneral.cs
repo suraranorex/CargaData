@@ -42,7 +42,7 @@ namespace CardaData.Generales.CargaArchivo
         public CargaArchivosGeneral()
         {
             RutaArchivo = "";
-            NombreArchivo = "InvoiceSchedule.xls";
+            NombreArchivo = "ASISTMED.xml";
         }
 
         /// <summary>
@@ -155,8 +155,10 @@ namespace CardaData.Generales.CargaArchivo
             repo.Ventana_Emergente_Abrir.ButtonAbrir.Click("47;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.Copy_of_CargandoArchivoS'", repo.ApplicationUnderTest.Copy_of_CargandoArchivoSInfo, new ActionTimeout(30000), new RecordItemIndex(12));
-            repo.ApplicationUnderTest.Copy_of_CargandoArchivoSInfo.WaitForExists(30000);
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 30s to exist. Associated repository item: 'ContinueOnFail.Copy_of_CargandoArchivoS_cof'", repo.ContinueOnFail.Copy_of_CargandoArchivoS_cofInfo, new ActionTimeout(30000), new RecordItemIndex(12));
+                repo.ContinueOnFail.Copy_of_CargandoArchivoS_cofInfo.WaitForExists(30000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(12)); }
             
             EsperaFinalizarCarga();
             Delay.Milliseconds(0);

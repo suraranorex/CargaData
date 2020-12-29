@@ -282,6 +282,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="1c8dd885-f21c-45ce-974b-21a9e62a4eab"
 			name="FormTFS38586_SO_RC_4_1"
 			ref="58943db1-144c-45c2-b8f4-3109f84e53c7"
@@ -488,6 +489,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="35a9a475-ede8-4294-a696-90e6a304317d"
 			name="Form_TFS45166_TREEHO_2344"
 			ref="c9504b59-a83b-4988-a719-b96600b5f0dd"
@@ -542,6 +544,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="3b33e687-0675-4fc0-beaa-e49eb378667b"
 			name="Form_TFS42483_forms_CAC_CC_18_1"
 			ref="4a526a3c-48a3-4023-b25b-048efffbab82"
@@ -1294,6 +1297,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="74a04da6-801c-4c6f-952e-a551c7ce95fe"
 			name="Formde4412"
 			ref="561f274f-071b-44a1-a9a8-17b461ef1ff3"
@@ -1322,6 +1326,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="77f752a3-bc19-467f-8e1c-c9c84587a722"
 			name="FormpolicyformsSURA"
 			ref="de8ccd0c-af7c-44ec-81fa-b70a5ca267a3"
@@ -1622,7 +1627,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="8a68e7f6-a87e-4470-8855-fa68b4439781"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -1696,6 +1700,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="9038d824-04ed-441b-a79f-c56aa483826a"
 			name="FormCRAAP"
 			ref="1c155e69-96b0-47a8-a3b6-c1599f281cd8"
@@ -1993,6 +1998,7 @@
 			name="Validar_Mensajeria_SistemaFacturacion">
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="b0174a7a-1074-442d-b061-4b8e00b4b43c"
 			name="Form_tfs42429_Form_CECSMAP"
 			ref="2b6c7192-5930-4502-a711-9c3061399ca8"
@@ -2049,6 +2055,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="b6622f8c-fce9-4be4-baee-38415cbcf162"
 			name="FormCACGCCPA_AP_01"
 			ref="ff4cd599-91e3-4674-81eb-c07e9b442477"
@@ -2063,6 +2070,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="b6fa9892-be6c-48e2-872e-4f805e9f43f1"
 			name="FormIEPHO"
 			ref="60239e3b-7f33-4f69-8780-d4800b1b8638"
@@ -2163,7 +2171,6 @@
 			name="teardown">
 			</teardown>
 			<testmodule
-			enabled="False"
 			id="c27fe448-db8e-417a-a56c-86e411e1fee9"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -2302,9 +2309,15 @@
 			datarangeactive="True"
 			datasource="CargaFormsPC"
 			id="cf6f1038-0179-4c88-93c4-56286538b128"
-			maxrange="0"
+			maxrange="11"
 			minrange="0"
 			name="CargaFormsPC">
+				<parameters>
+					<param
+					name="RutaArchivo"
+					value="C:\Carga_Inicial_QA\PC\forms">
+					</param>
+				</parameters>
 			</testcase>
 			<teardown
 			id="d2c135da-3c7a-4761-aac6-49fd034e618d"
@@ -2344,6 +2357,7 @@
 				</parameters>
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="d6b9cef8-31fd-4162-8be4-94298f9e38c3"
 			name="Form_TFS43183ASISTMED"
 			ref="7afd27bd-767c-4531-8ef8-fa760b19f9b0"
@@ -2358,6 +2372,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="d6e0e3ab-4c53-41aa-8a13-032ea98dad93"
 			name="Form_TFS46199_policyforms"
 			ref="386b5f10-11e3-4555-b770-fbbd98557d95"
@@ -2508,6 +2523,32 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="e0c5f5ee-0dcd-411b-8c56-a2da76481375"
+			name="CargaArchivosGeneral"
+			ref="8e12e590-b4f5-42ff-87f7-ee8b8e4da839"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="NombreArchivo"
+					datasourceid="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
+					variableid="658183a5-d45d-4ec1-a6ea-51dbf041ea2b"
+					variablename="NombreArchivo">
+					</var>
+					<var
+					dataname="RutaArchivo"
+					datasourceid="cf6f1038-0179-4c88-93c4-56286538b128"
+					variableid="a26fe692-3319-4eb3-b594-05efee2057f3"
+					variablename="RutaArchivo">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="e3cdae61-7cc7-4724-b613-4839049e8709"
 			name="SubMenu_Clasif_LibroDeTasas"
 			ref="5dab2099-cf25-4841-9225-6d87086a65f9"
@@ -2594,8 +2635,9 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="eb391eb8-ec4a-4a98-80ac-93f0d9327cb7"
-			name="Form_AsistMedica"
+			name="FinalizaCargaForm_AsistMedica"
 			ref="656767a7-61b2-4419-85c2-5502ee8b8277"
 			type="Recording">
 				<databinding>
@@ -2664,6 +2706,20 @@
 					datasourceid="c38551d0-8869-451a-bcca-fab3d7772bf1"
 					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
 					variablename="URL">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="f4ae23b3-a911-4bca-8f97-0aac4ba60aaf"
+			name="FinalizaCargaFormsPC"
+			ref="54ad05ae-a063-46b0-bd97-49f6efe0863f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -3315,8 +3371,12 @@
 						name="SubMenu_Util_ImportarDatos">
 						</testmodule>
 						<testmodule
+						id="e0c5f5ee-0dcd-411b-8c56-a2da76481375"
+						name="CargaArchivosGeneral">
+						</testmodule>
+						<testmodule
 						id="eb391eb8-ec4a-4a98-80ac-93f0d9327cb7"
-						name="Form_AsistMedica">
+						name="FinalizaCargaForm_AsistMedica">
 						</testmodule>
 						<testmodule
 						id="b6622f8c-fce9-4be4-baee-38415cbcf162"
@@ -3361,6 +3421,10 @@
 						<testmodule
 						id="d6e0e3ab-4c53-41aa-8a13-032ea98dad93"
 						name="Form_TFS46199_policyforms">
+						</testmodule>
+						<testmodule
+						id="f4ae23b3-a911-4bca-8f97-0aac4ba60aaf"
+						name="FinalizaCargaFormsPC">
 						</testmodule>
 						<teardown
 						id="ddfa2c68-663a-47f5-a105-cbd43fba101c"
@@ -3744,12 +3808,15 @@
 		filename="DataSource - CargaFormsPC.xlsx"
 		id="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
 		includefile="Checked"
-		lastknownrowcount="3"
+		lastknownrowcount="24"
 		name="CargaFormsPC"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
+				<column>
+					ID
+				</column>
 				<column>
 					Ambiente
 				</column>
@@ -3761,6 +3828,9 @@
 				</column>
 				<column>
 					Contrasenia
+				</column>
+				<column>
+					NombreArchivo
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -4156,7 +4226,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="PlanesComisionesPlanPagoBC">
+	default="PC_EnlatadosCampaniasForms">
 		<testconfiguration
 		name="ArchivodelaMuerte">
 			<testcontainer

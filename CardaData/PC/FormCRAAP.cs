@@ -54,6 +54,18 @@ namespace CardaData.PC
 
 #region Variables
 
+        string _NombArchCRAAP;
+
+        /// <summary>
+        /// Gets or sets the value of variable NombArchCRAAP.
+        /// </summary>
+        [TestVariable("7ce3382b-c824-4620-b42b-0fa6b94017bb")]
+        public string NombArchCRAAP
+        {
+            get { return _NombArchCRAAP; }
+            set { _NombArchCRAAP = value; }
+        }
+
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
         /// </summary>
@@ -62,16 +74,6 @@ namespace CardaData.PC
         {
             get { return repo.Ambiente; }
             set { repo.Ambiente = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable NombArchCRAAP.
-        /// </summary>
-        [TestVariable("7ce3382b-c824-4620-b42b-0fa6b94017bb")]
-        public string NombArchCRAAP
-        {
-            get { return repo.NombArchCRAAP; }
-            set { repo.NombArchCRAAP = value; }
         }
 
 #endregion

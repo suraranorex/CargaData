@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace CardaData.PC
 {
-    public partial class Form_AsistMedica
+    public partial class FinalizaCargaForm_AsistMedica
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

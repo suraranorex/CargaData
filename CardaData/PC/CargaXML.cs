@@ -55,6 +55,30 @@ namespace CardaData.PC
 
 #region Variables
 
+        string _NombArchCACGCCPA;
+
+        /// <summary>
+        /// Gets or sets the value of variable NombArchCACGCCPA.
+        /// </summary>
+        [TestVariable("cd97bd5b-cce5-4470-ab64-c7c7b896349d")]
+        public string NombArchCACGCCPA
+        {
+            get { return _NombArchCACGCCPA; }
+            set { _NombArchCACGCCPA = value; }
+        }
+
+        string _NombreArchivoXML;
+
+        /// <summary>
+        /// Gets or sets the value of variable NombreArchivoXML.
+        /// </summary>
+        [TestVariable("05771ab3-fe5e-4cce-99f8-a9060059ca5c")]
+        public string NombreArchivoXML
+        {
+            get { return _NombreArchivoXML; }
+            set { _NombreArchivoXML = value; }
+        }
+
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
         /// </summary>
@@ -63,26 +87,6 @@ namespace CardaData.PC
         {
             get { return repo.Ambiente; }
             set { repo.Ambiente = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable NombArchCACGCCPA.
-        /// </summary>
-        [TestVariable("cd97bd5b-cce5-4470-ab64-c7c7b896349d")]
-        public string NombArchCACGCCPA
-        {
-            get { return repo.NombArchCACGCCPA; }
-            set { repo.NombArchCACGCCPA = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable NombreArchivoXML.
-        /// </summary>
-        [TestVariable("05771ab3-fe5e-4cce-99f8-a9060059ca5c")]
-        public string NombreArchivoXML
-        {
-            get { return repo.NombreArchivoXML; }
-            set { repo.NombreArchivoXML = value; }
         }
 
 #endregion

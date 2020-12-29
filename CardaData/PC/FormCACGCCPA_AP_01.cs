@@ -54,6 +54,18 @@ namespace CardaData.PC
 
 #region Variables
 
+        string _NombArchCACGCCPA;
+
+        /// <summary>
+        /// Gets or sets the value of variable NombArchCACGCCPA.
+        /// </summary>
+        [TestVariable("2f6ff1bd-f898-4d03-bc4e-e1428d2fcd99")]
+        public string NombArchCACGCCPA
+        {
+            get { return _NombArchCACGCCPA; }
+            set { _NombArchCACGCCPA = value; }
+        }
+
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
         /// </summary>
@@ -62,16 +74,6 @@ namespace CardaData.PC
         {
             get { return repo.Ambiente; }
             set { repo.Ambiente = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable NombArchCACGCCPA.
-        /// </summary>
-        [TestVariable("2f6ff1bd-f898-4d03-bc4e-e1428d2fcd99")]
-        public string NombArchCACGCCPA
-        {
-            get { return repo.NombArchCACGCCPA; }
-            set { repo.NombArchCACGCCPA = value; }
         }
 
 #endregion

@@ -651,6 +651,18 @@
       <UserCode>true</UserCode>
       <id>41498620-1796-4015-a5dc-c854332fb747</id>
     </Compile>
+    <Compile Include="PC\FinalizaCargaFormsPC.cs">
+      <BoundTo>d796b5b7-1c99-4891-aa3d-e5ae68b7df5f</BoundTo>
+      <DependentUpon>FinalizaCargaFormsPC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8d5e5533-ddad-462d-965e-9324b43398aa</id>
+    </Compile>
+    <Compile Include="PC\FinalizaCargaFormsPC.UserCode.cs">
+      <BoundTo>d796b5b7-1c99-4891-aa3d-e5ae68b7df5f</BoundTo>
+      <DependentUpon>FinalizaCargaFormsPC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d0c10329-b7d5-4c80-aaee-f7be11dd18d7</id>
+    </Compile>
     <Compile Include="PC\ParametrosSecuencia.cs">
       <BoundTo>167111cc-b1bc-43f3-8099-13cd5c1ba9dd</BoundTo>
       <DependentUpon>ParametrosSecuencia.rxrec</DependentUpon>
@@ -795,15 +807,15 @@
       <UserCode>true</UserCode>
       <id>69bbf0ba-a9f6-46ec-87f2-01dab6ba0e2b</id>
     </Compile>
-    <Compile Include="PC\Form_AsistMedica.cs">
+    <Compile Include="PC\FinalizaCargaForm_AsistMedica.cs">
       <BoundTo>e7e0785e-ceb7-4657-9bfd-b43d692adff0</BoundTo>
-      <DependentUpon>Form_AsistMedica.rxrec</DependentUpon>
+      <DependentUpon>FinalizaCargaForm_AsistMedica.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>bfd2621b-4357-47ee-b233-eddd70d99a36</id>
     </Compile>
-    <Compile Include="PC\Form_AsistMedica.UserCode.cs">
+    <Compile Include="PC\FinalizaCargaForm_AsistMedica.UserCode.cs">
       <BoundTo>e7e0785e-ceb7-4657-9bfd-b43d692adff0</BoundTo>
-      <DependentUpon>Form_AsistMedica.rxrec</DependentUpon>
+      <DependentUpon>FinalizaCargaForm_AsistMedica.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>b94b8e64-cba1-4984-b24e-87fa3838e462</id>
     </Compile>
@@ -1306,6 +1318,11 @@
       <id>cf62531f-8d59-4bd3-86ae-3549f15a11e2</id>
       <recordtableid>0884ce06-c3a1-46b2-bccb-d50fc1172cd7</recordtableid>
     </None>
+    <None Include="PC\FinalizaCargaFormsPC.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>d796b5b7-1c99-4891-aa3d-e5ae68b7df5f</id>
+      <recordtableid>54ad05ae-a063-46b0-bd97-49f6efe0863f</recordtableid>
+    </None>
     <None Include="PC\ParametrosSecuencia.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>167111cc-b1bc-43f3-8099-13cd5c1ba9dd</id>
@@ -1366,7 +1383,7 @@
       <id>80f330e1-a8b1-4f71-8e26-bb896394e64b</id>
       <recordtableid>58943db1-144c-45c2-b8f4-3109f84e53c7</recordtableid>
     </None>
-    <None Include="PC\Form_AsistMedica.rxrec">
+    <None Include="PC\FinalizaCargaForm_AsistMedica.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>e7e0785e-ceb7-4657-9bfd-b43d692adff0</id>
       <recordtableid>656767a7-61b2-4419-85c2-5502ee8b8277</recordtableid>

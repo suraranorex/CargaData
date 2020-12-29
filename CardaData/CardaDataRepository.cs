@@ -73,7 +73,7 @@ namespace CardaData
             set { _Ambiente = value; }
         }
 
-        string _NombreArchivo = "InvoiceSchedule.xls";
+        string _NombreArchivo = "ASISTMED.xml";
 
         /// <summary>
         /// Gets or sets the value of variable NombreArchivo.
@@ -83,30 +83,6 @@ namespace CardaData
         {
             get { return _NombreArchivo; }
             set { _NombreArchivo = value; }
-        }
-
-        string _NombreArchivoInvoice = "InvoiceSchedule.xls";
-
-        /// <summary>
-        /// Gets or sets the value of variable NombreArchivoInvoice.
-        /// </summary>
-        [TestVariable("dd98d9a5-78b7-46d6-a36a-39545de6d6d8")]
-        public string NombreArchivoInvoice
-        {
-            get { return _NombreArchivoInvoice; }
-            set { _NombreArchivoInvoice = value; }
-        }
-
-        string _NombreArchivoInvoice2 = "InvoiceSchedule Prueba.xls";
-
-        /// <summary>
-        /// Gets or sets the value of variable NombreArchivoInvoice2.
-        /// </summary>
-        [TestVariable("0e6c6c0f-fff1-4ba3-9242-67c3ce39f666")]
-        public string NombreArchivoInvoice2
-        {
-            get { return _NombreArchivoInvoice2; }
-            set { _NombreArchivoInvoice2 = value; }
         }
 
         string _MenuPpal = "Administración";
@@ -143,78 +119,6 @@ namespace CardaData
         {
             get { return _SubM2; }
             set { _SubM2 = value; }
-        }
-
-        string _NombreArchivoPC = "AdminDataLoader_Part_3.0.9-DEV.xml";
-
-        /// <summary>
-        /// Gets or sets the value of variable NombreArchivoPC.
-        /// </summary>
-        [TestVariable("73e3d21f-4a2e-4d08-9de6-7fca3e1b39d0")]
-        public string NombreArchivoPC
-        {
-            get { return _NombreArchivoPC; }
-            set { _NombreArchivoPC = value; }
-        }
-
-        string _NombArchAsistMedica = "ASISTMED.xml";
-
-        /// <summary>
-        /// Gets or sets the value of variable NombArchAsistMedica.
-        /// </summary>
-        [TestVariable("f07aeb81-e16b-4474-9f61-3914038fa229")]
-        public string NombArchAsistMedica
-        {
-            get { return _NombArchAsistMedica; }
-            set { _NombArchAsistMedica = value; }
-        }
-
-        string _NombArchCACGCCPA = "CACGCCPA_AP_01.xml";
-
-        /// <summary>
-        /// Gets or sets the value of variable NombArchCACGCCPA.
-        /// </summary>
-        [TestVariable("76f58eb8-bbc0-4eea-ab95-744b196900ae")]
-        public string NombArchCACGCCPA
-        {
-            get { return _NombArchCACGCCPA; }
-            set { _NombArchCACGCCPA = value; }
-        }
-
-        string _NombArchCRAAP = "CRAAP.xml";
-
-        /// <summary>
-        /// Gets or sets the value of variable NombArchCRAAP.
-        /// </summary>
-        [TestVariable("727c7c2c-6f67-4370-88cd-f91763afe7cf")]
-        public string NombArchCRAAP
-        {
-            get { return _NombArchCRAAP; }
-            set { _NombArchCRAAP = value; }
-        }
-
-        string _NombArch = "ASISTMED.xml";
-
-        /// <summary>
-        /// Gets or sets the value of variable NombArch.
-        /// </summary>
-        [TestVariable("39651b1d-eaa3-4ba2-bd41-0659b5b64e02")]
-        public string NombArch
-        {
-            get { return _NombArch; }
-            set { _NombArch = value; }
-        }
-
-        string _NombreArchivoXML = "sura_ca7_vehicle_assistance.xml";
-
-        /// <summary>
-        /// Gets or sets the value of variable NombreArchivoXML.
-        /// </summary>
-        [TestVariable("34f012c8-fd5d-437b-947e-77d056761593")]
-        public string NombreArchivoXML
-        {
-            get { return _NombreArchivoXML; }
-            set { _NombreArchivoXML = value; }
         }
 
 #endregion
@@ -334,7 +238,6 @@ namespace CardaData
             RepoItemInfo _xborderboxxmaskxmaskfixedInfo;
             RepoItemInfo _lbl_uploadplandataexcelfileInfo;
             RepoItemInfo _cargandoarchivosInfo;
-            RepoItemInfo _copy_of_cargandoarchivosInfo;
             RepoItemInfo _siguiente1Info;
             RepoItemInfo _btn_siguienteplanespagoInfo;
             RepoItemInfo _lbl_reviewplandatauploadInfo;
@@ -355,6 +258,7 @@ namespace CardaData
             RepoItemInfo _txt_archivocargadoInfo;
             RepoItemInfo _txt_archivocargado_qa2Info;
             RepoItemInfo _copy_of_txt_archivocargado_qa2Info;
+            RepoItemInfo _copy_of_copy_of_txt_archivocargado_qa2Info;
             RepoItemInfo _menuadmInfo;
             RepoItemInfo _nav_menuppalInfo;
             RepoItemInfo _nav_menuadmin_abInfo;
@@ -533,7 +437,6 @@ namespace CardaData
                 _xborderboxxmaskxmaskfixedInfo = new RepoItemInfo(this, "XBorderBoxXMaskXMaskFixed", "body/div[14]", 30000, null, "17c1a456-d9b0-418a-92aa-2f132856c5e6");
                 _lbl_uploadplandataexcelfileInfo = new RepoItemInfo(this, "lbl_UploadPlanDataExcelFile", ".//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[1]/td/div/div/div/div/?/?/span[@innertext>'Upload Plan Data Excel Fi']", 30000, null, "f0eba019-019a-4b08-afbc-c057f12aca5e");
                 _cargandoarchivosInfo = new RepoItemInfo(this, "CargandoArchivoS", "body/div[12]/div[1]//div[@innertext='Cargando archivo(s)...']", 30000, null, "f2fc38a4-43ec-4f25-8b67-7c9541acdadb");
-                _copy_of_cargandoarchivosInfo = new RepoItemInfo(this, "Copy_of_CargandoArchivoS", ".//body//div[@class='x-box-target']//div[@innertext='Cargando archivo(s)...' and @visible='true']", 30000, null, "ec3bc363-bc3f-443f-a7f7-8a465602e6f5");
                 _siguiente1Info = new RepoItemInfo(this, "Siguiente1", ".//a[#'AdminDataLoaderWizard:Next']/span/?/?/span[@innertext='Siguiente >']", 30000, null, "385a96fc-73d5-4c5c-be4f-e94e04415425");
                 _btn_siguienteplanespagoInfo = new RepoItemInfo(this, "Btn_SiguientePlanesPago", ".//a[#'PlanDataLoaderWizard:Next']/span/?/?/span[@innertext='Siguiente >']", 30000, null, "4de3d54b-6033-48f5-8f51-6c454846ff81");
                 _lbl_reviewplandatauploadInfo = new RepoItemInfo(this, "lbl_ReviewPlanDataUpload", ".//div[#'AdminDataLoaderWizard/review']//span[@innertext='Review Admin Data Upload']", 30000, null, "e8eea5e8-b5dd-4375-9db8-ba7844e00559");
@@ -553,7 +456,8 @@ namespace CardaData
                 _lbl_programadecuotasInfo = new RepoItemInfo(this, "lbl_ProgramaDeCuotas", ".//div[#'ScheduleInvoiceSura/invoices']/table/tbody/tr[1]/td//span[@innertext='Programa de cuotas']", 30000, null, "c6d6d2df-6791-412e-9ae9-76d0d7f16f60");
                 _txt_archivocargadoInfo = new RepoItemInfo(this, "txt_ArchivoCargado", ".//div[#'ScheduleInvoiceSuraWizard/upload']/table/tbody/tr[4]//table//div/div/div/div/div[2]/div//input[@tagvalue='InvoiceSchedule Prueba.xls']", 30000, null, "3c57b5bf-c759-41c8-bb34-a3343cce809c");
                 _txt_archivocargado_qa2Info = new RepoItemInfo(this, "txt_ArchivoCargado_qa2", ".//div[@id~'DataLoaderWizard/upload']//input[@name~'textfield-[0-9]+']", 30000, null, "2c1b90f7-8429-43ad-8145-127bc8adf647");
-                _copy_of_txt_archivocargado_qa2Info = new RepoItemInfo(this, "Copy_of_txt_ArchivoCargado_qa2", ".//div[@id~'Wizard/upload']//input[@value>$NombreArchivo]", 30000, null, "ba81fc94-c517-49fd-885b-88625355ce13");
+                _copy_of_txt_archivocargado_qa2Info = new RepoItemInfo(this, "Copy_of_txt_ArchivoCargado_qa2", ".//div[@id~'Wizard/[U-u]+pload']//input[@value>$NombreArchivo]", 30000, null, "ba81fc94-c517-49fd-885b-88625355ce13");
+                _copy_of_copy_of_txt_archivocargado_qa2Info = new RepoItemInfo(this, "Copy_of_Copy_of_txt_ArchivoCargado_qa2", ".//div[#'ImportWizard/Upload']/table/tbody/tr[4]//table/tbody/tr[2]/td/div/div/div/div/div[2]/div//input[@name='textfield-1111']", 30000, null, "2ac5e3ad-3bb2-4e35-b1bc-bad4bbdb2703");
                 _menuadmInfo = new RepoItemInfo(this, "MenuAdm", ".//span[@id='TabBar:AdministrationTab-btnWrap' or @id='TabBar:AdminTab-btnWrap']", 30000, null, "5c0b47c5-6521-41ca-b20d-58c3c66026de");
                 _nav_menuppalInfo = new RepoItemInfo(this, "Nav_MenuPpal", ".//span[@innertext=$MenuPpal]/../..//span[@class~'wrap']", 30000, null, "15938c73-b55f-48df-b536-3781cbd24e6f");
                 _nav_menuadmin_abInfo = new RepoItemInfo(this, "Nav_MenuAdmin_ab", ".//a[#'TabBar:AdminTab']//span[@innertext='Adinistración']", 30000, null, "62a5f657-0162-47eb-bee6-879bb7d48dc8");
@@ -1301,30 +1205,6 @@ namespace CardaData
             }
 
             /// <summary>
-            /// The Copy_of_CargandoArchivoS item.
-            /// </summary>
-            [RepositoryItem("ec3bc363-bc3f-443f-a7f7-8a465602e6f5")]
-            public virtual Ranorex.DivTag Copy_of_CargandoArchivoS
-            {
-                get
-                {
-                    return _copy_of_cargandoarchivosInfo.CreateAdapter<Ranorex.DivTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Copy_of_CargandoArchivoS item info.
-            /// </summary>
-            [RepositoryItemInfo("ec3bc363-bc3f-443f-a7f7-8a465602e6f5")]
-            public virtual RepoItemInfo Copy_of_CargandoArchivoSInfo
-            {
-                get
-                {
-                    return _copy_of_cargandoarchivosInfo;
-                }
-            }
-
-            /// <summary>
             /// The Siguiente1 item.
             /// </summary>
             [RepositoryItem("385a96fc-73d5-4c5c-be4f-e94e04415425")]
@@ -1801,6 +1681,30 @@ namespace CardaData
                 get
                 {
                     return _copy_of_txt_archivocargado_qa2Info;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_Copy_of_txt_ArchivoCargado_qa2 item.
+            /// </summary>
+            [RepositoryItem("2ac5e3ad-3bb2-4e35-b1bc-bad4bbdb2703")]
+            public virtual Ranorex.InputTag Copy_of_Copy_of_txt_ArchivoCargado_qa2
+            {
+                get
+                {
+                    return _copy_of_copy_of_txt_archivocargado_qa2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_Copy_of_txt_ArchivoCargado_qa2 item info.
+            /// </summary>
+            [RepositoryItemInfo("2ac5e3ad-3bb2-4e35-b1bc-bad4bbdb2703")]
+            public virtual RepoItemInfo Copy_of_Copy_of_txt_ArchivoCargado_qa2Info
+            {
+                get
+                {
+                    return _copy_of_copy_of_txt_archivocargado_qa2Info;
                 }
             }
 
@@ -6113,6 +6017,7 @@ namespace CardaData
             RepoItemInfo _copy_of_lbl_100percentInfo;
             RepoItemInfo _lbl_errorenlasolicituddehttp503_cofInfo;
             RepoItemInfo _btn_finalizar_plancomisiones_cofInfo;
+            RepoItemInfo _copy_of_cargandoarchivos_cofInfo;
 
             /// <summary>
             /// Creates a new ContinueOnFail  folder.
@@ -6126,6 +6031,7 @@ namespace CardaData
                 _copy_of_lbl_100percentInfo = new RepoItemInfo(this, "Copy_of_lbl_100Percent", ".//div[@innertext~'100%']", 10000, null, "c700ddd2-617c-4c37-92bc-29d46d8861b5");
                 _lbl_errorenlasolicituddehttp503_cofInfo = new RepoItemInfo(this, "lbl_ErrorEnLaSolicitudDeHTTP503_COF", ".//div[@innertext~'Error en la solicitud de HTTP:' and @visible='True']", 5000, null, "c40165b4-282b-464b-a4c7-39ad8cd1300b");
                 _btn_finalizar_plancomisiones_cofInfo = new RepoItemInfo(this, "Btn_Finalizar_PlanComisiones_COF", ".//a[#'AdminDataLoaderWizard:Finish']/span/?/?/span[@innertext~'inalizar']", 5000, null, "29500b0a-24b7-4844-abe8-e2c4911116ca");
+                _copy_of_cargandoarchivos_cofInfo = new RepoItemInfo(this, "Copy_of_CargandoArchivoS_cof", ".//body//div[@class='x-box-target']//div[@innertext='Cargando archivo(s)...' and @visible='true']", 30000, null, "ec3bc363-bc3f-443f-a7f7-8a465602e6f5");
             }
 
             /// <summary>
@@ -6293,6 +6199,30 @@ namespace CardaData
                 get
                 {
                     return _btn_finalizar_plancomisiones_cofInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_CargandoArchivoS_cof item.
+            /// </summary>
+            [RepositoryItem("ec3bc363-bc3f-443f-a7f7-8a465602e6f5")]
+            public virtual Ranorex.DivTag Copy_of_CargandoArchivoS_cof
+            {
+                get
+                {
+                    return _copy_of_cargandoarchivos_cofInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_CargandoArchivoS_cof item info.
+            /// </summary>
+            [RepositoryItemInfo("ec3bc363-bc3f-443f-a7f7-8a465602e6f5")]
+            public virtual RepoItemInfo Copy_of_CargandoArchivoS_cofInfo
+            {
+                get
+                {
+                    return _copy_of_cargandoarchivos_cofInfo;
                 }
             }
         }

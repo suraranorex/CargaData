@@ -307,15 +307,6 @@ name="CardaDataRepository">
 				/dom[@domain=$Ambiente]/body/div[12]/div[1]//div[@innertext='Cargando archivo(s)...']
 			</item>
 			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="ec3bc363-bc3f-443f-a7f7-8a465602e6f5"
-			name="Copy_of_CargandoArchivoS"
-			refimgid="8c0f1c7e-34d0-4cee-89bd-dcab7f25c17a"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//body//div[@class='x-box-target']//div[@innertext='Cargando archivo(s)...' and @visible='true']
-			</item>
-			<item
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
 			id="385a96fc-73d5-4c5c-be4f-e94e04415425"
@@ -497,7 +488,16 @@ name="CardaDataRepository">
 			name="Copy_of_txt_ArchivoCargado_qa2"
 			refimgid="17a3ae04-03cf-4fd8-a05f-b9e895e981b5"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[@id~'Wizard/upload']//input[@value&gt;$NombreArchivo]
+				/dom[@domain=$Ambiente]//div[@id~'Wizard/[U-u]+pload']//input[@value&gt;$NombreArchivo]
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2ac5e3ad-3bb2-4e35-b1bc-bad4bbdb2703"
+			name="Copy_of_Copy_of_txt_ArchivoCargado_qa2"
+			refimgid="17a3ae04-03cf-4fd8-a05f-b9e895e981b5"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']/table/tbody/tr[4]//table/tbody/tr[2]/td/div/div/div/div/div[2]/div//input[@name='textfield-1111']
 			</item>
 			<folder
 			addcaps="unknown,webelement,tabletag"
@@ -2191,6 +2191,15 @@ ix0AAAAASUVORK5CYII=
 			searchtimeout="5000ms">
 				/dom[@domain=$Ambiente]//a[#'AdminDataLoaderWizard:Finish']/span/?/?/span[@innertext~'inalizar']
 			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="ec3bc363-bc3f-443f-a7f7-8a465602e6f5"
+			name="Copy_of_CargandoArchivoS_cof"
+			refimgid="8c0f1c7e-34d0-4cee-89bd-dcab7f25c17a"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//body//div[@class='x-box-target']//div[@innertext='Cargando archivo(s)...' and @visible='true']
+			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
 			</basepath>
@@ -2245,17 +2254,7 @@ AAAASUVORK5CYII=
 		<var
 		id="658183a5-d45d-4ec1-a6ea-51dbf041ea2b"
 		name="NombreArchivo">
-			InvoiceSchedule.xls
-		</var>
-		<var
-		id="dd98d9a5-78b7-46d6-a36a-39545de6d6d8"
-		name="NombreArchivoInvoice">
-			InvoiceSchedule.xls
-		</var>
-		<var
-		id="0e6c6c0f-fff1-4ba3-9242-67c3ce39f666"
-		name="NombreArchivoInvoice2">
-			InvoiceSchedule Prueba.xls
+			ASISTMED.xml
 		</var>
 		<var
 		id="696cfcae-1fb1-4bc8-96fe-367d3021a5f4"
@@ -2271,36 +2270,6 @@ AAAASUVORK5CYII=
 		id="3e209b49-f075-415b-b2ff-947c6957ea01"
 		name="SubM2">
 			Cambio de datos
-		</var>
-		<var
-		id="73e3d21f-4a2e-4d08-9de6-7fca3e1b39d0"
-		name="NombreArchivoPC">
-			AdminDataLoader_Part_3.0.9-DEV.xml
-		</var>
-		<var
-		id="f07aeb81-e16b-4474-9f61-3914038fa229"
-		name="NombArchAsistMedica">
-			ASISTMED.xml
-		</var>
-		<var
-		id="76f58eb8-bbc0-4eea-ab95-744b196900ae"
-		name="NombArchCACGCCPA">
-			CACGCCPA_AP_01.xml
-		</var>
-		<var
-		id="727c7c2c-6f67-4370-88cd-f91763afe7cf"
-		name="NombArchCRAAP">
-			CRAAP.xml
-		</var>
-		<var
-		id="39651b1d-eaa3-4ba2-bd41-0659b5b64e02"
-		name="NombArch">
-			ASISTMED.xml
-		</var>
-		<var
-		id="34f012c8-fd5d-437b-947e-77d056761593"
-		name="NombreArchivoXML">
-			sura_ca7_vehicle_assistance.xml
 		</var>
 	</variables>
 </repository>

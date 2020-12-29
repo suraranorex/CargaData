@@ -24,22 +24,22 @@ namespace CardaData.PC
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Form_AsistMedica recording.
+    ///The FinalizaCargaForm_AsistMedica recording.
     /// </summary>
     [TestModule("656767a7-61b2-4419-85c2-5502ee8b8277", ModuleType.Recording, 1)]
-    public partial class Form_AsistMedica : ITestModule
+    public partial class FinalizaCargaForm_AsistMedica : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::CardaData.CardaDataRepository repository.
         /// </summary>
         public static global::CardaData.CardaDataRepository repo = global::CardaData.CardaDataRepository.Instance;
 
-        static Form_AsistMedica instance = new Form_AsistMedica();
+        static FinalizaCargaForm_AsistMedica instance = new FinalizaCargaForm_AsistMedica();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Form_AsistMedica()
+        public FinalizaCargaForm_AsistMedica()
         {
             NombArchAsistMedica = "ASISTMED.xml";
         }
@@ -47,12 +47,24 @@ namespace CardaData.PC
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Form_AsistMedica Instance
+        public static FinalizaCargaForm_AsistMedica Instance
         {
             get { return instance; }
         }
 
 #region Variables
+
+        string _NombArchAsistMedica;
+
+        /// <summary>
+        /// Gets or sets the value of variable NombArchAsistMedica.
+        /// </summary>
+        [TestVariable("bffe2d98-f2b2-485c-a28a-d8c3423e3de3")]
+        public string NombArchAsistMedica
+        {
+            get { return _NombArchAsistMedica; }
+            set { _NombArchAsistMedica = value; }
+        }
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -62,16 +74,6 @@ namespace CardaData.PC
         {
             get { return repo.Ambiente; }
             set { repo.Ambiente = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable NombArchAsistMedica.
-        /// </summary>
-        [TestVariable("bffe2d98-f2b2-485c-a28a-d8c3423e3de3")]
-        public string NombArchAsistMedica
-        {
-            get { return repo.NombArchAsistMedica; }
-            set { repo.NombArchAsistMedica = value; }
         }
 
 #endregion
@@ -103,48 +105,48 @@ namespace CardaData.PC
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.ImportarDatosAdministrativos'", repo.ApplicationUnderTest.ImportarDatosAdministrativosInfo, new ActionTimeout(30000), new RecordItemIndex(0));
             repo.ApplicationUnderTest.ImportarDatosAdministrativosInfo.WaitForExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Examinar2' at Center.", repo.ApplicationUnderTest.Btn_Examinar2Info, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Btn_Examinar2.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Examinar2' at Center.", repo.ApplicationUnderTest.Btn_Examinar2Info, new RecordItemIndex(1));
+            //repo.ApplicationUnderTest.Btn_Examinar2.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'Ventana_Emergente_Abrir'", repo.Ventana_Emergente_Abrir.SelfInfo, new ActionTimeout(30000), new RecordItemIndex(2));
-            repo.Ventana_Emergente_Abrir.SelfInfo.WaitForExists(30000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'Ventana_Emergente_Abrir'", repo.Ventana_Emergente_Abrir.SelfInfo, new ActionTimeout(30000), new RecordItemIndex(2));
+            //repo.Ventana_Emergente_Abrir.SelfInfo.WaitForExists(30000);
             
             // Ventana Emergente
-            Report.Log(ReportLevel.Info, "Section", "Ventana Emergente", new RecordItemIndex(3));
+            //Report.Log(ReportLevel.Info, "Section", "Ventana Emergente", new RecordItemIndex(3));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VentanaEmergente_Examinar.Escritorio' at Center.", repo.VentanaEmergente_Examinar.EscritorioInfo, new RecordItemIndex(4));
-            repo.VentanaEmergente_Examinar.Escritorio.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VentanaEmergente_Examinar.Escritorio' at Center.", repo.VentanaEmergente_Examinar.EscritorioInfo, new RecordItemIndex(4));
+            //repo.VentanaEmergente_Examinar.Escritorio.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\Carga_Inicial_QA\\PC\\forms'.", new RecordItemIndex(5));
-            Keyboard.Press("C:\\Carga_Inicial_QA\\PC\\forms");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\Carga_Inicial_QA\\PC\\forms'.", new RecordItemIndex(5));
+            //Keyboard.Press("C:\\Carga_Inicial_QA\\PC\\forms");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(6));
-            Keyboard.Press("{Return}");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(6));
+            //Keyboard.Press("{Return}");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VentanaEmergente_Examinar.BarraInferior' at Center.", repo.VentanaEmergente_Examinar.BarraInferiorInfo, new RecordItemIndex(7));
-            repo.VentanaEmergente_Examinar.BarraInferior.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VentanaEmergente_Examinar.BarraInferior' at Center.", repo.VentanaEmergente_Examinar.BarraInferiorInfo, new RecordItemIndex(7));
+            //repo.VentanaEmergente_Examinar.BarraInferior.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NombArchAsistMedica'.", new RecordItemIndex(8));
-            Keyboard.Press(NombArchAsistMedica);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NombArchAsistMedica'.", new RecordItemIndex(8));
+            //Keyboard.Press(NombArchAsistMedica);
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(9));
-            Delay.Duration(1000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(9));
+            //Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Ventana_Emergente_Abrir.ButtonAbrir' at 47;13.", repo.Ventana_Emergente_Abrir.ButtonAbrirInfo, new RecordItemIndex(10));
-            repo.Ventana_Emergente_Abrir.ButtonAbrir.Click("47;13");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Ventana_Emergente_Abrir.ButtonAbrir' at 47;13.", repo.Ventana_Emergente_Abrir.ButtonAbrirInfo, new RecordItemIndex(10));
+            //repo.Ventana_Emergente_Abrir.ButtonAbrir.Click("47;13");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(11));
-            Delay.Duration(2000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(11));
+            //Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_resultadoFormCargaAsistMedica'", repo.ApplicationUnderTest.lbl_resultadoFormCargaAsistMedicaInfo, new ActionTimeout(30000), new RecordItemIndex(12));
-            repo.ApplicationUnderTest.lbl_resultadoFormCargaAsistMedicaInfo.WaitForExists(30000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_resultadoFormCargaAsistMedica'", repo.ApplicationUnderTest.lbl_resultadoFormCargaAsistMedicaInfo, new ActionTimeout(30000), new RecordItemIndex(12));
+            //repo.ApplicationUnderTest.lbl_resultadoFormCargaAsistMedicaInfo.WaitForExists(30000);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.btn_FinalizarCargaDataPC' at Center.", repo.ApplicationUnderTest.btn_FinalizarCargaDataPCInfo, new RecordItemIndex(13));
             repo.ApplicationUnderTest.btn_FinalizarCargaDataPC.MoveTo();

@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Form_AsistMedica"
+	classname="FinalizaCargaForm_AsistMedica"
 	namespace="CardaData.PC">
 	</codegen>
 	<variables>
@@ -101,7 +101,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -183,7 +183,7 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="3cdca71b-654e-4d41-a054-cfc0e7faaccb"
 		waitaction="Exists"
@@ -201,7 +201,7 @@ mode="Global">
 			</info>
 		</WaitForRecordItem>
 		<separatoritem
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 				Ventana Emergente
@@ -213,7 +213,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -270,7 +270,7 @@ mode="Global">
 		<keysequenceitem
 		KeySequence="C:\Carga_Inicial_QA\PC\forms"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="ee1c7404-1051-4304-b5fb-6dd21d403041">
@@ -282,7 +282,7 @@ mode="Global">
 		<keysequenceitem
 		KeySequence="{Return}"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="ecf42d7a-973e-47f6-bcc2-963f72541bc9">
@@ -295,7 +295,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -427,7 +427,7 @@ mode="Global">
 		<keysequenceitem
 		KeySequence="$NombArch"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="ee1c7404-1051-4304-b5fb-6dd21d403041">
@@ -442,7 +442,7 @@ mode="Global">
 		</keysequenceitem>
 		<explicitdelayitem
 		duration="1000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -453,7 +453,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="47;13"
 		movetime="300ms"
 		optional="False"
@@ -761,7 +761,7 @@ D//Z
 		</mouseitem>
 		<explicitdelayitem
 		duration="2000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -769,7 +769,7 @@ D//Z
 			</bindings>
 		</explicitdelayitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="04191eb1-7d87-40d5-9377-e96868ec78b5"
 		waitaction="Exists"
@@ -950,7 +950,7 @@ D//Z
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Form_AsistMedica.UserCode.cs
+		FinalizaCargaForm_AsistMedica.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

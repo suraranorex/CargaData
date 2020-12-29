@@ -74,7 +74,7 @@ namespace CardaData.Generales.CargaArchivo
             while (x) {
             	
             	i++;
-            	if(repo.ApplicationUnderTest.Copy_of_CargandoArchivoSInfo.Exists(5000)){
+            	if(repo.ContinueOnFail.Copy_of_CargandoArchivoS_cofInfo.Exists(5000)){
             		
             		Delay.Milliseconds(25000);
             		
