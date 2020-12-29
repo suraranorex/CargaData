@@ -1525,12 +1525,12 @@ name="CardaDataRepository">
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
-			capname="inputtag"
+			capname="spantag"
 			id="e8f567ee-4762-419c-a58e-edb221550bc4"
 			name="Copy_of_Btn_Actualizar_AsistAutos"
 			refimgid="2b6a9e1a-5238-4d58-b4a9-927adcf8b740"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/a[1]//span[@innertext='Actalizar']/../..//input[@data-tabindexsaved='True']
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/a[1]//span[@innertext='Actalizar' and @data-tabindexsaved='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"

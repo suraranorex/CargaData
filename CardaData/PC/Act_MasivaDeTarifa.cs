@@ -96,8 +96,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.Btn_CargarInformacionActual.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(2));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 8s.", new RecordItemIndex(2));
+            Delay.Duration(8000, false);
             
         }
 

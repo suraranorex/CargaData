@@ -614,7 +614,7 @@ namespace CardaData
                 _lbl_resultadosdelabusquedaInfo = new RepoItemInfo(this, "lbl_ResultadosDeLaBusqueda", ".//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[4]/td/div/div[1]//span[@innertext='Resultados de la búsqueda']", 30000, null, "6dd1d9bf-1457-4bed-b0f9-5a025af9a143");
                 _select_sura_ca7_vehicle_assistance_1Info = new RepoItemInfo(this, "Select_sura_ca7_vehicle_assistance_1", ".//tbody[#'centerPanel-tbody']//table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table[1]/?/?/tr/td[1]/?/?/img[@src='data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==']", 30000, null, "3142f06f-bb5e-4a56-acfb-a52db006f968");
                 _btn_actualizar_asistautosInfo = new RepoItemInfo(this, "Btn_Actualizar_AsistAutos", ".//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/a[1]//span[@innertext='Actalizar']", 30000, null, "9b7f98a0-f083-4d81-bee6-b8eb367d5a64");
-                _copy_of_btn_actualizar_asistautosInfo = new RepoItemInfo(this, "Copy_of_Btn_Actualizar_AsistAutos", ".//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/a[1]//span[@innertext='Actalizar']/../..//input[@data-tabindexsaved='True']", 30000, null, "e8f567ee-4762-419c-a58e-edb221550bc4");
+                _copy_of_btn_actualizar_asistautosInfo = new RepoItemInfo(this, "Copy_of_Btn_Actualizar_AsistAutos", ".//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/a[1]//span[@innertext='Actalizar' and @data-tabindexsaved='True']", 30000, null, "e8f567ee-4762-419c-a58e-edb221550bc4");
                 _txt_producto_e_asistautosInfo = new RepoItemInfo(this, "txt_Producto_E_AsistAutos", ".//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]/td/div/div[4]/div[1]/div/table[1]/?/?/tr/td[4]/div[@innertext='E - Robo Incendio Garage']", 30000, null, "b60b2d4b-9601-4829-bc06-c3bf0bb2ea07");
                 _select_producto_a_asistautosInfo = new RepoItemInfo(this, "Select_Producto_A_AsistAutos", "body/div[16]/?/?/ul/li[@innertext>'A - Responsabilidad Civil']", 30000, null, "b5467253-a74e-48a1-a7cd-298f1ac6ab2a");
                 _submenu_clasif_asisthogarInfo = new RepoItemInfo(this, "SubMenu_Clasif_AsistHogar", "body/div[13]/div/div[2]/div/div[8]/?/?/span[@innertext='Asistencias Hogar']", 30000, null, "7a2edc48-7346-4e1c-9c21-2699d45e2709");
@@ -4264,11 +4264,11 @@ namespace CardaData
             /// The Copy_of_Btn_Actualizar_AsistAutos item.
             /// </summary>
             [RepositoryItem("e8f567ee-4762-419c-a58e-edb221550bc4")]
-            public virtual Ranorex.InputTag Copy_of_Btn_Actualizar_AsistAutos
+            public virtual Ranorex.SpanTag Copy_of_Btn_Actualizar_AsistAutos
             {
                 get
                 {
-                    return _copy_of_btn_actualizar_asistautosInfo.CreateAdapter<Ranorex.InputTag>(true);
+                    return _copy_of_btn_actualizar_asistautosInfo.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
