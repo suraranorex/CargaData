@@ -3909,7 +3909,7 @@
 		filename="DataSource - CargaLataflex2344.xlsx"
 		id="29b05c48-d6eb-4484-8fef-62f4178d332d"
 		includefile="Checked"
-		lastknownrowcount="6"
+		lastknownrowcount="3"
 		name="CargaLataFlex2344"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -4190,9 +4190,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\CardaData\DataSource - CargaLataflex2344.xlsx"
+		filename="DataSource - CargaLataflex2344.xlsx"
 		id="af951846-46c4-4b62-9795-c75d513ddf57"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="Select_LataFlex"
 		type="Ranorex.Core.Data.ExcelDataConnector"
