@@ -1936,6 +1936,24 @@ name="CardaDataRepository">
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table[2]/?/?/tr/td[2]/div
 			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="705b8156-1e07-4b9e-b019-4bb5e758977b"
+			name="REFID001"
+			refimgid="59aabd8c-0e8e-4030-b76f-eafdd77c8d27"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//div[@innertext='REFID_001']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="94f6ffa6-f528-45d4-8130-f9193f2f6719"
+			name="RVASINI"
+			refimgid="740365a8-7169-405f-86e3-3b07d82f529e"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//div[@innertext='RVASINI']
+			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
 			</basepath>

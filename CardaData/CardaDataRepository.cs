@@ -455,6 +455,8 @@ namespace CardaData
             RepoItemInfo _asistenciashogarInfo;
             RepoItemInfo _textfield1224Info;
             RepoItemInfo _xgridcellinnerInfo;
+            RepoItemInfo _refid001Info;
+            RepoItemInfo _rvasiniInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -658,6 +660,8 @@ namespace CardaData
                 _asistenciashogarInfo = new RepoItemInfo(this, "AsistenciasHogar", "body/div[12]/div/div[2]/div/div[8]/?/?/span[@innertext='Asistencias Hogar']", 30000, null, "bda240c6-a51d-4502-abf9-f7d7b2e44772");
                 _textfield1224Info = new RepoItemInfo(this, "Textfield1224", ".//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]//table/tbody/tr[2]/td/div/div/div/div/div[2]/div//input[@name='textfield-1224']", 30000, null, "9ccd1d02-51ea-4ef6-bc0d-4322ac80e55f");
                 _xgridcellinnerInfo = new RepoItemInfo(this, "XGridCellInner", ".//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table[2]/?/?/tr/td[2]/div", 30000, null, "4095072b-9704-42a3-8f51-02618fb029d6");
+                _refid001Info = new RepoItemInfo(this, "REFID001", ".//div[#'DataChangePage/details']//div[@innertext='REFID_001']", 30000, null, "705b8156-1e07-4b9e-b019-4bb5e758977b");
+                _rvasiniInfo = new RepoItemInfo(this, "RVASINI", ".//div[#'DataChangePage/details']//div[@innertext='RVASINI']", 30000, null, "94f6ffa6-f528-45d4-8130-f9193f2f6719");
             }
 
             /// <summary>
@@ -5313,6 +5317,54 @@ namespace CardaData
                 get
                 {
                     return _xgridcellinnerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The REFID001 item.
+            /// </summary>
+            [RepositoryItem("705b8156-1e07-4b9e-b019-4bb5e758977b")]
+            public virtual Ranorex.DivTag REFID001
+            {
+                get
+                {
+                    return _refid001Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The REFID001 item info.
+            /// </summary>
+            [RepositoryItemInfo("705b8156-1e07-4b9e-b019-4bb5e758977b")]
+            public virtual RepoItemInfo REFID001Info
+            {
+                get
+                {
+                    return _refid001Info;
+                }
+            }
+
+            /// <summary>
+            /// The RVASINI item.
+            /// </summary>
+            [RepositoryItem("94f6ffa6-f528-45d4-8130-f9193f2f6719")]
+            public virtual Ranorex.DivTag RVASINI
+            {
+                get
+                {
+                    return _rvasiniInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RVASINI item info.
+            /// </summary>
+            [RepositoryItemInfo("94f6ffa6-f528-45d4-8130-f9193f2f6719")]
+            public virtual RepoItemInfo RVASINIInfo
+            {
+                get
+                {
+                    return _rvasiniInfo;
                 }
             }
 

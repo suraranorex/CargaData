@@ -196,8 +196,8 @@
 			datarangeactive="True"
 			datasource="CargaCampaniasPC"
 			id="17111c78-b3d9-4f00-80ef-665d0258d840"
-			maxrange="0"
-			minrange="0"
+			maxrange="2"
+			minrange="2"
 			name="CargarCampañasPC">
 			</testcase>
 			<testmodule
@@ -362,8 +362,8 @@
 			datarangeactive="True"
 			datasource="CargaAdmDataPC"
 			id="2511387e-d494-463e-b6da-bd567f768e9b"
-			maxrange="0"
-			minrange="0"
+			maxrange="2"
+			minrange="2"
 			name="Carga_AdmDataLoader_PC">
 			</testcase>
 			<testmodule
@@ -1044,8 +1044,8 @@
 			datarangeactive="True"
 			datasource="DataChange_CC"
 			id="5bb7c8d7-1c4d-4a72-bae5-c9a6bf1bfed3"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="DataChange_CC">
 			</testcase>
 			<testmodule
@@ -1234,8 +1234,8 @@
 			datarangeactive="True"
 			datasource="CargaXMLTarifa"
 			id="6bc1e7f1-cb21-4fc9-9183-319c4b846ffc"
-			maxrange="0"
-			minrange="0"
+			maxrange="2"
+			minrange="2"
 			name="CargaXMLTarifa">
 			</testcase>
 			<testmodule
@@ -1943,8 +1943,8 @@
 			datarangeactive="True"
 			datasource="CargaPlanesEnlatados_PC"
 			id="a9b6fef7-4f75-4c35-8f13-3d71dfec58c1"
-			maxrange="0"
-			minrange="0"
+			maxrange="2"
+			minrange="2"
 			name="CargarPlanesEnlatados">
 			</testcase>
 			<testmodule
@@ -1965,8 +1965,8 @@
 			datarangeactive="True"
 			datasource="ValidaPlanesComisones_BC"
 			id="aa56df55-901a-40ac-865f-8d2439624532"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="Validar_PlanesComisiones_BC">
 			</testcase>
 			<testmodule
@@ -1987,8 +1987,8 @@
 			datarangeactive="True"
 			datasource="ValidaMensajeria"
 			id="ac46303b-adec-45ee-a99a-f3c5f2857712"
-			maxrange="0"
-			minrange="0"
+			maxrange="2"
+			minrange="2"
 			name="Validar_Mensajeria_SistemaFacturacion">
 			</testcase>
 			<testmodule
@@ -2116,8 +2116,8 @@
 			datarangeactive="True"
 			datasource="XML_Asist_EnMemoria"
 			id="b922c33f-e2dd-48cb-9803-7152b01e08e8"
-			maxrange="0"
-			minrange="0"
+			maxrange="2"
+			minrange="2"
 			name="Carga_XML_Asist_EnMemoria">
 			</testcase>
 			<testmodule
@@ -2150,8 +2150,8 @@
 			datarangeactive="True"
 			datasource="InvoiceShedule"
 			id="ba491309-c9ca-47e7-9629-e2f7b520af3a"
-			maxrange="0"
-			minrange="0"
+			maxrange="2"
+			minrange="2"
 			name="InvoiceShedule">
 				<parameters>
 					<param
@@ -2249,8 +2249,8 @@
 			datasource="CargaXMLVarios"
 			errorbehavior="ContinueNextIteration"
 			id="c566a963-678c-47a1-a5aa-4e62ff489896"
-			maxrange="16"
-			minrange="0"
+			maxrange="50"
+			minrange="34"
 			name="CargarXMLVarios">
 				<parameters>
 					<param
@@ -2281,8 +2281,8 @@
 			datarangeactive="True"
 			datasource="CargaLataFlex2344"
 			id="c68ea05f-77ca-4512-91bd-34aa497817eb"
-			maxrange="0"
-			minrange="0"
+			maxrange="2"
+			minrange="2"
 			name="CargarLataFlex_2344">
 			</testcase>
 			<testmodule
@@ -2331,16 +2331,16 @@
 			datarangeactive="True"
 			datasource="CargaProveedoresAB"
 			id="cdc6ca54-c944-4487-b9a0-7e317e6eb5be"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="Carga_Proveedores_AB">
 			</testcase>
 			<testcase
 			datarangeactive="True"
 			datasource="CargaFormsPC"
 			id="cf6f1038-0179-4c88-93c4-56286538b128"
-			maxrange="11"
-			minrange="0"
+			maxrange="23"
+			minrange="12"
 			name="CargaFormsPC">
 				<parameters>
 					<param
@@ -2372,8 +2372,8 @@
 			datarangeactive="True"
 			datasource="CargaPlanesDePago_BC"
 			id="d5c5f314-e30a-45de-92d3-3419392b754f"
-			maxrange="0"
-			minrange="0"
+			maxrange="2"
+			minrange="2"
 			name="CargaPlanesDePagoBC">
 				<parameters>
 					<param
@@ -2846,8 +2846,8 @@
 			datarangeactive="True"
 			datasource="CargaPlanesComisionesBC"
 			id="f785edf4-c1c1-4d1a-b64d-99ee1cce3b2f"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="CargaPlanesComisiones_BC">
 				<parameters>
 					<param
