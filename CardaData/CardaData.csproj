@@ -1444,8 +1444,8 @@
       <recordtableid>537430f0-2598-4701-85b0-be2855f5e23e</recordtableid>
     </None>
     <None Include="Utilitarios\VPNConnect.exe">
-      <id>5eb2c7bb-f9cc-4a36-a996-87c75ae6ac3f</id>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>b003e6c7-c50f-4741-b279-eb6e25c8cdd9</id>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
