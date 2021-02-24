@@ -892,6 +892,15 @@ name="CardaDataRepository">
 				/dom[@domain=$Ambiente]//tbody[#'AgentTemplatePage-tbody']//a[@innertext='Bucar']
 			</item>
 			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="d3d162a1-8255-46d2-84ce-e2bd79cc081c"
+			name="Copy_of_Btn_BuscarEnlatado"
+			refimgid="643ef388-664a-4b16-96ff-bf9c62a0b21d"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'AgentTemplatePage-tbody']//a[@innertext='Bucar' and @data-tabindexsaved='true']
+			</item>
+			<item
 			addcaps="unknown,webelement,divtag"
 			capname="divtag"
 			id="c5e877d9-f954-4306-9420-504a8e4ee6ba"

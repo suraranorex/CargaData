@@ -50,7 +50,7 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<explicitdelayitem
-		duration="1000ms"
+		duration="30000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -63,7 +63,7 @@ mode="Global">
 		optional="False"
 		searchpropertyid="8693e506-2396-47dd-a75b-bc22b24c2dd6"
 		waitaction="NotExists"
-		waittimeout="1800000ms">
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>

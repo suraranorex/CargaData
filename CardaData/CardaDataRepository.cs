@@ -343,6 +343,7 @@ namespace CardaData
             RepoItemInfo _btn_cargararchivoenlatadosInfo;
             RepoItemInfo _txt_codagenteenlatadoInfo;
             RepoItemInfo _btn_buscarenlatadoInfo;
+            RepoItemInfo _copy_of_btn_buscarenlatadoInfo;
             RepoItemInfo _lbl_hogar_enlatadoInfo;
             RepoItemInfo _txt_unidadnegocioInfo;
             RepoItemInfo _filaunoenlatadosInfo;
@@ -548,6 +549,7 @@ namespace CardaData
                 _btn_cargararchivoenlatadosInfo = new RepoItemInfo(this, "btn_CargarArchivoEnlatados", ".//tbody[#'AgentTemplatePage-tbody']//span[@innertext='Cargar Archivo']", 30000, null, "91345270-bee8-4e5c-a8c0-b67c0c953478");
                 _txt_codagenteenlatadoInfo = new RepoItemInfo(this, "txt_CodAgenteEnlatado", ".//tbody[#'AgentTemplatePage-tbody']//input[@name='AgentTemplatePage:AgentTemplateScreen:producerCode']", 30000, null, "a222d95b-edaf-49a0-b91e-2859aee563dc");
                 _btn_buscarenlatadoInfo = new RepoItemInfo(this, "Btn_BuscarEnlatado", ".//tbody[#'AgentTemplatePage-tbody']//a[@innertext='Bucar']", 30000, null, "20870fd2-dc15-49d0-ad0d-a859771d3d37");
+                _copy_of_btn_buscarenlatadoInfo = new RepoItemInfo(this, "Copy_of_Btn_BuscarEnlatado", ".//tbody[#'AgentTemplatePage-tbody']//a[@innertext='Bucar' and @data-tabindexsaved='true']", 30000, null, "d3d162a1-8255-46d2-84ce-e2bd79cc081c");
                 _lbl_hogar_enlatadoInfo = new RepoItemInfo(this, "lbl_Hogar_Enlatado", ".//tbody[#'AgentTemplatePage-tbody']//div[@innertext='Hogar']", 30000, null, "c5e877d9-f954-4306-9420-504a8e4ee6ba");
                 _txt_unidadnegocioInfo = new RepoItemInfo(this, "txt_unidadNegocio", ".//tbody[#'AgentTemplatePage-tbody']//input[@name='AgentTemplatePage:AgentTemplateScreen:Producer']", 30000, null, "9e6bbc25-2d6a-4d81-a6d6-15a9adc2d93d");
                 _filaunoenlatadosInfo = new RepoItemInfo(this, "filaUnoEnlatados", ".//tbody[#'AgentTemplatePage-tbody']/tr[5]/td/div/div[4]/div[1]/div/table[1]/?/?/tr[@safeclass='x-grid-row']", 30000, null, "783e1f26-0a83-415b-bfb4-4a2e198b0174");
@@ -2629,6 +2631,30 @@ namespace CardaData
                 get
                 {
                     return _btn_buscarenlatadoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_Btn_BuscarEnlatado item.
+            /// </summary>
+            [RepositoryItem("d3d162a1-8255-46d2-84ce-e2bd79cc081c")]
+            public virtual Ranorex.ATag Copy_of_Btn_BuscarEnlatado
+            {
+                get
+                {
+                    return _copy_of_btn_buscarenlatadoInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_Btn_BuscarEnlatado item info.
+            /// </summary>
+            [RepositoryItemInfo("d3d162a1-8255-46d2-84ce-e2bd79cc081c")]
+            public virtual RepoItemInfo Copy_of_Btn_BuscarEnlatadoInfo
+            {
+                get
+                {
+                    return _copy_of_btn_buscarenlatadoInfo;
                 }
             }
 

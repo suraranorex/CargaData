@@ -93,8 +93,11 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.btn_CargarArchivoEnlatados.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(1));
+            Delay.Duration(30000, false);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Btn_BuscarEnlatado'", repo.ApplicationUnderTest.Copy_of_Btn_BuscarEnlatadoInfo, new ActionTimeout(30000), new RecordItemIndex(2));
+            repo.ApplicationUnderTest.Copy_of_Btn_BuscarEnlatadoInfo.WaitForNotExists(30000);
             
         }
 

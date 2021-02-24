@@ -93,11 +93,11 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.btn_CargarArchivo_Campanias.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
-            Delay.Duration(1000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(1));
+            Delay.Duration(30000, false);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30m to not exist. Associated repository item: 'ApplicationUnderTest.Btn_BuscarCampania_En_Espera'", repo.ApplicationUnderTest.Btn_BuscarCampania_En_EsperaInfo, new ActionTimeout(1800000), new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Btn_BuscarCampania_En_EsperaInfo.WaitForNotExists(1800000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Btn_BuscarCampania_En_Espera'", repo.ApplicationUnderTest.Btn_BuscarCampania_En_EsperaInfo, new ActionTimeout(30000), new RecordItemIndex(2));
+            repo.ApplicationUnderTest.Btn_BuscarCampania_En_EsperaInfo.WaitForNotExists(30000);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key 'F5' Press.", new RecordItemIndex(3));
             Keyboard.Press(System.Windows.Forms.Keys.F5, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
