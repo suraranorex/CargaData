@@ -20,50 +20,61 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace CardaData
+namespace CardaData.Generales.CargaArchivo
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The OpenBrowser recording.
+    ///The ValidacionStatus recording.
     /// </summary>
-    [TestModule("51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3", ModuleType.Recording, 1)]
-    public partial class OpenBrowser : ITestModule
+    [TestModule("78ae98b4-b32b-4fa9-93b2-4001eb754c2c", ModuleType.Recording, 1)]
+    public partial class ValidacionStatus : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the CardaDataRepository repository.
+        /// Holds an instance of the global::CardaData.CardaDataRepository repository.
         /// </summary>
-        public static CardaDataRepository repo = CardaDataRepository.Instance;
+        public static global::CardaData.CardaDataRepository repo = global::CardaData.CardaDataRepository.Instance;
 
-        static OpenBrowser instance = new OpenBrowser();
+        static ValidacionStatus instance = new ValidacionStatus();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public OpenBrowser()
+        public ValidacionStatus()
         {
-            URL = "https://ssurgwsoadev4-oci.opc.oracleoutsourcing.com/pc/PolicyCenter.do";
+            Status = "";
+            Ambiente = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static OpenBrowser Instance
+        public static ValidacionStatus Instance
         {
             get { return instance; }
         }
 
 #region Variables
 
-        string _URL;
+        string _Status;
 
         /// <summary>
-        /// Gets or sets the value of variable URL.
+        /// Gets or sets the value of variable Status.
         /// </summary>
-        [TestVariable("24124be0-a7e8-400a-84e8-0877803ed437")]
-        public string URL
+        [TestVariable("339a9368-043b-40b7-8a78-784e3d4cc39c")]
+        public string Status
         {
-            get { return _URL; }
-            set { _URL = value; }
+            get { return _Status; }
+            set { _Status = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable Ambiente.
+        /// </summary>
+        [TestVariable("f0b8da2f-7591-4fb7-9985-b5ad7cd6a5fe")]
+        public string Ambiente
+        {
+            get { return repo.Ambiente; }
+            set { repo.Ambiente = value; }
         }
 
 #endregion
@@ -92,8 +103,7 @@ namespace CardaData
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site URL in variable $URL with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser(URL, "Chrome", "", false, false, false, true, false, true);
+            ValidaStatus();
             Delay.Milliseconds(0);
             
         }

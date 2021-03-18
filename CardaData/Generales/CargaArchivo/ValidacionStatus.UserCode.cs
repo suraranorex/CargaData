@@ -20,9 +20,9 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace CardaData.PC
+namespace CardaData.Generales.CargaArchivo
 {
-    public partial class BusquedaDeCodigosDeProductor
+    public partial class ValidacionStatus
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
@@ -33,28 +33,18 @@ namespace CardaData.PC
             // Your recording specific initialization code goes here.
         }
 
-        public void ValidaSiAparecePAS()
+        public void ValidaStatus()
         {
             // TODO: Replace the following line with your code implementation.
             //throw new NotImplementedException();
             
-            if(repo.ApplicationUnderTest.PAS_2302Info.Exists(5000)){
+            if(Status == "FAIL"){
             
-            	Status = "PASS";
-            	Report.Info("INFO: ","Carga de Archivo Exitosa - PAS OK");
-            
-            }else{
-            	
-            	Status = "FAIL";
-            	Delay.Milliseconds(600000);
-            	Report.Info("INFO: ","Inicia Logout");
+            	Delay.Milliseconds(30000);
             	CardaData.Generales.Logout.Logout.Instance.Ambiente = Ambiente;
             	CardaData.Generales.Logout.Logout.Start();
-            	Report.Info("INFO: ","Inicia Close Browser");
             	CardaData.CloseBrowser.Instance.Ambiente = Ambiente;
             	CardaData.CloseBrowser.Start();
-            	
-            	repo.ApplicationUnderTest.PAS_2302Info.WaitForExists(1);
             }
         }
 

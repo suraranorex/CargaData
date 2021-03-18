@@ -1,15 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modulegroupdoc>
-  <testsuiteentryhierarchy>
-    <flatlistofchildren>
-      <modulegroups
-      name="CardaData"
-      id="65f11bfb-207b-43c9-9dbc-3e9f776d94dc"/>
-    </flatlistofchildren>
-    <childhierarchy>
-      <modulegroups
-      name="CardaData"
-      id="65f11bfb-207b-43c9-9dbc-3e9f776d94dc"/>
-    </childhierarchy>
-  </testsuiteentryhierarchy>
+<modulegroupdoc
+rxversion="9.2">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="65f11bfb-207b-43c9-9dbc-3e9f776d94dc"
+			name="CardaData">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="65f11bfb-207b-43c9-9dbc-3e9f776d94dc"
+			name="CardaData">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
 </modulegroupdoc>

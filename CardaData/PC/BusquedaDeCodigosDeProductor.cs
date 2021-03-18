@@ -41,6 +41,7 @@ namespace CardaData.PC
         /// </summary>
         public BusquedaDeCodigosDeProductor()
         {
+            Status = "";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace CardaData.PC
         }
 
 #region Variables
+
+        string _Status;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status.
+        /// </summary>
+        [TestVariable("1fa41dbd-5bb8-4c43-8700-9b77a559efa3")]
+        public string Status
+        {
+            get { return _Status; }
+            set { _Status = value; }
+        }
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -100,12 +113,18 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.txt_CodProductorBuscar.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '6254' with focus on 'ApplicationUnderTest.txt_CodProductorBuscar'.", repo.ApplicationUnderTest.txt_CodProductorBuscarInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.txt_CodProductorBuscar.PressKeys("6254");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '2301' with focus on 'ApplicationUnderTest.txt_CodProductorBuscar'.", repo.ApplicationUnderTest.txt_CodProductorBuscarInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.txt_CodProductorBuscar.PressKeys("2301");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_BuscarCodPAS' at Center.", repo.ApplicationUnderTest.Btn_BuscarCodPASInfo, new RecordItemIndex(4));
             repo.ApplicationUnderTest.Btn_BuscarCodPAS.Click();
+            Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.PAS_2302'", repo.ApplicationUnderTest.PAS_2302Info, new ActionTimeout(10000), new RecordItemIndex(5));
+            //repo.ApplicationUnderTest.PAS_2302Info.WaitForExists(10000);
+            
+            ValidaSiAparecePAS();
             Delay.Milliseconds(0);
             
         }

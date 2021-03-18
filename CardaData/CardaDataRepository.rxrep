@@ -1963,6 +1963,15 @@ name="CardaDataRepository">
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//div[@innertext='RVASINI']
 			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="9c5aa115-e8bc-4f91-8485-60dc0dffdf4b"
+			name="PAS_2302"
+			refimgid="e0d65255-4c86-4688-8d66-371b6c11170b"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']//a[@innertext='2302']
+			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
 			</basepath>
@@ -2310,7 +2319,7 @@ AAAASUVORK5CYII=
 		<var
 		id="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 		name="Ambiente">
-			suragwqa2.segurossura.com.ar
+			ssurgwsoadev4-oci.opc.oracleoutsourcing.com
 		</var>
 		<var
 		id="658183a5-d45d-4ec1-a6ea-51dbf041ea2b"

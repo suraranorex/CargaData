@@ -140,6 +140,20 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="0e861c03-3665-4db3-8b8a-f9f1f2a39b97"
+			name="OpenBrowser"
+			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="213c0142-c946-4a43-9d18-1a344440f5c3"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			datasource="PruebaMenu"
 			id="0f922fba-f32d-4092-b8ae-2d4eb9320ed2"
@@ -362,10 +376,24 @@
 			datarangeactive="True"
 			datasource="CargaAdmDataPC"
 			id="2511387e-d494-463e-b6da-bd567f768e9b"
-			maxrange="0"
-			minrange="0"
+			maxrange="2"
+			minrange="2"
 			name="Carga_AdmDataLoader_PC">
 			</testcase>
+			<testmodule
+			id="251abfce-374a-4c04-8be5-790137d10bbf"
+			name="SubMenu_CodigoDeProductor"
+			ref="159fff5e-f354-4b0f-8f92-6a4d03bb8585"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="213c0142-c946-4a43-9d18-1a344440f5c3"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="269c2544-8679-4506-8244-f813efca670a"
 			name="CambioDatos"
@@ -1258,6 +1286,26 @@
 			ref="8246f71b-f8fd-420b-9b79-eb0951228ae1"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="6f639c4e-5a41-45cc-a566-0121300dbdb7"
+			name="BusquedaDeCodigosDeProductor"
+			ref="3ae507f2-717e-4833-840c-544845243977"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="213c0142-c946-4a43-9d18-1a344440f5c3"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Status"
+					datasourceid="eb28c57d-a056-426b-bce2-4438c4aaa5e5"
+					variableid="1fa41dbd-5bb8-4c43-8700-9b77a559efa3"
+					variablename="Status">
+					</var>
+				</databinding>
+			</testmodule>
 			<setup
 			id="6fead25e-9fdb-4bc8-9709-ff3ced4777c9"
 			name="setup">
@@ -1541,6 +1589,23 @@
 					datasourceid="d5c5f314-e30a-45de-92d3-3419392b754f"
 					variableid="a26fe692-3319-4eb3-b594-05efee2057f3"
 					variablename="RutaArchivo">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="836fec31-e78e-45bd-8f3d-cc1b526a8dba"
+			name="MenuPpalBuscar"
+			ref="fc1e161a-6316-4def-b60f-298e656890a2"
+			type="Recording">
+				<description>
+					<![CDATA[Se agregó Código para ValidarContenidoMenu]]>
+				</description>
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="213c0142-c946-4a43-9d18-1a344440f5c3"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -2664,6 +2729,17 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="eb28c57d-a056-426b-bce2-4438c4aaa5e5"
+			name="ValidaCargaPAS"
+			retrycount="4">
+				<parameters>
+					<param
+					name="Status"
+					value="">
+					</param>
+				</parameters>
+			</smartfoldernode>
 			<testmodule
 			enabled="False"
 			id="eb391eb8-ec4a-4a98-80ac-93f0d9327cb7"
@@ -2783,6 +2859,32 @@
 					datasourceid="bfc5d527-bfd4-4b69-bd8c-42fdcdad9df9"
 					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
 					variablename="URL">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="f5e17d3a-733a-4e20-ab0c-c355ec77a95a"
+			name="Login"
+			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="213c0142-c946-4a43-9d18-1a344440f5c3"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="213c0142-c946-4a43-9d18-1a344440f5c3"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="213c0142-c946-4a43-9d18-1a344440f5c3"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
 					</var>
 				</databinding>
 			</testmodule>
@@ -3255,6 +3357,30 @@
 						id="24d2d35a-d202-4645-aeb4-8df6db0a38ef"
 						name="CargarArchivo">
 						</testmodule>
+						<smartfoldernode
+						id="eb28c57d-a056-426b-bce2-4438c4aaa5e5"
+						name="ValidaCargaPAS">
+							<testmodule
+							id="0e861c03-3665-4db3-8b8a-f9f1f2a39b97"
+							name="OpenBrowser">
+							</testmodule>
+							<testmodule
+							id="f5e17d3a-733a-4e20-ab0c-c355ec77a95a"
+							name="Login">
+							</testmodule>
+							<testmodule
+							id="836fec31-e78e-45bd-8f3d-cc1b526a8dba"
+							name="MenuPpalBuscar">
+							</testmodule>
+							<testmodule
+							id="251abfce-374a-4c04-8be5-790137d10bbf"
+							name="SubMenu_CodigoDeProductor">
+							</testmodule>
+							<testmodule
+							id="6f639c4e-5a41-45cc-a566-0121300dbdb7"
+							name="BusquedaDeCodigosDeProductor">
+							</testmodule>
+						</smartfoldernode>
 						<teardown
 						id="47144d54-2394-4d72-8883-b4d7a7643bee"
 						name="teardown">
@@ -4324,7 +4450,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="PC_EnlatadosCampaniasForms">
+	default="ArchivodelaMuerte">
 		<testconfiguration
 		name="ArchivodelaMuerte">
 			<testcontainer
@@ -4332,6 +4458,9 @@
 			</testcontainer>
 			<testcontainer
 			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
+			</testcontainer>
+			<testcontainer
+			id="eb28c57d-a056-426b-bce2-4438c4aaa5e5">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration

@@ -1048,8 +1048,35 @@ D//Z
 				</path>
 			</info>
 		</mouseitem>
-		<WaitForRecordItem
+		<explicitdelayitem
+		duration="600000ms"
 		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="db22702e-80d3-46e3-9a11-6e94f799803a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f871b418-aa5b-483b-bc50-320ef4c8bb8f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]
+				</path>
+			</info>
+		</closeapprecorditem>
+		<WaitForRecordItem
+		enabled="False"
 		optional="True"
 		searchpropertyid="00d53bb4-4928-4829-b358-6f287f89dc58"
 		waitaction="Exists"
@@ -1125,7 +1152,7 @@ D//Z
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -1308,7 +1335,7 @@ D//Z
 		action="Press"
 		data="F5"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		scancode="0"
@@ -1391,7 +1418,7 @@ D//Z
 			</info>
 		</keyitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="c55c6696-0c3f-4a54-8623-2d91520d5b0c"
 		waitaction="Exists"
@@ -1459,7 +1486,7 @@ D//Z
 		</WaitForRecordItem>
 		<validationitem
 		action="AttributeRegex"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="bb8af3ca-285b-42ec-8247-a37ee1645e03">
 			<comment>

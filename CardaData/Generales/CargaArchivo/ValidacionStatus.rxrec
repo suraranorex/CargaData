@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
-mode="Desktop">
+id="78ae98b4-b32b-4fa9-93b2-4001eb754c2c"
+mode="Global">
 	<repeatcount>
 		1
 	</repeatcount>
@@ -19,45 +19,40 @@ mode="Desktop">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="OpenBrowser"
-	namespace="CardaData">
+	classname="ValidacionStatus"
+	namespace="CardaData.Generales.CargaArchivo">
 	</codegen>
 	<variables>
 		<var
-		id="24124be0-a7e8-400a-84e8-0877803ed437"
-		name="URL">
-			https://ssurgwsoadev4-oci.opc.oracleoutsourcing.com/pc/PolicyCenter.do
+		id="339a9368-043b-40b7-8a78-784e3d4cc39c"
+		name="Status">
+		</var>
+		<var
+		id="f0b8da2f-7591-4fb7-9985-b5ad7cd6a5fe"
+		name="Ambiente">
 		</var>
 	</variables>
 	<recorditems>
-		<openwebsiterecorditem
-		args=""
-		browser="Chrome"
-		clearcache="False"
-		clearcookies="False"
+		<userrecorditem
+		classname="ValidacionStatus"
 		enabled="True"
-		incognito="True"
-		instrument="True"
-		killexisting="False"
-		maximized="False"
+		isexternaltestmethod="False"
+		methodname="ValidaStatus"
+		namespace="CardaData.Generales.CargaArchivo"
 		optional="False">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="Url"
-				variable="URL">
-				</binding>
 			</bindings>
-			<url>
-				https://ssurgwsoadev4.opc.oracleoutsourcing.com/pc/PolicyCenter.do
-			</url>
-		</openwebsiterecorditem>
+			<arguments
+			id="ea8cca2e-9154-430b-8c0b-6c0247f49bce">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
 	name="CardaDataRepository"
-	relativepath="CardaDataRepository.rxrep">
+	relativepath="..\..\CardaDataRepository.rxrep">
 		<codegen
 		classname="CardaDataRepository"
 		namespace="CardaData">
@@ -69,7 +64,7 @@ mode="Desktop">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		OpenBrowser.UserCode.cs
+		ValidacionStatus.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

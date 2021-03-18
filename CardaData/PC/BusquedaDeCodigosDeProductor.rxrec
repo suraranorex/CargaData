@@ -23,6 +23,10 @@ mode="Global">
 	namespace="CardaData.PC">
 	</codegen>
 	<variables>
+		<var
+		id="1fa41dbd-5bb8-4c43-8700-9b77a559efa3"
+		name="Status">
+		</var>
 	</variables>
 	<recorditems>
 		<WaitForRecordItem
@@ -136,7 +140,7 @@ mode="Global">
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
-		KeySequence="6254"
+		KeySequence="2301"
 		duration="20ms"
 		enabled="True"
 		optional="False"
@@ -232,6 +236,39 @@ mode="Global">
 				</path>
 			</info>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="False"
+		optional="False"
+		searchpropertyid="65e3f74f-c674-4c2c-8d35-ba8c88613393"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9c5aa115-e8bc-4f91-8485-60dc0dffdf4b"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']//a[@innertext='2302']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<userrecorditem
+		classname="BusquedaDeCodigosDeProductor"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidaSiAparecePAS"
+		namespace="CardaData.PC"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="d2aeb31d-0720-46d1-8c8f-ede463263255">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="2a0a9fab-6d64-4305-908d-893e5460c59f"

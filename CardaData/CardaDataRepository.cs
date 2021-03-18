@@ -61,7 +61,7 @@ namespace CardaData
 
 #region Variables
 
-        string _Ambiente = "suragwqa2.segurossura.com.ar";
+        string _Ambiente = "ssurgwsoadev4-oci.opc.oracleoutsourcing.com";
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -458,6 +458,7 @@ namespace CardaData
             RepoItemInfo _xgridcellinnerInfo;
             RepoItemInfo _refid001Info;
             RepoItemInfo _rvasiniInfo;
+            RepoItemInfo _pas_2302Info;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -664,6 +665,7 @@ namespace CardaData
                 _xgridcellinnerInfo = new RepoItemInfo(this, "XGridCellInner", ".//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table[2]/?/?/tr/td[2]/div", 30000, null, "4095072b-9704-42a3-8f51-02618fb029d6");
                 _refid001Info = new RepoItemInfo(this, "REFID001", ".//div[#'DataChangePage/details']//div[@innertext='REFID_001']", 30000, null, "705b8156-1e07-4b9e-b019-4bb5e758977b");
                 _rvasiniInfo = new RepoItemInfo(this, "RVASINI", ".//div[#'DataChangePage/details']//div[@innertext='RVASINI']", 30000, null, "94f6ffa6-f528-45d4-8130-f9193f2f6719");
+                _pas_2302Info = new RepoItemInfo(this, "PAS_2302", ".//tbody[#'ProducerCodeSearch-tbody']//a[@innertext='2302']", 30000, null, "9c5aa115-e8bc-4f91-8485-60dc0dffdf4b");
             }
 
             /// <summary>
@@ -5391,6 +5393,30 @@ namespace CardaData
                 get
                 {
                     return _rvasiniInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PAS_2302 item.
+            /// </summary>
+            [RepositoryItem("9c5aa115-e8bc-4f91-8485-60dc0dffdf4b")]
+            public virtual Ranorex.ATag PAS_2302
+            {
+                get
+                {
+                    return _pas_2302Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PAS_2302 item info.
+            /// </summary>
+            [RepositoryItemInfo("9c5aa115-e8bc-4f91-8485-60dc0dffdf4b")]
+            public virtual RepoItemInfo PAS_2302Info
+            {
+                get
+                {
+                    return _pas_2302Info;
                 }
             }
 

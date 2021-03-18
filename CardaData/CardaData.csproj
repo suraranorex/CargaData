@@ -303,6 +303,18 @@
       <UserCode>true</UserCode>
       <id>7bb9af65-427e-4949-8b51-c6d807cbaf99</id>
     </Compile>
+    <Compile Include="Generales\CargaArchivo\ValidacionStatus.cs">
+      <BoundTo>c8299725-3d47-463a-ad5e-7c3857ae0867</BoundTo>
+      <DependentUpon>ValidacionStatus.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4e680c63-4520-4f27-aa93-db82a7bd0048</id>
+    </Compile>
+    <Compile Include="Generales\CargaArchivo\ValidacionStatus.UserCode.cs">
+      <BoundTo>c8299725-3d47-463a-ad5e-7c3857ae0867</BoundTo>
+      <DependentUpon>ValidacionStatus.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>28d27567-45b1-4600-b3f1-6b66c812f1bd</id>
+    </Compile>
     <Compile Include="Generales\Login\Login.cs">
       <BoundTo>00d871e1-a77e-4fa5-b710-ad329f8ee3a8</BoundTo>
       <DependentUpon>Login.rxrec</DependentUpon>
@@ -1172,6 +1184,11 @@
       <id>bc54d274-9df9-45c4-8f39-0f3e0a9d272e</id>
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <recordtableid>99a4628f-c5e5-472e-98b8-5283decce00c</recordtableid>
+    </None>
+    <None Include="Generales\CargaArchivo\ValidacionStatus.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>c8299725-3d47-463a-ad5e-7c3857ae0867</id>
+      <recordtableid>78ae98b4-b32b-4fa9-93b2-4001eb754c2c</recordtableid>
     </None>
     <None Include="Generales\Login\Login.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
