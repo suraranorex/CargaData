@@ -121,7 +121,7 @@ mode="Global">
 		optional="False"
 		searchpropertyid="0725a6d3-6645-421c-90ed-71020375c413"
 		waitaction="Exists"
-		waittimeout="30000ms">
+		waittimeout="60000ms">
 			<comment>
 			</comment>
 			<bindings>

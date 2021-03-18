@@ -105,8 +105,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.Btn_BuscarCampania.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.filaUnoCampanias'", repo.ApplicationUnderTest.filaUnoCampaniasInfo, new ActionTimeout(30000), new RecordItemIndex(4));
-            repo.ApplicationUnderTest.filaUnoCampaniasInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'ApplicationUnderTest.filaUnoCampanias'", repo.ApplicationUnderTest.filaUnoCampaniasInfo, new ActionTimeout(60000), new RecordItemIndex(4));
+            repo.ApplicationUnderTest.filaUnoCampaniasInfo.WaitForExists(60000);
             
         }
 

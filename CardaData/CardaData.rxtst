@@ -4450,7 +4450,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="PlanesComisionesPlanPagoBC">
+	default="LataFlexXML">
 		<testconfiguration
 		name="ArchivodelaMuerte">
 			<testcontainer

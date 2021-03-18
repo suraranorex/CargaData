@@ -132,8 +132,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.Btn_BuscarEnlatado.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.filaUnoEnlatados'", repo.ApplicationUnderTest.filaUnoEnlatadosInfo, new ActionTimeout(30000), new RecordItemIndex(11));
-            repo.ApplicationUnderTest.filaUnoEnlatadosInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 50s to exist. Associated repository item: 'ApplicationUnderTest.filaUnoEnlatados'", repo.ApplicationUnderTest.filaUnoEnlatadosInfo, new ActionTimeout(50000), new RecordItemIndex(11));
+            repo.ApplicationUnderTest.filaUnoEnlatadosInfo.WaitForExists(50000);
             
         }
 
