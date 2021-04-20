@@ -126,6 +126,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="0cabce2d-d97b-4175-b64d-7fe933c588ed"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="0dc7bdd7-9d70-44f4-b45f-c2d62f561b12"
 			name="CloseBrowser"
@@ -139,6 +143,28 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="0e616cca-dc7a-4908-bd52-3285c7cb28d3"
+			name="Logout"
+			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="0e861c03-3665-4db3-8b8a-f9f1f2a39b97"
@@ -193,6 +219,12 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="16321ad7-a9e2-48ac-ad48-81ddb47bd697"
+			name="TerminarCreacion_PlanEnlatado"
+			ref="114b2b25-2846-48b6-88f6-d11aa112a11c"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="16d53681-1390-4e7e-a4e9-3fd2c0b15a5a"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -228,6 +260,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<setup
+			id="18604748-6f96-434d-921f-ad189c691adb"
+			name="setup">
+			</setup>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -236,16 +272,21 @@
 			VideoFps="15"
 			VideoRecordingMode="KeepAllTests"
 			VideoSource="Auto"
+			createsinglereportpdfchecked="False"
 			enabletracingscreenshots="True"
 			id="194a2777-802c-45c9-9f61-a0fbf6266ca0"
+			includeimageschecked="False"
+			includerecordingschecked="False"
 			junitreport="False"
 			name="CardaData"
+			overwritefilechecked="False"
 			reportcompress="False"
 			reportdirectoryname="Reports"
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
 			reporttemplatefolder=""
-			reportwriteinterval="30000ms">
+			reportwriteinterval="30000ms"
+			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
 			<testmodule
 			id="1a49bcdb-dea9-47d1-a108-8d17c0363230"
@@ -309,6 +350,28 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="1d1e5811-6cf3-4996-9f0f-9a6a64ec47a3"
+			name="OpenBrowser"
+			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="URL"
+					datasourceid="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="1ee70f0d-85a7-416d-8c2a-5fcc6bd97166"
@@ -395,6 +458,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="268d0454-5eaf-4f37-984b-5cc10a1acdaf"
+			name="MenuSuperior_Buscar_CodProductor"
+			ref="f8d960d4-d734-4a5f-b6a6-8157840de5c4"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="269c2544-8679-4506-8244-f813efca670a"
 			name="CambioDatos"
 			ref="1cad4c0f-90e0-4fbf-8a34-145edb70029d"
@@ -447,6 +524,57 @@
 					variablename="Contrasenia">
 					</var>
 				</databinding>
+			</testmodule>
+			<smartfoldernode
+			datasource="CoberturasAP"
+			id="2b611205-53a9-4402-9492-292a434d816f"
+			name="Coberturas_SumaAsegurada_Prima">
+			</smartfoldernode>
+			<testmodule
+			id="2c0f5e04-0082-458d-a138-96bad0c695b5"
+			name="Login"
+			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="2ca8e9de-59cb-484c-89ed-4169f853bc71"
@@ -585,6 +713,12 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="3ca73d1e-9c74-4c5b-9ada-294aac69de13"
+			name="TerminarSeleccionProductores"
+			ref="f1015288-8a90-49c5-929e-410fae8b167e"
+			type="Recording">
 			</testmodule>
 			<testmodule
 			id="3e3dbfc8-2730-454c-80b1-741fe154a2ca"
@@ -753,6 +887,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			datasource="CoberturasAP_Proveedor"
+			id="4861dd79-8b2b-47f1-b356-fa18cddc1a5c"
+			name="Coberturas_Proveedor">
+			</smartfoldernode>
 			<testmodule
 			id="48a9820a-b9a2-49c6-865f-072e71ad22a0"
 			name="SubMenu_Clasif_AsistHogar"
@@ -780,6 +919,34 @@
 			id="4b18ab27-8c3e-4c36-9d31-21590ab196fa"
 			name="Act_MasivaDeTarifa"
 			ref="050c33f8-2d02-44f1-ba35-c791367df414"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="4c32607b-a950-46c1-a497-71265f4c79ae"
+			name="OpenBrowser"
+			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="URL"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="4ccb2440-ba89-4e67-ba16-aa492d0a5881"
+			name="MenuSuperior_Administracion_PlanesEnlatados"
+			ref="d7ebf1c5-a4df-434a-b570-ef207c6de66d"
 			type="Recording">
 			</testmodule>
 			<setup
@@ -891,6 +1058,12 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="51d53f92-b112-4c2a-a50b-2bb9c47cb212"
+			name="SeleccionarProductores"
+			ref="685e7947-ff7b-4de1-9e61-7d7a9e5d9a24"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="522aca16-ddf7-4182-949c-9eb579b1ae71"
 			name="CapturaTeclas"
 			ref="1996f413-0d7d-4f41-8a11-bd2dec11c2e8"
@@ -986,6 +1159,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			datasource="ConfigurarProductores_FactMensual"
+			id="58661b56-c422-4cbb-b25a-f317bcd2a31e"
+			name="ConfigurarProductores">
+			</smartfoldernode>
 			<testmodule
 			id="5874996a-0f47-4e4f-b657-4a870c3c11e4"
 			name="CloseBrowser"
@@ -1133,6 +1311,12 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="6223cbd6-0380-446f-85b3-83aad2fb3b07"
+			name="CompletarDatosBasicos_EnlatadoAP"
+			ref="64d48932-0e3a-43ac-8c3c-d8c4c337951e"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="62682c90-5eb7-4848-873c-3dbfbcee34c0"
 			name="SubMenu_Clasif_Hogar"
 			ref="945d1fb8-a3e9-4afd-8b10-d7ca90f9225f"
@@ -1231,6 +1415,28 @@
 			name="setup">
 			</setup>
 			<testmodule
+			id="6a1c78e1-0767-4626-b9cf-361a427206d4"
+			name="CloseBrowser"
+			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="6b2beb91-4bed-4b2d-b3ae-6279a7b1e5a8"
 			name="ValidaColaMensajeria"
 			ref="bdc643ff-1100-46ff-a1db-da26ca886474"
@@ -1277,6 +1483,32 @@
 					datasourceid="213c0142-c946-4a43-9d18-1a344440f5c3"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="6e18bdd8-c15b-4eb1-bb37-3010dbcf1945"
+			name="AgregarCoberturas_SumaAsegurada_Prima"
+			ref="95978e28-c93a-4d35-b5b1-3b847669bc49"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Cobertura"
+					datasourceid="7545bf9d-cca5-4903-9827-4137cf31353e"
+					variableid="7c2969b4-27d8-4945-a9a9-e4a05ced7301"
+					variablename="Cobertura">
+					</var>
+					<var
+					dataname="SumaAsegurada"
+					datasourceid="7545bf9d-cca5-4903-9827-4137cf31353e"
+					variableid="8ffbcfc5-9dec-4edc-9d46-7d7fbefe78b4"
+					variablename="SumaAsegurada">
+					</var>
+					<var
+					dataname="PrimaFija"
+					datasourceid="7545bf9d-cca5-4903-9827-4137cf31353e"
+					variableid="8bf57737-b2f9-4cac-a2e7-aa0dbbcb9dc8"
+					variablename="PrimaFija">
 					</var>
 				</databinding>
 			</testmodule>
@@ -1532,6 +1764,25 @@
 			id="80bc7075-6714-4b31-b7fc-e95631a10c35"
 			name="teardown">
 			</teardown>
+			<testcase
+			datasource="DataSource_ConfigurarProductor"
+			id="80cbe614-4b4a-4f94-8e2c-f4c2f8785d1f"
+			name="ConfigurarProductor_FacturacionMensual">
+			</testcase>
+			<testmodule
+			id="817070a8-bbb3-4edf-9cca-4aa2228f34ac"
+			name="Configurar_PlazoFacturacion"
+			ref="9de537a8-11f6-4504-81e4-cecc6fe042c9"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="82762be4-5b91-400f-b51f-8868e67ebfe7"
 			name="OpenBrowser"
@@ -1685,6 +1936,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="886a7fa1-2e35-4972-951c-5b509d8a8cff"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="8a68e7f6-a87e-4470-8855-fa68b4439781"
 			name="Logout"
@@ -1868,6 +2123,26 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="9f617f2a-8b7c-4fa7-b189-a0fa0472e5e7"
+			name="Ingresar_Detalle_CodProductor"
+			ref="0734b97b-bdb5-4f36-8e8c-d2eb7b2ae77b"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="PASS"
+					datasourceid="3f2661ff-da12-4b8f-af57-87765f2394d2"
+					variableid="0b3b15b6-0e6a-4d59-aa5a-6bbfd31eeb3e"
+					variablename="PASS">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			enabled="False"
 			id="9fd05fcb-06c5-4117-af6b-934201d6e099"
 			name="CloseBrowser"
@@ -1935,6 +2210,12 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="a41d4edf-b509-4e6a-bca5-53f1516c322a"
+			name="SeleccionarProductores_Answer"
+			ref="bda613c1-fc47-4cb9-8a81-1af042984445"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="a504aa25-98c1-427d-8f96-4bf316b91548"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -1976,6 +2257,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<setup
+			id="a67883b1-5b6b-4901-8da6-c1e8b99c67da"
+			name="setup">
+			</setup>
 			<testmodule
 			id="a753b070-3b7f-4e68-aa5b-9011465f5b36"
 			name="Logout"
@@ -2056,6 +2341,33 @@
 			minrange="2"
 			name="Validar_Mensajeria_SistemaFacturacion">
 			</testcase>
+			<testcase
+			datasource="Creacion_PlanAutonomia"
+			id="ad0f122d-79ac-41b6-9c9d-6af436bc75c3"
+			name="CrearPlanAutonomia">
+			</testcase>
+			<testmodule
+			id="ae6069fe-401b-4d44-b3cb-b3039a5531f8"
+			name="Logout"
+			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<testmodule
 			enabled="False"
 			id="b0174a7a-1074-442d-b061-4b8e00b4b43c"
@@ -2378,6 +2690,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			datasource="PASS_Productores"
+			id="cd34e477-bc59-45f5-a1e2-256e4ee0ef51"
+			name="Productores_PASS">
+			</smartfoldernode>
 			<testmodule
 			id="cdc1d07e-6311-4fc0-a7a0-bb3c1ce56930"
 			name="CloseBrowser"
@@ -2644,6 +2961,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="e212dfc3-0886-4bf8-aed8-42e512eba324"
+			name="SeleccionarProductores_PASS"
+			ref="50a833a6-eecc-4f93-a5a2-73349dd4bc46"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="PASS"
+					datasourceid="5d0ba325-4ee5-4c5d-a62a-61186f9aecbc"
+					variableid="82852bd0-f290-4719-afff-a73e01f9d61c"
+					variablename="PASS">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="e3cdae61-7cc7-4724-b613-4839049e8709"
 			name="SubMenu_Clasif_LibroDeTasas"
 			ref="5dab2099-cf25-4841-9225-6d87086a65f9"
@@ -2716,6 +3047,26 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="e7c82684-a5a3-4a89-abcf-6ec56825f910"
+			name="AgregarCoberturas_Proveedor"
+			ref="9bd8733b-1e75-4bdf-b6ea-df60c6b6a5bd"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Cobertura"
+					datasourceid="12b53128-bceb-4494-8526-3f2673ecf7af"
+					variableid="7c2969b4-27d8-4945-a9a9-e4a05ced7301"
+					variablename="Cobertura">
+					</var>
+					<var
+					dataname="PrimaFija"
+					datasourceid="12b53128-bceb-4494-8526-3f2673ecf7af"
+					variableid="6504adf2-c916-4c2f-bfbb-69913c5406ad"
+					variablename="PrimaFija">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="e8ef748f-5ec5-4cda-8ff6-763c9fc160bb"
 			name="OpenBrowser"
 			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
@@ -2754,6 +3105,12 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="eb64e2ef-db8f-4817-b4e7-9e2cd37557cd"
+			name="NuevoPlanEnlatado"
+			ref="0b29f461-a2a0-480f-a380-83ce697c2156"
+			type="Recording">
 			</testmodule>
 			<testmodule
 			id="ebf822e2-7dc1-48f0-81ee-6c7b8a46c0c6"
@@ -2917,6 +3274,52 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="f6fe4794-6797-43c0-bc15-ec9ff3688684"
+			name="Login"
+			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="f6ffe5d8-5ee5-4300-a6fa-2d313e8e96b6"
 			name="FinalizaCargaInvoiceSchedule_2"
 			ref="8a37a284-63d4-4711-b4b3-ba1082f2568d"
@@ -2962,6 +3365,28 @@
 					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="f9e65a7e-af8b-4d60-9ed0-5227f3fd81fc"
+			name="CloseBrowser"
+			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<setup
 			id="fb2e2929-cbda-4ce1-96f6-08cbc1663765"
 			name="setup">
@@ -3890,6 +4315,130 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="ad0f122d-79ac-41b6-9c9d-6af436bc75c3"
+					name="CrearPlanAutonomia">
+						<setup
+						id="18604748-6f96-434d-921f-ad189c691adb"
+						name="setup">
+							<testmodule
+							id="1d1e5811-6cf3-4996-9f0f-9a6a64ec47a3"
+							name="OpenBrowser">
+							</testmodule>
+							<testmodule
+							id="2c0f5e04-0082-458d-a138-96bad0c695b5"
+							name="Login">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="4ccb2440-ba89-4e67-ba16-aa492d0a5881"
+						name="MenuSuperior_Administracion_PlanesEnlatados">
+						</testmodule>
+						<testmodule
+						id="eb64e2ef-db8f-4817-b4e7-9e2cd37557cd"
+						name="NuevoPlanEnlatado">
+						</testmodule>
+						<testmodule
+						id="6223cbd6-0380-446f-85b3-83aad2fb3b07"
+						name="CompletarDatosBasicos_EnlatadoAP">
+						</testmodule>
+						<testmodule
+						id="51d53f92-b112-4c2a-a50b-2bb9c47cb212"
+						name="SeleccionarProductores">
+						</testmodule>
+						<testmodule
+						id="a41d4edf-b509-4e6a-bca5-53f1516c322a"
+						name="SeleccionarProductores_Answer">
+						</testmodule>
+						<smartfoldernode
+						id="cd34e477-bc59-45f5-a1e2-256e4ee0ef51"
+						name="Productores_PASS">
+							<testmodule
+							id="e212dfc3-0886-4bf8-aed8-42e512eba324"
+							name="SeleccionarProductores_PASS">
+							</testmodule>
+						</smartfoldernode>
+						<testmodule
+						id="3ca73d1e-9c74-4c5b-9ada-294aac69de13"
+						name="TerminarSeleccionProductores">
+						</testmodule>
+						<smartfoldernode
+						id="2b611205-53a9-4402-9492-292a434d816f"
+						name="Coberturas_SumaAsegurada_Prima">
+							<testmodule
+							id="6e18bdd8-c15b-4eb1-bb37-3010dbcf1945"
+							name="AgregarCoberturas_SumaAsegurada_Prima">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="4861dd79-8b2b-47f1-b356-fa18cddc1a5c"
+						name="Coberturas_Proveedor">
+							<testmodule
+							id="e7c82684-a5a3-4a89-abcf-6ec56825f910"
+							name="AgregarCoberturas_Proveedor">
+							</testmodule>
+						</smartfoldernode>
+						<testmodule
+						id="16321ad7-a9e2-48ac-ad48-81ddb47bd697"
+						name="TerminarCreacion_PlanEnlatado">
+						</testmodule>
+						<teardown
+						id="0cabce2d-d97b-4175-b64d-7fe933c588ed"
+						name="teardown">
+							<testmodule
+							id="ae6069fe-401b-4d44-b3cb-b3039a5531f8"
+							name="Logout">
+							</testmodule>
+							<testmodule
+							id="6a1c78e1-0767-4626-b9cf-361a427206d4"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
+					id="80cbe614-4b4a-4f94-8e2c-f4c2f8785d1f"
+					name="ConfigurarProductor_FacturacionMensual">
+						<setup
+						id="a67883b1-5b6b-4901-8da6-c1e8b99c67da"
+						name="setup">
+							<testmodule
+							id="4c32607b-a950-46c1-a497-71265f4c79ae"
+							name="OpenBrowser">
+							</testmodule>
+							<testmodule
+							id="f6fe4794-6797-43c0-bc15-ec9ff3688684"
+							name="Login">
+							</testmodule>
+						</setup>
+						<smartfoldernode
+						id="58661b56-c422-4cbb-b25a-f317bcd2a31e"
+						name="ConfigurarProductores">
+							<testmodule
+							id="268d0454-5eaf-4f37-984b-5cc10a1acdaf"
+							name="MenuSuperior_Buscar_CodProductor">
+							</testmodule>
+							<testmodule
+							id="9f617f2a-8b7c-4fa7-b189-a0fa0472e5e7"
+							name="Ingresar_Detalle_CodProductor">
+							</testmodule>
+							<testmodule
+							id="817070a8-bbb3-4edf-9cca-4aa2228f34ac"
+							name="Configurar_PlazoFacturacion">
+							</testmodule>
+						</smartfoldernode>
+						<teardown
+						id="886a7fa1-2e35-4972-951c-5b509d8a8cff"
+						name="teardown">
+							<testmodule
+							id="0e616cca-dc7a-4908-bd52-3285c7cb28d3"
+							name="Logout">
+							</testmodule>
+							<testmodule
+							id="f9e65a7e-af8b-4d60-9ed0-5227f3fd81fc"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -4223,6 +4772,226 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
+		id="7545bf9d-cca5-4903-9827-4137cf31353e"
+		lastknownrowcount="7"
+		name="CoberturasAP"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					Cobertura
+				</column>
+				<column>
+					SumaAsegurada
+				</column>
+				<column>
+					PrimaFija
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						Cobertura
+					</th>
+					<th>
+						SumaAsegurada
+					</th>
+					<th>
+						PrimaFija
+					</th>
+				</tr>
+				<tr>
+					<td>
+						Muerte Accidental
+					</td>
+					<td>
+						2000000
+					</td>
+					<td>
+						2479,43
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Incapacidad Total y/o Parcial permanente por accidente
+					</td>
+					<td>
+						2000000
+					</td>
+					<td>
+						2129,21
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Reembolso de gastos por asistencia médicos/farmaceutica por accidente
+					</td>
+					<td>
+						200000
+					</td>
+					<td>
+						309,93
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Muerte por Asalto
+					</td>
+					<td>
+						2000000
+					</td>
+					<td>
+						247,94
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Uso de Motocicletas In Itinere
+					</td>
+					<td>
+						2000000
+					</td>
+					<td>
+						1132,48
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Muerte Accidental - Legado Familiar
+					</td>
+					<td>
+						200000
+					</td>
+					<td>
+						247,94
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Invalidez Permanente Total Y Parcial – Terapia Ocupacional
+					</td>
+					<td>
+						200000
+					</td>
+					<td>
+						247,94
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
+		id="12b53128-bceb-4494-8526-3f2673ecf7af"
+		lastknownrowcount="3"
+		name="CoberturasAP_Proveedor"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					Cobertura
+				</column>
+				<column>
+					PrimaFija
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						Cobertura
+					</th>
+					<th>
+						PrimaFija
+					</th>
+				</tr>
+				<tr>
+					<td>
+						Prestación De Potenciación De Vida Laboral
+					</td>
+					<td>
+						0
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Prestación Finanzas Con Propósito
+					</td>
+					<td>
+						0
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Asistencia Para El Entorno Laboral
+					</td>
+					<td>
+						0
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
+		id="3f2661ff-da12-4b8f-af57-87765f2394d2"
+		lastknownrowcount="3"
+		name="ConfigurarProductores_FactMensual"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					PASS
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						PASS
+					</th>
+				</tr>
+				<tr>
+					<td>
+						2344
+					</td>
+				</tr>
+				<tr>
+					<td>
+						2302
+					</td>
+				</tr>
+				<tr>
+					<td>
+						1297
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
+		filename="DataSource-CreacionPlanAutonomia.xlsx"
+		id="64538ad2-02c5-430a-9507-75c5cd27bbab"
+		includefile="Checked"
+		lastknownrowcount="1"
+		name="Creacion_PlanAutonomia"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Hoja1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Ambiente
+				</column>
+				<column>
+					URL
+				</column>
+				<column>
+					Usuario
+				</column>
+				<column>
+					Contrasenia
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
 		filename="DataSource - DataChange_CC.xlsx"
 		id="98955795-76af-4125-b69c-b699e9c86017"
 		includefile="Checked"
@@ -4255,6 +5024,32 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
+		filename="DataSource-ConfigurarProductor-Facturacion.xlsx"
+		id="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+		includefile="Checked"
+		lastknownrowcount="1"
+		name="DataSource_ConfigurarProductor"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Hoja1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Ambiente
+				</column>
+				<column>
+					URL
+				</column>
+				<column>
+					Usuario
+				</column>
+				<column>
+					Contrasenia
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
 		filename="DataSource - InvoiceShedule.xlsx"
 		id="b65ca71b-ee75-4037-b0b7-a332d78f0910"
 		includefile="Checked"
@@ -4279,6 +5074,46 @@
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
+		</DataSource>
+		<DataSource
+		id="3fa984b1-c87a-44fc-9f2b-672455aca40e"
+		lastknownrowcount="0"
+		name="NewConnector"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
+		id="5d0ba325-4ee5-4c5d-a62a-61186f9aecbc"
+		lastknownrowcount="2"
+		name="PASS_Productores"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					PASS
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						PASS
+					</th>
+				</tr>
+				<tr>
+					<td>
+						6254
+					</td>
+				</tr>
+				<tr>
+					<td>
+						2302
+					</td>
+				</tr>
+			</table>
 		</DataSource>
 		<DataSource
 		filename="DataSource - PruebaMenu.xlsx"
@@ -4450,7 +5285,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="PC_EnlatadosCampaniasForms">
+	default="ConfigurarProductor">
 		<testconfiguration
 		name="ArchivodelaMuerte">
 			<testcontainer
@@ -4470,6 +5305,36 @@
 			</testcontainer>
 			<testcontainer
 			id="cdc6ca54-c944-4487-b9a0-7e317e6eb5be">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="ConfigurarProductor">
+			<testcontainer
+			id="58661b56-c422-4cbb-b25a-f317bcd2a31e">
+			</testcontainer>
+			<testcontainer
+			id="80cbe614-4b4a-4f94-8e2c-f4c2f8785d1f">
+			</testcontainer>
+			<testcontainer
+			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="CreacionPlanAutonomia">
+			<testcontainer
+			id="2b611205-53a9-4402-9492-292a434d816f">
+			</testcontainer>
+			<testcontainer
+			id="4861dd79-8b2b-47f1-b356-fa18cddc1a5c">
+			</testcontainer>
+			<testcontainer
+			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
+			</testcontainer>
+			<testcontainer
+			id="ad0f122d-79ac-41b6-9c9d-6af436bc75c3">
+			</testcontainer>
+			<testcontainer
+			id="cd34e477-bc59-45f5-a1e2-256e4ee0ef51">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration

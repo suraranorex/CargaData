@@ -1,0 +1,3628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="64d48932-0e3a-43ac-8c3c-d8c4c337951e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CompletarDatosBasicos_EnlatadoAP"
+	namespace="CardaData.PC">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="18;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a4e07b27-229f-45c8-8974-761c0fb0323c"
+		sx="393"
+		sy="264"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5e8036f0-34e7-4818-b66d-427e81014c60"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="375,258,151,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:line-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Accidentes Personales
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:line
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Accidentes Personales
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]/td/div/div[2]/?/?/table/tbody/tr[1]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div/div/div[1]/input[@name='NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:line']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="7d856ff7-82d8-4d28-9867-d8f856168d25">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAE7AXEDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACikdioGBnJ9abvf+6v/AH1/9agB
+9FM3v/dX/vr/AOtRvf8Aur/31/8AWoAfRTN7/wB1f++v/rUb3/ur/wB9f/WoAfRTN7/3V/76/wDr
+Ub3/ALq/99f/AFqAH0Uze/8AdX/vr/61G9/7q/8AfX/1qAH0Uze/91f++v8A61G9/wC6v/fX/wBa
+gB9FM3v/AHV/76/+tRvf+6v/AH1/9agB9FM3v/dX/vr/AOtRvf8Aur/31/8AWoAfRTN7/wB1f++v
+/rUb3/ur/wB9f/WoAfRTN7/3V/76/wDrUb3/ALq/99f/AFqAH0Uze/8AdX/vr/61G9/7q/8AfX/1
+qAH0U1WJJBAGPQ5p1ABRRRQAUVR+0S/3/wBBRT5RXL1MEn78xY6KGz+NPqGRJBN5sQRiV2lWJH64
+NIYC5QAl8r85QAAknH0pwnVtmwjDEjkEHj2/xqNIGUxkkZDs7Y9wen50C3beCSMeYzfgRigBftSt
+LGkZyGJ5KkZGD0PenieMsy5KlRk7lK8evPWoUhmHkqfLAiGAQSSeMZxjimC0lcnzGAzGyE72bJOO
+eenTpQBOlwJJ1RM4KljlSD1Hr9aLi5SFX5+ZVJ+6SB9T2pESUzrJIEAVSuFJPp7e1NlhlPnCPYRM
+OSxPynGOnegESNcRoQHJBIBOFJA+p7fjRcTeSgbYXy2MCoZLVjIxADq4G4GVlxxjoOtWJULmPGPl
+YE0AJ5y78ZG3Zv3Z4xSC5iKsckbcZBUg89OKhazJMqhgI3Qqo7qT/So5Y2jhcyKqscKGMzMOvcn7
+tAFkXURVjlvlO0gowOfTGOad9oj8vfuOM4xtOc+mOuarQgyKGjVN0b7siQur5BH3sZzT/Ikz5vye
+Zv37cnb93bjOP1xQBN565yTtXbu+YEEfgaWOZJchc5HUMpU/kaikhebltqkpjg5wc59uKdGkhmMs
+oVTt2gKSf6CgCaiiigAooooAa/b61D5370osbtg4ZhjA/M1M/b61VlVzNmKJ1fI/eBgFI9xnn8qA
+J964J3DAODz3pPNj3FfMXIGSM9qrskoDxiMkNIG3ZGMZB+tPCSRwyeWo3s5PbkZ/nikBMkiSLujd
+XHqpzTqr2ySK8jSbvmxjdjP6cVYpgFFFFIAooooAKKKKACiiigAooooAKKKKACiiigCDdJK7CNgi
+qcZxnJp0Tv5jRyY3AZBHcU0rLE7GNQ6sc4zjBqJXkW8Hmp98YGO1MC6n3j9BVSebysSSeYULlWZW
+ICDOBwKtp94/QVSuITIfLfzAgcsQqkhhnI5FADoJvNzJH5gQOFVmYkOM4PBq7VC3haM+WnmFC4YB
+lICjOTzV+gDMooorQzNOiiiszQKKKKACigkAgEgE9PeigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAq3d7b2zqksm1vvYwTxzUP9q2f/PU/98morxFk163V1DKY+QRkfxVc+yW3/PvF/wB8Cou3
+sdDjSilzX1RB/atn/wA9T/3yaP7Vs/8Anqf++TVhbW3VgywRAg5BCDintGjKysisGOWBHX/OKfvE
+3pdn96/yKn9q2f8Az1P/AHyaP7Vs/wDnqf8Avk1P9ktv+feL/vgUfZLb/n3i/wC+BS94d6PZ/h/k
+Qf2rZ/8APU/98mj+1bP/AJ6n/vk1P9ktv+feL/vgUfZLb/n3i/74FHvBej2f4f5EH9q2f/PU/wDf
+Jo/tWz/56n/vk1P9ktv+feL/AL4FH2S2/wCfeL/vgUe8F6PZ/h/kQf2rZ/8APU/98mj+1bP/AJ6n
+/vk1P9ktv+feL/vgUfZLb/n3i/74FHvBej2f4f5EH9q2f/PU/wDfJo/tWz/56n/vk1P9ktv+feL/
+AL4FH2S2/wCfeL/vgUe8F6PZ/h/kQf2rZ/8APU/98mj+1bP/AJ6n/vk1P9ktv+feL/vgUfZLb/n3
+i/74FHvBej2f4f5EH9q2f/PU/wDfJo/tWz/56n/vk1P9ktv+feL/AL4FH2S2/wCfeL/vgUe8F6PZ
+/h/kQf2rZ/8APU/98mj+1bP/AJ6n/vk1P9ktv+feL/vgVU1S3gj0+VkhjVhjBCgHqKHzJXKiqMpK
+Ouvp/kX0bzEV0BKsAQfanc/3T+lV7NFNnB8o/wBWvb2qbYn91fyqkYSVm0PQHJJGKdTIwAxwAOB0
+p9MkKKKKAMyiiitDM06p3KK92A1t537vjp8vPv8A0q5Rgbs4GemazNCpGJlcRNKT5cSk4Ayx57n6
+URyyAQuZDJ5oyVwMLxnj+XNWsDcWwMkYzSLFGjl1jVWbqQME0AVEZ2a1kaXcXy23A4+U9KfHO5it
+SWy0i5Yevy5/nU6wxKxZY0DE5JCjNCwxIxZY0VickhQDQBUk8x7JZTO+XKHAC4GSOnFSO0m6UecU
+8pQeQPm46njp9MVMIIQXIiT5/vfKPm+vrSmGI7cxIdn3cqOPpQA6Ni0asRgkA49KWiigAooooAKK
+KKACiiigAooooAKgR5DMQcYPGeccdcfnU9FJoadjLuf+Rgt/+uZ/9mqW5nKTjBkxHgkKpIOeuSB2
+H86iuf8AkYLf/rmf/ZqvhFUEAfeOT71Md2bVto+n+ZGHkkmZUKBEIBypJPGeOeKZI8pt3kICrtPy
+EEHr659KkFvGCpAYFQAMMRnHTPPP40fZ4vm4bDdRuOPy6VZgQ3LyPFcBdoRAVII5PGevbrQ1y/nM
+qKSEYKR5bHPTnPQdamkt4pCSyk56gMQD9RSmBDJv+YN/ssRn6gdaAImmlXe/ybEcLjByRx3zx1pg
+mljEzMwYeZtUBTxnHvVkxIVKleGOTz3pDBGS5Kn5+oycfXHrQBD58xQ4Xo2C/lN0x129fanzOTYu
+4fJ2E7l4/KneQmzbmTGc/wCsbP55p3lp5Xl4+TGMUAVVkMKvJGJTGF6Sbs7s9s8077RKEb5dxBUB
+ijIDk4xzVplDKVYAgjBBqNYIwpX5iMg/M5PTkdTQBG8kyOodkC8ZfYcH268fjQZpMNINvlq+3bg5
+POM5/wDrVK8KO2W3H23HH5dKDBGX3kHOc4ycZ9cdKAITPKPnOzYJNmMHPXGc5pTcN9oVQwZGbbwh
+44P8XQ9KmMSFdpXjdu6985/nTRbxBwwU5B3D5jgH2FAFdZ2REjTg4LE+Wzd/apPPl3IWAiVgD8yE
+8ntnPH41I1vGwAwRjoVYg/mKVoEYgtuOMcbzj8s0ASVT1f8A5Bsv4fzFXKp6v/yDZfw/mKmWzNaP
+8SPqh0JlXT4GiAJEa5BHtU0JlZN0oAJ6ACm2f/HlB/1zX+VTU1sRP4mKn3j9BTqan3j9BTqZIUUU
+UAZlFFFaGZp0UVDJLKJdkUav8u47nx/Q1maE1FQRXIkJODs8tXHGTzn/AAp32mLYX3EAHacqQc+m
+OtAEtFMjlSUEoTwcEEEEfgafQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU0SIWxkduc9c0BYz
+9Qs7mW9juLeREKrtBbrnn296j+z6r/z9Rf5/CtR+31pKnlNlWdkrLTyMz7Pqv/P1F/n8KPs+q/8A
+P1F/n8K06KXL5j9s/wCVfcZn2fVf+fqL/P4UfZ9V/wCfqL/P4Vp0UcvmHtn/ACr7jM+z6r/z9Rf5
+/Cj7Pqv/AD9Rf5/CtOijl8w9s/5V9xmfZ9V/5+ov8/hR9n1X/n6i/wA/hWnRRy+Ye2f8q+4zPs+q
+/wDP1F/n8KPs+q/8/UX+fwrToo5fMPbP+VfcZn2fVf8An6i/z+FH2fVf+fqL/P4Vp0UcvmHtn/Kv
+uMz7Pqv/AD9Rf5/Cj7Pqv/P1F/n8K06KOXzD2z/lX3GZ9n1X/n6i/wA/hR9n1X/n6i/z+FadFHL5
+h7Z/yr7jM+z6r/z9Rf5/CmS2epTRmOS4iZT1H+RWtRRygq7TukvuIYEaK3jjKglVCkhz2FSc/wB0
+f99mnUVRi3d3CPqeMfjmn01PvH6CnUxBRRRQBmUUUVoZmnUMluJZ97k7duMBiPzx1qaiszQryQSb
+nMRVQVVQM46E5HtwabHbOudxHMgfG4tgAepq1RQBHHGVllc4w5BH5YqSiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAqNYQsm/ufapKKVhptDX7fWkpXBOMDPNJz/dP6UxBRRz/AHT+lHP90/pQAUUc
+/wB0/pRz/dP6UAFFHP8AdP6Uc/3T+lABRRz/AHT+lHP90/pQAUUc/wB0/pRz/dP6UAFFHP8AdP6U
+c/3T+lABRRz/AHT+lHP90/pQAUUc/wB0/pRz/dP6UAFFHP8AdP6Uc/3T+lABRRz/AHT+lHP90/pQ
+AqfeP0FOpqA5JIxTqACiiigDMooorQzNOiiq0iJLeGOYBk2AqrcgnJzx37VmaFhmCjLEADuTS1WZ
+cyiBG8pFXcNoHPPuO39aYksk45k8vEYfgD5s59e3H60AWwQwBBBBGRilqgkjJACuARAhzgZ71Jmd
+FO93AdwqlwuVH4cUAW6KhgZvMkjZi+wjDHGeR04qagAooooAKKKKACiiigAooooAKKKKACiioEeQ
+zEHGDxnnHHXH50m7DSuSyAEAEZ5pmxP7q/lT37fWkpiG7E/ur+VGxP7q/lTqKQDdif3V/KjYn91f
+yp1FADdif3V/KjYn91fyp1FADdif3V/KjYn91fyp1FADdif3V/KjYn91fyp1FADdif3V/KjYn91f
+yp1FADdif3V/KjYn91fyp1FADdif3V/KjYn91fyp1FADdif3V/KjYn91fyp1FADdif3V/KjYn91f
+yp1FABGAGOABwOlPpqfeP0FOpgFFFFAGZRRRWhmadNkijlXbKiuPRhmnUVmaDDBEyKjRIVXoCowK
+V4o3ILxq23pkZxTqKAIpYFkjKLtXoOnGB2I9PamwWqRBwVjw4wVRNq/lU9FACIiRrtRVVfQDApaK
+KACiiigAooooAKKKKACiiigAooooAKKKKAGv2+tJTiAetJsHv+ZoASil2D3/ADNGwe/5mgBKKXYP
+f8zRsHv+ZoASil2D3/M0bB7/AJmgBKKXYPf8zRsHv+ZoASil2D3/ADNGwe/5mgBKKXYPf8zRsHv+
+ZoASil2D3/M0bB7/AJmgBKKXYPf8zRsHv+ZoASil2D3/ADNGwe/5mgBKKXYPf8zRsHv+ZoAE+8fo
+KdSBQOlLQAUUUUAZlFFFaGZp1H5oErow27VDZz1FSVBdQNMV2kD+Fs91PUfpWZoC3SbFMmVLAMRg
+naD6ntT2uIldlLcr97g4HGeT2qGa1ZpWYKHVwAymVkx+XWpBER5+VVhIchSeCNoGD+VAC+epAKgj
+LBfnUr/MUq3EbSbATnOAdpwT6A9KiSCTaAxAAcMF3FsAe5oWCQBIzt8tG3BgTk+gx/8AXoAkW5iZ
+woY5JIB2nGR2z0zUtVxAwjjXIysm8/TJP9asUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAI7bVLY
+LY7DqabDIZYlcrtJ7Zzin0yFDHEFOMjPT60APooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigDMooorQzNOiiiszQKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKa5IAxjk96bl/Vf++f/AK9AElFR5f1X/vn/AOvRl/Vf++f/AK9AElFR5f1X/vn/
+AOvRl/Vf++f/AK9AElFR5f1X/vn/AOvRl/Vf++f/AK9AElFR5f1X/vn/AOvRl/Vf++f/AK9AElFR
+5f1X/vn/AOvRl/Vf++f/AK9AElFR5f1X/vn/AOvRl/Vf++f/AK9AElFR5f1X/vn/AOvRl/Vf++f/
+AK9AElFR5f1X/vn/AOvRl/Vf++f/AK9AElFR5f1X/vn/AOvRl/Vf++f/AK9AElFR5f1X/vn/AOvR
+l/Vf++f/AK9AElFNQsSQ2PwFOoAKKKKAMyiiitDM06rzSus4QPHGCBgupO4+g5FWKhniklBQSII2
+GGBTJ/PP9KzNBxmUebkH92Mt+Wai+0lZJdyOyKQcgD5RgGle2Y7xHIFV12tlcnpjg5oa2c+YFlAW
+ThhtycYxxzQA+4dkiBjK7iygFhkcnFRrcMhdZcOVYLmMdSfbNSzQrNEI2A25BIIyCAelBhXYioAi
+qwbAHFADGuQucxSfKMv0+T68/wAs0lxc7I5PLVmKrksoGF44pZIGZn2SBVkHzgrk9Mcc8cfWke2Y
+h1jkCLIMMNuT0xxz6UAPE6hXyD+7UFvfjNBn/ebEjd+m4jGFz9TTJLZ23hJQokXa2VyemOOacIXS
+XdG6gNjeCuc44454/WgBkV0WhDvE4ZmKqox83X39qmikEgPBUqcMp6g1ELZlUASDKMWQ7emc9eee
+vtUkMZj3Fm3O5yxAwOmP6UASUUUUAFFFFABRRRQAVGs6F9ufTFSUwRqH3DOec0nfoNW6iv2+tJSv
+2+tJTEFFFFIAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAGSSpEAXOAfaiOVJQShyB7U
+5lDqVYZB7UKoRQqjAHagByfeP0FOpqfeP0FOpgFFFFAGZRRRWhmadFFGRuxkZ64rM0CikZgqlmIA
+HUmloAKKRWDKGUgg9CKCwX7xA5xzQAtFNZ0T7zAcZ5NOoAKKKKACikZgq5YgAdzS0AFFFFABRRRQ
+AUUUUAFFFFADZOACSBz3OKZvH95P++qe/b60lADd4/vJ/wB9Ubx/eT/vqnUUAN3j+8n/AH1RvH95
+P++qdRQA3eP7yf8AfVG8f3k/76p1FADd4/vJ/wB9Ubx/eT/vqnUUAN3j+8n/AH1RvH95P++qdRQA
+3eP7yf8AfVG8f3k/76p1FADd4/vJ/wB9Ubx/eT/vqnUUAN3j+8n/AH1RvH95P++qdRQA3eP7yf8A
+fVG8f3k/76p1FADd4/vJ/wB9Ubx/eT/vqo2nwxHlSnB6haT7R/0xm/75oAnjIJJBU/Q5p9NT7x+g
+p1ABRRRQBmUUUVoZmnVS6JVpipKkQ8EduTVuiszQpTboTMqO+PK3csTg57Z6U8Mhu2E0pVww8tN5
+UEYHbvzmrVFAFFXBWL7RKyIYwQ28rlu/NTqrzWQV8h2XqRznsanooAoiRpYZbjlSAEHtjr+vH4Uh
+YPelGnCsr9POIJGOm2r9Q/ZhnHmPs3btnGM5z6Z6+9AFaKR2uQGkRZN5yplOSvP8OMenNOi3KLVw
+7s0hw25iQflJ6dO1XaKAKKOptmYTMZ9o3r5hyp+naiSbN0NhwwkCkeac46fd6Y96vUUAFFFFABRR
+RQAUUUUAFQIJPOJJODxnHXH+TU9FJq407DX7fWq8iD7XE+SScjrwOKsP2+tNIBIJAyOlMRUkhEU5
+nKxPucdU+YZwODn+lEnzhpD91pFT/gIP9TmrIhiEnmCNN5/i2jP50uxdmzaNuMYxxQBULiB5I4lY
+JkD5EJ2cc8AfT86SFle2WFAwDOwOVI+XJJ6/l+NXERI12xqqqOyjAoCKDkKAee3rQBA0cb3AMaDe
+py8mOR7Z/pUaKoEcoA85pSCe55OR+VWPs0Hmb/Ij35zu2DOfXNOEUYkMgRd54LY5/OgCFI0NxviQ
+KBnc4H3j6e9LaoEedQSf3g5JyT8op6W0Ebh0gjVh0IQA1IAASQACeT70ALRRRSAKKKKACiiigAoo
+ooAKKKKAKRiDGUGKTlweD16+1Nkjz5v7mQ5fPB69farDWkbbslvmbcefr/jQ1pG27Jb5m3Hn6/40
+wLCfeP0FOpqfeP0FOoAKKKKAMyiiitDM06KKq3NwY5wnnwQgrnMoznntyKzNC1RUH2jaWBBchwgC
+r3259akilEob5SpU4ZW6g/hQA+iqxuSzxBFcIz43EDDDB/HtUiXCu4G1gG4VjjDfSgCWiojNslkW
+TAVU3g+3f/PvTFuGUfvR82xTtUdySMdaALFFQLdAhsxSKytt2nGSevHNH2pcD92+8tt2cZBxn1x0
+oAnoqH7SpQEI5ckrsGM5HXvj9aVZSWcbWyqg7MDPOe+aAJaKZFL5m75WRlOCrYyPyp9ABRRRQAUU
+UUAFFFFADZOgxjr3GaZg/wCx/wB8/wD16e/b61BNOsavjllGehI/GgCTB/2P++f/AK9GD/sf98//
+AF6jmnWNWxywGehI/GnSS7CQFzhSx5oAdg/7H/fP/wBejB/2P++f/r1GbgC383bz/dz3pRNmYRlc
+ZXIOf0oAfg/7H/fP/wBejB/2P++f/r0xJg8siYwE756/5xSpMrRlj8uBk+woAdg/7H/fP/16MH/Y
+/wC+f/r0nnIE354zjoetBlRduW+90/z+NAC4P+x/3z/9ejB/2P8Avn/69KGBYqDyOtLQA3B/2P8A
+vn/69GD/ALH/AHz/APXp1FADcH/Y/wC+f/r0YP8Asf8AfP8A9enUUANwf9j/AL5/+vRg/wCx/wB8
+/wD16dRQA3B/2P8Avn/69GD/ALH/AHz/APXp1FADcH/Y/wC+f/r0YP8Asf8AfP8A9eqknmbnIE/D
+YADdevTikYSDdgXBw2B8/Xrz0oAvR5yQdv4DFPpqfeP0FOoAKKKKAMyiiitDM06Zs/fGTP8ADtxT
+6KzNCHyP3hfd1kD4x/s4xT449jytnPmNu6dOAP6U+igCulsymNfMHlxnKrt56EYJz70kFosMgKiL
+aOn7vDfnn+lWaKAIbi3E+zLbdp546juKju4iQ7DneFUjbnABJzjv16VaooAppCZ4TGyIFRgyHySo
+z/umpY7fZ5f+rBVix8tNoPGOmanooArm2YHckgD7ywJXI57YzRJbs4fMg3MFz8vHHtnofSrFFAEN
+tAIA+CvznOFXaBxjpU1FFABRRRQAUUUUAFFFFADX7fWq8kUhEqptxJzknpxirLAnGOxpu1vQfnQB
+XkikIlVNuJO5PTjFPMTFZckbnGB7DHFS7W9B+dG1vQfnQBXa3YlsEbSpwP8AaIxmlaFzkqQGAXaf
+cZqfa3oPzo2t6D86AK/kMAwBGGVVJ798/wA6JVDzoikdMOB6Dkf596sbW9B+dG1vQfnQBWUBrlmD
+Axr8x9A3T+VNjVPLkZ2Hl/dU+3+f5Vb2t6D86Nreg/OgCK2VhFuf77cmpaNreg/Oja3oPzoAKKNr
+eg/Oja3oPzoAKKNreg/Oja3oPzoAKKNreg/Oja3oPzoAKKNreg/Oja3oPzoApEFTKRDIcuDwcZ6+
+1Nkjz5v7mQ5fPB69far+1vQfnRtb0H50AKn3j9BTqaoIJJxTqACiiigDMooorQzNOo5Z4YSBLLHG
+T03MBmpKp3MvlXY/fww5T/lqM557ciszQuAgjIOQaAQehziqcsh+0DbIfK48wg/dPbHpnv8A/XqM
+fu4ZxGx3iX5gZDwpPXvjjvQBoUVQjJdVCzAo0uB5cpfAwcjd1pWO1ZEM21Y5cDfIVyNoON3XqaAL
+u4btuRkDOKFdXztOcHHSqfmOUYx7x+6UgE5I5OT78UjOAsot5mZNmd28ths+poAvUjsEXcxwKhiH
+l3TxhmKlA2GYtzk+tV52U+YHkYSiQbU3H7uR2/rQBfoqgZHN2VMiI/mDaGlIyvsuMH61foAKKKKA
+CiiigAooooAKKKgQSecSScHjOOuP8mk2NK5MzbR0J+lN8z/Yb9P8aV+31pKYg8z/AGG/T/GjzP8A
+Yb9P8aKKADzP9hv0/wAaPM/2G/T/ABoooAPM/wBhv0/xo8z/AGG/T/GiigA8z/Yb9P8AGjzP9hv0
+/wAaKKADzP8AYb9P8aPM/wBhv0/xoooAPM/2G/T/ABo8z/Yb9P8AGiigA8z/AGG/T/GjzP8AYb9P
+8aKKADzP9hv0/wAaPM/2G/T/ABoooAPM/wBhv0/xo8z/AGG/T/GiigA8z/Yb9P8AGjzP9hv0/wAa
+KKAHK27PBGPWlpqfeP0FOoAKKKKAMyiiitDM06KKrSIkt4Y5gGTYCqtyCcnPHftWZoWaMjdjIz1x
+Vcg+aII38lFTcNoHPPv/AJ5qKNnmlDeb5ZMIJ2gc8n17UAXaKo/aJ5doQOD5Qf5NvJOeue30qXM0
+juDIYwqg4UDqR6mgCzRVO2Z0jtF3lg6c5A9OlKJJJCqrLtDSOpYAE4GelAFuiqjTMJ0KNIUL7DkL
+tz3981boAKKKKACiiigAooooAKKKKACiiigBr9vrSUr9vrTc+x/KgBaKTPsfyoz7H8qAFopM+x/K
+jPsfyoAWikz7H8qM+x/KgBaKTPsfyoz7H8qAFopM+x/KjPsfyoAWikz7H8qM+x/KgBaKTPsfyoz7
+H8qAFopM+x/KjPsfyoAWikz7H8qM+x/KgBk0KzJtbg9j6UQwrCm1eT3PrT8+x/KjPsfyoAcn3j9B
+TqanU8Ht2p1ABRRRQBmUUUVoZmnTZIo5V2yorj0YZp1NkfYoIAJJAGTiszQQwRMio0SFV6AqMCh4
+YpPvxo31UGn0EgAk9BQAySGKUASRo4HTcoOKcFAOQACaAwKbs/LjOfagMrdCDxn8KAGeRCU2eVHt
+Jzt2jGfWnBEXG1VGOmB0p1IzBVLHgAZNADfJi3l/LTeerbRmn0AggEdDQSFBJIAHUmgAopkcscoJ
+ikRwOpVgaczKpUE43HA+tAC0UUUAFFAIJIBGR1ooAKKKKACiiigBCQoySB9aTzE/vr+dD9vrSUAL
+5if31/OjzE/vr+dJRQAvmJ/fX86PMT++v50lFAC+Yn99fzo8xP76/nSUUAL5if31/OjzE/vr+dJR
+QAvmJ/fX86PMT++v50lFAC+Yn99fzo8xP76/nSUUAL5if31/OjzE/vr+dJRQAvmJ/fX86PMT++v5
+0lFAC+Yn99fzo8xP76/nSUUAL5if31/OjzE/vr+dJRQA4MrfdIP0NLTU+8foKdQAUUUUAZlFFFaG
+Zp1Uulknk2RqjBBkln24Y9Ox6f1q3RWZoVATcOu5nX92dyqxHzA47UyIt5MLl3YyxEtliQTgdu34
+Veoo6AUIXAVBFKzHyz5gLE7eOOOxz9KE+WZ2DHzWhUoC5+Y4PbvV+igCpbupmQRStJlSZMsWwePy
+PtTbpl3TCWRkIT92AxGePTvzV2ihgjOkkcSbTIkZ2r5ZaUrnj0xg81Zu+kTMMxq4L/TB/rirFFAF
+aaeOSMNFKpj3ASMjdB9R07VCzKQP3jGESjD7ieNpzz6e9X6KAM95GEZ8t90HmY3mQj5cf3uuM96f
+HukWJTNlGZuY5CcjHTd1q7RQBnsBG91tdhJkMBvOduBk4z9aklnEhmMMuQIxhlOQDk1cooAo3TLF
++7DMGClgWmZc/Trn6VciJaJCepUE06igAqBBJ5xJJweM464/yanopNXGnYa/b60lK/b60lMQUUUU
+gCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAjmEhTMTYYdsDmiESBMytlj2wOKkooAVP
+vH6CnU1PvH6CnUwCiiigDMooorQzNOiiiszQKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooACAeozSbF/uj8qWigBNi/3R+VGxf7o/KlooATYv8AdH5UbF/uj8qWigBNi/3R+VGxf7o/
+KlooATYv90flRsX+6PypaKAE2L/dH5UbF/uj8qWigBNi/wB0flRsX+6PypaKAE2L/dH5UbF/uj8q
+WigBNi/3R+VGxf7o/KlooATYv90flRsX+6PypaKAE2L/AHR+VGxf7o/KlooAAAOgAooooAKKKKAM
+yiiitDM//9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="77;9"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="b13a91aa-8cd5-454a-9c6b-9b0969ab7ee0"
+		sx="452"
+		sy="292"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="958e7651-d957-4e3e-8b53-bf67cc42daac"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, litag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="litag"
+				rect="375,283,172,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-boundlist-item x-boundlist-selected x-boundlist-item-over
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Accidentes Personales
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-boundlist-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						li
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-boundview"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-recordid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-recordindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="tabindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[12]/?/?/ul/li[@innertext='Accidentes Personales']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="cdafae14-009e-4f41-b11e-20043fc02514">
+				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
+/jp/wo/tSy/57f8Ajp/wpAT+Qm2RRkBxg+3GKRrYMWPmOMsGGMcEdxxUP9qWX/Pb/wAdP+FH9qWX
+/Pb/AMdP+FMCX7MAOJHD5J38Z569sUrW4Yks7kMACOOSO/TrUP8Aall/z2/8dP8AhR/all/z2/8A
+HT/hQBYji2MzF2dmwCzY6Dtx9acvVvr/AEqr/all/wA9v/HT/hR/all/z2/8dP8AhQBYeGN5UldF
+LpnaxHIzUlU/7Usv+e3/AI6f8KP7Usv+e3/jp/woAuUVT/tSy/57f+On/Cj+1LL/AJ7f+On/AAoA
+uUhGQR61U/tSy/57f+On/Cj+1LL/AJ7f+On/AApASJaKoUPI8gVdqhscDGOwFKtttOfOkLBdoJxw
+Py9qi/tSy/57f+On/Cj+1LL/AJ7f+On/AApgM/sO2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56
+TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+
+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35j/CtKigD
+N/sO2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP
+8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35
+j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO
+2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7
+Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35j/Ct
+KigDN/sO2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56
+TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+
+ek35j/CtKigDN/sO2/56TfmP8KP7Dtv+ek35j/CtKigAorOvrqe2gt4EYNczEJvYcA9zimpPdWmo
+RW11MJ0nB2vsClSPYUAadUW1nT1Yq1xgg4PyN/hV6uXtJfLM4/sv7Z+9Pz7c49uhoA6IXUDWpuRI
+DCBksOeKkikSaJZIzlGGQcdRWLb20ttoF35yeWZAzBP7oxVmJ5U0S2MU0UJKqDJKeFHt70AadFZG
+mX0suoyWzXK3SBdwkCbefShZr+5v7yGK5WNIiNpKAke1AGvUVzdQ2kYknfYpOM4J5/Cq+kXUl3YL
+JLguCVJAxnFVvEn/AB4R8Z/ejj14NDBFhdZ092CrcZJOB8jf4VerDgnDzxqdB8sFgN/l/d9/u1Z1
+C4uk1K2t7aRUEgOdy5H1oA06iguYbjf5L7tjbW4IwapafcXP2+4tLmUTGMBlcKF/lUWjllivim3c
+JmxuOB+NAGvTXlRGVXYBnOFHc1if2hcQ3duhv4rkyMA8aINqg+jDrT9UjmbWrQJcbCwOw7AdnHP1
+oA2qKztQlmidR9vhtYwmSSoZ2P8Aunt9KZp+oySaVNczYdoSRkDG7AzQBoXE8VtCZZm2oOpwT/Kn
+qwZQw5BGRXPXpvptFNxPOjRyEHywmNozxg/41oXl3LDBawW+BNPhVYjhRjrQBpUVmxT3VrqEdrdT
+CdZgSjhApBHbArSoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKAKmoWRu0Ro38uaJt0bY4z6GoobO5lvUur54iYgQiRA4+vNaFFABVLTLOSzjmWQqS8hc
+bT2q7RQBDewtcWcsKEBnUgE9Ko3GmTS2FrErRmSDBIbJRvrWpRQBm2tldJqX2ud4W3R7SqAjb9PX
+pUtrZyQ3t3MzKVmIKgHkfWrtFAFPSrSSytPKlKltxPynik1ezlvbVY4WRWDhsseO9XaKAMhbfXMj
+N5BjvwP/AImrVxZyS6nbXKldkQIYE88+lXaKAKUFnJHqtxdMV2SKAADz2qGHTJFtLyB5FBncspXJ
+wD61p0UAYo0u9MdsrPbKLdwQqAjd6kn1q3qFnPNc29xbNGHhzxJnBz9Kv0UAZk1hdf2j9rgaAsyB
+SJATsPqtOsdNeGyuLad1dZWJ3L1wRj8K0aKAMWTTNQew+xmeAxKflODlhnv6VcvLBp4YDHIEngwU
+bGRn0PtV6igDPgs7iS9W6vniLRghEiBwPfmtCiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAbh/wC8v/fP/wBejD/3l/75/wDr1gf2nef89v8Ax0f4
+Uf2nef8APb/x0f4Vp7JmH1iJv4f+8v8A3z/9ejD/AN5f++f/AK9UdJuprkSiZt23GDgDrn/Co9Vv
+J7e4VIX2gpk8A9zU8jvYv2i5eY0sP/eX/vn/AOvRh/7y/wDfP/16wP7TvP8Ant/46P8ACj+07z/n
+t/46P8Kr2TI+sRN/D/3l/wC+f/r0Yf8AvL/3z/8AXrA/tO8/57f+Oj/Cj+07z/nt/wCOj/Cj2TD6
+xE38P/eX/vn/AOvRh/7y/wDfP/16wP7TvP8Ant/46P8ACj+07z/nt/46P8KPZMPrETfw/wDeX/vn
+/wCvRh/7y/8AfP8A9esD+07z/nt/46P8Ks6ff3M14kckm5WzkbQO1DptK41Xi3Y1sP8A3l/75/8A
+r0Yf+8v/AHz/APXp1FZmw3D/AN5f++f/AK9GH/vL/wB8/wD16dRQA3D/AN5f++f/AK9GH/vL/wB8
+/wD16dRQA3D/AN5f++f/AK9GH/vL/wB8/wD16dRQA3D/AN5f++f/AK9GH/vL/wB8/wD16dRQA3D/
+AN5f++f/AK9GH/vL/wB8/wD16dRQA3D/AN5f++f/AK9GH/vL/wB8/wD16dRQA3D/AN5f++f/AK9G
+H/vL/wB8/wD16dRQA3D/AN5f++f/AK9GH/vL/wB8/wD16dRQA3D/AN5f++f/AK9GH/vL/wB8/wD1
+6dRQA3D/AN5f++f/AK9GH/vL/wB8/wD16dRQA3D/AN5f++f/AK9GH/vL/wB8/wD16dRQA3D/AN5f
+++f/AK9GH/vL/wB8/wD16dRQA3D/AN5f++f/AK9GH/vL/wB8/wD16dRQA3D/AN5f++f/AK9GH/vL
+/wB8/wD16dRQA3D/AN5f++f/AK9GH/vL/wB8/wD16dRQA3D/AN5f++f/AK9GH/vL/wB8/wD16dRQ
+A3D/AN5f++f/AK9GH/vL/wB8/wD16dRQBz32Hhf3mGLqrAgcZ+h/niq0qojlUcuBwSRipDdznGXH
+3g3CgZI79KhJycnvXUr9TzpONtDW0H/lv/wH+tQ65/x+J/1zH8zU2g/8t/8AgP8AWodc/wCPxP8A
+rmP5moX8Q2f8FFa0VS8jMoby0LBT0JpY1N0Tv2oqDJZUUfn0FQxyPE4dG2sO9PF1KM42AHqPLXB/
+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
+TA//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="dca980cd-923f-4489-9fc0-8e058145de89"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="99531821-9fc3-40bb-88f1-3a5ad9db3bf7"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Producto']/../..//input[@data-tabindexsaved='True']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="24c69277-51af-4a4d-bd18-5104fcce8a98"
+		sx="461"
+		sy="213"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fd765de6-f796-4cf6-a84f-393b8fdd7f57"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="375,201,173,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:plan-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						255
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:plan
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Plan']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="Autonomia v.5"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="e69f7113-9780-4a47-bc98-a54f1a3a2786">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fd765de6-f796-4cf6-a84f-393b8fdd7f57"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="375,201,173,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:plan-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						255
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:plan
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Plan']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a3fba461-f09e-4fb7-b049-71a026fa8210"
+		sx="461"
+		sy="326"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="be906fac-01f3-497e-82ca-0f9ca795365e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="375,314,173,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:code-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						255
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:code
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Código']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="MT01VLAF2"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="f16c87a4-d82d-44b5-b888-c0f3c575c6f5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="be906fac-01f3-497e-82ca-0f9ca795365e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="375,314,173,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:code-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						255
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:code
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Código']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d4ea67f4-8952-468e-b4d2-355677fce3ab"
+		sx="450"
+		sy="385"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7ffd2d4b-d79d-4766-96b3-b77afa162c14"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="375,373,151,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:subProduct-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:subProduct
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Sub Producto']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ffdf60d7-975e-4b7e-9b47-91dc03397034"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c6a7fdcf-6449-4096-9734-26e83dea542d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//li[@innertext='Autonomia']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="b29dbbcc-d14b-4c6e-bd9d-59dce75a6db2"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="de8d59ef-fd14-47e5-8585-5cd4851d1e26"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Sub Producto']/../..//input[@data-tabindexsaved='True']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9354969d-5b52-4644-9d54-a35fd0a04bab"
+		sx="450"
+		sy="475"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5f2e32c6-9875-497d-b3a0-4f566ba8346d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="375,463,151,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:CoverageExtensionSura-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:CoverageExtensionSura
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Extensión de Cobertura']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="acfe5d9b-b6d6-4408-ad29-cf7e631668dd"
+		sx="0"
+		sy="103"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3a610eff-deec-4956-a776-7e73de8616fa"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, litag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="litag"
+				rect="0,103,0,0"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="class"
+					type="System.String">
+						x-boundlist-item x-boundlist-selected x-boundlist-item-over
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Jornada Laboral
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-boundlist-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						li
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-boundview"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-recordid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-recordindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="tabindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//li[@innertext='Jornada Laboral']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="e3df8810-a859-45b2-bb6a-36c9fe627238"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="80a27ac0-63c0-4261-9255-a5f3d214b490"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Extensión de Cobertura']/../..//input[@data-tabindexsaved='True']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f55c0f59-233d-48c8-906e-3d4a5faf9ca2"
+		sx="450"
+		sy="509"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a9dc7255-8bd9-44d7-a6f8-179e537a6f11"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="375,497,151,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:CoverageScopeSura-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:CoverageScopeSura
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Ámbito de Cobertura']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0d4ae025-b640-4e00-913e-61e4c61b7c2a"
+		sx="0"
+		sy="103"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="015bd588-5439-42fc-9181-f7e23bcf68a8"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, litag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="litag"
+				rect="0,103,0,0"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="class"
+					type="System.String">
+						x-boundlist-item x-boundlist-selected
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						República Argentina
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-boundlist-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						li
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-boundview"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-recordid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-recordindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="tabindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//li[@innertext='República Argentina']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="aaa40cdf-7758-4963-8e9a-0660661a0b51"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b6bc16dd-0cd2-4053-b43c-fff6ae2ba591"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Ámbito de Cobertura']/../..//input[@data-tabindexsaved='True']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				-------Segunda columna
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="782c6b4c-290f-4b35-93e8-9a9653799387"
+		sx="819"
+		sy="274"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b43585e1-1671-471f-980b-f18087e1a671"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="744,262,151,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:marketingChannel-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:marketingChannel
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Canal de comercialización']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="47d59dc6-1289-4706-b4d5-02c6e6cfb764"
+		sx="0"
+		sy="103"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e552e9a9-0fd3-42ab-a3a0-e54e01b6d743"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, litag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="litag"
+				rect="0,103,0,0"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="class"
+					type="System.String">
+						x-boundlist-item x-boundlist-item-over x-boundlist-selected
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Call Center
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-boundlist-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						li
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-boundview"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-recordid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-recordindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="tabindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//li[@innertext='Call Center']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="601861e2-b646-449c-b796-e23985a3303f"
+		sx="819"
+		sy="308"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="53ed08d5-16dc-44e8-b258-89fad1dc826d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="744,296,151,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:policyType-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:policyType
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Tipo de Póliza']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8d401fc7-29e5-46c7-82f8-2a330e38cce8"
+		sx="0"
+		sy="103"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a01bee33-557a-46a0-814c-9268ee1cf517"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, litag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="litag"
+				rect="0,103,0,0"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="class"
+					type="System.String">
+						x-boundlist-item x-boundlist-selected
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Individual / Colectiva
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-boundlist-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						li
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-boundview"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-recordid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-recordindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="tabindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//li[@innertext='Individual / Colectiva']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="190cbe92-6f5b-4082-8995-14f8ed994551"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e10a846a-49bb-4fea-827d-ac35ca719be7"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Tipo de Póliza']/../..//input[@data-tabindexsaved='True']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2ece8214-b50b-48f5-ae0b-23006d7e4f81"
+		sx="819"
+		sy="364"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fb558476-540f-471d-b245-b68171de38f3"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="744,352,151,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:InvoiceTermType-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:InvoiceTermType
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Facturación']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="36f758f0-e1e5-464c-8b51-d47ce7ef4426"
+		sx="0"
+		sy="103"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="01bb80b0-4a30-4903-b480-5c73ed0fd7be"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, litag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="litag"
+				rect="0,103,0,0"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="class"
+					type="System.String">
+						x-boundlist-item
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Anual
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-boundlist-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						li
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-boundview"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-recordid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-recordindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="tabindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//li[@innertext='Anual']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5d9a1b1f-0de6-4055-80fb-1d65e691f6ee"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cba8e0b5-b25e-4cbc-a10f-bad4b8840311"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Facturación']/../..//input[@data-tabindexsaved='True']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="807f3cf5-0134-4ae8-84d4-53b776ee4f27"
+		sx="819"
+		sy="372"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0230d1e4-7e22-42f6-b317-c21e9ec71ef2"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="744,360,151,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:InvoiceTermType-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Anual
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:InvoiceTermType
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Anual
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Facturación']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="1"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="13522f8d-c4f0-48d8-ab82-66f2ee02137d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0230d1e4-7e22-42f6-b317-c21e9ec71ef2"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="744,360,151,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:InvoiceTermType-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Anual
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:InvoiceTermType
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Anual
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Facturación']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="b4d11e5d-88c4-47e8-a898-56cef0cad173"
+		sx="819"
+		sy="372"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="154fd01c-29da-4aac-a7fa-e0398f39d547"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="744,360,151,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:InvoiceTermType-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Anual
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:InvoiceTermType
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Anual
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Facturación']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="9000"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="a8bd6b75-96ea-4aec-b3a6-7a66bdef98b7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="154fd01c-29da-4aac-a7fa-e0398f39d547"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="744,360,151,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:InvoiceTermType-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Anual
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewAgentTemplate:AgentTemplateDetailScreen:AgentTemplateCV:InvoiceTermType
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Anual
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext='Facturación']/../..//input
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
+	name="CardaDataRepository"
+	relativepath="..\CardaDataRepository.rxrep">
+		<codegen
+		classname="CardaDataRepository"
+		namespace="CardaData">
+		</codegen>
+		<rootfolder
+		id="468d5898-f181-4143-93ca-5cfb8eaaac90"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CompletarDatosBasicos_EnlatadoAP.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

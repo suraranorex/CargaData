@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d7ebf1c5-a4df-434a-b570-ef207c6de66d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="MenuSuperior_Administracion_PlanesEnlatados"
+	namespace="CardaData.Generales.Menu">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="63;9"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="963fb46a-51cb-4111-bd7c-759c64d5f849"
+		sx="866"
+		sy="119"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="addac0ae-7151-4c4f-919b-f2d778602137"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="803,110,94,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-gw-top-menu-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						TabBar:AdminTab-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Administración
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-gw-top-menu-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//a[#'TabBar:AdminTab']//span[@innertext='Administración']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="4df30f9b-d132-4590-850d-7c73d88aafd8">
+				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
+KACiiigD/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="a3a154a7-95e9-40a5-a01b-a7fd089cb9db"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7e91060a-9659-4b3d-a9e2-1bb1f2c66451"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="219,162,94,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						AdminUserSearchPage:UserSearchScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Usuarios
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'AdminUserSearchPage-tbody']/tr[1]/td/div//span[@innertext='Usuarios']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2b70e409-9fff-41b0-974b-4f3c4f3643dc"
+		sx="105"
+		sy="556"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="31038a7f-5c00-4892-a41a-21d4f292f1ba"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="2"
+				prefcap="spantag"
+				rect="30,547,150,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-tree-node-text&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Configuración comercial
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-tree-node-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'Admin:MenuLinks-body']/div[1]/div/table[11]//span[@innertext='Configuración comercial']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="300ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e40a61d6-ced5-437e-898b-59075ed121bd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="31038a7f-5c00-4892-a41a-21d4f292f1ba"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'Admin:MenuLinks-body']//span[@innertext='Configuración comercial']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="300ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="078a41d1-4710-405a-ab22-96b477502ac4"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="128db5fc-04c9-408f-aa6d-7687ff7497b4"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'Admin:MenuLinks-body']//span[@innertext='Planes Enlatados']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="2cd95155-8848-4c62-9528-d5e0d19c9ef0"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0b9bbaa4-69f1-4887-bc14-a4eb1ff8763a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'AgentTemplatePage-tbody']//span[@innertext='Planes Enlatados']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
+	name="CardaDataRepository"
+	relativepath="..\..\CardaDataRepository.rxrep">
+		<codegen
+		classname="CardaDataRepository"
+		namespace="CardaData">
+		</codegen>
+		<rootfolder
+		id="468d5898-f181-4143-93ca-5cfb8eaaac90"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		MenuSuperior_Administracion_PlanesEnlatados.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
