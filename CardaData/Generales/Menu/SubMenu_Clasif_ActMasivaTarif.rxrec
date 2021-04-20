@@ -80,7 +80,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Actualizaci&#243;n Masiva de Tarifa
+						Actualización Masiva de Tarifa
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -108,6 +108,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]/body/div[14]/div/div[2]/div/div[6]/?/?/span[@innertext&gt;'Actualizaci&#243;n Masiva de T']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 	</recorditems>

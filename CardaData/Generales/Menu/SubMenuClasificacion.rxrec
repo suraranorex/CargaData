@@ -45,8 +45,10 @@ mode="Global">
 			id="6fb63972-fb85-45a3-9051-a107137f07c3"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[@innertext='Clasificaci&#243;n']
+					/dom[@domain=$Ambiente]//span[@innertext='Clasificación']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 	</recorditems>
