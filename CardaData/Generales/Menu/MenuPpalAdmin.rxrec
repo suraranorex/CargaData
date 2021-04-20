@@ -45,10 +45,8 @@ mode="Global">
 			id="5c0b47c5-6521-41ca-b20d-58c3c66026de"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[#'TabBar:AdministrationTab-btnInnerEl']//span[@innertext='Administración']
+					/dom[@domain=$Ambiente]//span[#'TabBar:AdministrationTab-btnInnerEl']//span[@innertext='Administraci&#243;n']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 	</recorditems>

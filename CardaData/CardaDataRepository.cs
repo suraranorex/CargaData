@@ -61,7 +61,7 @@ namespace CardaData
 
 #region Variables
 
-        string _Ambiente = "suragwqa2.segurossura.com.ar";
+        string _Ambiente = "ssurgwsoadev4-oci.opc.oracleoutsourcing.com";
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -429,7 +429,7 @@ namespace CardaData
             RepoItemInfo _btn_buscarcodpasInfo;
             RepoItemInfo _filabuscarcodproductorInfo;
             RepoItemInfo _selectpasInfo;
-            RepoItemInfo _lbl_codigodeproductorInfo;
+            RepoItemInfo _lbl_codigodeproductor6254Info;
             RepoItemInfo _solapatarifa_codpasInfo;
             RepoItemInfo _filatarifacodpasInfo;
             RepoItemInfo _lblresultadocargaplanescomisionInfo;
@@ -635,8 +635,8 @@ namespace CardaData
                 _lbl_busquedadecodigosdeproductorInfo = new RepoItemInfo(this, "lbl_BusquedaDeCodigosDeProductor", ".//tbody[#'ProducerCodeSearch-tbody']/tr[1]/td/div//span[@innertext>'Búsqueda de códigos de Pr']", "", 30000, null, "bb27839a-ca02-473a-9286-12b93beecfc1");
                 _btn_buscarcodpasInfo = new RepoItemInfo(this, "Btn_BuscarCodPAS", ".//tbody[#'ProducerCodeSearch-tbody']/tr[3]//table/tbody/tr[6]/td/div/div/?/?/table/?/?/tr/td[1]/a[@innertext='Bucar']", "", 30000, null, "198841bc-eebe-4852-98f2-c30cc5119079");
                 _filabuscarcodproductorInfo = new RepoItemInfo(this, "FilaBuscarCodProductor", ".//tbody[#'ProducerCodeSearch-tbody']/tr[4]/td/div/div[4]/div[1]/div/table[1]/?/?/tr", "", 30000, null, "e26342c0-cf81-4a7e-baab-c881b8efdede");
-                _selectpasInfo = new RepoItemInfo(this, "SelectPAS", ".//tbody[#'ProducerCodeSearch-tbody']//a[@innertext='2302']", "", 30000, null, "8d42bd6f-0dba-45f7-83f4-74072e8a019a");
-                _lbl_codigodeproductorInfo = new RepoItemInfo(this, "lbl_CodigoDeProductor", ".//tbody[#'centerPanel-tbody']//span[@innertext~'Código de Productor']", "", 30000, null, "30b6fa6a-af8b-41ee-9f4e-ed693030905f");
+                _selectpasInfo = new RepoItemInfo(this, "SelectPAS", ".//tbody[#'ProducerCodeSearch-tbody']//a[@innertext='6254']", "", 30000, null, "8d42bd6f-0dba-45f7-83f4-74072e8a019a");
+                _lbl_codigodeproductor6254Info = new RepoItemInfo(this, "lbl_CodigoDeProductor6254", ".//tbody[#'centerPanel-tbody']//span[@innertext='Código de Productor: 6254']", "", 30000, null, "30b6fa6a-af8b-41ee-9f4e-ed693030905f");
                 _solapatarifa_codpasInfo = new RepoItemInfo(this, "SolapaTarifa_CodPAS", ".//tbody[#'centerPanel-tbody']//span[@innertext='Tarifa']", "", 30000, null, "bbf7dcae-d64a-4922-b4a8-fba885bd77d1");
                 _filatarifacodpasInfo = new RepoItemInfo(this, "filaTarifaCodPAS", ".//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]/td/div/div[2]/?/?/table/tbody/tr[4]/td/div/div[2]/?/?/table/tbody/tr[2]/td/div/div[4]", "", 30000, null, "5bd854d4-3ddb-48fa-93b2-37a6e5737df8");
                 _lblresultadocargaplanescomisionInfo = new RepoItemInfo(this, "lblResultadoCargaPlanesComision", ".//div[#'AdminDataUploadConfirmation/role']/table//label[@innertext>'The data upload completed']", "", 30000, null, "9d29b069-fdeb-47e3-ae43-a3009a548447");
@@ -4701,26 +4701,26 @@ namespace CardaData
             }
 
             /// <summary>
-            /// The lbl_CodigoDeProductor item.
+            /// The lbl_CodigoDeProductor6254 item.
             /// </summary>
             [RepositoryItem("30b6fa6a-af8b-41ee-9f4e-ed693030905f")]
-            public virtual Ranorex.SpanTag lbl_CodigoDeProductor
+            public virtual Ranorex.SpanTag lbl_CodigoDeProductor6254
             {
                 get
                 {
-                    return _lbl_codigodeproductorInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                    return _lbl_codigodeproductor6254Info.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
             /// <summary>
-            /// The lbl_CodigoDeProductor item info.
+            /// The lbl_CodigoDeProductor6254 item info.
             /// </summary>
             [RepositoryItemInfo("30b6fa6a-af8b-41ee-9f4e-ed693030905f")]
-            public virtual RepoItemInfo lbl_CodigoDeProductorInfo
+            public virtual RepoItemInfo lbl_CodigoDeProductor6254Info
             {
                 get
                 {
-                    return _lbl_codigodeproductorInfo;
+                    return _lbl_codigodeproductor6254Info;
                 }
             }
 

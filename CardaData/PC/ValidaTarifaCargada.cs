@@ -96,8 +96,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.SelectPAS.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_CodigoDeProductor'", repo.ApplicationUnderTest.lbl_CodigoDeProductorInfo, new ActionTimeout(30000), new RecordItemIndex(2));
-            repo.ApplicationUnderTest.lbl_CodigoDeProductorInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_CodigoDeProductor6254'", repo.ApplicationUnderTest.lbl_CodigoDeProductor6254Info, new ActionTimeout(30000), new RecordItemIndex(2));
+            repo.ApplicationUnderTest.lbl_CodigoDeProductor6254Info.WaitForExists(30000);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SolapaTarifa_CodPAS' at Center.", repo.ApplicationUnderTest.SolapaTarifa_CodPASInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.SolapaTarifa_CodPAS.Click();

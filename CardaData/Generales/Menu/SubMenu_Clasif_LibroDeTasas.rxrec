@@ -47,8 +47,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext='Libros de tasas']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 	</recorditems>

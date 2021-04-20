@@ -78,7 +78,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Búsqueda de códigos de Productor
+						B&#250;squeda de c&#243;digos de Productor
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -94,8 +94,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']/tr[1]/td/div//span[@innertext&gt;'B&#250;squeda de c&#243;digos de Pr']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -120,8 +118,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']//input[@name='ProducerCodeSearch:ProducerCodeSearchScreen:ProducerCodeSearchDV:Code']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -141,12 +137,10 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']//input[@name='ProducerCodeSearch:ProducerCodeSearchScreen:ProducerCodeSearchDV:Code']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
-		KeySequence="2302"
+		KeySequence="2301"
 		duration="20ms"
 		enabled="True"
 		optional="False"
@@ -162,8 +156,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']//input[@name='ProducerCodeSearch:ProducerCodeSearchScreen:ProducerCodeSearchDV:Code']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -242,8 +234,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']/tr[3]//table/tbody/tr[6]/td/div/div/?/?/table/?/?/tr/td[1]/a[@innertext='Bucar']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -262,8 +252,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']//a[@innertext='2302']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<userrecorditem

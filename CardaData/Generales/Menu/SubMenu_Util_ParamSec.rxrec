@@ -45,10 +45,8 @@ mode="Global">
 			id="e5cc9208-adc3-4d1a-a153-cdee361059b5"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[@innertext='Parámetros de secuencia']
+					/dom[@domain=$Ambiente]//span[@innertext='Par&#225;metros de secuencia']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 	</recorditems>

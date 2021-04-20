@@ -100,8 +100,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']/table/tbody/tr[1]/td//span[@innertext&gt;'Importar datos administra']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -187,8 +185,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext~'Examinar...']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -207,8 +203,6 @@ mode="Global">
 				<path>
 					/form[@title='Abrir']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<separatoritem
@@ -276,8 +270,6 @@ mode="Global">
 				<path>
 					/form[@title='Open' or @title='Abrir']/element[@class='WorkerW']/container[@controlid='40965']//toolbar[@controlid='1001']/button[@text='Escritorio']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -435,8 +427,6 @@ mode="Global">
 				<path>
 					/form[@title='Open']/?/?/text[@controlid='1148']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -615,8 +605,6 @@ mode="Global">
 				<path>
 					/form[@title='Abrir']/button[@text='&amp;Abrir']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="d7fe0d9a-4a5b-422d-a747-d98b5b529221">
@@ -792,8 +780,6 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]//div[@innertext~'Cargando archivo(s)...']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<userrecorditem
@@ -842,8 +828,6 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]/body/div[12]/div[2]/div/div/div[2]/div[2]/div[@innertext='100%']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<WaitForRecordItem
@@ -915,8 +899,6 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']/table//label[@innertext&gt;'Se encontraron errores en']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<explicitdelayitem
@@ -1011,8 +993,6 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]//span[#'ImportWizard:Finish-btnInnerEl']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -1066,8 +1046,6 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]//span[#'ImportWizard:Finish-btnInnerEl']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
@@ -1095,8 +1073,6 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</closeapprecorditem>
 		<WaitForRecordItem
@@ -1170,8 +1146,6 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]/body/div[17]/div[2]/div/div/div[1]/div/div/div[2]//div[@innertext&gt;'Error en la solicitud de HTTP:']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -1196,8 +1170,6 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext='Aceptar' and @visible='True']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -1251,8 +1223,6 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]//span[#'ImportWizard:Finish-btnInnerEl']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -1326,8 +1296,6 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]/body/div[17]/div[2]/div/div/div[1]/div/div/div[2]//div[@innertext&gt;'Error en la solicitud de HTTP:']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -1352,8 +1320,6 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext='Aceptar' and @visible='True']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
@@ -1449,8 +1415,6 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</keyitem>
 		<WaitForRecordItem
@@ -1502,7 +1466,7 @@ D//Z
 					<attribute
 					name="innertext"
 					type="System.String">
-						Resultados de importación
+						Resultados de importaci&#243;n
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1516,10 +1480,8 @@ D//Z
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'ImportResults-tbody']/tr[1]/td/div//span[@innertext='Resultados de importación']
+					/dom[@domain=$Ambiente]//tbody[#'ImportResults-tbody']/tr[1]/td/div//span[@innertext='Resultados de importaci&#243;n']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<validationitem
@@ -1596,8 +1558,6 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ImportResults-tbody']/tr[3]/td/?/?/table//label[@innertext&gt;'Datos importados correctamente.']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 				InnerText

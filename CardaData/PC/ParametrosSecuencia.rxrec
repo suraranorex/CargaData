@@ -189,8 +189,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ScriptParametersPage-tbody']/tr[3]/td/div/div[1]/div/div/div[3]/div//input[@name='inputItem']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -352,12 +350,10 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ScriptParametersPage-tbody']/tr[3]/td/div/div[1]/div/div/div[3]/div//input[@name='inputItem']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
-		KeySequence="11"
+		KeySequence="10"
 		duration="20ms"
 		enabled="True"
 		optional="False"
@@ -515,8 +511,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ScriptParametersPage-tbody']/tr[3]/td/div/div[1]/div/div/div[3]/div//input[@name='inputItem']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keyitem
@@ -610,8 +604,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ScriptParametersPage-tbody']/tr[3]/td/div/div[3]/div[1]/div/table[5]/?/?/tr/td[1]/?/?/a[@innertext&gt;'ViewLoadProducerInfoButto']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -679,8 +671,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']/tr[1]/td/div/div/div/div/?/?/span[@innertext&gt;'ViewLoadProducerInfoButto']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -766,8 +756,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']/tr[2]/td/div//span[@innertext='ditar']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -919,8 +907,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']/tr[4]//table/tbody/tr[4]/td/div/div/?/?/table/?/?/tr/td[1]/div/div/?/?/input[@type='button']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -1006,8 +992,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']/tr[2]/td/div/div/div/a[1]//span[@innertext='Actalizar']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -1059,7 +1043,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Sí
+						S&#237;
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1079,10 +1063,8 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']/tr[4]//table/tbody/tr[4]/td/div/div/div[@innertext='Sí']
+					/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']/tr[4]//table/tbody/tr[4]/td/div/div/div[@innertext='S&#237;']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

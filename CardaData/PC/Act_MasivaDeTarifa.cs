@@ -96,12 +96,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.Btn_CargarInformacionActual.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.lbl_ActualizacionMasivaDeTarifa' at Center.", repo.ApplicationUnderTest.lbl_ActualizacionMasivaDeTarifaInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.lbl_ActualizacionMasivaDeTarifa.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Btn_CargarInformacionActual'", repo.ApplicationUnderTest.Copy_of_Btn_CargarInformacionActualInfo, new ActionTimeout(40000), new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Copy_of_Btn_CargarInformacionActualInfo.WaitForNotExists(40000);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 8s.", new RecordItemIndex(2));
+            Delay.Duration(8000, false);
             
         }
 

@@ -97,8 +97,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.txt_NumPag.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '11' with focus on 'ApplicationUnderTest.txt_NumPag'.", repo.ApplicationUnderTest.txt_NumPagInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.txt_NumPag.PressKeys("11");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '10' with focus on 'ApplicationUnderTest.txt_NumPag'.", repo.ApplicationUnderTest.txt_NumPagInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.txt_NumPag.PressKeys("10");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key 'Enter' Press.", new RecordItemIndex(3));

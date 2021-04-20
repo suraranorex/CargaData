@@ -236,21 +236,16 @@
 			VideoFps="15"
 			VideoRecordingMode="KeepAllTests"
 			VideoSource="Auto"
-			createsinglereportpdfchecked="False"
 			enabletracingscreenshots="True"
 			id="194a2777-802c-45c9-9f61-a0fbf6266ca0"
-			includeimageschecked="False"
-			includerecordingschecked="False"
 			junitreport="False"
 			name="CardaData"
-			overwritefilechecked="False"
 			reportcompress="False"
 			reportdirectoryname="Reports"
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
 			reporttemplatefolder=""
-			reportwriteinterval="30000ms"
-			singlereportpdfdirectory="SingleReportPDF">
+			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
 			id="1a49bcdb-dea9-47d1-a108-8d17c0363230"
@@ -381,8 +376,8 @@
 			datarangeactive="True"
 			datasource="CargaAdmDataPC"
 			id="2511387e-d494-463e-b6da-bd567f768e9b"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="Carga_AdmDataLoader_PC">
 			</testcase>
 			<testmodule
@@ -4040,7 +4035,7 @@
 		filename="DataSource - CargaLataflex2344.xlsx"
 		id="29b05c48-d6eb-4484-8fef-62f4178d332d"
 		includefile="Checked"
-		lastknownrowcount="3"
+		lastknownrowcount="6"
 		name="CargaLataFlex2344"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -4455,7 +4450,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="LataFlexXML">
+	default="PC_EnlatadosCampaniasForms">
 		<testconfiguration
 		name="ArchivodelaMuerte">
 			<testcontainer

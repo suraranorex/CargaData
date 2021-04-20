@@ -49,10 +49,8 @@ mode="Global">
 			id="5c0b47c5-6521-41ca-b20d-58c3c66026de"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[#'TabBar:AdministrationTab-btnInnerEl']//span[@innertext='Administración']
+					/dom[@domain=$Ambiente]//span[#'TabBar:AdministrationTab-btnInnerEl']//span[@innertext='Administraci&#243;n']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -75,10 +73,8 @@ mode="Global">
 			id="ace1f056-3723-49f9-b657-fe2fc9dfe4b4"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[@innertext='Supervisión']
+					/dom[@domain=$Ambiente]//span[@innertext='Supervisi&#243;n']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -103,8 +99,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]///span[@innertext='Mensajes']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -129,8 +123,6 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext='Colas de mensajes']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</mouseitem>
 		<validationitem
@@ -146,10 +138,8 @@ mode="Global">
 			id="a7f2ba96-2d6f-453e-8b26-f477dc0ee11f"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'MessagingDestinationControlList-tbody']//div[@id~'gridview-[0-9]+']//a[@innertext='SistemaDeFacturación']/../../..//div[@innertext='Iniciado']
+					/dom[@domain=$Ambiente]//tbody[#'MessagingDestinationControlList-tbody']//div[@id~'gridview-[0-9]+']//a[@innertext='SistemaDeFacturaci&#243;n']/../../..//div[@innertext='Iniciado']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 				(Choose)
@@ -172,10 +162,8 @@ mode="Global">
 			id="a7f2ba96-2d6f-453e-8b26-f477dc0ee11f"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'MessagingDestinationControlList-tbody']//div[@id~'gridview-[0-9]+']//a[@innertext='SistemaDeFacturación']/../../..//div[@innertext='Iniciado']
+					/dom[@domain=$Ambiente]//tbody[#'MessagingDestinationControlList-tbody']//div[@id~'gridview-[0-9]+']//a[@innertext='SistemaDeFacturaci&#243;n']/../../..//div[@innertext='Iniciado']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem

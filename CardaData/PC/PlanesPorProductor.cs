@@ -142,55 +142,55 @@ namespace CardaData.PC
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(0));
-            Delay.Duration(1000, false);
-            
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_PlanesPorProductor'", repo.ApplicationUnderTest.lbl_PlanesPorProductorInfo, new ActionTimeout(30000), new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.lbl_PlanesPorProductor'", repo.ApplicationUnderTest.lbl_PlanesPorProductorInfo, new ActionTimeout(30000), new RecordItemIndex(0));
             repo.ApplicationUnderTest.lbl_PlanesPorProductorInfo.WaitForExists(30000);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_CodProductorPlanesProductor' at Center.", repo.ApplicationUnderTest.txt_CodProductorPlanesProductorInfo, new RecordItemIndex(2));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_CodProductorPlanesProductor' at Center.", repo.ApplicationUnderTest.txt_CodProductorPlanesProductorInfo, new RecordItemIndex(1));
             //repo.ApplicationUnderTest.txt_CodProductorPlanesProductor.Click();
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_AgregarRegistro' at Center.", repo.ApplicationUnderTest.Btn_AgregarRegistroInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_AgregarRegistro' at Center.", repo.ApplicationUnderTest.Btn_AgregarRegistroInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.Btn_AgregarRegistro.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.FilaRegistrarProductor'", repo.ApplicationUnderTest.FilaRegistrarProductorInfo, new ActionTimeout(30000), new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.FilaRegistrarProductor'", repo.ApplicationUnderTest.FilaRegistrarProductorInfo, new ActionTimeout(30000), new RecordItemIndex(3));
             repo.ApplicationUnderTest.FilaRegistrarProductorInfo.WaitForExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_CanalProductor' at Center.", repo.ApplicationUnderTest.txt_CanalProductorInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_CanalProductor' at Center.", repo.ApplicationUnderTest.txt_CanalProductorInfo, new RecordItemIndex(4));
             repo.ApplicationUnderTest.txt_CanalProductor.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.Select_Canal' at Center.", repo.ApplicationUnderTest.Select_CanalInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.Select_Canal' at Center.", repo.ApplicationUnderTest.Select_CanalInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.Select_Canal.MoveTo();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Select_Canal' at Center.", repo.ApplicationUnderTest.Select_CanalInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Select_Canal' at Center.", repo.ApplicationUnderTest.Select_CanalInfo, new RecordItemIndex(7));
             repo.ApplicationUnderTest.Select_Canal.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_txt_CodPAS'", repo.ApplicationUnderTest.Copy_of_txt_CodPASInfo, new ActionTimeout(40000), new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_txt_CodPAS'", repo.ApplicationUnderTest.Copy_of_txt_CodPASInfo, new ActionTimeout(40000), new RecordItemIndex(8));
             repo.ApplicationUnderTest.Copy_of_txt_CodPASInfo.WaitForNotExists(40000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_CodPAS' at Center.", repo.ApplicationUnderTest.txt_CodPASInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_CodPAS' at Center.", repo.ApplicationUnderTest.txt_CodPASInfo, new RecordItemIndex(9));
             repo.ApplicationUnderTest.txt_CodPAS.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CodPAS' with focus on 'ApplicationUnderTest.txt_CodPAS'.", repo.ApplicationUnderTest.txt_CodPASInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CodPAS' with focus on 'ApplicationUnderTest.txt_CodPAS'.", repo.ApplicationUnderTest.txt_CodPASInfo, new RecordItemIndex(10));
             repo.ApplicationUnderTest.txt_CodPAS.PressKeys(CodPAS);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Vivienda_Permanente'", repo.ApplicationUnderTest.Copy_of_Vivienda_PermanenteInfo, new ActionTimeout(30000), new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Vivienda_Permanente'", repo.ApplicationUnderTest.Copy_of_Vivienda_PermanenteInfo, new ActionTimeout(30000), new RecordItemIndex(11));
             repo.ApplicationUnderTest.Copy_of_Vivienda_PermanenteInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_TipoVivienda' at Center.", repo.ApplicationUnderTest.txt_TipoViviendaInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_TipoVivienda' at Center.", repo.ApplicationUnderTest.txt_TipoViviendaInfo, new RecordItemIndex(12));
             repo.ApplicationUnderTest.txt_TipoVivienda.Click();
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(13));
+            Delay.Duration(1000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.Select_TipoVivienda' at Center.", repo.ApplicationUnderTest.Select_TipoViviendaInfo, new RecordItemIndex(14));
             repo.ApplicationUnderTest.Select_TipoVivienda.MoveTo();
@@ -200,32 +200,29 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.Select_TipoVivienda.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(16));
-            Delay.Duration(1000, false);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Select_Plan'", repo.ApplicationUnderTest.Copy_of_Select_PlanInfo, new ActionTimeout(40000), new RecordItemIndex(16));
+            repo.ApplicationUnderTest.Copy_of_Select_PlanInfo.WaitForNotExists(40000);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 50s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Select_Plan'", repo.ApplicationUnderTest.Copy_of_Select_PlanInfo, new ActionTimeout(50000), new RecordItemIndex(17));
-            repo.ApplicationUnderTest.Copy_of_Select_PlanInfo.WaitForNotExists(50000);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_Plan' at Center.", repo.ApplicationUnderTest.txt_PlanInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_Plan' at Center.", repo.ApplicationUnderTest.txt_PlanInfo, new RecordItemIndex(17));
             repo.ApplicationUnderTest.txt_Plan.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.Select_Plan' at Center.", repo.ApplicationUnderTest.Select_PlanInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.Select_Plan' at Center.", repo.ApplicationUnderTest.Select_PlanInfo, new RecordItemIndex(18));
             repo.ApplicationUnderTest.Select_Plan.MoveTo();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Select_Plan' at Center.", repo.ApplicationUnderTest.Select_PlanInfo, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Select_Plan' at Center.", repo.ApplicationUnderTest.Select_PlanInfo, new RecordItemIndex(19));
             repo.ApplicationUnderTest.Select_Plan.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Actalizar_Pas2344' at Center.", repo.ApplicationUnderTest.Btn_Actalizar_Pas2344Info, new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Actalizar_Pas2344' at Center.", repo.ApplicationUnderTest.Btn_Actalizar_Pas2344Info, new RecordItemIndex(20));
             repo.ApplicationUnderTest.Btn_Actalizar_Pas2344.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Btn_Actalizar_Pas2344'", repo.ApplicationUnderTest.Copy_of_Btn_Actalizar_Pas2344Info, new ActionTimeout(40000), new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Btn_Actalizar_Pas2344'", repo.ApplicationUnderTest.Copy_of_Btn_Actalizar_Pas2344Info, new ActionTimeout(40000), new RecordItemIndex(21));
             repo.ApplicationUnderTest.Copy_of_Btn_Actalizar_Pas2344Info.WaitForNotExists(40000);
             
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(23));
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(22));
             //Delay.Duration(3000, false);
             
         }

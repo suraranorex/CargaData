@@ -33,7 +33,6 @@ name="CardaDataRepository">
 				id="84aa6184-1587-4db6-890e-ffb59ba86f93"
 				name="bttn_Configuracion"
 				refimgid="7d874a37-2d30-42ee-9b2d-b855bb75a5b0"
-				robustPath=""
 				searchtimeout="30000ms">
 					/dom[@domain=$Ambiente]//span[#':TabLinkMenuButton-btnEl']/span[@enabled='True']
 				</item>
@@ -51,7 +50,6 @@ name="CardaDataRepository">
 				id="4203a0a3-5603-40cb-b623-1ead97ec0da5"
 				name="txtbox_Usuario"
 				refimgid="f7b3a884-621b-4c39-a0bd-c5dc59aff209"
-				robustPath=""
 				searchtimeout="30000ms">
 					/dom[@domain=$Ambiente]//tbody[#'Login-tbody']/tr/td/?/?/table/tbody/tr/td//input[@name~'username']
 				</item>
@@ -61,7 +59,6 @@ name="CardaDataRepository">
 				id="a5fb7509-a1a1-4c45-9722-64eb6dd5c354"
 				name="txtbox_Contrasenia"
 				refimgid="3dba2cd5-d944-4793-89e8-05c9347e3f40"
-				robustPath=""
 				searchtimeout="30000ms">
 					/dom[@domain=$Ambiente]//tbody[#'Login-tbody']/tr/td/?/?/table/tbody/tr/td//input[@name~'password']
 				</item>
@@ -71,9 +68,8 @@ name="CardaDataRepository">
 				id="42f50323-1c99-495f-a81b-5c2d74210914"
 				name="bttn_IniciarSesion"
 				refimgid="93f62839-5c75-4737-9cf8-4eed7cad3efc"
-				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain=$Ambiente]//tbody[#'Login-tbody']/tr//table/tbody/tr/td//table/?/?/tr/td/a//span[@innertext='Iniciar sesión' or @innertext='Log In']
+					/dom[@domain=$Ambiente]//tbody[#'Login-tbody']/tr//table/tbody/tr/td//table/?/?/tr/td/a//span[@innertext='Iniciar sesi&#243;n' or @innertext='Log In']
 				</item>
 				<basepath>
 					/dom[@domain=$Ambiente]//tbody[#'Login-tbody']/tr
@@ -85,7 +81,6 @@ name="CardaDataRepository">
 			id="cb792193-8505-4295-aaaa-2eca180a0732"
 			name="btn_AceptarError"
 			refimgid="465a1140-e6a3-4813-ab34-259149478a49"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext='Aceptar' and @visible='True']
 			</item>
@@ -96,7 +91,6 @@ name="CardaDataRepository">
 			name="Nuevo"
 			refimgid="095f07bf-321d-4508-9e9d-60de480f679f"
 			refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'ServerTools:InternalToolsMenuActions']/span/span/span[@innertext='Nuevo ...']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'ServerTools:InternalToolsMenuActions']//span[@innertext='Nuevo ...']
 			</item>
@@ -107,7 +101,6 @@ name="CardaDataRepository">
 			name="VolverAPolicyCenter"
 			refimgid="bacaad02-d2fe-4d03-bbc2-2ae46c66ee20"
 			refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[11]/div/div[2]/div/div[1]/a/span[@innertext='Volver a PolicyCenter']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[11]/div/div[2]//span[@innertext='Volver a PolicyCenter']
 			</item>
@@ -117,7 +110,6 @@ name="CardaDataRepository">
 			id="a7b38a77-67d1-4b52-bdc1-f4c37fde1aa4"
 			name="Estado_Completado"
 			refimgid="cb10bb3f-5021-4e74-b2c4-5535482c27ef"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//div[@innertext='Completado']
 			</item>
@@ -128,7 +120,6 @@ name="CardaDataRepository">
 			name="MenuAcciones"
 			refimgid="072473bb-d1a8-4d98-baaf-b96db361090d"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//a[#'ServerTools:InternalToolsMenuActions']/span/span/span[@innertext='cciones']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'ServerTools:InternalToolsMenuActions']//span[@innertext='cciones']
 			</item>
@@ -138,7 +129,6 @@ name="CardaDataRepository">
 			id="44b3d211-fdd3-4e1f-97be-d0921f8c81b1"
 			name="SubMenuImportData"
 			refimgid="cb540c1c-daec-4963-9471-af28027c2989"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext='Import Data']
 			</item>
@@ -149,7 +139,6 @@ name="CardaDataRepository">
 			name="SubMenuAdminDataWizard"
 			refimgid="b8957656-22d8-4220-ac83-64bcd5f6db49"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[13]/div/div[2]/div/div[1]/a/span[@innertext='Admin Data Wizard']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[13]/div/div[2]/div/div[1]/?/?/span[@innertext='Admin Data Wizard']
 			</item>
@@ -160,7 +149,6 @@ name="CardaDataRepository">
 			name="lbl_UploadAdminDataExcelFile"
 			refimgid="ad13fa9e-fdbc-41ea-b7d3-a6c8aee32fb7"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'AdminDataLoaderWizard/upload']/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Upload Admin Data Excel File']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'AdminDataLoaderWizard/upload']/table/tbody/tr[1]/td/div/div/div/div/?/?/span[@innertext&gt;'Upload Admin Data Excel F']
 			</item>
@@ -171,7 +159,6 @@ name="CardaDataRepository">
 			name="OptionLoadConfiguration"
 			refimgid="2e4392d0-fd07-4cb3-b1c9-50ef65d0d044"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'AdminDataLoaderWizard/upload']/table/tbody/tr[4]/td/div/table/tbody/tr[2]/td/div/table/tbody/tr[1]/td/div/div/div/table/tbody/tr/td[2]/div/div/div/input[@type='button']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'AdminDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]//table/tbody/tr[1]/td/div/div/?/?/table/?/?/tr/td[2]/div/div/?/?/input[@type='button']
 			</item>
@@ -182,7 +169,6 @@ name="CardaDataRepository">
 			name="Lbl_AdminDataExcelFile"
 			refimgid="294cb9d9-0765-4dc2-9aec-e7677caaefef"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'AdminDataLoaderWizard/upload']/table/tbody/tr[4]/td/div/table/tbody/tr[2]/td/div/table/tbody/tr[2]/td/div/div/div/div/div[2]/label/span[@innertext='Admin Data Excel File']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'AdminDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]/td/?/?/table/tbody/tr[2]/td/div/div/div/div/div[2]/label/span[@innertext='Admin Data Excel File']
 			</item>
@@ -193,7 +179,6 @@ name="CardaDataRepository">
 			name="Btn_Examinar"
 			refimgid="ffe01f1e-cd59-4863-aeed-b39dbd5d4366"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'AdminDataLoaderWizard/upload']/table/tbody/tr[4]/td/div/table/tbody/tr[2]/td/div/table/tbody/tr[2]/td/div/div/div/div/div[3]/div/div/div[2]/div/input[@name='fileContent']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'AdminDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]/td/div/table/tbody/tr[2]/td/div/div/div/div/div[3]/div/div/div[2]/?/?/input[@name='fileContent']
 			</item>
@@ -203,7 +188,6 @@ name="CardaDataRepository">
 			id="6a71e08e-68e0-472b-a38a-6f4d80401786"
 			name="Btn_Examinar2"
 			refimgid="ffe01f1e-cd59-4863-aeed-b39dbd5d4366"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext~'Examinar...']
 			</item>
@@ -214,7 +198,6 @@ name="CardaDataRepository">
 			name="Siguiente"
 			refimgid="b58b16b2-5e5c-4566-99e2-ff6f5a60b316"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//a[#'AdminDataLoaderWizard:Next']/span/span/span[@innertext='Siguiente >']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'AdminDataLoaderWizard:Next']//span[@innertext='Siguiente &gt;']
 			</item>
@@ -225,7 +208,6 @@ name="CardaDataRepository">
 			name="lbl_ReviewAdminDataUpload"
 			refimgid="1965a168-9c54-4b42-93d8-77b9a56c31b6"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'AdminDataLoaderWizard/review']/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Review Admin Data Upload']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'AdminDataLoaderWizard/review']/table/tbody/tr[1]/td/div/div/div/div/?/?/span[@innertext='Review Admin Data Upload']
 			</item>
@@ -236,7 +218,6 @@ name="CardaDataRepository">
 			name="btn_FInalizar"
 			refimgid="445bed00-87b8-4faa-95e8-74d5e43ef2a4"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//a[#'AdminDataLoaderWizard:Finish']/span/span/span[@innertext='inalizar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'AdminDataLoaderWizard:Finish']//span[@innertext='inalizar']
 			</item>
@@ -247,7 +228,6 @@ name="CardaDataRepository">
 			name="lbl_AdminDataUploadConfirmation"
 			refimgid="bf344a8d-7b28-4873-a4e4-df70b061f3f3"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'AdminDataUploadConfirmation/role']/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext>'Admin Data Upload Confirm']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'AdminDataUploadConfirmation/role']/table/tbody/tr[1]/td//span[@innertext&gt;'Admin Data Upload Confirm']
 			</item>
@@ -257,7 +237,6 @@ name="CardaDataRepository">
 			id="605e560c-c981-41d2-ba75-4b94749934fe"
 			name="Copy_of_Cciones"
 			refimgid="c8dbd9da-3649-47c2-a4c3-a7d0935c44c9"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'ServerTools:InternalToolsMenuActions']//span[@innertext='cciones']
 			</item>
@@ -267,7 +246,6 @@ name="CardaDataRepository">
 			id="b2fdb893-9d08-490d-9b60-795f63dcf9f8"
 			name="Copy_of_ImportData"
 			refimgid="c3a94f74-7f98-4e77-ae98-6ee003793a82"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[11]/div/div[2]/div/div[2]/?/?/span[@innertext='Import Data']
 			</item>
@@ -277,7 +255,6 @@ name="CardaDataRepository">
 			id="f4db2b6d-12eb-4e24-9394-51b7a4c48ff4"
 			name="SubMenuPlanDataWizard"
 			refimgid="540fe90e-8a27-4f52-9cb5-47b7aac6f0ae"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[13]/div/div[2]/div/div[2]/?/?/span[@innertext='Plan Data Wizard']
 			</item>
@@ -287,7 +264,6 @@ name="CardaDataRepository">
 			id="45d72592-40a3-4cb8-b598-4d051e663c67"
 			name="OptionNoLoadConfiguration"
 			refimgid="1803f79f-4c5b-4b16-a6eb-8e435cad64e5"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]//table/tbody/tr[1]/td/div/div/?/?/table/?/?/tr/td[2]/div/div/?/?/input[@type='button']
 			</item>
@@ -297,7 +273,6 @@ name="CardaDataRepository">
 			id="884cfe2f-b6f2-42d6-9127-bffcf3549632"
 			name="Copy_of_FileContent"
 			refimgid="ce98138f-1994-4c4e-b78e-fa32412f752e"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]/td/div/table/tbody/tr[2]/td/div/div/div/div/div[3]/div/div/div[2]/?/?/input[@name='fileContent']
 			</item>
@@ -308,7 +283,6 @@ name="CardaDataRepository">
 			name="XBorderBoxXMaskXMaskFixed"
 			refimgid="17c9211f-471c-4f3d-940d-208ab9665775"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[14]"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[14]
 			</item>
@@ -319,7 +293,6 @@ name="CardaDataRepository">
 			name="lbl_UploadPlanDataExcelFile"
 			refimgid="09a68b09-b3fd-4da8-a728-a3ef080bb5d7"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Upload Plan Data Excel File']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[1]/td/div/div/div/div/?/?/span[@innertext&gt;'Upload Plan Data Excel Fi']
 			</item>
@@ -330,7 +303,6 @@ name="CardaDataRepository">
 			name="CargandoArchivoS"
 			refimgid="8c0f1c7e-34d0-4cee-89bd-dcab7f25c17a"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[12]/div[1]/div/div/div[1]/div[@innertext='Cargando archivo(s)...']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[12]/div[1]//div[@innertext='Cargando archivo(s)...']
 			</item>
@@ -340,7 +312,6 @@ name="CardaDataRepository">
 			id="385a96fc-73d5-4c5c-be4f-e94e04415425"
 			name="Siguiente1"
 			refimgid="dbf5df92-3fe3-417a-91a9-d4a89896056e"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'AdminDataLoaderWizard:Next']/span/?/?/span[@innertext='Siguiente &gt;']
 			</item>
@@ -350,7 +321,6 @@ name="CardaDataRepository">
 			id="4de3d54b-6033-48f5-8f51-6c454846ff81"
 			name="Btn_SiguientePlanesPago"
 			refimgid="dbf5df92-3fe3-417a-91a9-d4a89896056e"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'PlanDataLoaderWizard:Next']/span/?/?/span[@innertext='Siguiente &gt;']
 			</item>
@@ -360,7 +330,6 @@ name="CardaDataRepository">
 			id="e8eea5e8-b5dd-4375-9db8-ba7844e00559"
 			name="lbl_ReviewPlanDataUpload"
 			refimgid="66d8b14a-7693-4262-aa07-77ae45752614"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'AdminDataLoaderWizard/review']//span[@innertext='Review Admin Data Upload']
 			</item>
@@ -370,7 +339,6 @@ name="CardaDataRepository">
 			id="2e6ed939-fb97-4f28-afbd-5fa749e0f318"
 			name="Copy_of_lbl_ReviewPlanDataUpload"
 			refimgid="66d8b14a-7693-4262-aa07-77ae45752614"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'PlanDataLoaderWizard/review']//span[@innertext='Review Plan Data Upload']
 			</item>
@@ -380,7 +348,6 @@ name="CardaDataRepository">
 			id="c5ce4c15-6022-4928-bc22-032c46592898"
 			name="Btn_Finalizar2"
 			refimgid="4481773f-0ca3-4f16-b32f-e561c3b86da0"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'PlanDataLoaderWizard:Finish']//span[@innertext~'inalizar']
 			</item>
@@ -390,7 +357,6 @@ name="CardaDataRepository">
 			id="c740d740-1eb4-4732-ba8c-8a7c19bcd6c9"
 			name="Btn_Finalizar__PlanesPago"
 			refimgid="4481773f-0ca3-4f16-b32f-e561c3b86da0"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'PlanDataLoaderWizard:Finish']//span[@innertext~'inalizar']
 			</item>
@@ -400,7 +366,6 @@ name="CardaDataRepository">
 			id="c598ba81-7647-466a-a4f0-4042cf5e66e4"
 			name="Btn_Finalizar_PlanComisiones"
 			refimgid="4481773f-0ca3-4f16-b32f-e561c3b86da0"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'AdminDataLoaderWizard:Finish']/span/?/?/span[@innertext~'inalizar']
 			</item>
@@ -410,7 +375,6 @@ name="CardaDataRepository">
 			id="05abd998-1221-4a10-a2c2-b757c503efe0"
 			name="lbl_100Percent"
 			refimgid="e73f918b-2034-43bc-8eb8-891c38776b82"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[@innertext~'100%']
 			</item>
@@ -420,7 +384,6 @@ name="CardaDataRepository">
 			id="aa80ab73-b032-4b09-a5b2-4bbaaeba2fd5"
 			name="lbl_100percent_QA4"
 			refimgid="8e41f281-b062-4d78-bf36-705b5ef831b5"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[16]/div[2]/div/div/div[2]/div[2]/div[@innertext='100%']
 			</item>
@@ -430,7 +393,6 @@ name="CardaDataRepository">
 			id="797bd7d0-2081-48d3-b4a9-d19da1a8626b"
 			name="DivTag100Percent"
 			refimgid="0ab19acf-b14c-44d5-adc6-423f780cced1"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[15]/div[2]/div/div/div[2]/div[2]/div[@innertext='100%']
 			</item>
@@ -440,7 +402,6 @@ name="CardaDataRepository">
 			id="81a5c194-a414-47a0-b1f2-bd718797e6b0"
 			name="Menu_Acciones"
 			refimgid="45f34389-7ea4-49e7-8928-8b090d18b3c7"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext~'cciones']
 			</item>
@@ -450,7 +411,6 @@ name="CardaDataRepository">
 			id="8c8a1afc-ef7f-4a2d-9df0-4843452bc858"
 			name="SubMenu_NuevaProgramaDeCuotas"
 			refimgid="15ef206c-53f5-4e97-b64a-8af578c7ef38"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext~'Nueva programa de cuotas']
 			</item>
@@ -460,7 +420,6 @@ name="CardaDataRepository">
 			id="0a03e804-793e-4c21-ac4b-1a4964f786c2"
 			name="lbl_SubirArchivoExcel"
 			refimgid="ae2ebcd5-c427-45ea-807a-5ee9a9f544ca"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ScheduleInvoiceSuraWizard/upload']/table/tbody/tr[1]/td//span[@innertext~'Subir archivo excel']
 			</item>
@@ -471,7 +430,6 @@ name="CardaDataRepository">
 			name="Siguiente2"
 			refimgid="dde9f056-93da-4144-aee2-468eb4c2673e"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//a[#'ScheduleInvoiceSuraWizard:Next']/span/span/span[@innertext='Siguiente >']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'ScheduleInvoiceSuraWizard:Next']//span[@innertext='Siguiente &gt;']
 			</item>
@@ -482,7 +440,6 @@ name="CardaDataRepository">
 			name="Finalizar"
 			refimgid="bf466769-a5cf-4051-8920-9bbb17fd8513"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'ScheduleInvoiceSuraWizard/confirmation']/table/tbody/tr[2]/td/div/div/div/a/span/span/span[@innertext='Finalizar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ScheduleInvoiceSuraWizard/confirmation']/table/tbody/tr[2]/td//span[@innertext='Finalizar']
 			</item>
@@ -493,7 +450,6 @@ name="CardaDataRepository">
 			name="lbl_RevisionDeDatosCargados"
 			refimgid="98f9593f-02bb-48f3-b09e-f56536468893"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'ScheduleInvoiceSuraWizard/confirmation']/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Revisión de datos cargados']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ScheduleInvoiceSuraWizard/confirmation']/table/tbody/tr[1]/td//span[@innertext&gt;'Revisi&#243;n de datos cargado']
 			</item>
@@ -504,7 +460,6 @@ name="CardaDataRepository">
 			name="lbl_ProgramaDeCuotas"
 			refimgid="57a153f5-4da7-4a2d-8ebb-267164beb78c"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'ScheduleInvoiceSura/invoices']/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Programa de cuotas']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ScheduleInvoiceSura/invoices']/table/tbody/tr[1]/td//span[@innertext='Programa de cuotas']
 			</item>
@@ -514,7 +469,6 @@ name="CardaDataRepository">
 			id="3c57b5bf-c759-41c8-bb34-a3343cce809c"
 			name="txt_ArchivoCargado"
 			refimgid="17a3ae04-03cf-4fd8-a05f-b9e895e981b5"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ScheduleInvoiceSuraWizard/upload']/table/tbody/tr[4]//table//div/div/div/div/div[2]/div//input[@tagvalue='InvoiceSchedule Prueba.xls']
 			</item>
@@ -524,7 +478,6 @@ name="CardaDataRepository">
 			id="2c1b90f7-8429-43ad-8145-127bc8adf647"
 			name="txt_ArchivoCargado_qa2"
 			refimgid="17a3ae04-03cf-4fd8-a05f-b9e895e981b5"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[@id~'DataLoaderWizard/upload']//input[@name~'textfield-[0-9]+']
 			</item>
@@ -534,7 +487,6 @@ name="CardaDataRepository">
 			id="ba81fc94-c517-49fd-885b-88625355ce13"
 			name="Copy_of_txt_ArchivoCargado_qa2"
 			refimgid="17a3ae04-03cf-4fd8-a05f-b9e895e981b5"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[@id~'Wizard/(U|u)pload']//input[@value&gt;$NombreArchivo]
 			</item>
@@ -544,7 +496,6 @@ name="CardaDataRepository">
 			id="2ac5e3ad-3bb2-4e35-b1bc-bad4bbdb2703"
 			name="Copy_of_Copy_of_txt_ArchivoCargado_qa2"
 			refimgid="17a3ae04-03cf-4fd8-a05f-b9e895e981b5"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']/table/tbody/tr[4]//table/tbody/tr[2]/td/div/div/div/div/div[2]/div//input[@name='textfield-1111']
 			</item>
@@ -564,7 +515,6 @@ name="CardaDataRepository">
 				name="Button"
 				refimgid="84c527d4-ad4b-444e-a539-a97d693c5221"
 				refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'ScheduleInvoiceSuraWizard/review']/table/tbody/tr[5]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[2]/div/table/tbody/tr[1]/td/div/div/div/input[@type='button']"
-				robustPath=""
 				searchtimeout="30000ms">
 					/dom[@domain=$Ambiente]//div[#'ScheduleInvoiceSuraWizard/review']/table/tbody/tr[5]/td/?/?/table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[1]/td/div/div/?/?/input[@type='button']
 				</item>
@@ -575,7 +525,6 @@ name="CardaDataRepository">
 				name="Button1"
 				refimgid="c5732cca-8c8f-43fb-be1f-4aa3800f6a2f"
 				refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'ScheduleInvoiceSuraWizard/review']/table/tbody/tr[5]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td/div/div/div/input[@type='button']"
-				robustPath=""
 				searchtimeout="30000ms">
 					/dom[@domain=$Ambiente]//div[#'ScheduleInvoiceSuraWizard/review']/table/tbody/tr[5]/td/?/?/table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[2]/td/div/div/?/?/input[@type='button']
 				</item>
@@ -586,7 +535,6 @@ name="CardaDataRepository">
 				name="Button2"
 				refimgid="89e85896-ea07-4b22-9cdd-fcbfb0b34f3b"
 				refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'ScheduleInvoiceSuraWizard/review']/table/tbody/tr[5]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[2]/div/table/tbody/tr[3]/td/div/div/div/input[@type='button']"
-				robustPath=""
 				searchtimeout="30000ms">
 					/dom[@domain=$Ambiente]//div[#'ScheduleInvoiceSuraWizard/review']/table/tbody/tr[5]/td/?/?/table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[3]/td/div/div/?/?/input[@type='button']
 				</item>
@@ -597,7 +545,6 @@ name="CardaDataRepository">
 				name="Button3"
 				refimgid="3e30ea8f-814b-41bc-9d85-bfb6c018fb8d"
 				refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'ScheduleInvoiceSuraWizard/review']/table/tbody/tr[5]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[2]/div/table/tbody/tr[4]/td/div/div/div/input[@type='button']"
-				robustPath=""
 				searchtimeout="30000ms">
 					/dom[@domain=$Ambiente]//div[#'ScheduleInvoiceSuraWizard/review']/table/tbody/tr[5]/td/?/?/table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[4]/td/div/div/?/?/input[@type='button']
 				</item>
@@ -608,7 +555,6 @@ name="CardaDataRepository">
 				name="Button4"
 				refimgid="f8cb67e3-e8cd-49d4-af1a-92018c4b4935"
 				refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'ScheduleInvoiceSuraWizard/review']/table/tbody/tr[5]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[2]/div/table/tbody/tr[5]/td/div/div/div/input[@type='button']"
-				robustPath=""
 				searchtimeout="30000ms">
 					/dom[@domain=$Ambiente]//div[#'ScheduleInvoiceSuraWizard/review']/table/tbody/tr[5]/td/?/?/table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[5]/td/div/div/?/?/input[@type='button']
 				</item>
@@ -622,7 +568,6 @@ name="CardaDataRepository">
 			id="5c0b47c5-6521-41ca-b20d-58c3c66026de"
 			name="MenuAdm"
 			refimgid="14d12a48-7185-4265-b397-1911b05286bd"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@id='TabBar:AdministrationTab-btnWrap' or @id='TabBar:AdminTab-btnWrap']
 			</item>
@@ -632,7 +577,6 @@ name="CardaDataRepository">
 			id="15938c73-b55f-48df-b536-3781cbd24e6f"
 			name="Nav_MenuPpal"
 			refimgid="14d12a48-7185-4265-b397-1911b05286bd"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext=$MenuPpal]/../..//span[@class~'wrap']
 			</item>
@@ -642,9 +586,8 @@ name="CardaDataRepository">
 			id="62a5f657-0162-47eb-bee6-879bb7d48dc8"
 			name="Nav_MenuAdmin_ab"
 			refimgid="14d12a48-7185-4265-b397-1911b05286bd"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//a[#'TabBar:AdminTab']//span[@innertext='Adinistración']
+				/dom[@domain=$Ambiente]//a[#'TabBar:AdminTab']//span[@innertext='Adinistraci&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -652,9 +595,8 @@ name="CardaDataRepository">
 			id="e7428807-04b3-42aa-b050-6cc3170f5d7f"
 			name="Nav_MenuAdmin_pc"
 			refimgid="14d12a48-7185-4265-b397-1911b05286bd"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//a[#'TabBar:AdminTab']//span[@innertext='Administración']
+				/dom[@domain=$Ambiente]//a[#'TabBar:AdminTab']//span[@innertext='Administraci&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -662,9 +604,8 @@ name="CardaDataRepository">
 			id="d4120dd5-c1f0-4dd6-880f-2fe8fdda5f2d"
 			name="Nav_MenuAdmin_cc"
 			refimgid="14d12a48-7185-4265-b397-1911b05286bd"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//a[#'TabBar:AdminTab']//span[@innertext='Adminisración']
+				/dom[@domain=$Ambiente]//a[#'TabBar:AdminTab']//span[@innertext='Adminisraci&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -672,9 +613,8 @@ name="CardaDataRepository">
 			id="1336b87b-bd80-493b-837d-7b83e56a73ae"
 			name="SubMenuConfiguracionComercial"
 			refimgid="436cd293-ef0b-47af-b27a-eea6feb71be0"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//span[@innertext='Configuración comercial']
+				/dom[@domain=$Ambiente]//span[@innertext='Configuraci&#243;n comercial']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -683,7 +623,6 @@ name="CardaDataRepository">
 			name="WestPanelBody"
 			refimgid="928644ec-c546-4d9a-9b25-123375034327"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'westPanel-body']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'westPanel-body']
 			</item>
@@ -693,7 +632,6 @@ name="CardaDataRepository">
 			id="1cfd25fc-cecd-4501-bb2b-42e3df4bcd18"
 			name="De136"
 			refimgid="55907f9e-7ed3-42a1-876a-eff648b76d63"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'CommissionPlans-tbody']//div[@innertext~'de \d+']
 			</item>
@@ -703,7 +641,6 @@ name="CardaDataRepository">
 			id="43fd3cad-89a3-4318-9f51-d726d2e0eab0"
 			name="SubMenu_PatronesDeActividad"
 			refimgid="1938ae46-8036-4e14-b40c-ca3b64b4532b"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext='Patrones de actividad']
 			</item>
@@ -713,9 +650,8 @@ name="CardaDataRepository">
 			id="8df5910b-c66f-45d2-818c-ba5f039fe43d"
 			name="PlanesDeComision2"
 			refimgid="ea4cba79-ab57-4a28-9cfd-b9254ab90c20"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//span[@innertext='Planes de comisión']
+				/dom[@domain=$Ambiente]//span[@innertext='Planes de comisi&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -724,7 +660,6 @@ name="CardaDataRepository">
 			name="PatronesDeActividad1"
 			refimgid="0c0d0124-ddce-4697-8450-4a29573f4f69"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[12]/div/div[2]/div/div[1]/a/span[@innertext='Patrones de actividad']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[12]/div/div[2]/div/div[1]/?/?/span[@innertext='Patrones de actividad']
 			</item>
@@ -734,9 +669,8 @@ name="CardaDataRepository">
 			id="ace1f056-3723-49f9-b657-fe2fc9dfe4b4"
 			name="SubmenuSupervision"
 			refimgid="b3ef86bb-fb1d-41d5-9583-6264edfecebf"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//span[@innertext='Supervisión']
+				/dom[@domain=$Ambiente]//span[@innertext='Supervisi&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -744,7 +678,6 @@ name="CardaDataRepository">
 			id="747a1104-8fc0-46a2-8ead-9dfcb49c6bd3"
 			name="SubMenuMensajes"
 			refimgid="38b256cf-3075-4594-bbf6-a03313d6915d"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext='Mensajes']
 			</item>
@@ -754,7 +687,6 @@ name="CardaDataRepository">
 			id="4642699b-8598-4b59-affb-544a63660b0d"
 			name="SubMenuColasDeMensajes"
 			refimgid="1b6dc8fd-7b36-4562-a184-fe9446d54d29"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext='Colas de mensajes']
 			</item>
@@ -764,9 +696,8 @@ name="CardaDataRepository">
 			id="a7f2ba96-2d6f-453e-8b26-f477dc0ee11f"
 			name="Check_SistemaDeFacturacion"
 			refimgid="0b364268-1ea6-4e0a-802b-f4b0a2e9aefe"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'MessagingDestinationControlList-tbody']//div[@id~'gridview-[0-9]+']//a[@innertext='SistemaDeFacturación']/../../..//div[@innertext='Iniciado']
+				/dom[@domain=$Ambiente]//tbody[#'MessagingDestinationControlList-tbody']//div[@id~'gridview-[0-9]+']//a[@innertext='SistemaDeFacturaci&#243;n']/../../..//div[@innertext='Iniciado']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -774,7 +705,6 @@ name="CardaDataRepository">
 			id="fec87768-28a1-4249-aa58-6d287fb54cc7"
 			name="Utilidades"
 			refimgid="90719f1c-f0d1-42b0-9ac5-6dbb20f11bd1"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext='Utilidades']
 			</item>
@@ -784,7 +714,6 @@ name="CardaDataRepository">
 			id="03c5c9a8-a91b-46f8-bb61-d9d9452de97b"
 			name="Nav_SubM1"
 			refimgid="90719f1c-f0d1-42b0-9ac5-6dbb20f11bd1"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext=$SubM1]
 			</item>
@@ -794,7 +723,6 @@ name="CardaDataRepository">
 			id="cf67e51c-3053-490a-adee-c76197605295"
 			name="SubMenuImportarDatos"
 			refimgid="d2918d04-155f-46e4-a958-6a5b4b442b29"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext='Importar datos']
 			</item>
@@ -804,7 +732,6 @@ name="CardaDataRepository">
 			id="5880c726-44a7-4ec3-8cde-79dd9467500e"
 			name="Nav_SubM2_Visible"
 			refimgid="d2918d04-155f-46e4-a958-6a5b4b442b29"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext=$SubM2 and @visible='true']
 			</item>
@@ -814,7 +741,6 @@ name="CardaDataRepository">
 			id="928044c9-ac25-470b-9dc9-7be5ace8ab96"
 			name="Nav_SubM2"
 			refimgid="d2918d04-155f-46e4-a958-6a5b4b442b29"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//*[@innertext=$SubM2]
 			</item>
@@ -824,7 +750,6 @@ name="CardaDataRepository">
 			id="ecfd3283-0ebb-4bed-b756-7e256415a927"
 			name="Menu_Buscar"
 			refimgid="d2918d04-155f-46e4-a958-6a5b4b442b29"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@id='TabBar:SearchTab-btnWrap']
 			</item>
@@ -834,7 +759,6 @@ name="CardaDataRepository">
 			id="ba0fde11-c23f-43f7-b197-322c4a0ddaa7"
 			name="Copy_of_Menu_Buscar"
 			refimgid="d2918d04-155f-46e4-a958-6a5b4b442b29"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@id='TabBar:SearchTab-btnWrap' and @data-tabindexsaved='True']
 			</item>
@@ -845,7 +769,6 @@ name="CardaDataRepository">
 			name="lbl_VendorImportSuraTtlBar"
 			refimgid="2bacb7a2-506d-4d07-8914-fd9d31ca49f0"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//span[#'VendorImportSura:ttlBar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[#'VendorImportSura:ttlBar']
 			</item>
@@ -856,7 +779,6 @@ name="CardaDataRepository">
 			name="lbl_CambioDeDatos"
 			refimgid="c7533b0f-0663-478c-bd40-ab92932bc6c8"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'DataChangePage/details']/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Cambio de datos']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']/table/tbody/tr[1]/td//span[@innertext='Cambio de datos']
 			</item>
@@ -866,7 +788,6 @@ name="CardaDataRepository">
 			id="4947a7d9-3daa-4cc8-94d4-90b2982e3f3d"
 			name="lbl_CambioDeDatos_QA4_Oci2"
 			refimgid="c7533b0f-0663-478c-bd40-ab92932bc6c8"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//span[@id='DataChangePage:DataChangeScreen:ttlBar']
 			</item>
@@ -876,7 +797,6 @@ name="CardaDataRepository">
 			id="80b69dff-12b0-49f7-990f-a3e5eb9da557"
 			name="ImportarDatosAdministrativos"
 			refimgid="42fd6521-e146-4650-9998-9b0d7c7c7417"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']//span[@innertext='Importar datos administrativos']
 			</item>
@@ -886,7 +806,6 @@ name="CardaDataRepository">
 			id="f3d2e290-794a-4171-a259-0327a0313f1c"
 			name="lbl_SeEncontraronErroresEnElArchivo"
 			refimgid="3b23d8f1-4cdc-4257-b165-6d5f16c9551c"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']/table//label[@innertext~'Se encontraron errores en']
 			</item>
@@ -897,7 +816,6 @@ name="CardaDataRepository">
 			name="btn_FinalizarCargaDataPC"
 			refimgid="6081e24f-33be-4b8d-8825-ef1004b35914"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//span[#'ImportWizard:Finish-btnInnerEl']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[#'ImportWizard:Finish-btnInnerEl']
 			</item>
@@ -907,7 +825,6 @@ name="CardaDataRepository">
 			id="b284ed9e-d17e-49ac-98ad-21fbf98d1a35"
 			name="lbl_ErrorEnLaSolicitudDeHTTP503"
 			refimgid="49992f28-2e78-4b95-8ec2-190a327bf3d5"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[@innertext~'Error en la solicitud de HTTP:' and @visible='True']
 			</item>
@@ -917,9 +834,8 @@ name="CardaDataRepository">
 			id="1aee83d8-2981-4d9b-91d0-87526e3b322f"
 			name="lbl_ResultadosDeImportacion"
 			refimgid="6ebf9162-8f41-4476-85e9-8c31828b716c"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'ImportResults-tbody']//span[@innertext='Resultados de importación']
+				/dom[@domain=$Ambiente]//tbody[#'ImportResults-tbody']//span[@innertext='Resultados de importaci&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,labeltag"
@@ -927,7 +843,6 @@ name="CardaDataRepository">
 			id="bb08e45a-ae48-4650-a898-0a4bb3c0c5f3"
 			name="lbl_Resulyado_DatosImportados"
 			refimgid="184034b7-f21c-423a-b644-592e79f907a0"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ImportResults-tbody']//label[@innertext~'Datos importados correctamente.']
 			</item>
@@ -937,7 +852,6 @@ name="CardaDataRepository">
 			id="5269d1d9-c891-4638-872f-e8b5b9531058"
 			name="Sub_Menu_PlanesEnlatados"
 			refimgid="19b4f69c-94ad-4ad7-8681-43b145ee684b"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext='Planes Enlatados']
 			</item>
@@ -947,7 +861,6 @@ name="CardaDataRepository">
 			id="a77ce414-bda0-4ba7-8fdb-afd1888a55b5"
 			name="lbl_PlanesEnlatados"
 			refimgid="3697aa6e-6ebb-4403-b917-b6e62fab61b6"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'AgentTemplatePage-tbody']//span[@innertext='Planes Enlatados']
 			</item>
@@ -957,7 +870,6 @@ name="CardaDataRepository">
 			id="91345270-bee8-4e5c-a8c0-b67c0c953478"
 			name="btn_CargarArchivoEnlatados"
 			refimgid="0b14d231-915f-4445-acf8-b8c99220f11f"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'AgentTemplatePage-tbody']//span[@innertext='Cargar Archivo']
 			</item>
@@ -967,7 +879,6 @@ name="CardaDataRepository">
 			id="a222d95b-edaf-49a0-b91e-2859aee563dc"
 			name="txt_CodAgenteEnlatado"
 			refimgid="6d6b3f02-ee94-4b3c-b421-f2a979483298"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'AgentTemplatePage-tbody']//input[@name='AgentTemplatePage:AgentTemplateScreen:producerCode']
 			</item>
@@ -977,7 +888,6 @@ name="CardaDataRepository">
 			id="20870fd2-dc15-49d0-ad0d-a859771d3d37"
 			name="Btn_BuscarEnlatado"
 			refimgid="643ef388-664a-4b16-96ff-bf9c62a0b21d"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'AgentTemplatePage-tbody']//a[@innertext='Bucar']
 			</item>
@@ -987,7 +897,6 @@ name="CardaDataRepository">
 			id="d3d162a1-8255-46d2-84ce-e2bd79cc081c"
 			name="Copy_of_Btn_BuscarEnlatado"
 			refimgid="643ef388-664a-4b16-96ff-bf9c62a0b21d"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'AgentTemplatePage-tbody']//a[@innertext='Bucar' and @data-tabindexsaved='true']
 			</item>
@@ -997,7 +906,6 @@ name="CardaDataRepository">
 			id="c5e877d9-f954-4306-9420-504a8e4ee6ba"
 			name="lbl_Hogar_Enlatado"
 			refimgid="8b4f96f9-260f-4617-af6f-2d5e2173bd7d"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'AgentTemplatePage-tbody']//div[@innertext='Hogar']
 			</item>
@@ -1007,7 +915,6 @@ name="CardaDataRepository">
 			id="9e6bbc25-2d6a-4d81-a6d6-15a9adc2d93d"
 			name="txt_unidadNegocio"
 			refimgid="6a4cf5d7-5ab4-464b-b97f-a998bca3b635"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'AgentTemplatePage-tbody']//input[@name='AgentTemplatePage:AgentTemplateScreen:Producer']
 			</item>
@@ -1017,7 +924,6 @@ name="CardaDataRepository">
 			id="783e1f26-0a83-415b-bfb4-4a2e198b0174"
 			name="filaUnoEnlatados"
 			refimgid="701fd999-6fcd-41b4-815f-cfd42e7c2f7d"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'AgentTemplatePage-tbody']/tr[5]/td/div/div[4]/div[1]/div/table[1]/?/?/tr[@safeclass='x-grid-row']
 			</item>
@@ -1027,9 +933,8 @@ name="CardaDataRepository">
 			id="1d7d5cbf-b3ef-474b-b5c1-a3a5edf7f26c"
 			name="SubMenu_Campanas"
 			refimgid="75d68a94-321d-487b-8c54-eb3697d2a8f0"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//span[@innertext='Campañas']
+				/dom[@domain=$Ambiente]//span[@innertext='Campa&#241;as']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1037,7 +942,6 @@ name="CardaDataRepository">
 			id="dd79d668-a014-4754-9713-418324c059d4"
 			name="lbl_Campanias"
 			refimgid="75d68a94-321d-487b-8c54-eb3697d2a8f0"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[#'SearchCampaign:CampaignSearchScreen:ttlBar']
 			</item>
@@ -1048,7 +952,6 @@ name="CardaDataRepository">
 			name="CargarArchivo"
 			refimgid="79f952f1-2379-417f-b53c-dead83dda062"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'SearchCampaign-tbody']/tr[3]/td/div/table/tbody/tr[1]/td/div/table/tbody/tr/td[2]/div/table/tbody/tr/td/div/div/div/table/tbody/tr/td/a/span/span/span[@innertext='Cargar Archivo']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'SearchCampaign-tbody']/tr[3]//table/tbody/tr[1]//table/?/?/tr/td[2]/?/?/table//div/div/div/table/tbody/tr/td/a//span[@innertext='Cargar Archivo']
 			</item>
@@ -1058,7 +961,6 @@ name="CardaDataRepository">
 			id="1eb22ecf-8f56-4d32-8932-038bd3286a07"
 			name="btn_CargarArchivo_Campanias"
 			refimgid="79f952f1-2379-417f-b53c-dead83dda062"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'SearchCampaign-tbody']//span[@innertext='Cargar Archivo']
 			</item>
@@ -1068,7 +970,6 @@ name="CardaDataRepository">
 			id="6f6a30de-f734-46f8-b7c6-6723326c518e"
 			name="txt_NombreCampania"
 			refimgid="accf414a-5cab-4375-9272-0066149192fc"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'SearchCampaign-tbody']//input[@name='SearchCampaign:CampaignSearchScreen:AffinityGroupSearchDV:ProducerCode']
 			</item>
@@ -1079,7 +980,6 @@ name="CardaDataRepository">
 			name="Bucar"
 			refimgid="102a1b48-d3f2-4d3b-bdb1-6a0667317954"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'SearchCampaign-tbody']/tr[3]/td/div/table/tbody/tr[2]/td/div/table/tbody/tr/td/div/div/div/table/tbody/tr/td[1]/a[@innertext='Bucar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'SearchCampaign-tbody']/tr[3]/td/?/?/table/tbody/tr[2]//table//div/div/?/?/table/?/?/tr/td[1]/a[@innertext='Bucar']
 			</item>
@@ -1089,7 +989,6 @@ name="CardaDataRepository">
 			id="d0e5bef8-37c9-40d8-af92-6ef56ba1aa9f"
 			name="Btn_BuscarCampania"
 			refimgid="102a1b48-d3f2-4d3b-bdb1-6a0667317954"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'SearchCampaign-tbody']//a[@innertext='Bucar']
 			</item>
@@ -1099,7 +998,6 @@ name="CardaDataRepository">
 			id="124c72df-ae00-4fe5-87e6-9d6c151439bd"
 			name="Btn_BuscarCampania_En_Espera"
 			refimgid="102a1b48-d3f2-4d3b-bdb1-6a0667317954"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'SearchCampaign-tbody']//a[@innertext='Bucar' and @data-tabindexsaved='true']
 			</item>
@@ -1109,7 +1007,6 @@ name="CardaDataRepository">
 			id="4c4c69d5-9b53-4530-a9f1-b3fcf83c72e7"
 			name="filaUnoCampanias"
 			refimgid="79c00520-2e91-49bb-bf8d-86e020527e2c"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'SearchCampaign-tbody']/tr[4]/td/div/div[4]/div[1]/div/table[1]/?/?/tr
 			</item>
@@ -1119,7 +1016,6 @@ name="CardaDataRepository">
 			id="c389c0bf-9505-4b08-ae31-33cc5ed45de2"
 			name="lbl_resultadoFormCargaAsistMedica"
 			refimgid="34fbc960-e487-446a-b980-586aaa54d96d"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']//label[@innertext~'encontraron']
 			</item>
@@ -1129,7 +1025,6 @@ name="CardaDataRepository">
 			id="816bdfa2-d045-4ede-ab7c-7c004a27b8d6"
 			name="lbl_resultadoFormCarga"
 			refimgid="34fbc960-e487-446a-b980-586aaa54d96d"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']//label[@innertext~'encontraron']
 			</item>
@@ -1139,7 +1034,6 @@ name="CardaDataRepository">
 			id="cd351737-60fa-403d-a493-53041125a82d"
 			name="Copy_of_lbl_resultadoFormCarga"
 			refimgid="34fbc960-e487-446a-b980-586aaa54d96d"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']//label[@innertext~'&quot;Finalizar&quot;']
 			</item>
@@ -1149,7 +1043,6 @@ name="CardaDataRepository">
 			id="1a1d0076-8ced-4e2b-b8cf-e723644baca9"
 			name="lbl_resultadoFormCarga_coinciden"
 			refimgid="34fbc960-e487-446a-b980-586aaa54d96d"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'ImportWizard/Upload']//label[@innertext&gt;'encontraron']
 			</item>
@@ -1159,7 +1052,6 @@ name="CardaDataRepository">
 			id="5bfcf0be-0132-4330-971e-36b266278077"
 			name="lbl_Resultado_DatosImportadosFormAsistMed"
 			refimgid="a2053529-bb55-4d2f-84f9-a4456a8e78e7"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ImportResults-tbody']//label[@innertext~'Datos importados correctamente.']
 			</item>
@@ -1169,9 +1061,8 @@ name="CardaDataRepository">
 			id="6fb63972-fb85-45a3-9051-a107137f07c3"
 			name="SubMenuClasificacion"
 			refimgid="16886281-14c0-451a-acc7-2697fb69262b"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//span[@innertext='Clasificación']
+				/dom[@domain=$Ambiente]//span[@innertext='Clasificaci&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1179,7 +1070,6 @@ name="CardaDataRepository">
 			id="553d1dbb-e0e0-45b5-80a9-e2ac83509521"
 			name="SubMenu_Clasif_LibrosDeTasas"
 			refimgid="1724fc9e-2bbe-48bf-b827-2c056dd8c592"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext='Libros de tasas']
 			</item>
@@ -1189,7 +1079,6 @@ name="CardaDataRepository">
 			id="4d25d6d5-f4ee-4676-99b7-b782aad066b7"
 			name="SubMenu_Clasif_Hogar"
 			refimgid="a0167857-8227-45f4-9464-6fb99b260adb"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext='Hogar']
 			</item>
@@ -1199,7 +1088,6 @@ name="CardaDataRepository">
 			id="19eb0944-09aa-49c9-92d1-3a9a68960621"
 			name="SubMenu_Clasif_Hogar_PlanesPorProductor"
 			refimgid="09458fbc-d948-4b08-99e4-8a68e772b5da"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext='Planes por Productor']
 			</item>
@@ -1209,7 +1097,6 @@ name="CardaDataRepository">
 			id="b4571688-1dad-46ca-b6bd-dc685e3408e5"
 			name="lbl_PlanesPorProductor"
 			refimgid="09458fbc-d948-4b08-99e4-8a68e772b5da"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']//span[@innertext='Planes por Productor']
 			</item>
@@ -1219,7 +1106,6 @@ name="CardaDataRepository">
 			id="99696e5b-7dfc-4789-825e-315072afff96"
 			name="txt_CodProductorPlanesProductor"
 			refimgid="80b959a5-5017-450b-a3d5-57f4056dadcf"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody//input[@name='HOPlansByProducerSuraPage:searchProducerCode']
 			</item>
@@ -1229,7 +1115,6 @@ name="CardaDataRepository">
 			id="1b2120af-f13b-4d0b-88d3-b72ac10bf16c"
 			name="LupaBuscarCodproductor"
 			refimgid="db7db0e2-84aa-475a-8a0c-ea25b2c97aca"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody//div[@id='HOPlansByProducerSuraPage:searchProducerCode:SelectProducerCode']
 			</item>
@@ -1239,9 +1124,8 @@ name="CardaDataRepository">
 			id="f4022db7-74d2-4230-a5bf-bbff5ff22e12"
 			name="lbl_CodigosDeProductor"
 			refimgid="79cae974-5e20-4d80-a87c-210cf4dcca7d"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearchPopup-tbody']//span[@innertext='Códigos de Productor']
+				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearchPopup-tbody']//span[@innertext='C&#243;digos de Productor']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -1249,7 +1133,6 @@ name="CardaDataRepository">
 			id="dbefc8a7-7b29-4580-b14c-186aff9312cc"
 			name="txt_CodProductor"
 			refimgid="bf0823d5-2774-44dc-abf7-accaec2b8400"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearchPopup-tbody']//input[@name='ProducerCodeSearchPopup:ProducerCodeSearchScreen:ProducerCodeSearchDV:Code']
 			</item>
@@ -1259,7 +1142,6 @@ name="CardaDataRepository">
 			id="bd505839-db0d-42bd-87b5-2eb1e88a7e12"
 			name="Btn_BuscarCodProductor"
 			refimgid="2ccd218c-ca2b-4faa-bec1-bdf3c149298e"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearchPopup-tbody']//a[@innertext='Bucar']
 			</item>
@@ -1269,7 +1151,6 @@ name="CardaDataRepository">
 			id="d2d7fc06-efbd-4120-8e00-5ff161b0490c"
 			name="Select_NombreProductor_Answer"
 			refimgid="736a46c1-ba69-40b0-9697-c85379f25aea"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearchPopup-tbody']//div[@innertext&gt;'Sura Marketing (Latin America)']/..//..//a[@innertext='Seleccionar']
 			</item>
@@ -1279,7 +1160,6 @@ name="CardaDataRepository">
 			id="a1a85ceb-ab8a-4a87-99af-8d68f96d1d9b"
 			name="ResultadoBuscarNombreProductorAnswer"
 			refimgid="736a46c1-ba69-40b0-9697-c85379f25aea"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearchPopup-tbody']/tr[4]/td/div/div[4]/div[1]/div/table[1]/?/?/tr
 			</item>
@@ -1289,7 +1169,6 @@ name="CardaDataRepository">
 			id="6451aa3e-a9bc-44e5-8e9e-2a3465f65dc9"
 			name="Btn_AgregarRegistro"
 			refimgid="27107f2e-94ba-45e7-954d-76ee037ec1f2"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody//span[@innertext='Agregar Registro']
 			</item>
@@ -1299,7 +1178,6 @@ name="CardaDataRepository">
 			id="7d549658-f449-4506-bc04-d44003f199e0"
 			name="txt_CanalProductor"
 			refimgid="7e372dcd-0298-4336-82c0-884a4ede93ef"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div/table[$Fila]//div[@class='x-grid-cell-inner ' and @innertext='']
 			</item>
@@ -1309,7 +1187,6 @@ name="CardaDataRepository">
 			id="0806abae-80f2-493a-8518-bf923e3adc57"
 			name="Select_Canal"
 			refimgid="20a6f095-2c93-4b5c-b864-e35f9b5d9268"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//li[@innertext=$Canal]
 			</item>
@@ -1320,7 +1197,6 @@ name="CardaDataRepository">
 			name="FilaRegistrarProductor"
 			refimgid="77bbed8d-539a-49cb-8159-46df94db251b"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]
 			</item>
@@ -1330,7 +1206,6 @@ name="CardaDataRepository">
 			id="af51cb1f-71a2-4068-a087-59dfa2b29c95"
 			name="txt_CodPAS"
 			refimgid="75ff1232-9e40-4b23-a276-451d622bc8eb"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table[$Fila]/?/?/tr/td[3]/div
 			</item>
@@ -1340,7 +1215,6 @@ name="CardaDataRepository">
 			id="bcefc2c9-fe79-40b1-98f8-54e850462c90"
 			name="Copy_of_txt_CodPAS"
 			refimgid="75ff1232-9e40-4b23-a276-451d622bc8eb"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table[$Fila]/?/?/tr/td[3]/div/..//input[@data-tabindexsaved='True']
 			</item>
@@ -1350,7 +1224,6 @@ name="CardaDataRepository">
 			id="21e5c55e-7c62-45b9-91af-262564f5a198"
 			name="txt_TipoVivienda"
 			refimgid="2084deeb-d263-4b2a-b0a0-1881594881a5"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table[$Fila]/?/?/tr/td[4]/div
 			</item>
@@ -1360,7 +1233,6 @@ name="CardaDataRepository">
 			id="599d7f68-983a-42e3-8a8d-3fac9863268a"
 			name="Select_TipoVivienda"
 			refimgid="e4dbb873-6425-4ec8-adea-f6718f0e7d6b"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//li[@innertext=$TipoVivienda]
 			</item>
@@ -1370,7 +1242,6 @@ name="CardaDataRepository">
 			id="c2d1bdb7-5984-4059-889c-665ee6f20111"
 			name="Copy_of_Vivienda_Permanente"
 			refimgid="e4dbb873-6425-4ec8-adea-f6718f0e7d6b"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//li[@innertext=$TipoVivienda]/..//input[@data-tabindexsaved='True']
 			</item>
@@ -1380,7 +1251,6 @@ name="CardaDataRepository">
 			id="cf7ada42-72c5-4937-9c8c-dfa4e8232029"
 			name="txt_Plan"
 			refimgid="243172a7-114b-43b1-9a9f-027a319fb8a2"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table[$Fila]/?/?/tr/td[5]/div
 			</item>
@@ -1390,7 +1260,6 @@ name="CardaDataRepository">
 			id="9d05af49-7d6b-4ad6-bad4-73f6d43ff204"
 			name="Select_Plan"
 			refimgid="d04ea845-be66-4aee-b085-a4056013bc53"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//li[@innertext=$Plan]
 			</item>
@@ -1400,7 +1269,6 @@ name="CardaDataRepository">
 			id="6ef3db77-e1dd-4ac4-8508-c82b68efab94"
 			name="Copy_of_Select_Plan"
 			refimgid="d04ea845-be66-4aee-b085-a4056013bc53"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//li[@innertext=$Plan and @data-tabindexsaved='True']
 			</item>
@@ -1410,7 +1278,6 @@ name="CardaDataRepository">
 			id="6fd4867a-44ee-48c9-a9ad-65cbc1295e15"
 			name="Btn_Actalizar_Pas2344"
 			refimgid="2510db1d-c56a-4ce6-af20-671e9c1aaaea"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody//span[@innertext='Actalizar']
 			</item>
@@ -1420,7 +1287,6 @@ name="CardaDataRepository">
 			id="82043c82-93e3-4ff3-b3eb-e7abe762daeb"
 			name="Copy_of_Btn_Actalizar_Pas2344"
 			refimgid="2510db1d-c56a-4ce6-af20-671e9c1aaaea"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody//span[@innertext='Actalizar' and @data-tabindexsaved='True']
 			</item>
@@ -1431,7 +1297,6 @@ name="CardaDataRepository">
 			name="Plan_LFCountry"
 			refimgid="e6d4425c-faa1-4563-bf84-ee4156946bdf"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[23]/div/ul/li[@innertext='L.F. Country']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[23]/?/?/ul/li[@innertext='L.F. Country']
 			</item>
@@ -1441,7 +1306,6 @@ name="CardaDataRepository">
 			id="ea1223a9-8104-464d-ba88-7928b203ad56"
 			name="Plan_LFDpto2DegPisoOSuperior"
 			refimgid="da2e9513-47ee-47c1-9456-d01e6d81f863"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//li[@innertext&gt;'L.F. Dpto 2&#176; Piso o super']
 			</item>
@@ -1451,9 +1315,8 @@ name="CardaDataRepository">
 			id="e5cc9208-adc3-4d1a-a153-cdee361059b5"
 			name="SubMenu_util_ParametrosDeSecuencia"
 			refimgid="abffdf05-a733-4d7e-9c3e-0276a5b58b5b"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//span[@innertext='Parámetros de secuencia']
+				/dom[@domain=$Ambiente]//span[@innertext='Par&#225;metros de secuencia']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -1462,7 +1325,6 @@ name="CardaDataRepository">
 			name="txt_NumPag"
 			refimgid="2646ebf3-4462-4ecd-967a-5751533b3823"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'ScriptParametersPage-tbody']/tr[3]/td/div/div[1]/div/div/div[3]/div/div/div[1]/input[@name='inputItem']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ScriptParametersPage-tbody']/tr[3]/td/div/div[1]/div/div/div[3]/div//input[@name='inputItem']
 			</item>
@@ -1472,7 +1334,6 @@ name="CardaDataRepository">
 			id="b555ef22-c891-4d60-a615-36de7d45dedc"
 			name="Sec_ViewLoadProducerInfoButtonSura"
 			refimgid="23403bf9-4fbc-451e-b324-3c0e2166c60c"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ScriptParametersPage-tbody']//a[@innertext&gt;'ViewLoadProducerInfoButto']
 			</item>
@@ -1483,7 +1344,6 @@ name="CardaDataRepository">
 			name="lbl_ViewLoadProducerInfoButtonSura"
 			refimgid="633f1262-f58d-44ef-b56d-d171f3b2ba24"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'ScriptParameterDetail-tbody']/tr[1]/td/div/div/div/div/div/span[@innertext='ViewLoadProducerInfoButtonSura']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']/tr[1]/td/div/div/div/div/?/?/span[@innertext&gt;'ViewLoadProducerInfoButto']
 			</item>
@@ -1494,7 +1354,6 @@ name="CardaDataRepository">
 			name="Btn_Editar"
 			refimgid="7dabfea4-8b4f-4c24-bf44-5ee800f96594"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'ScriptParameterDetail-tbody']/tr[2]/td/div/div/div/a/span/span/span[@innertext='ditar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']/tr[2]/td/div//span[@innertext='ditar']
 			</item>
@@ -1505,7 +1364,6 @@ name="CardaDataRepository">
 			name="RButton_ValorSecuencia"
 			refimgid="f833bc45-f47e-4b3b-a598-b63068be7afd"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'ScriptParameterDetail-tbody']/tr[4]/td/div/table/tbody/tr[4]/td/div/div/div/table/tbody/tr/td[1]/div/div/div/input[@type='button']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']/tr[4]//table/tbody/tr[4]/td/div/div/?/?/table/?/?/tr/td[1]/div/div/?/?/input[@type='button']
 			</item>
@@ -1516,7 +1374,6 @@ name="CardaDataRepository">
 			name="Btn_Actualizar_ValorSec"
 			refimgid="287ee647-8b35-4340-99c0-74f784f0e250"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'ScriptParameterDetail-tbody']/tr[2]/td/div/div/div/a[1]/span/span/span[@innertext='Actalizar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']/tr[2]/td/div/div/div/a[1]//span[@innertext='Actalizar']
 			</item>
@@ -1527,9 +1384,8 @@ name="CardaDataRepository">
 			name="Valor_Si"
 			refimgid="54c4b684-4883-48c0-a9ab-d949b55ae192"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'ScriptParameterDetail-tbody']/tr[4]/td/div/table/tbody/tr[4]/td/div/div/div[@innertext='Sí']"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']/tr[4]//table/tbody/tr[4]/td/div/div/div[@innertext='Sí']
+				/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']/tr[4]//table/tbody/tr[4]/td/div/div/div[@innertext='S&#237;']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1538,7 +1394,6 @@ name="CardaDataRepository">
 			name="SubMenu_Clasif_ActMasivaDeTarifa"
 			refimgid="f44a05c0-8a5d-4d80-bf1c-e8d14d08d723"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[14]/div/div[2]/div/div[6]/a/span[@innertext='Actualización Masiva de Tarifa']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[14]/div/div[2]/div/div[6]/?/?/span[@innertext&gt;'Actualizaci&#243;n Masiva de T']
 			</item>
@@ -1549,7 +1404,6 @@ name="CardaDataRepository">
 			name="SubMenu_Clasif_AsistenciasAutos"
 			refimgid="8b141e06-698f-4dec-8d27-9c290a4b6541"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[13]/div/div[2]/div/div[7]/a/span[@innertext='Asistencias Autos']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[13]/div/div[2]/div/div[7]/?/?/span[@innertext='Asistencias Autos']
 			</item>
@@ -1560,7 +1414,6 @@ name="CardaDataRepository">
 			name="lbl_AsistenciasAutos"
 			refimgid="2cb220a6-5fff-4213-9404-e5d91ba7c5c3"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Asistencias Autos']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[1]//span[@innertext='Asistencias Autos']
 			</item>
@@ -1570,7 +1423,6 @@ name="CardaDataRepository">
 			id="dc82a47c-b13b-42be-85e4-52e164020241"
 			name="bttn_Configuracion"
 			refimgid="ef93250e-0e6a-401f-a735-24458797a496"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[#':TabLinkMenuButton-btnEl']/span[@enabled='True']
 			</item>
@@ -1580,9 +1432,8 @@ name="CardaDataRepository">
 			id="3cdc39fc-229d-467d-835d-d148595c70eb"
 			name="bttn_CerrarSesion"
 			refimgid="723d675f-2792-477e-99e7-c0d74cf063ce"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[#'TabBar:LogoutTabBarLink']/?/?/span[@innertext~'Cerrar sesión']
+				/dom[@domain=$Ambiente]//div[#'TabBar:LogoutTabBarLink']/?/?/span[@innertext~'Cerrar sesi&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1590,9 +1441,8 @@ name="CardaDataRepository">
 			id="4949f988-89c6-4966-9fbc-4f94539b2f3f"
 			name="Copy_of_CerrarSesionGral"
 			refimgid="2380562e-bab1-44f9-b101-f4fc37609ad3"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//span[@innertext~'Cerrar sesión']
+				/dom[@domain=$Ambiente]//span[@innertext~'Cerrar sesi&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1600,9 +1450,8 @@ name="CardaDataRepository">
 			id="9e842db6-8cef-482c-99b9-bb23fbc9d519"
 			name="Copy_of_bttn_CerrarSesion"
 			refimgid="723d675f-2792-477e-99e7-c0d74cf063ce"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[#'TabBar:LogoutTabBarLink']/?/?/span[@innertext~'Cerrar sesión']/../..//input[@data-tabindexsaved='True']
+				/dom[@domain=$Ambiente]//div[#'TabBar:LogoutTabBarLink']/?/?/span[@innertext~'Cerrar sesi&#243;n']/../..//input[@data-tabindexsaved='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,atag"
@@ -1611,7 +1460,6 @@ name="CardaDataRepository">
 			name="Btn_Buscar_AsistAutos"
 			refimgid="df977c41-db4a-49ea-8727-f26b2d6de7e8"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[3]/td/div/table/tbody/tr[12]/td/div/div/div/table/tbody/tr/td[1]/a[@innertext='Bucar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/?/?/td/?/?/table/tbody/tr[3]//table/tbody/tr[12]/td/div/div/?/?/table/?/?/tr/td[1]/a[@innertext='Bucar']
 			</item>
@@ -1622,7 +1470,6 @@ name="CardaDataRepository">
 			name="Btn_Editar_AsistAutos"
 			refimgid="acd06228-e9eb-49e3-82bf-59a891a52a36"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[4]/td/div/div[2]/div/div/a[1]/span/span/span[@innertext='ditar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/a[1]//span[@innertext='ditar']
 			</item>
@@ -1632,7 +1479,6 @@ name="CardaDataRepository">
 			id="1ff5bb23-6c55-4144-9be4-5ec4064cdbd0"
 			name="Fila_Asist_Autos"
 			refimgid="6a7baa6a-bfe6-4d54-88c8-383655c291d4"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]/td/div/div[4]/div[1]/div/table[1]/?/?/tr
 			</item>
@@ -1643,7 +1489,6 @@ name="CardaDataRepository">
 			name="txt_Producto_A_AsistAutos"
 			refimgid="c9033978-0781-4fe1-bc1c-5d08995405e5"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table[1]/tbody/tr/td[4]/div[@innertext='A - Responsabilidad Civil Unicamente']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table[1]/?/?/tr/td[4]/div[@innertext&gt;'A - Responsabilidad Civil']
 			</item>
@@ -1654,7 +1499,6 @@ name="CardaDataRepository">
 			name="Select_Producto_E_AsistAutos"
 			refimgid="7b418286-e1d1-496d-bb1d-c8ea461fd12d"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[16]/div/ul/li[@innertext='E - Robo Incendio Garage']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[16]/?/?/ul/li[@innertext='E - Robo Incendio Garage']
 			</item>
@@ -1665,9 +1509,8 @@ name="CardaDataRepository">
 			name="lbl_ResultadosDeLaBusqueda"
 			refimgid="eebf24de-c0dc-402e-817c-395d93fcd3e2"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[4]/td/div/div[1]/div/div/div/div/span[@innertext='Resultados de la búsqueda']"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[4]/td/div/div[1]//span[@innertext='Resultados de la búsqueda']
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[4]/td/div/div[1]//span[@innertext='Resultados de la b&#250;squeda']
 			</item>
 			<item
 			addcaps="unknown,webelement,imgtag"
@@ -1676,7 +1519,6 @@ name="CardaDataRepository">
 			name="Select_sura_ca7_vehicle_assistance_1"
 			refimgid="b98ce3f1-0863-40af-8a49-70f9ca5e4b5d"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table[1]/tbody/tr/td[1]/div/img[@src='data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table[1]/?/?/tr/td[1]/?/?/img[@src='data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==']
 			</item>
@@ -1687,7 +1529,6 @@ name="CardaDataRepository">
 			name="Btn_Actualizar_AsistAutos"
 			refimgid="2b6a9e1a-5238-4d58-b4a9-927adcf8b740"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[4]/td/div/div[2]/div/div/a[1]/span/span/span[@innertext='Actalizar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/a[1]//span[@innertext='Actalizar']
 			</item>
@@ -1697,7 +1538,6 @@ name="CardaDataRepository">
 			id="e8f567ee-4762-419c-a58e-edb221550bc4"
 			name="Copy_of_Btn_Actualizar_AsistAutos"
 			refimgid="2b6a9e1a-5238-4d58-b4a9-927adcf8b740"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/a[1]//span[@innertext='Actalizar' and @data-tabindexsaved='True']
 			</item>
@@ -1708,7 +1548,6 @@ name="CardaDataRepository">
 			name="txt_Producto_E_AsistAutos"
 			refimgid="5d5fb0d7-24f5-4943-9745-3ff790051004"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[4]/td/div/div[4]/div[1]/div/table[1]/tbody/tr/td[4]/div[@innertext='E - Robo Incendio Garage']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]/td/div/div[4]/div[1]/div/table[1]/?/?/tr/td[4]/div[@innertext='E - Robo Incendio Garage']
 			</item>
@@ -1719,7 +1558,6 @@ name="CardaDataRepository">
 			name="Select_Producto_A_AsistAutos"
 			refimgid="27230bed-3d63-45f8-b77d-407f937b40b0"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[16]/div/ul/li[@innertext='A - Responsabilidad Civil Unicamente']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[16]/?/?/ul/li[@innertext&gt;'A - Responsabilidad Civil']
 			</item>
@@ -1730,7 +1568,6 @@ name="CardaDataRepository">
 			name="SubMenu_Clasif_AsistHogar"
 			refimgid="143aacd9-a2e6-4864-8a24-80e502543eb4"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[13]/div/div[2]/div/div[8]/a/span[@innertext='Asistencias Hogar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[13]/div/div[2]/div/div[8]/?/?/span[@innertext='Asistencias Hogar']
 			</item>
@@ -1741,7 +1578,6 @@ name="CardaDataRepository">
 			name="lbl_AsistHogar"
 			refimgid="c6795c45-45a5-422d-a504-48f03e8730b4"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//span[#'HOAssistanceSuraPage:ttlBar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[#'HOAssistanceSuraPage:ttlBar']
 			</item>
@@ -1752,7 +1588,6 @@ name="CardaDataRepository">
 			name="Btn_BuscarAsistHogar"
 			refimgid="74bf5027-1b14-41b9-9516-289694ba39af"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'HOAssistanceSuraPage-tbody']/tr[3]/td/div/table/tbody/tr[5]/td/div/div/div/table/tbody/tr/td[1]/a[@innertext='Bucar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'HOAssistanceSuraPage-tbody']/tr[3]//table/tbody/tr[5]/td/div/div/?/?/table/?/?/tr/td[1]/a[@innertext='Bucar']
 			</item>
@@ -1762,7 +1597,6 @@ name="CardaDataRepository">
 			id="8dba5d4f-f06a-4bf8-b829-541258f66221"
 			name="FilaAsistHogar"
 			refimgid="c5cd4a42-6c15-4eaa-8b51-04d756b13fc5"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'HOAssistanceSuraPage-tbody']/tr[4]/td/div/div[4]/div[1]/div/table[1]/?/?/tr
 			</item>
@@ -1773,7 +1607,6 @@ name="CardaDataRepository">
 			name="txt_Asist_SOS"
 			refimgid="2c055cb5-fd1b-46a5-a11d-46d634b0d7a5"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'HOAssistanceSuraPage-tbody']/tr[4]/td/div/div[4]/div[1]/div[1]/table[1]/tbody/tr/td[4]/div[@innertext='SOS']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'HOAssistanceSuraPage-tbody']/tr[4]/td/div/div[4]/div[1]/div[1]/table[1]//div[@innertext='SOS']
 			</item>
@@ -1783,9 +1616,8 @@ name="CardaDataRepository">
 			id="88e23c47-d684-417a-8829-02184ad2345f"
 			name="Btn_CargarInformacionActual"
 			refimgid="4ac5072c-8705-42d6-ba55-d6f94962523c"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Cargar Información Actual']
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Cargar Informaci&#243;n Actual']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1793,9 +1625,8 @@ name="CardaDataRepository">
 			id="4ae830a5-5831-433e-8233-76984fcd0d57"
 			name="Copy_of_Btn_CargarInformacionActual"
 			refimgid="4ac5072c-8705-42d6-ba55-d6f94962523c"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Cargar Información Actual' and @data-tabindexsaved='True']
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Cargar Informaci&#243;n Actual' and @data-tabindexsaved='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1803,7 +1634,6 @@ name="CardaDataRepository">
 			id="c32b12b0-2fdf-4d75-8c25-2cc4aefb93cb"
 			name="lbl_ActualizacionMasivaDeTarifa"
 			refimgid="b0546f29-5ffd-4f37-a5b5-16627ed895ce"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext&gt;'Actualizaci&#243;n Masiva de T']
 			</item>
@@ -1813,9 +1643,8 @@ name="CardaDataRepository">
 			id="38ecbc9b-c3e6-4ceb-b6dd-bebeec4be9cd"
 			name="SubMenu_CodigosDeProductor"
 			refimgid="e28c9e95-80bf-433d-b181-ef8461e2e147"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//span[@innertext='Códigos de Productor']
+				/dom[@domain=$Ambiente]//span[@innertext='C&#243;digos de Productor']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -1823,7 +1652,6 @@ name="CardaDataRepository">
 			id="75360f07-d563-4aaf-93ac-4531218b3ee5"
 			name="txt_CodProductorBuscar"
 			refimgid="75d25c7b-1a59-4739-81c1-225b1ecbab5a"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']//input[@name='ProducerCodeSearch:ProducerCodeSearchScreen:ProducerCodeSearchDV:Code']
 			</item>
@@ -1834,7 +1662,6 @@ name="CardaDataRepository">
 			name="lbl_BusquedaDeCodigosDeProductor"
 			refimgid="20130986-cdff-4098-9bb2-169ec608f28b"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'ProducerCodeSearch-tbody']/tr[1]/td/div/div/div/div/div/span[@innertext='Búsqueda de códigos de Productor']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']/tr[1]/td/div//span[@innertext&gt;'B&#250;squeda de c&#243;digos de Pr']
 			</item>
@@ -1845,7 +1672,6 @@ name="CardaDataRepository">
 			name="Btn_BuscarCodPAS"
 			refimgid="215a9945-88dc-4eb5-a4ed-d1c7bf13010a"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'ProducerCodeSearch-tbody']/tr[3]/td/div/table/tbody/tr[6]/td/div/div/div/table/tbody/tr/td[1]/a[@innertext='Bucar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']/tr[3]//table/tbody/tr[6]/td/div/div/?/?/table/?/?/tr/td[1]/a[@innertext='Bucar']
 			</item>
@@ -1855,7 +1681,6 @@ name="CardaDataRepository">
 			id="e26342c0-cf81-4a7e-baab-c881b8efdede"
 			name="FilaBuscarCodProductor"
 			refimgid="e074c0ab-f2f7-4e79-9322-f39aa7b7457f"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']/tr[4]/td/div/div[4]/div[1]/div/table[1]/?/?/tr
 			</item>
@@ -1865,19 +1690,17 @@ name="CardaDataRepository">
 			id="8d42bd6f-0dba-45f7-83f4-74072e8a019a"
 			name="SelectPAS"
 			refimgid="3644bc4a-51b6-4100-bdc0-33a6d41e766e"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']//a[@innertext='2302']
+				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']//a[@innertext='6254']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
 			id="30b6fa6a-af8b-41ee-9f4e-ed693030905f"
-			name="lbl_CodigoDeProductor"
+			name="lbl_CodigoDeProductor6254"
 			refimgid="33810909-3f00-4a54-9ac6-f2cbcf039116"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext~'Código de Productor']
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='C&#243;digo de Productor: 6254']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1885,7 +1708,6 @@ name="CardaDataRepository">
 			id="bbf7dcae-d64a-4922-b4a8-fba885bd77d1"
 			name="SolapaTarifa_CodPAS"
 			refimgid="ad994c07-2b0c-42c8-9f09-3653d92db706"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Tarifa']
 			</item>
@@ -1896,7 +1718,6 @@ name="CardaDataRepository">
 			name="filaTarifaCodPAS"
 			refimgid="60d25f46-6ee1-40fd-bc7e-23df5c2f0fe6"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[4]/td/div/div[2]/div/table/tbody/tr[4]/td/div/div[2]/div/table/tbody/tr[2]/td/div/div[4]"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]/td/div/div[2]/?/?/table/tbody/tr[4]/td/div/div[2]/?/?/table/tbody/tr[2]/td/div/div[4]
 			</item>
@@ -1907,7 +1728,6 @@ name="CardaDataRepository">
 			name="lblResultadoCargaPlanesComision"
 			refimgid="4556faa1-3d03-4c5a-bff0-fd52d626376c"
 			refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'AdminDataUploadConfirmation/role']/table/tbody/tr[3]/td/label[@innertext='The data upload completed with the following results:']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'AdminDataUploadConfirmation/role']/table//label[@innertext&gt;'The data upload completed']
 			</item>
@@ -1918,7 +1738,6 @@ name="CardaDataRepository">
 			name="lblResultadoCargaPlanesPago"
 			refimgid="7429e689-0693-4af2-a108-6cc69cec40d2"
 			refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'PlanDataUploadConfirmation/billingPlan']/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Plan Data Upload Confirmation']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'PlanDataUploadConfirmation/billingPlan']/table/tbody/tr[1]/td//span[@innertext&gt;'Plan Data Upload Confirma']
 			</item>
@@ -1928,7 +1747,6 @@ name="CardaDataRepository">
 			id="ec3a56b1-9f6e-42c9-a14d-375208296a5a"
 			name="LFCountry"
 			refimgid="991dd4f9-cbd4-4d6d-b8a3-e7939f8035a7"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//li[@innertext='L.F. Country']
 			</item>
@@ -1939,7 +1757,6 @@ name="CardaDataRepository">
 			name="Estado_Ejecutando"
 			refimgid="11d40049-f7d6-4127-8909-76d39912f382"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'DataChangePage/details']/table/tbody/tr[3]/td/div/table/tbody/tr[2]/td/div/div[3]/div[1]/div/table/tbody/tr/td[3]/div[@innertext='Ejecutando']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']/table/tbody/tr[3]//table/tbody/tr[2]/td/div/div[3]/div[1]/?/?/table/?/?/tr/td[3]/div[@innertext='Ejecutando']
 			</item>
@@ -1949,7 +1766,6 @@ name="CardaDataRepository">
 			id="8e753307-f285-4211-885d-f35ab6acacb3"
 			name="bttn_Configuracion1"
 			refimgid="4cb9e231-c03b-490c-90a5-c91855905e17"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[#':TabLinkMenuButton-btnEl']/span[@enabled='True']
 			</item>
@@ -1959,9 +1775,8 @@ name="CardaDataRepository">
 			id="eba545b4-b86a-4fcf-9548-3d0811a3466e"
 			name="bttn_CerrarSesion1"
 			refimgid="704db295-c3b8-498c-bab3-64561148a378"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[#'TabBar:LogoutTabBarLink']/?/?/span[@innertext~'Cerrar sesión']
+				/dom[@domain=$Ambiente]//div[#'TabBar:LogoutTabBarLink']/?/?/span[@innertext~'Cerrar sesi&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1969,9 +1784,8 @@ name="CardaDataRepository">
 			id="bd5304b9-6578-4543-8928-843d61e2c3d6"
 			name="Copy_of_bttn_CerrarSesion1"
 			refimgid="704db295-c3b8-498c-bab3-64561148a378"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[#'TabBar:LogoutTabBarLink']/?/?/span[@innertext~'Cerrar sesión']/../..//input[@data-tabindexsaved='True']
+				/dom[@domain=$Ambiente]//div[#'TabBar:LogoutTabBarLink']/?/?/span[@innertext~'Cerrar sesi&#243;n']/../..//input[@data-tabindexsaved='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1979,9 +1793,8 @@ name="CardaDataRepository">
 			id="3aa40953-48d8-4df7-b70b-e6fb4575d0f4"
 			name="Adinistracion"
 			refimgid="6c3ce066-bcb0-488c-9197-f067d654da3f"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//a[#'TabBar:AdminTab']//span[@innertext='Adinistración']
+				/dom[@domain=$Ambiente]//a[#'TabBar:AdminTab']//span[@innertext='Adinistraci&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1990,7 +1803,6 @@ name="CardaDataRepository">
 			name="TabBarMenuAdmin"
 			refimgid="1dfd9f73-bbea-4a0a-a671-468777c58144"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//span[#'TabBar:AdministrationTab-btnWrap']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[#'TabBar:AdministrationTab-btnWrap']
 			</item>
@@ -2000,9 +1812,8 @@ name="CardaDataRepository">
 			id="9526d2fb-0a88-44bb-ae96-53135dfe842b"
 			name="Adminisracion"
 			refimgid="ae75b646-361d-4629-94d9-efb59c564ac9"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//a[#'TabBar:AdminTab']//span[@innertext='Adminisración']
+				/dom[@domain=$Ambiente]//a[#'TabBar:AdminTab']//span[@innertext='Adminisraci&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -2010,7 +1821,6 @@ name="CardaDataRepository">
 			id="18dc771c-c747-4386-9367-780f092aa34e"
 			name="Utilidades1"
 			refimgid="8a79d6c0-0a8c-4a79-8f43-f6cd99f9c189"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'Admin:MenuLinks-body']//span[@innertext='Utilidades']
 			</item>
@@ -2020,7 +1830,6 @@ name="CardaDataRepository">
 			id="55eb81ce-86c7-4f12-8afa-64fa0cc7cce8"
 			name="CambioDeDatos"
 			refimgid="3bb4dac9-a3ea-4eea-8b48-067d6e68baeb"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'Admin:MenuLinks-body']/div[1]/div/table[11]//span[@innertext='Cambio de datos']
 			</item>
@@ -2030,7 +1839,6 @@ name="CardaDataRepository">
 			id="9d7a19c2-d6f9-4fb8-bb64-c6d216ca874c"
 			name="ImportarProveedoresDeSura"
 			refimgid="e032e28c-9de0-4c3e-b570-4236ab5e21e7"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'Admin:MenuLinks-body']/div[1]/div/table[9]//span[@innertext&gt;'Importar Proveedores de S']
 			</item>
@@ -2040,7 +1848,6 @@ name="CardaDataRepository">
 			id="b55a8246-6873-444c-b84e-284e4e45c573"
 			name="btn_ImportarProveedoresDeSura1"
 			refimgid="3dce2e73-caa8-403d-8b35-375347b6c4ab"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'VendorImportSura:LoadSampleDataButton']//span[@innertext&gt;'Importar Proveedores de S']
 			</item>
@@ -2050,7 +1857,6 @@ name="CardaDataRepository">
 			id="2ffe194f-1194-4ce5-ab82-6cb5eff1af0a"
 			name="btn_ImportarProveedoresDeSura1_EnEspera"
 			refimgid="3dce2e73-caa8-403d-8b35-375347b6c4ab"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[#'VendorImportSura:LoadSampleDataButton']//span[@innertext&gt;'Importar Proveedores de S' and @data-tabindexsaved='true']
 			</item>
@@ -2060,7 +1866,6 @@ name="CardaDataRepository">
 			id="b0272b46-2225-4c08-866c-f25d2e2d8579"
 			name="ResultadoCargaProveedoresAB"
 			refimgid="e9352939-5fd7-4b04-884e-9024762e514d"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//label[@innertext~'Fueron']
 			</item>
@@ -2070,7 +1875,6 @@ name="CardaDataRepository">
 			id="1ad7c60e-ceee-4244-a42c-35ae83a78022"
 			name="lbl_ImportarProveedoresSura"
 			refimgid="e9352939-5fd7-4b04-884e-9024762e514d"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//label[@innertext~'Importar Proveedores de Sura']
 			</item>
@@ -2080,7 +1884,6 @@ name="CardaDataRepository">
 			id="a03ad682-0fb9-4c2b-9ef9-c6460aa5c570"
 			name="Ejecutar"
 			refimgid="0528e033-8f74-4a30-876f-46f8a33936db"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//span[@innertext='Ejecutar']
 			</item>
@@ -2090,7 +1893,6 @@ name="CardaDataRepository">
 			id="d7782e14-b79d-4901-b0be-0b30847e42e5"
 			name="Copy_of_Ejecutar"
 			refimgid="0528e033-8f74-4a30-876f-46f8a33936db"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//span[@innertext='Ejecutar' and @data-tabindexsaved='True']
 			</item>
@@ -2100,9 +1902,8 @@ name="CardaDataRepository">
 			id="2a098d18-9d8c-487b-92fe-52f5b2d6280d"
 			name="lbl_ResultadoDataChengeCCWeb"
 			refimgid="8f7645e0-375d-4212-8c16-c596838e284a"
-			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//textarea[@innertext~'terminó correct']
+				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//textarea[@innertext~'termin&#243; correct']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -2111,7 +1912,6 @@ name="CardaDataRepository">
 			name="Lbl_InformacionDeProcesoPorLotes"
 			refimgid="d17ff668-cfae-4b04-b28c-3584efae9df2"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Información de proceso por lotes']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[1]//span[@innertext&gt;'Informaci&#243;n de proceso por']
 			</item>
@@ -2122,7 +1922,6 @@ name="CardaDataRepository">
 			name="AsistenciasHogar"
 			refimgid="1913a87e-b746-4d4a-a991-f461d3694472"
 			refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[12]/div/div[2]/div/div[8]/a/span[@innertext='Asistencias Hogar']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body/div[12]/div/div[2]/div/div[8]/?/?/span[@innertext='Asistencias Hogar']
 			</item>
@@ -2133,7 +1932,6 @@ name="CardaDataRepository">
 			name="Textfield1224"
 			refimgid="a051f00e-2113-4635-a0f1-9d9db3935c17"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]/td/div/table/tbody/tr[2]/td/div/table/tbody/tr[2]/td/div/div/div/div/div[2]/div/div/div/input[@name='textfield-1224']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]//table/tbody/tr[2]/td/div/div/div/div/div[2]/div//input[@name='textfield-1224']
 			</item>
@@ -2144,7 +1942,6 @@ name="CardaDataRepository">
 			name="XGridCellInner"
 			refimgid="e8b42188-70ad-49d3-9fc5-89eb5ab03f41"
 			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table[2]/tbody/tr/td[2]/div"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]/div[1]/div[1]/table[2]/?/?/tr/td[2]/div
 			</item>
@@ -2154,7 +1951,6 @@ name="CardaDataRepository">
 			id="705b8156-1e07-4b9e-b019-4bb5e758977b"
 			name="REFID001"
 			refimgid="59aabd8c-0e8e-4030-b76f-eafdd77c8d27"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//div[@innertext='REFID_001']
 			</item>
@@ -2164,7 +1960,6 @@ name="CardaDataRepository">
 			id="94f6ffa6-f528-45d4-8130-f9193f2f6719"
 			name="RVASINI"
 			refimgid="740365a8-7169-405f-86e3-3b07d82f529e"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'DataChangePage/details']//div[@innertext='RVASINI']
 			</item>
@@ -2174,7 +1969,6 @@ name="CardaDataRepository">
 			id="9c5aa115-e8bc-4f91-8485-60dc0dffdf4b"
 			name="PAS_2302"
 			refimgid="e0d65255-4c86-4688-8d66-371b6c11170b"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']//a[@innertext='2302']
 			</item>
@@ -2213,7 +2007,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			name="DiscoLocalC"
 			refimgid="b751ea3d-ac96-483e-8713-dec490619aca"
 			refpath="/form[@title='Abrir']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='0']/element/tree[@controlid='100']/treeitem[@text='Escritorio']/treeitem[@text='Este equipo']/treeitem[@text='Disco local (C:)']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/form[@title='Abrir']/element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']//treeitem[@text='Disco local (C:)']
 			</item>
@@ -2224,7 +2017,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			name="ButtonAbrir"
 			refimgid="f4b2acc2-f96f-4057-b141-65a73a6e5387"
 			refpath="/form[@title='Abrir']/button[@text='&amp;Abrir']"
-			robustPath=""
 			searchtimeout="30000ms">
 				/form[@title='Abrir']/button[@text='&amp;Abrir']
 			</item>
@@ -2244,7 +2036,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 				name="SystemItemNameDisplay2"
 				refimgid="e43f041e-940c-4c25-b07a-4bb864f13bd9"
 				refpath="/form[@title='Abrir']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']"
-				robustPath=""
 				searchtimeout="30000ms">
 					/form[@title='Abrir']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']
 				</item>
@@ -2255,7 +2046,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 				name="UIImage"
 				refimgid="0214ca05-aa61-483f-92fb-2bc2da8282bf"
 				refpath="/form[@title='Abrir']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='1']/picture[@classname='UIImage']"
-				robustPath=""
 				searchtimeout="30000ms">
 					/form[@title='Abrir']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='1']/picture[@classname='UIImage']
 				</item>
@@ -2265,7 +2055,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 				id="2aaf887e-92fe-4a71-9b2a-982735f3e987"
 				name="SystemItemNameDisplay1"
 				refpath="/form[@title='Abrir']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='1']/text"
-				robustPath=""
 				searchtimeout="30000ms">
 					/form[@title='Abrir']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='1']/text
 				</item>
@@ -2276,7 +2065,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 				name="SystemItemNameDisplay"
 				refimgid="74fa53a7-58b1-49a0-81c2-8a3c743e84fe"
 				refpath="/form[@title='Abrir']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='1']/text[@automationid='System.ItemNameDisplay']"
-				robustPath=""
 				searchtimeout="30000ms">
 					/form[@title='Abrir']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='1']/text[@automationid='System.ItemNameDisplay']
 				</item>
@@ -2287,7 +2075,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 				name="UIImage1"
 				refimgid="774fc269-b1b1-4e49-bbe3-ee5c137868ec"
 				refpath="/form[@title='Abrir']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='0']/picture[@classname='UIImage']"
-				robustPath=""
 				searchtimeout="30000ms">
 					/form[@title='Abrir']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='0']/picture[@classname='UIImage']
 				</item>
@@ -2327,7 +2114,6 @@ AAAASUVORK5CYII=
 			id="829777a6-7188-4a5e-bfbf-e845474bda15"
 			name="Escritorio"
 			refimgid="78bd59a4-7a92-43c1-834c-55f779abce35"
-			robustPath=""
 			searchtimeout="30000ms">
 				/form[@title='Open' or @title='Abrir']//button[@text='Escritorio']
 			</item>
@@ -2337,7 +2123,6 @@ AAAASUVORK5CYII=
 			id="e8927a4f-e6ab-489e-8caf-91dd19f5283f"
 			name="BarraInferior"
 			refimgid="ced91462-9d65-42e6-a163-1dbe490e90af"
-			robustPath=""
 			searchtimeout="30000ms">
 				/form[@title='Open' or @title='Abrir']/?/?/text[@controlid='1148']
 			</item>
@@ -2396,7 +2181,6 @@ AAAAAElFTkSuQmCC
 			id="3578a500-2adf-4df2-9b87-66fa56c0f6bf"
 			name="TreeItem1291441017DevDQASUPPORT"
 			refimgid="817a7fbd-ed08-413a-8b09-c39aa411554d"
-			robustPath=""
 			searchtimeout="30000ms">
 				/form[@title~'Oracle SQL Developer']/container[@type='JPanel']//container[@type='MultiSplitPane']/container[@type='MultiSplitPane']/container[1]/?/?/container[@name='Content displayer']//container[@name='gui']/?/?/container[@name='viewport']/tree[@name='nav-DatabaseNavigatorWindow.Default']//treeitem[@text&gt;'129.144.10.17 - DevD-QA_S']
 			</item>
@@ -2429,7 +2213,6 @@ ix0AAAAASUVORK5CYII=
 			id="d7078ba3-fb76-4b7e-beee-5d1288c16278"
 			name="Copy_of_bttn_Aceptar"
 			refimgid="72caaeac-527e-478d-aaa6-4e667c2a14ac"
-			robustPath=""
 			searchtimeout="10000ms">
 				/dom[@domain=$Ambiente]/body//span[@innertext~'Aceptar' and @visible='True']
 			</item>
@@ -2439,7 +2222,6 @@ ix0AAAAASUVORK5CYII=
 			id="a2929b82-0454-49c8-a911-c1bd5c2e4bac"
 			name="bttn_Aceptar"
 			refimgid="6011cdad-eb8c-41b9-a443-79109bd0404e"
-			robustPath=""
 			searchtimeout="5000ms">
 				/dom[@domain=$Ambiente]/body//span[@innertext~'Aceptar' and @visible='True']
 			</item>
@@ -2449,7 +2231,6 @@ ix0AAAAASUVORK5CYII=
 			id="6568c63a-ed92-4863-9c2a-962e04b67406"
 			name="Msg_PorcentajeCompleteFormPolicyFormaSura"
 			refimgid="6895d04f-4bfa-49b9-bd43-0e30061ff0ed"
-			robustPath=""
 			searchtimeout="10000ms">
 				/dom[@domain=$Ambiente]//div[@innertext~'100%']
 			</item>
@@ -2459,7 +2240,6 @@ ix0AAAAASUVORK5CYII=
 			id="c700ddd2-617c-4c37-92bc-29d46d8861b5"
 			name="Copy_of_lbl_100Percent"
 			refimgid="e73f918b-2034-43bc-8eb8-891c38776b82"
-			robustPath=""
 			searchtimeout="10000ms">
 				/dom[@domain=$Ambiente]//div[@innertext~'100%']
 			</item>
@@ -2469,7 +2249,6 @@ ix0AAAAASUVORK5CYII=
 			id="c40165b4-282b-464b-a4c7-39ad8cd1300b"
 			name="lbl_ErrorEnLaSolicitudDeHTTP503_COF"
 			refimgid="49992f28-2e78-4b95-8ec2-190a327bf3d5"
-			robustPath=""
 			searchtimeout="5000ms">
 				/dom[@domain=$Ambiente]//div[@innertext~'Error en la solicitud de HTTP:' and @visible='True']
 			</item>
@@ -2479,7 +2258,6 @@ ix0AAAAASUVORK5CYII=
 			id="29500b0a-24b7-4844-abe8-e2c4911116ca"
 			name="Btn_Finalizar_PlanComisiones_COF"
 			refimgid="4481773f-0ca3-4f16-b32f-e561c3b86da0"
-			robustPath=""
 			searchtimeout="5000ms">
 				/dom[@domain=$Ambiente]//a[#'AdminDataLoaderWizard:Finish']/span/?/?/span[@innertext~'inalizar']
 			</item>
@@ -2489,7 +2267,6 @@ ix0AAAAASUVORK5CYII=
 			id="ec3bc363-bc3f-443f-a7f7-8a465602e6f5"
 			name="Copy_of_CargandoArchivoS_cof"
 			refimgid="8c0f1c7e-34d0-4cee-89bd-dcab7f25c17a"
-			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//body//div[@class='x-box-target']//div[@innertext='Cargando archivo(s)...' and @visible='true']
 			</item>
@@ -2513,7 +2290,6 @@ ix0AAAAASUVORK5CYII=
 			name="CargarDeNuevo"
 			refimgid="75b18b7d-d175-4e11-9137-84814e72cfb0"
 			refpath="/form[@title='¿Deseas volver a cargar el sitio?']/container[@accessiblename='']/container[2]/container[@accessiblerole='Pane']/button[@accessiblename='Cargar de nuevo']"
-			robustPath=""
 			searchtimeout="0ms">
 				/form[@title&gt;'&#191;Deseas volver a cargar el']/container[@accessiblename='']//button[@accessiblename='Cargar de nuevo']
 			</item>
@@ -2543,7 +2319,7 @@ AAAASUVORK5CYII=
 		<var
 		id="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 		name="Ambiente">
-			suragwqa2.segurossura.com.ar
+			ssurgwsoadev4-oci.opc.oracleoutsourcing.com
 		</var>
 		<var
 		id="658183a5-d45d-4ec1-a6ea-51dbf041ea2b"
@@ -2553,7 +2329,7 @@ AAAASUVORK5CYII=
 		<var
 		id="696cfcae-1fb1-4bc8-96fe-367d3021a5f4"
 		name="MenuPpal">
-			Administración
+			Administraci&#243;n
 		</var>
 		<var
 		id="5797f7d2-4586-45c4-88e4-1514587120fd"
