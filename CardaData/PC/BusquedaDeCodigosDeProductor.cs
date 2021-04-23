@@ -113,8 +113,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.txt_CodProductorBuscar.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '2301' with focus on 'ApplicationUnderTest.txt_CodProductorBuscar'.", repo.ApplicationUnderTest.txt_CodProductorBuscarInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.txt_CodProductorBuscar.PressKeys("2301");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '2302' with focus on 'ApplicationUnderTest.txt_CodProductorBuscar'.", repo.ApplicationUnderTest.txt_CodProductorBuscarInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.txt_CodProductorBuscar.PressKeys("2302");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_BuscarCodPAS' at Center.", repo.ApplicationUnderTest.Btn_BuscarCodPASInfo, new RecordItemIndex(4));
