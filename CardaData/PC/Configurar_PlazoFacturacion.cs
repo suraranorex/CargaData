@@ -148,13 +148,17 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacion.Click();
             Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.ApplicationUnderTest.Self, false, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 400 units.", new RecordItemIndex(16));
+            Mouse.ScrollWheel(400);
+            Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_Actualizar' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_ActualizarInfo, new RecordItemIndex(17));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.ApplicationUnderTest.Self, false, new RecordItemIndex(17));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_Actualizar' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_ActualizarInfo, new RecordItemIndex(18));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_Actualizar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.bttn_Editar'", repo.ApplicationUnderTest.bttn_EditarInfo, new ActionTimeout(10000), new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.bttn_Editar'", repo.ApplicationUnderTest.bttn_EditarInfo, new ActionTimeout(10000), new RecordItemIndex(19));
             repo.ApplicationUnderTest.bttn_EditarInfo.WaitForExists(10000);
             
         }

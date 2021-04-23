@@ -1808,8 +1808,8 @@
 			datarangeactive="True"
 			datasource="DataSource_ConfigurarProductor"
 			id="80cbe614-4b4a-4f94-8e2c-f4c2f8785d1f"
-			maxrange="1"
-			minrange="1"
+			maxrange="0"
+			minrange="0"
 			name="ConfigurarProductor_FacturacionMensual">
 			</testcase>
 			<testmodule

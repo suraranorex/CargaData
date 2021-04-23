@@ -1059,6 +1059,17 @@ mode="Global">
 				</robustPath>
 			</info>
 		</mouseitem>
+		<mousewheelitem
+		delta="400"
+		duration="300ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
 		<loggingrecorditem
 		action="Screenshot"
 		category="User"
