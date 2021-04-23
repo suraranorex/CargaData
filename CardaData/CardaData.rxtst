@@ -223,6 +223,14 @@
 			name="TerminarCreacion_PlanEnlatado"
 			ref="114b2b25-2846-48b6-88f6-d11aa112a11c"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="16d53681-1390-4e7e-a4e9-3fd2c0b15a5a"
@@ -719,6 +727,14 @@
 			name="TerminarSeleccionProductores"
 			ref="f1015288-8a90-49c5-929e-410fae8b167e"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="3e3dbfc8-2730-454c-80b1-741fe154a2ca"
@@ -948,6 +964,14 @@
 			name="MenuSuperior_Administracion_PlanesEnlatados"
 			ref="d7ebf1c5-a4df-434a-b570-ef207c6de66d"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<setup
 			id="4cfdbbd3-b1f6-45c0-ab45-432d47cb4a7d"
@@ -1062,6 +1086,14 @@
 			name="SeleccionarProductores"
 			ref="685e7947-ff7b-4de1-9e61-7d7a9e5d9a24"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="522aca16-ddf7-4182-949c-9eb579b1ae71"
@@ -1315,6 +1347,14 @@
 			name="CompletarDatosBasicos_EnlatadoAP"
 			ref="64d48932-0e3a-43ac-8c3c-d8c4c337951e"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="62682c90-5eb7-4848-873c-3dbfbcee34c0"
@@ -1765,8 +1805,11 @@
 			name="teardown">
 			</teardown>
 			<testcase
+			datarangeactive="True"
 			datasource="DataSource_ConfigurarProductor"
 			id="80cbe614-4b4a-4f94-8e2c-f4c2f8785d1f"
+			maxrange="1"
+			minrange="1"
 			name="ConfigurarProductor_FacturacionMensual">
 			</testcase>
 			<testmodule
@@ -2214,6 +2257,14 @@
 			name="SeleccionarProductores_Answer"
 			ref="bda613c1-fc47-4cb9-8a81-1af042984445"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="a504aa25-98c1-427d-8f96-4bf316b91548"
@@ -3114,6 +3165,14 @@
 			name="NuevoPlanEnlatado"
 			ref="0b29f461-a2a0-480f-a380-83ce697c2156"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="64538ad2-02c5-430a-9507-75c5cd27bbab"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="ebf822e2-7dc1-48f0-81ee-6c7b8a46c0c6"
@@ -5030,7 +5089,7 @@
 		filename="DataSource-ConfigurarProductor-Facturacion.xlsx"
 		id="b76343c1-120d-4dcf-b68f-00cdebf348fc"
 		includefile="Checked"
-		lastknownrowcount="1"
+		lastknownrowcount="2"
 		name="DataSource_ConfigurarProductor"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -5288,7 +5347,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="CreacionPlanAutonomia">
+	default="ConfigurarProductor">
 		<testconfiguration
 		name="ArchivodelaMuerte">
 			<testcontainer

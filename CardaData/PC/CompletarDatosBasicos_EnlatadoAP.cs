@@ -104,8 +104,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Plan.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Autonomia v.5' with focus on 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Plan'.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PlanInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Plan.PressKeys("Autonomia v.5");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Autonomia v.1' with focus on 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Plan'.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PlanInfo, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Plan.PressKeys("Autonomia v.1");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Codigo' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CodigoInfo, new RecordItemIndex(5));
