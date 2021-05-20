@@ -61,7 +61,7 @@ namespace CardaData
 
 #region Variables
 
-        string _Ambiente = "suragwqa2.segurossura.com.ar";
+        string _Ambiente = "ssurgwsoadev4-oci.opc.oracleoutsourcing.com";
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
