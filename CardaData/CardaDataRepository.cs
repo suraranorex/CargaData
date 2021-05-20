@@ -494,6 +494,7 @@ namespace CardaData
             RepoItemInfo _celda_opcionmensualInfo;
             RepoItemInfo _option_mensualInfo;
             RepoItemInfo _bttn_limpiarInfo;
+            RepoItemInfo _check_actualizarlataflexInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -712,6 +713,7 @@ namespace CardaData
                 _celda_opcionmensualInfo = new RepoItemInfo(this, "celda_OpcionMensual", ".//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//div[@safeclass='x-grid-cell-inner' and @innertext~'1 mes']", "", 30000, null, "8564fe1c-2bd8-4e62-857f-f2265d175f13");
                 _option_mensualInfo = new RepoItemInfo(this, "option_Mensual", ".//li[@innertext~'1 mes']", "", 30000, null, "14764b96-3aae-41fd-857b-e3ff4179d7a6");
                 _bttn_limpiarInfo = new RepoItemInfo(this, "bttn_Limpiar", ".//a[@innertext='Limpia']", "", 30000, null, "3425db24-9c27-4b9b-b050-e0022b4a4c05");
+                _check_actualizarlataflexInfo = new RepoItemInfo(this, "Check_ActualizarLataFlex", ".//div[#'HOPlansByProducerSuraPage']//div[@safeclass='x-grid-checkcolumn']", "", 30000, null, "5110b2b5-bd88-4aed-ac3c-eb219ba54d8b");
             }
 
             /// <summary>
@@ -5703,6 +5705,30 @@ namespace CardaData
                 get
                 {
                     return _bttn_limpiarInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Check_ActualizarLataFlex item.
+            /// </summary>
+            [RepositoryItem("5110b2b5-bd88-4aed-ac3c-eb219ba54d8b")]
+            public virtual Ranorex.DivTag Check_ActualizarLataFlex
+            {
+                get
+                {
+                    return _check_actualizarlataflexInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Check_ActualizarLataFlex item info.
+            /// </summary>
+            [RepositoryItemInfo("5110b2b5-bd88-4aed-ac3c-eb219ba54d8b")]
+            public virtual RepoItemInfo Check_ActualizarLataFlexInfo
+            {
+                get
+                {
+                    return _check_actualizarlataflexInfo;
                 }
             }
 

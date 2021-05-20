@@ -2855,6 +2855,16 @@ name="CardaDataRepository">
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//a[@innertext='Limpia']
 			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="5110b2b5-bd88-4aed-ac3c-eb219ba54d8b"
+			name="Check_ActualizarLataFlex"
+			refimgid="1baeb34b-80d6-49b8-976c-d6ea03f72bb9"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']//div[@safeclass='x-grid-checkcolumn']
+			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
 			</basepath>

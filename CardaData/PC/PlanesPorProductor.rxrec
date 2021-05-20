@@ -46,6 +46,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']//span[@innertext='Planes por Productor']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -70,6 +72,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody//input[@name='HOPlansByProducerSuraPage:searchProducerCode']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -94,6 +98,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody//span[@innertext='Agregar Registro']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -178,6 +184,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -202,6 +210,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody//td[@class='x-grid-cell x-grid-td x-grid-cell-gridcolumn-2140 g-cell-edit']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
@@ -235,6 +245,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//li[@innertext='Directo (Answer)']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -259,6 +271,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//li[@innertext='Directo (Answer)']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -277,6 +291,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table/?/?/tr/td[3]/div/..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -350,6 +366,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table/?/?/tr/td[3]/div
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -427,6 +445,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table/?/?/tr/td[3]/div
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<WaitForRecordItem
@@ -445,6 +465,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//li[@innertext='Permanente']/..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -518,6 +540,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table/?/?/tr/td[4]/div
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
@@ -551,6 +575,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//li[@innertext='Permanente']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -575,6 +601,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//li[@innertext='Permanente']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -591,8 +619,10 @@ mode="Global">
 			id="6ef3db77-e1dd-4ac4-8508-c82b68efab94"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//li[@innertext='L.F. Casa/Dpto PB 1&#176; Piso' and @data-tabindexsaved='True']
+					/dom[@domain=$Ambiente]//li[@innertext='L.F. Casa/Dpto PB 1° Piso' and @data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -671,6 +701,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody/tr[4]/td/div/div[4]//table/?/?/tr/td[5]/div
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -693,8 +725,10 @@ mode="Global">
 			id="9d05af49-7d6b-4ad6-bad4-73f6d43ff204"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//li[@innertext='L.F. Casa/Dpto PB 1&#176; Piso']
+					/dom[@domain=$Ambiente]//li[@innertext='L.F. Casa/Dpto PB 1° Piso']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -717,15 +751,17 @@ mode="Global">
 			id="9d05af49-7d6b-4ad6-bad4-73f6d43ff204"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//li[@innertext='L.F. Casa/Dpto PB 1&#176; Piso']
+					/dom[@domain=$Ambiente]//li[@innertext='L.F. Casa/Dpto PB 1° Piso']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -743,10 +779,12 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody//span[@innertext='Actalizar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="2c35cc63-671a-412e-beb5-4a6bbc83315f"
 		waitaction="NotExists"
@@ -761,6 +799,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']/table/tbody//span[@innertext='Actalizar' and @data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<explicitdelayitem

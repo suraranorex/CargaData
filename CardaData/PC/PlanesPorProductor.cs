@@ -215,12 +215,12 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.Select_Plan.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Actalizar_Pas2344' at Center.", repo.ApplicationUnderTest.Btn_Actalizar_Pas2344Info, new RecordItemIndex(20));
-            repo.ApplicationUnderTest.Btn_Actalizar_Pas2344.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Actalizar_Pas2344' at Center.", repo.ApplicationUnderTest.Btn_Actalizar_Pas2344Info, new RecordItemIndex(20));
+            //repo.ApplicationUnderTest.Btn_Actalizar_Pas2344.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Btn_Actalizar_Pas2344'", repo.ApplicationUnderTest.Copy_of_Btn_Actalizar_Pas2344Info, new ActionTimeout(40000), new RecordItemIndex(21));
-            repo.ApplicationUnderTest.Copy_of_Btn_Actalizar_Pas2344Info.WaitForNotExists(40000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'ApplicationUnderTest.Copy_of_Btn_Actalizar_Pas2344'", repo.ApplicationUnderTest.Copy_of_Btn_Actalizar_Pas2344Info, new ActionTimeout(40000), new RecordItemIndex(21));
+            //repo.ApplicationUnderTest.Copy_of_Btn_Actalizar_Pas2344Info.WaitForNotExists(40000);
             
             //Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(22));
             //Delay.Duration(3000, false);

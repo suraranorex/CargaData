@@ -15,13 +15,24 @@
     <projectdefaultrepository>41569950-3707-4a00-800e-affa03179f86</projectdefaultrepository>
     <StartAction>Program</StartAction>
     <StartProgram>C:\Program Files %28x86%29\Ranorex\Studio\Bin\Ranorex.UiaLauncher32.exe</StartProgram>
-    <StartArguments>"C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\CargaData\CardaData\bin\Debug\CardaData.exe" </StartArguments>
-    <StartWorkingDirectory>C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\CargaData\CardaData\bin\Debug</StartWorkingDirectory>
+    <StartArguments>"C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\CardaData\bin\Debug\CardaData.exe" </StartArguments>
+    <StartWorkingDirectory>bin\Debug\</StartWorkingDirectory>
     <NoWin32Manifest>False</NoWin32Manifest>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
-    <Prefer32Bit>True</Prefer32Bit>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -31,6 +42,7 @@
     <Optimize>False</Optimize>
     <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -627,6 +639,18 @@
       <DependentUpon>OpenBrowser.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>6aec0fee-e343-4081-bf26-d96685c936c8</id>
+    </Compile>
+    <Compile Include="PC\ActualizarCargaLataFlex.cs">
+      <BoundTo>b4826168-170f-4b79-90ea-693ba1d4a668</BoundTo>
+      <DependentUpon>ActualizarCargaLataFlex.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8173c525-2984-4ca6-a54b-89ed872c1ae3</id>
+    </Compile>
+    <Compile Include="PC\ActualizarCargaLataFlex.UserCode.cs">
+      <BoundTo>b4826168-170f-4b79-90ea-693ba1d4a668</BoundTo>
+      <DependentUpon>ActualizarCargaLataFlex.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>98c84679-a1a1-4016-b7fb-2eaa3d889d0b</id>
     </Compile>
     <Compile Include="PC\Act_MasivaDeTarifa.cs">
       <BoundTo>5f2d591e-0c07-4a07-8005-803ea3b371cb</BoundTo>
@@ -1490,6 +1514,11 @@
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>bfe6dd57-3f6e-4149-bf26-8dcb8a73d9ea</id>
       <recordtableid>51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3</recordtableid>
+    </None>
+    <None Include="PC\ActualizarCargaLataFlex.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>b4826168-170f-4b79-90ea-693ba1d4a668</id>
+      <recordtableid>4211e6d9-4f38-41a6-a966-7de367b58e4f</recordtableid>
     </None>
     <None Include="PC\Act_MasivaDeTarifa.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>

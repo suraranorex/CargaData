@@ -104,26 +104,29 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.bttn_Limpiar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_CodProductorBuscar' at Center.", repo.ApplicationUnderTest.txt_CodProductorBuscarInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(1));
+            Delay.Duration(3000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_CodProductorBuscar' at Center.", repo.ApplicationUnderTest.txt_CodProductorBuscarInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.txt_CodProductorBuscar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$PASS' with focus on 'ApplicationUnderTest.txt_CodProductorBuscar'.", repo.ApplicationUnderTest.txt_CodProductorBuscarInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$PASS' with focus on 'ApplicationUnderTest.txt_CodProductorBuscar'.", repo.ApplicationUnderTest.txt_CodProductorBuscarInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.txt_CodProductorBuscar.PressKeys(PASS);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_Buscar' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_BuscarInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_Buscar' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_BuscarInfo, new RecordItemIndex(4));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_Buscar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(5));
             Delay.Duration(300, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.tag_PASS' at Center.", repo.ApplicationUnderTest.tag_PASSInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.tag_PASS' at Center.", repo.ApplicationUnderTest.tag_PASSInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.tag_PASS.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.txt_CodigoProductorDetalle'", repo.ApplicationUnderTest.txt_CodigoProductorDetalleInfo, new ActionTimeout(15000), new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.txt_CodigoProductorDetalle'", repo.ApplicationUnderTest.txt_CodigoProductorDetalleInfo, new ActionTimeout(15000), new RecordItemIndex(7));
             repo.ApplicationUnderTest.txt_CodigoProductorDetalleInfo.WaitForExists(15000);
             
         }
