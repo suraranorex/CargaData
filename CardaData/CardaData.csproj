@@ -13,10 +13,7 @@
     <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
     <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>41569950-3707-4a00-800e-affa03179f86</projectdefaultrepository>
-    <StartAction>Program</StartAction>
-    <StartProgram>C:\Program Files %28x86%29\Ranorex\Studio\Bin\Ranorex.UiaLauncher32.exe</StartProgram>
-    <StartArguments>"C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\CardaData\CardaData\bin\Debug\CardaData.exe" </StartArguments>
-    <StartWorkingDirectory>bin\Debug\</StartWorkingDirectory>
+    <StartAction>Project</StartAction>
     <NoWin32Manifest>False</NoWin32Manifest>
     <SignAssembly>False</SignAssembly>
     <DelaySign>False</DelaySign>
