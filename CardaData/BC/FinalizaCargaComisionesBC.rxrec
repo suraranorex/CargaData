@@ -66,6 +66,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//a[#'AdminDataLoaderWizard:Next']/span/?/?/span[@innertext='Siguiente &gt;']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -151,6 +153,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//a[#'PlanDataLoaderWizard:Next']//span[@innertext='Siguiente &gt;']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -218,6 +222,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'PlanDataLoaderWizard/review']/table/tbody/tr[1]/td/div/div/div/div/?/?/span[@innertext='Review Plan Data Upload']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<loggingrecorditem
@@ -255,6 +261,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//a[#'AdminDataLoaderWizard:Finish']/span/?/?/span[@innertext~'inalizar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -274,6 +282,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[@innertext~'Error en la solicitud de HTTP:' and @visible='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -298,6 +308,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]/body//span[@innertext~'Aceptar' and @visible='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -322,11 +334,13 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//a[#'AdminDataLoaderWizard:Finish']/span/?/?/span[@innertext~'inalizar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="0e55c1cc-5a3f-4f1f-ab47-d811e636509b"
 		waitaction="Exists"
 		waittimeout="180000ms">
@@ -335,64 +349,13 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="9d29b069-fdeb-47e3-ae43-a3009a548447"
+			id="51549f8f-8b45-4462-8a39-3fe3054e7e8a"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, labeltag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="labeltag"
-				rect="219,186,350,18"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						x-component g-msg-info x-component-default
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						AdminDataUploadConfirmation:DataUploadConfirmationScreen:0
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						The data upload completed with the following results:
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						g-msg-info x-component x-component-default
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						label
-					</attribute>
-					<attribute
-					name="for"
-					type="System.String">
-					</attribute>
-				</element>
 				<path>
 					/dom[@domain=$Ambiente]//div[#'AdminDataUploadConfirmation/role']/table//label[@innertext&gt;'The data upload completed']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<loggingrecorditem

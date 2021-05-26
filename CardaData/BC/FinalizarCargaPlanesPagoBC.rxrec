@@ -52,6 +52,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]/?/?/div/table/tbody/tr[2]/td/div/div/div/div/div[3]/div/div/div[2]/div/span/?/?/span[@innertext='Examinar...']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -70,6 +72,8 @@ mode="Global">
 				<path>
 					/form[@title='Abrir']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<separatoritem
@@ -137,6 +141,8 @@ mode="Global">
 				<path>
 					/form[@title='Open' or @title='Abrir']/element[@class='WorkerW']/container[@controlid='40965']//toolbar[@controlid='1001']/button[@text='Escritorio']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -294,6 +300,8 @@ mode="Global">
 				<path>
 					/form[@title='Open']/?/?/text[@controlid='1148']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -472,6 +480,8 @@ mode="Global">
 				<path>
 					/form[@title='Abrir']/button[@text='&amp;Abrir']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="d7fe0d9a-4a5b-422d-a747-d98b5b529221">
@@ -717,6 +727,8 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]/body/div[12]/div[1]//div[@innertext='Cargando archivo(s)...']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<WaitForRecordItem
@@ -741,6 +753,8 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]//div[#'AdminDataLoaderWizard/upload']//input[@name~'textfield-[0-9]+']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<WaitForRecordItem
@@ -814,6 +828,8 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]/body/div[12]/div[2]/div/div/div[2]/div[2]/div[@innertext='99%']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<WaitForRecordItem
@@ -832,6 +848,8 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]/body/div[15]/div[2]/div/div/div[2]/div[2]/div[@innertext='100%']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<explicitdelayitem
@@ -865,6 +883,8 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]//a[#'PlanDataLoaderWizard:Next']/span/?/?/span[@innertext='Siguiente &gt;']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -889,6 +909,8 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]//a[#'PlanDataLoaderWizard:Next']/span/?/?/span[@innertext='Siguiente &gt;']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -907,6 +929,8 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]//div[#'PlanDataLoaderWizard/review']//span[@innertext='Review Plan Data Upload']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -931,11 +955,13 @@ D//Z
 				<path>
 					/dom[@domain=$Ambiente]//a[#'PlanDataLoaderWizard:Finish']//span[@innertext~'inalizar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="52d1a8c1-48e8-496c-9fd7-fbd60f0e642a"
 		waitaction="Exists"
 		waittimeout="120000ms">
@@ -944,60 +970,13 @@ D//Z
 			<bindings>
 			</bindings>
 			<info
-			id="b2844a49-1396-4ff6-81d1-bbd0a16b1ad9"
+			id="84d2ca84-d127-471c-82f4-e752030c6ea0"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, spantag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="spantag"
-				rect="219,154,323,22"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						g-title
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						PlanDataUploadConfirmation:DataUploadConfirmationScreen:ttlBar
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						Plan Data Upload Confirmation
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						g-title
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						span
-					</attribute>
-				</element>
 				<path>
 					/dom[@domain=$Ambiente]//div[#'PlanDataUploadConfirmation/billingPlan']/table/tbody/tr[1]/td//span[@innertext&gt;'Plan Data Upload Confirma']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

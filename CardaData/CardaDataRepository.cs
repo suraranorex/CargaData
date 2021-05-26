@@ -34,6 +34,7 @@ namespace CardaData
         CardaDataRepositoryFolders.OracleSQLDeveloperCUsersMaruizDAppFolder _oraclesqldevelopercusersmaruizd;
         CardaDataRepositoryFolders.ContinueOnFailAppFolder _continueonfail;
         CardaDataRepositoryFolders.AvisoChrome_COFAppFolder _avisochrome_cof;
+        CardaDataRepositoryFolders.FormDeseasAbandonarElSitioAppFolder _formdeseasabandonarelsitio;
 
         /// <summary>
         /// Gets the singleton class instance representing the CardaDataRepository element repository.
@@ -57,6 +58,7 @@ namespace CardaData
             _oraclesqldevelopercusersmaruizd = new CardaDataRepositoryFolders.OracleSQLDeveloperCUsersMaruizDAppFolder(this);
             _continueonfail = new CardaDataRepositoryFolders.ContinueOnFailAppFolder(this);
             _avisochrome_cof = new CardaDataRepositoryFolders.AvisoChrome_COFAppFolder(this);
+            _formdeseasabandonarelsitio = new CardaDataRepositoryFolders.FormDeseasAbandonarElSitioAppFolder(this);
         }
 
 #region Variables
@@ -268,6 +270,15 @@ namespace CardaData
         public virtual CardaDataRepositoryFolders.AvisoChrome_COFAppFolder AvisoChrome_COF
         {
             get { return _avisochrome_cof; }
+        }
+
+        /// <summary>
+        /// The FormDeseasAbandonarElSitio folder.
+        /// </summary>
+        [RepositoryFolder("c0820554-cb13-4aa5-ba92-75b58892c1d2")]
+        public virtual CardaDataRepositoryFolders.FormDeseasAbandonarElSitioAppFolder FormDeseasAbandonarElSitio
+        {
+            get { return _formdeseasabandonarelsitio; }
         }
     }
 
@@ -8261,6 +8272,8 @@ namespace CardaData
             RepoItemInfo _lbl_errorenlasolicituddehttp503_cofInfo;
             RepoItemInfo _btn_finalizar_plancomisiones_cofInfo;
             RepoItemInfo _copy_of_cargandoarchivos_cofInfo;
+            RepoItemInfo _lblresultadocargaplanescomision_cofInfo;
+            RepoItemInfo _lblresultadocargaplanespago_cofInfo;
 
             /// <summary>
             /// Creates a new ContinueOnFail  folder.
@@ -8275,6 +8288,8 @@ namespace CardaData
                 _lbl_errorenlasolicituddehttp503_cofInfo = new RepoItemInfo(this, "lbl_ErrorEnLaSolicitudDeHTTP503_COF", ".//div[@innertext~'Error en la solicitud de HTTP:' and @visible='True']", "", 5000, null, "c40165b4-282b-464b-a4c7-39ad8cd1300b");
                 _btn_finalizar_plancomisiones_cofInfo = new RepoItemInfo(this, "Btn_Finalizar_PlanComisiones_COF", ".//a[#'AdminDataLoaderWizard:Finish']/span/?/?/span[@innertext~'inalizar']", "", 5000, null, "29500b0a-24b7-4844-abe8-e2c4911116ca");
                 _copy_of_cargandoarchivos_cofInfo = new RepoItemInfo(this, "Copy_of_CargandoArchivoS_cof", ".//body//div[@class='x-box-target']//div[@innertext='Cargando archivo(s)...' and @visible='true']", "", 30000, null, "ec3bc363-bc3f-443f-a7f7-8a465602e6f5");
+                _lblresultadocargaplanescomision_cofInfo = new RepoItemInfo(this, "lblResultadoCargaPlanesComision_COF", ".//div[#'AdminDataUploadConfirmation/role']/table//label[@innertext>'The data upload completed']", "", 0, null, "51549f8f-8b45-4462-8a39-3fe3054e7e8a");
+                _lblresultadocargaplanespago_cofInfo = new RepoItemInfo(this, "lblResultadoCargaPlanesPago_COF", ".//div[#'PlanDataUploadConfirmation/billingPlan']/table/tbody/tr[1]/td//span[@innertext>'Plan Data Upload Confirma']", "", 30000, null, "84d2ca84-d127-471c-82f4-e752030c6ea0");
             }
 
             /// <summary>
@@ -8468,6 +8483,54 @@ namespace CardaData
                     return _copy_of_cargandoarchivos_cofInfo;
                 }
             }
+
+            /// <summary>
+            /// The lblResultadoCargaPlanesComision_COF item.
+            /// </summary>
+            [RepositoryItem("51549f8f-8b45-4462-8a39-3fe3054e7e8a")]
+            public virtual Ranorex.LabelTag lblResultadoCargaPlanesComision_COF
+            {
+                get
+                {
+                    return _lblresultadocargaplanescomision_cofInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lblResultadoCargaPlanesComision_COF item info.
+            /// </summary>
+            [RepositoryItemInfo("51549f8f-8b45-4462-8a39-3fe3054e7e8a")]
+            public virtual RepoItemInfo lblResultadoCargaPlanesComision_COFInfo
+            {
+                get
+                {
+                    return _lblresultadocargaplanescomision_cofInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lblResultadoCargaPlanesPago_COF item.
+            /// </summary>
+            [RepositoryItem("84d2ca84-d127-471c-82f4-e752030c6ea0")]
+            public virtual Ranorex.SpanTag lblResultadoCargaPlanesPago_COF
+            {
+                get
+                {
+                    return _lblresultadocargaplanespago_cofInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lblResultadoCargaPlanesPago_COF item info.
+            /// </summary>
+            [RepositoryItemInfo("84d2ca84-d127-471c-82f4-e752030c6ea0")]
+            public virtual RepoItemInfo lblResultadoCargaPlanesPago_COFInfo
+            {
+                get
+                {
+                    return _lblresultadocargaplanespago_cofInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -8532,6 +8595,72 @@ namespace CardaData
                 get
                 {
                     return _cargardenuevoInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The FormDeseasAbandonarElSitioAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("c0820554-cb13-4aa5-ba92-75b58892c1d2")]
+        public partial class FormDeseasAbandonarElSitioAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _abandonar1Info;
+
+            /// <summary>
+            /// Creates a new FormDeseasAbandonarElSitio  folder.
+            /// </summary>
+            public FormDeseasAbandonarElSitioAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("FormDeseasAbandonarElSitio", "/form[@title>'¿Deseas abandonar el siti']", parentFolder, 30000, null, true, "c0820554-cb13-4aa5-ba92-75b58892c1d2", "")
+            {
+                _abandonar1Info = new RepoItemInfo(this, "Abandonar1", "container[@accessiblename='']//button[@accessiblename='Abandonar']", "", 30000, null, "0b2c0445-6a52-4377-8c74-ab7442a6dfdb");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("c0820554-cb13-4aa5-ba92-75b58892c1d2")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("c0820554-cb13-4aa5-ba92-75b58892c1d2")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Abandonar1 item.
+            /// </summary>
+            [RepositoryItem("0b2c0445-6a52-4377-8c74-ab7442a6dfdb")]
+            public virtual Ranorex.Button Abandonar1
+            {
+                get
+                {
+                    return _abandonar1Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Abandonar1 item info.
+            /// </summary>
+            [RepositoryItemInfo("0b2c0445-6a52-4377-8c74-ab7442a6dfdb")]
+            public virtual RepoItemInfo Abandonar1Info
+            {
+                get
+                {
+                    return _abandonar1Info;
                 }
             }
         }

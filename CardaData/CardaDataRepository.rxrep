@@ -3240,6 +3240,28 @@ ix0AAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//body//div[@class='x-box-target']//div[@innertext='Cargando archivo(s)...' and @visible='true']
 			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="51549f8f-8b45-4462-8a39-3fe3054e7e8a"
+			name="lblResultadoCargaPlanesComision_COF"
+			refimgid="4556faa1-3d03-4c5a-bff0-fd52d626376c"
+			refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'AdminDataUploadConfirmation/role']/table/tbody/tr[3]/td/label[@innertext='The data upload completed with the following results:']"
+			robustPath=""
+			searchtimeout="0ms">
+				/dom[@domain=$Ambiente]//div[#'AdminDataUploadConfirmation/role']/table//label[@innertext&gt;'The data upload completed']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="84d2ca84-d127-471c-82f4-e752030c6ea0"
+			name="lblResultadoCargaPlanesPago_COF"
+			refimgid="7429e689-0693-4af2-a108-6cc69cec40d2"
+			refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'PlanDataUploadConfirmation/billingPlan']/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Plan Data Upload Confirmation']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//div[#'PlanDataUploadConfirmation/billingPlan']/table/tbody/tr[1]/td//span[@innertext&gt;'Plan Data Upload Confirma']
+			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
 			</basepath>
@@ -3266,6 +3288,45 @@ ix0AAAAASUVORK5CYII=
 			</item>
 			<basepath>
 				/form[@title&gt;'&#191;Deseas volver a cargar el']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c0820554-cb13-4aa5-ba92-75b58892c1d2"
+		isrooted="True"
+		name="FormDeseasAbandonarElSitio"
+		refpath="/form[@title='¿Deseas abandonar el sitio?']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="0b2c0445-6a52-4377-8c74-ab7442a6dfdb"
+			name="Abandonar1"
+			refimgid="90a15047-fd67-4a63-ae58-42f64e7ebc2a"
+			refpath="/form[@title='¿Deseas abandonar el sitio?']/container[@accessiblename='']/container[2]/container[2]/button[@accessiblename='Abandonar']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'&#191;Deseas abandonar el siti']/container[@accessiblename='']//button[@accessiblename='Abandonar']
+			</item>
+			<basepath>
+				/form[@title&gt;'&#191;Deseas abandonar el siti']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx

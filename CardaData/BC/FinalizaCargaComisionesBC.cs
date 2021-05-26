@@ -123,8 +123,10 @@ namespace CardaData.BC
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 3m to exist. Associated repository item: 'ApplicationUnderTest.lblResultadoCargaPlanesComision'", repo.ApplicationUnderTest.lblResultadoCargaPlanesComisionInfo, new ActionTimeout(180000), new RecordItemIndex(8));
-            repo.ApplicationUnderTest.lblResultadoCargaPlanesComisionInfo.WaitForExists(180000);
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 3m to exist. Associated repository item: 'ContinueOnFail.lblResultadoCargaPlanesComision_COF'", repo.ContinueOnFail.lblResultadoCargaPlanesComision_COFInfo, new ActionTimeout(180000), new RecordItemIndex(8));
+                repo.ContinueOnFail.lblResultadoCargaPlanesComision_COFInfo.WaitForExists(180000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(8)); }
             
             //Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(9));
             

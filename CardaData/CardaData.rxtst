@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
@@ -81,6 +81,7 @@
 			name="teardown">
 			</teardown>
 			<testmodule
+			enabled="False"
 			id="09a26468-91fc-48fb-971e-aa4faf06ee89"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -1689,6 +1690,28 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="79f7adff-bc91-40d2-8fcf-5cce70e09ebf"
+			name="KillBrowser"
+			ref="8a06c073-e480-4830-9e68-ab66bb995361"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="02590535-358d-4d92-b77a-0fb24a9f46b6"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="20f8dd55-639f-4344-a1c7-fc197298492f"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="7c417208-0d74-4d3c-a0c7-e162235bc223"
 			name="Login"
 			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
@@ -1904,20 +1927,6 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="213c0142-c946-4a43-9d18-1a344440f5c3"
-					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
-					variablename="Ambiente">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
-			id="844ba8d6-8264-4bc9-a1c9-3a052214ccb2"
-			name="Logout"
-			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="20f8dd55-639f-4344-a1c7-fc197298492f"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
@@ -2148,6 +2157,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="991e8f1a-6210-4e3c-8054-6be09287ed5c"
+			name="KillBrowser"
+			ref="8a06c073-e480-4830-9e68-ab66bb995361"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="20f8dd55-639f-4344-a1c7-fc197298492f"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="99cf001b-3a70-405d-b58b-cc2cb6c58b22"
 			name="SubMenu_Clasif_LibroDeTasas"
 			ref="5dab2099-cf25-4841-9225-6d87086a65f9"
@@ -2333,6 +2356,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="a8a64079-cd5c-4caa-b9f0-f74da18d731c"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -2981,6 +3005,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="dfb5ab42-0894-418d-b82d-6b9346075b6e"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -3646,8 +3671,8 @@
 						id="b826b847-5507-46dc-ae14-8bbbda0648b7"
 						name="teardown">
 							<testmodule
-							id="844ba8d6-8264-4bc9-a1c9-3a052214ccb2"
-							name="Logout">
+							id="991e8f1a-6210-4e3c-8054-6be09287ed5c"
+							name="KillBrowser">
 							</testmodule>
 							<testmodule
 							id="09a26468-91fc-48fb-971e-aa4faf06ee89"
@@ -3721,6 +3746,10 @@
 						<teardown
 						id="c3405ae6-be07-45fb-9519-550c11fbb971"
 						name="teardown">
+							<testmodule
+							id="79f7adff-bc91-40d2-8fcf-5cce70e09ebf"
+							name="KillBrowser">
+							</testmodule>
 							<testmodule
 							id="a8a64079-cd5c-4caa-b9f0-f74da18d731c"
 							name="Logout">
@@ -5357,7 +5386,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="ConfigurarProductor">
+	default="PlanesComisionesPlanPagoBC">
 		<testconfiguration
 		name="ArchivodelaMuerte">
 			<testcontainer
