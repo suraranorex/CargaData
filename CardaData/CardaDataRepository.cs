@@ -450,7 +450,9 @@ namespace CardaData
             RepoItemInfo _lbl_actualizacionmasivadetarifaInfo;
             RepoItemInfo _submenu_codigosdeproductorInfo;
             RepoItemInfo _txt_codproductorbuscarInfo;
+            RepoItemInfo _input_unidaddenegocioInfo;
             RepoItemInfo _lbl_busquedadecodigosdeproductorInfo;
+            RepoItemInfo _copy_of_lbl_busquedadecodigosdeproductorInfo;
             RepoItemInfo _btn_buscarcodpasInfo;
             RepoItemInfo _filabuscarcodproductorInfo;
             RepoItemInfo _selectpasInfo;
@@ -491,10 +493,14 @@ namespace CardaData
             RepoItemInfo _txt_configdiaspreviosrefacturacionInfo;
             RepoItemInfo _bttn_agregarplazoInfo;
             RepoItemInfo _celdavaciaInfo;
+            RepoItemInfo _celdavacia_tipoplazoInfo;
+            RepoItemInfo _celdavacia_diaspreviosInfo;
+            RepoItemInfo _celdavacia_iniciovigenciaInfo;
             RepoItemInfo _celda_opcionmensualInfo;
             RepoItemInfo _option_mensualInfo;
             RepoItemInfo _bttn_limpiarInfo;
             RepoItemInfo _check_actualizarlataflexInfo;
+            RepoItemInfo _txt_busquedaInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -669,7 +675,9 @@ namespace CardaData
                 _lbl_actualizacionmasivadetarifaInfo = new RepoItemInfo(this, "lbl_ActualizacionMasivaDeTarifa", ".//tbody[#'centerPanel-tbody']//span[@innertext>'Actualización Masiva de T']", "", 30000, null, "c32b12b0-2fdf-4d75-8c25-2cc4aefb93cb");
                 _submenu_codigosdeproductorInfo = new RepoItemInfo(this, "SubMenu_CodigosDeProductor", ".//span[@innertext='Códigos de Productor']", "", 30000, null, "38ecbc9b-c3e6-4ceb-b6dd-bebeec4be9cd");
                 _txt_codproductorbuscarInfo = new RepoItemInfo(this, "txt_CodProductorBuscar", ".//tbody[#'ProducerCodeSearch-tbody']//input[@name='ProducerCodeSearch:ProducerCodeSearchScreen:ProducerCodeSearchDV:Code']", "", 30000, null, "75360f07-d563-4aaf-93ac-4531218b3ee5");
+                _input_unidaddenegocioInfo = new RepoItemInfo(this, "input_UnidadDeNegocio", ".//span[@innertext='Unidad de negocio']/../..//input", "", 30000, null, "d4ab7969-afcc-43fd-987d-8f5ba8f1af46");
                 _lbl_busquedadecodigosdeproductorInfo = new RepoItemInfo(this, "lbl_BusquedaDeCodigosDeProductor", ".//tbody[#'ProducerCodeSearch-tbody']/tr[1]/td/div//span[@innertext>'Búsqueda de códigos de Pr']", "", 30000, null, "bb27839a-ca02-473a-9286-12b93beecfc1");
+                _copy_of_lbl_busquedadecodigosdeproductorInfo = new RepoItemInfo(this, "Copy_of_lbl_BusquedaDeCodigosDeProductor", ".//tbody[#'ProducerCodeSearch-tbody']//span[@innertext~'Productor']", "", 30000, null, "abefde48-5d4f-447f-9a44-87ee628d739f");
                 _btn_buscarcodpasInfo = new RepoItemInfo(this, "Btn_BuscarCodPAS", ".//tbody[#'ProducerCodeSearch-tbody']/tr[3]//table/tbody/tr[6]/td/div/div/?/?/table/?/?/tr/td[1]/a[@innertext='Bucar']", "", 30000, null, "198841bc-eebe-4852-98f2-c30cc5119079");
                 _filabuscarcodproductorInfo = new RepoItemInfo(this, "FilaBuscarCodProductor", ".//tbody[#'ProducerCodeSearch-tbody']/tr[4]/td/div/div[4]/div[1]/div/table[1]/?/?/tr", "", 30000, null, "e26342c0-cf81-4a7e-baab-c881b8efdede");
                 _selectpasInfo = new RepoItemInfo(this, "SelectPAS", ".//tbody[#'ProducerCodeSearch-tbody']//a[@innertext='6254']", "", 30000, null, "8d42bd6f-0dba-45f7-83f4-74072e8a019a");
@@ -710,10 +718,14 @@ namespace CardaData
                 _txt_configdiaspreviosrefacturacionInfo = new RepoItemInfo(this, "txt_ConfigDiasPreviosRefacturacion", ".//tbody[#'centerPanel-tbody']//span[@innertext>'Configuración Días Previos']", "", 30000, null, "66b4a37e-14d4-4e69-8bca-94d6d03ee118");
                 _bttn_agregarplazoInfo = new RepoItemInfo(this, "bttn_AgregarPlazo", ".//tbody[#'centerPanel-tbody']//span[@innertext>'Configuración Días Previos']/../../../../../..//span[@innertext='Agregar']", "", 30000, null, "eb5d6a98-2254-403b-9cdb-7b9e207e9f1d");
                 _celdavaciaInfo = new RepoItemInfo(this, "celdaVacia", ".//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']", "", 30000, null, "d96e2b8f-ff15-429a-b980-603cf11150e4");
+                _celdavacia_tipoplazoInfo = new RepoItemInfo(this, "celdaVacia_TipoPlazo", ".//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[2]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']", "", 30000, null, "a7903621-2d16-4413-8056-7a807a47245f");
+                _celdavacia_diaspreviosInfo = new RepoItemInfo(this, "celdaVacia_DiasPrevios", ".//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[3]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']", "", 30000, null, "cfa6fb27-fee9-4701-be5d-8f90a1b87d8f");
+                _celdavacia_iniciovigenciaInfo = new RepoItemInfo(this, "celdaVacia_InicioVigencia", ".//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[4]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']", "", 30000, null, "38f8c8e6-703d-486d-b688-58dedb1ad42f");
                 _celda_opcionmensualInfo = new RepoItemInfo(this, "celda_OpcionMensual", ".//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//div[@safeclass='x-grid-cell-inner' and @innertext~'1 mes']", "", 30000, null, "8564fe1c-2bd8-4e62-857f-f2265d175f13");
                 _option_mensualInfo = new RepoItemInfo(this, "option_Mensual", ".//li[@innertext~'1 mes']", "", 30000, null, "14764b96-3aae-41fd-857b-e3ff4179d7a6");
                 _bttn_limpiarInfo = new RepoItemInfo(this, "bttn_Limpiar", ".//a[@innertext='Limpia']", "", 30000, null, "3425db24-9c27-4b9b-b050-e0022b4a4c05");
                 _check_actualizarlataflexInfo = new RepoItemInfo(this, "Check_ActualizarLataFlex", ".//div[#'HOPlansByProducerSuraPage']//div[@safeclass='x-grid-checkcolumn']", "", 30000, null, "5110b2b5-bd88-4aed-ac3c-eb219ba54d8b");
+                _txt_busquedaInfo = new RepoItemInfo(this, "txt_Busqueda", ".//span[@innertext~'Búsqueda']", "", 30000, null, "cea93dae-ffb9-4140-8c03-67da25b4df89");
             }
 
             /// <summary>
@@ -4653,6 +4665,30 @@ namespace CardaData
             }
 
             /// <summary>
+            /// The input_UnidadDeNegocio item.
+            /// </summary>
+            [RepositoryItem("d4ab7969-afcc-43fd-987d-8f5ba8f1af46")]
+            public virtual Ranorex.InputTag input_UnidadDeNegocio
+            {
+                get
+                {
+                    return _input_unidaddenegocioInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The input_UnidadDeNegocio item info.
+            /// </summary>
+            [RepositoryItemInfo("d4ab7969-afcc-43fd-987d-8f5ba8f1af46")]
+            public virtual RepoItemInfo input_UnidadDeNegocioInfo
+            {
+                get
+                {
+                    return _input_unidaddenegocioInfo;
+                }
+            }
+
+            /// <summary>
             /// The lbl_BusquedaDeCodigosDeProductor item.
             /// </summary>
             [RepositoryItem("bb27839a-ca02-473a-9286-12b93beecfc1")]
@@ -4673,6 +4709,30 @@ namespace CardaData
                 get
                 {
                     return _lbl_busquedadecodigosdeproductorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_lbl_BusquedaDeCodigosDeProductor item.
+            /// </summary>
+            [RepositoryItem("abefde48-5d4f-447f-9a44-87ee628d739f")]
+            public virtual Ranorex.SpanTag Copy_of_lbl_BusquedaDeCodigosDeProductor
+            {
+                get
+                {
+                    return _copy_of_lbl_busquedadecodigosdeproductorInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_lbl_BusquedaDeCodigosDeProductor item info.
+            /// </summary>
+            [RepositoryItemInfo("abefde48-5d4f-447f-9a44-87ee628d739f")]
+            public virtual RepoItemInfo Copy_of_lbl_BusquedaDeCodigosDeProductorInfo
+            {
+                get
+                {
+                    return _copy_of_lbl_busquedadecodigosdeproductorInfo;
                 }
             }
 
@@ -5637,6 +5697,78 @@ namespace CardaData
             }
 
             /// <summary>
+            /// The celdaVacia_TipoPlazo item.
+            /// </summary>
+            [RepositoryItem("a7903621-2d16-4413-8056-7a807a47245f")]
+            public virtual Ranorex.DivTag celdaVacia_TipoPlazo
+            {
+                get
+                {
+                    return _celdavacia_tipoplazoInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The celdaVacia_TipoPlazo item info.
+            /// </summary>
+            [RepositoryItemInfo("a7903621-2d16-4413-8056-7a807a47245f")]
+            public virtual RepoItemInfo celdaVacia_TipoPlazoInfo
+            {
+                get
+                {
+                    return _celdavacia_tipoplazoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The celdaVacia_DiasPrevios item.
+            /// </summary>
+            [RepositoryItem("cfa6fb27-fee9-4701-be5d-8f90a1b87d8f")]
+            public virtual Ranorex.DivTag celdaVacia_DiasPrevios
+            {
+                get
+                {
+                    return _celdavacia_diaspreviosInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The celdaVacia_DiasPrevios item info.
+            /// </summary>
+            [RepositoryItemInfo("cfa6fb27-fee9-4701-be5d-8f90a1b87d8f")]
+            public virtual RepoItemInfo celdaVacia_DiasPreviosInfo
+            {
+                get
+                {
+                    return _celdavacia_diaspreviosInfo;
+                }
+            }
+
+            /// <summary>
+            /// The celdaVacia_InicioVigencia item.
+            /// </summary>
+            [RepositoryItem("38f8c8e6-703d-486d-b688-58dedb1ad42f")]
+            public virtual Ranorex.DivTag celdaVacia_InicioVigencia
+            {
+                get
+                {
+                    return _celdavacia_iniciovigenciaInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The celdaVacia_InicioVigencia item info.
+            /// </summary>
+            [RepositoryItemInfo("38f8c8e6-703d-486d-b688-58dedb1ad42f")]
+            public virtual RepoItemInfo celdaVacia_InicioVigenciaInfo
+            {
+                get
+                {
+                    return _celdavacia_iniciovigenciaInfo;
+                }
+            }
+
+            /// <summary>
             /// The celda_OpcionMensual item.
             /// </summary>
             [RepositoryItem("8564fe1c-2bd8-4e62-857f-f2265d175f13")]
@@ -5729,6 +5861,30 @@ namespace CardaData
                 get
                 {
                     return _check_actualizarlataflexInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_Busqueda item.
+            /// </summary>
+            [RepositoryItem("cea93dae-ffb9-4140-8c03-67da25b4df89")]
+            public virtual Ranorex.SpanTag txt_Busqueda
+            {
+                get
+                {
+                    return _txt_busquedaInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_Busqueda item info.
+            /// </summary>
+            [RepositoryItemInfo("cea93dae-ffb9-4140-8c03-67da25b4df89")]
+            public virtual RepoItemInfo txt_BusquedaInfo
+            {
+                get
+                {
+                    return _txt_busquedaInfo;
                 }
             }
 

@@ -117,7 +117,7 @@ mode="Global">
 		optional="False"
 		searchpropertyid="dd324c39-e98f-4f64-8221-e5e59153055f"
 		waitaction="Exists"
-		waittimeout="10000ms">
+		waittimeout="20000ms">
 			<comment>
 			</comment>
 			<bindings>
@@ -388,15 +388,24 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="5bd854d4-3ddb-48fa-93b2-37a6e5737df8"
+			id="a7903621-2d16-4413-8056-7a807a47245f"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]/td/div/div[2]/?/?/table/tbody/tr[4]/td/div/div[2]/?/?/table/tbody/tr[2]/td/div/div[4]
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[2]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="100ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -414,59 +423,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="d96e2b8f-ff15-429a-b980-603cf11150e4"
+			id="a7903621-2d16-4413-8056-7a807a47245f"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, divtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="divtag"
-				rect="310,540,98,24"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						x-grid-cell-inner&#32;
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						x-grid-cell-inner
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						div
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="style"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//div[@safeclass='x-grid-cell-inner' and @innertext!~'[a-z]+']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[2]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -619,59 +579,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="d96e2b8f-ff15-429a-b980-603cf11150e4"
+			id="cfa6fb27-fee9-4701-be5d-8f90a1b87d8f"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, divtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="divtag"
-				rect="310,540,98,24"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						x-grid-cell-inner&#32;
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						x-grid-cell-inner
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						div
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="style"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//div[@safeclass='x-grid-cell-inner' and @innertext!~'[a-z]+']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[3]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -689,64 +600,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="d96e2b8f-ff15-429a-b980-603cf11150e4"
+			id="cfa6fb27-fee9-4701-be5d-8f90a1b87d8f"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, divtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="divtag"
-				rect="410,540,98,24"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						x-grid-cell-inner&#32;
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						ext-element-1104
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						x-grid-cell-inner
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						div
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="style"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//div[@safeclass='x-grid-cell-inner' and @innertext!~'[a-z]+']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[3]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -844,72 +701,17 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="d96e2b8f-ff15-429a-b980-603cf11150e4"
+			id="38f8c8e6-703d-486d-b688-58dedb1ad42f"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, divtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="divtag"
-				rect="410,540,98,24"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						x-grid-cell-inner&#32;
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						ext-element-1104
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						15
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						x-grid-cell-inner
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						div
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="style"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//div[@safeclass='x-grid-cell-inner' and @innertext!~'[a-z]+']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[4]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="18/04/2021"
+		KeySequence="26/05/2021"
 		duration="20ms"
 		enabled="True"
 		optional="False"
@@ -920,65 +722,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="d96e2b8f-ff15-429a-b980-603cf11150e4"
+			id="38f8c8e6-703d-486d-b688-58dedb1ad42f"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, divtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="divtag"
-				rect="410,661,98,24"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						x-grid-cell-inner&#32;
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						ext-element-1104
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						15
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						x-grid-cell-inner
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						div
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="style"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//div[@safeclass='x-grid-cell-inner' and @innertext!~'[a-z]+']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[4]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']
 				</path>
 				<robustPath>
 				</robustPath>

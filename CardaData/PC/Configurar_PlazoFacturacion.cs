@@ -93,8 +93,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.bttn_Editar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.input'", repo.ApplicationUnderTest.inputInfo, new ActionTimeout(10000), new RecordItemIndex(1));
-            repo.ApplicationUnderTest.inputInfo.WaitForExists(10000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'ApplicationUnderTest.input'", repo.ApplicationUnderTest.inputInfo, new ActionTimeout(20000), new RecordItemIndex(1));
+            repo.ApplicationUnderTest.inputInfo.WaitForExists(20000);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SolapaTarifa_CodPAS' at Center.", repo.ApplicationUnderTest.SolapaTarifa_CodPASInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.SolapaTarifa_CodPAS.Click();
@@ -110,55 +110,58 @@ namespace CardaData.PC
             // ---Completar info de la fila
             Report.Log(ReportLevel.Info, "Section", "---Completar info de la fila", new RecordItemIndex(5));
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.filaTarifaCodPAS'", repo.ApplicationUnderTest.filaTarifaCodPASInfo, new ActionTimeout(10000), new RecordItemIndex(6));
-            repo.ApplicationUnderTest.filaTarifaCodPASInfo.WaitForExists(10000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.celdaVacia_TipoPlazo'", repo.ApplicationUnderTest.celdaVacia_TipoPlazoInfo, new ActionTimeout(10000), new RecordItemIndex(6));
+            repo.ApplicationUnderTest.celdaVacia_TipoPlazoInfo.WaitForExists(10000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.celdaVacia' at Center.", repo.ApplicationUnderTest.celdaVaciaInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.celdaVacia.Click();
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(7));
+            Delay.Duration(100, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.celdaVacia_TipoPlazo' at Center.", repo.ApplicationUnderTest.celdaVacia_TipoPlazoInfo, new RecordItemIndex(8));
+            repo.ApplicationUnderTest.celdaVacia_TipoPlazo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.option_Mensual' at Center.", repo.ApplicationUnderTest.option_MensualInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.option_Mensual' at Center.", repo.ApplicationUnderTest.option_MensualInfo, new RecordItemIndex(9));
             repo.ApplicationUnderTest.option_Mensual.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.celda_OpcionMensual'", repo.ApplicationUnderTest.celda_OpcionMensualInfo, new ActionTimeout(10000), new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.celda_OpcionMensual'", repo.ApplicationUnderTest.celda_OpcionMensualInfo, new ActionTimeout(10000), new RecordItemIndex(10));
             repo.ApplicationUnderTest.celda_OpcionMensualInfo.WaitForExists(10000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.celdaVacia' at Center.", repo.ApplicationUnderTest.celdaVaciaInfo, new RecordItemIndex(10));
-            repo.ApplicationUnderTest.celdaVacia.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.celdaVacia_DiasPrevios' at Center.", repo.ApplicationUnderTest.celdaVacia_DiasPreviosInfo, new RecordItemIndex(11));
+            repo.ApplicationUnderTest.celdaVacia_DiasPrevios.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '15' with focus on 'ApplicationUnderTest.celdaVacia'.", repo.ApplicationUnderTest.celdaVaciaInfo, new RecordItemIndex(11));
-            repo.ApplicationUnderTest.celdaVacia.PressKeys("15");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '15' with focus on 'ApplicationUnderTest.celdaVacia_DiasPrevios'.", repo.ApplicationUnderTest.celdaVacia_DiasPreviosInfo, new RecordItemIndex(12));
+            repo.ApplicationUnderTest.celdaVacia_DiasPrevios.PressKeys("15");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacion' at Center.", repo.ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacionInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacion' at Center.", repo.ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacionInfo, new RecordItemIndex(13));
             repo.ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacion.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.celdaVacia' at Center.", repo.ApplicationUnderTest.celdaVaciaInfo, new RecordItemIndex(13));
-            repo.ApplicationUnderTest.celdaVacia.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.celdaVacia_InicioVigencia' at Center.", repo.ApplicationUnderTest.celdaVacia_InicioVigenciaInfo, new RecordItemIndex(14));
+            repo.ApplicationUnderTest.celdaVacia_InicioVigencia.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '18/04/2021' with focus on 'ApplicationUnderTest.celdaVacia'.", repo.ApplicationUnderTest.celdaVaciaInfo, new RecordItemIndex(14));
-            repo.ApplicationUnderTest.celdaVacia.PressKeys("18/04/2021");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '26/05/2021' with focus on 'ApplicationUnderTest.celdaVacia_InicioVigencia'.", repo.ApplicationUnderTest.celdaVacia_InicioVigenciaInfo, new RecordItemIndex(15));
+            repo.ApplicationUnderTest.celdaVacia_InicioVigencia.PressKeys("26/05/2021");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacion' at Center.", repo.ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacionInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacion' at Center.", repo.ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacionInfo, new RecordItemIndex(16));
             repo.ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacion.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 400 units.", new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 400 units.", new RecordItemIndex(17));
             Mouse.ScrollWheel(400);
             Delay.Milliseconds(300);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.ApplicationUnderTest.Self, false, new RecordItemIndex(17));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.ApplicationUnderTest.Self, false, new RecordItemIndex(18));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_Actualizar' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_ActualizarInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_Actualizar' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_ActualizarInfo, new RecordItemIndex(19));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.bttn_Actualizar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.bttn_Editar'", repo.ApplicationUnderTest.bttn_EditarInfo, new ActionTimeout(10000), new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.bttn_Editar'", repo.ApplicationUnderTest.bttn_EditarInfo, new ActionTimeout(10000), new RecordItemIndex(20));
             repo.ApplicationUnderTest.bttn_EditarInfo.WaitForExists(10000);
             
         }

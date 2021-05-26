@@ -1828,6 +1828,16 @@ name="CardaDataRepository">
 				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']//input[@name='ProducerCodeSearch:ProducerCodeSearchScreen:ProducerCodeSearchDV:Code']
 			</item>
 			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d4ab7969-afcc-43fd-987d-8f5ba8f1af46"
+			name="input_UnidadDeNegocio"
+			refimgid="75d25c7b-1a59-4739-81c1-225b1ecbab5a"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//span[@innertext='Unidad de negocio']/../..//input
+			</item>
+			<item
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
 			id="bb27839a-ca02-473a-9286-12b93beecfc1"
@@ -1837,6 +1847,16 @@ name="CardaDataRepository">
 			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']/tr[1]/td/div//span[@innertext&gt;'B&#250;squeda de c&#243;digos de Pr']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="abefde48-5d4f-447f-9a44-87ee628d739f"
+			name="Copy_of_lbl_BusquedaDeCodigosDeProductor"
+			refimgid="20130986-cdff-4098-9bb2-169ec608f28b"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']//span[@innertext~'Productor']
 			</item>
 			<item
 			addcaps="unknown,webelement,atag"
@@ -2828,6 +2848,36 @@ name="CardaDataRepository">
 			<item
 			addcaps="unknown,webelement,divtag"
 			capname="divtag"
+			id="a7903621-2d16-4413-8056-7a807a47245f"
+			name="celdaVacia_TipoPlazo"
+			refimgid="51bbbb9a-0fa6-44ad-a8aa-7f9e3801f82f"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[2]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="cfa6fb27-fee9-4701-be5d-8f90a1b87d8f"
+			name="celdaVacia_DiasPrevios"
+			refimgid="51bbbb9a-0fa6-44ad-a8aa-7f9e3801f82f"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[3]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="38f8c8e6-703d-486d-b688-58dedb1ad42f"
+			name="celdaVacia_InicioVigencia"
+			refimgid="51bbbb9a-0fa6-44ad-a8aa-7f9e3801f82f"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[4]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
 			id="8564fe1c-2bd8-4e62-857f-f2265d175f13"
 			name="celda_OpcionMensual"
 			refimgid="51bbbb9a-0fa6-44ad-a8aa-7f9e3801f82f"
@@ -2864,6 +2914,16 @@ name="CardaDataRepository">
 			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//div[#'HOPlansByProducerSuraPage']//div[@safeclass='x-grid-checkcolumn']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="spantag"
+			id="cea93dae-ffb9-4140-8c03-67da25b4df89"
+			name="txt_Busqueda"
+			refimgid="73d879ea-c753-4736-a100-f0946b9c6a9e"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//span[@innertext~'Búsqueda']
 			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
