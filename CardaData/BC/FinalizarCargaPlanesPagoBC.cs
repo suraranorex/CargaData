@@ -170,8 +170,10 @@ namespace CardaData.BC
             repo.ApplicationUnderTest.Btn_Finalizar__PlanesPago.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 2m to exist. Associated repository item: 'ApplicationUnderTest.lblResultadoCargaPlanesPago'", repo.ApplicationUnderTest.lblResultadoCargaPlanesPagoInfo, new ActionTimeout(120000), new RecordItemIndex(20));
-            repo.ApplicationUnderTest.lblResultadoCargaPlanesPagoInfo.WaitForExists(120000);
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 2m to exist. Associated repository item: 'ContinueOnFail.lblResultadoCargaPlanesPago_COF'", repo.ContinueOnFail.lblResultadoCargaPlanesPago_COFInfo, new ActionTimeout(120000), new RecordItemIndex(20));
+                repo.ContinueOnFail.lblResultadoCargaPlanesPago_COFInfo.WaitForExists(120000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(20)); }
             
         }
 

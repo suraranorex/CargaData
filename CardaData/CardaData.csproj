@@ -340,6 +340,18 @@
       <UserCode>true</UserCode>
       <id>d203cd8a-9a04-4368-ad05-124749818e45</id>
     </Compile>
+    <Compile Include="Generales\Logout\KillBrowser.cs">
+      <BoundTo>a8281e7b-7475-467d-8608-843550fee3d2</BoundTo>
+      <DependentUpon>KillBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c6e71f70-7d88-4b48-9f06-8eb4b647840c</id>
+    </Compile>
+    <Compile Include="Generales\Logout\KillBrowser.UserCode.cs">
+      <BoundTo>a8281e7b-7475-467d-8608-843550fee3d2</BoundTo>
+      <DependentUpon>KillBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1f54a543-6520-4c22-bb8a-5255a72abd2d</id>
+    </Compile>
     <Compile Include="Generales\Logout\Logout.cs">
       <BoundTo>7be59cad-b2ba-45c1-b4aa-e2d2517db65a</BoundTo>
       <DependentUpon>Logout.rxrec</DependentUpon>
@@ -1389,6 +1401,11 @@
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>00d871e1-a77e-4fa5-b710-ad329f8ee3a8</id>
       <recordtableid>ff77de51-9c7d-40f7-a71e-98ce7096109f</recordtableid>
+    </None>
+    <None Include="Generales\Logout\KillBrowser.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>a8281e7b-7475-467d-8608-843550fee3d2</id>
+      <recordtableid>8a06c073-e480-4830-9e68-ab66bb995361</recordtableid>
     </None>
     <None Include="Generales\Logout\Logout.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
