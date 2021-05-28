@@ -545,6 +545,14 @@
 			name="BuscarUsuario"
 			ref="949542a4-3a78-4d0f-9c6f-75f4df5b5966"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="4828872d-91a6-4d5f-bf8c-e21997b5909b"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="28176d00-9ef8-4d26-b746-b465185822dc"
@@ -814,6 +822,14 @@
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="4828872d-91a6-4d5f-bf8c-e21997b5909b"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Ambiente"
@@ -959,6 +975,14 @@
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="4828872d-91a6-4d5f-bf8c-e21997b5909b"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Ambiente"
@@ -1243,6 +1267,14 @@
 			name="SelectUser"
 			ref="d9865b4e-59d3-4cd9-b458-71b91ff54daa"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="4828872d-91a6-4d5f-bf8c-e21997b5909b"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="53a55aa5-b163-49d9-a6bf-e85cf713c36d"
@@ -1289,6 +1321,14 @@
 			name="AgregarFuncionUser"
 			ref="595ce799-b221-4ddf-85f3-23e5705d9981"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="4828872d-91a6-4d5f-bf8c-e21997b5909b"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="54e255f0-0477-4aa3-adc8-49cf67f1756e"
@@ -2472,6 +2512,14 @@
 			name="OpenBrowser"
 			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="4828872d-91a6-4d5f-bf8c-e21997b5909b"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="URL"
@@ -2690,12 +2738,28 @@
 			name="SubMenu_UsuariosY_Seguridad"
 			ref="12da9e2f-a851-48f1-84d2-67cfa01b7d62"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="4828872d-91a6-4d5f-bf8c-e21997b5909b"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="b1a43e9a-0c15-431a-a242-36436b0cace7"
 			name="MenuPpalAdmin"
 			ref="de8fa7b1-f87e-4949-8235-59d86264efac"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="4828872d-91a6-4d5f-bf8c-e21997b5909b"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Ambiente"
@@ -2876,6 +2940,26 @@
 			name="Login"
 			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="4828872d-91a6-4d5f-bf8c-e21997b5909b"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="4828872d-91a6-4d5f-bf8c-e21997b5909b"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="4828872d-91a6-4d5f-bf8c-e21997b5909b"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Ambiente"
@@ -3088,6 +3172,14 @@
 			name="EditUser"
 			ref="904d324d-3d92-4347-a10d-e642dcf65d31"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="4828872d-91a6-4d5f-bf8c-e21997b5909b"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<teardown
 			id="d2c135da-3c7a-4761-aac6-49fd034e618d"
