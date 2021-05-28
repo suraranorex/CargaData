@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
@@ -509,6 +509,12 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="27ce99ca-f8b0-4af0-ac5c-214962b4589c"
+			name="BuscarUsuario"
+			ref="949542a4-3a78-4d0f-9c6f-75f4df5b5966"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="28176d00-9ef8-4d26-b746-b465185822dc"
 			name="Login"
 			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
@@ -744,6 +750,29 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
+			id="3cea5207-946b-47c8-8073-8ffa7b04285c"
+			name="CloseBrowser"
+			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="3e3dbfc8-2730-454c-80b1-741fe154a2ca"
 			name="OpenBrowser"
 			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
@@ -859,6 +888,29 @@
 					variablename="Contrasenia">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			enabled="False"
+			id="4587db79-b828-4ba4-8a08-dd2dbfbe9794"
+			name="Logout"
+			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="46275953-b4bc-4358-b3f9-bf95b9b3c169"
@@ -1117,6 +1169,12 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="538849c1-9946-4e47-ac8f-2990d056cda0"
+			name="SelectUser"
+			ref="d9865b4e-59d3-4cd9-b458-71b91ff54daa"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="53a55aa5-b163-49d9-a6bf-e85cf713c36d"
 			name="Login"
 			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
@@ -1155,6 +1213,12 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="54d0bdd0-4023-4a63-a8d4-fe9e821a5710"
+			name="AgregarFuncionUser"
+			ref="595ce799-b221-4ddf-85f3-23e5705d9981"
+			type="Recording">
 			</testmodule>
 			<testmodule
 			id="54e255f0-0477-4aa3-adc8-49cf67f1756e"
@@ -2038,6 +2102,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="8c5f2d18-d533-40ce-bcc0-92c6e511ecbf"
+			name="teardown">
+			</teardown>
 			<testcase
 			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc"
 			name="CardaData"
@@ -2282,6 +2350,28 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="a3e01c2f-bab1-402e-a3bf-a9efef81db56"
+			name="OpenBrowser"
+			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="URL"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="a41d4edf-b509-4e6a-bca5-53f1516c322a"
 			name="SeleccionarProductores_Answer"
 			ref="bda613c1-fc47-4cb9-8a81-1af042984445"
@@ -2378,6 +2468,10 @@
 			minrange="2"
 			name="CargarPlanesEnlatados">
 			</testcase>
+			<setup
+			id="a9e336aa-cd2d-4355-aecf-f0e82e03ba7b"
+			name="setup">
+			</setup>
 			<testmodule
 			id="aa3af706-611e-4797-8af7-ca41d6babd4b"
 			name="Logout"
@@ -2462,6 +2556,26 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="b051591e-2540-467c-b00d-7edfefc7b98e"
+			name="SubMenu_UsuariosY_Seguridad"
+			ref="12da9e2f-a851-48f1-84d2-67cfa01b7d62"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="b1a43e9a-0c15-431a-a242-36436b0cace7"
+			name="MenuPpalAdmin"
+			ref="de8fa7b1-f87e-4949-8235-59d86264efac"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
@@ -2633,6 +2747,52 @@
 			id="baaa77fa-0f53-4eef-a700-bdcfe02d38d9"
 			name="setup">
 			</setup>
+			<testmodule
+			id="bd340976-f318-4a02-9a2e-f3e6dda49e69"
+			name="Login"
+			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<setup
 			id="bf540c09-ee1d-459c-943d-80cce5e52f2f"
 			name="setup">
@@ -2815,6 +2975,12 @@
 					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="d28fa4e1-39fc-48b9-a810-5006e6e5770c"
+			name="EditUser"
+			ref="904d324d-3d92-4347-a10d-e642dcf65d31"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="d2c135da-3c7a-4761-aac6-49fd034e618d"
 			name="teardown">
@@ -2966,6 +3132,14 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			datarangeactive="True"
+			datasource="CambiarParamSecFleetQuote"
+			id="dd485e14-9aaa-4d01-a37a-70105b6a495e"
+			maxrange="0"
+			minrange="0"
+			name="CambiarParamSecExecFleetQuote">
+			</testcase>
 			<testmodule
 			id="ddb83196-65d4-4053-bb76-deebd0cc3086"
 			name="OpenBrowser"
@@ -4540,11 +4714,89 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="dd485e14-9aaa-4d01-a37a-70105b6a495e"
+					name="CambiarParamSecExecFleetQuote">
+						<setup
+						id="a9e336aa-cd2d-4355-aecf-f0e82e03ba7b"
+						name="setup">
+							<testmodule
+							id="a3e01c2f-bab1-402e-a3bf-a9efef81db56"
+							name="OpenBrowser">
+							</testmodule>
+							<testmodule
+							id="bd340976-f318-4a02-9a2e-f3e6dda49e69"
+							name="Login">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="b1a43e9a-0c15-431a-a242-36436b0cace7"
+						name="MenuPpalAdmin">
+						</testmodule>
+						<testmodule
+						id="b051591e-2540-467c-b00d-7edfefc7b98e"
+						name="SubMenu_UsuariosY_Seguridad">
+						</testmodule>
+						<testmodule
+						id="27ce99ca-f8b0-4af0-ac5c-214962b4589c"
+						name="BuscarUsuario">
+						</testmodule>
+						<testmodule
+						id="538849c1-9946-4e47-ac8f-2990d056cda0"
+						name="SelectUser">
+						</testmodule>
+						<testmodule
+						id="d28fa4e1-39fc-48b9-a810-5006e6e5770c"
+						name="EditUser">
+						</testmodule>
+						<testmodule
+						id="54d0bdd0-4023-4a63-a8d4-fe9e821a5710"
+						name="AgregarFuncionUser">
+						</testmodule>
+						<teardown
+						id="8c5f2d18-d533-40ce-bcc0-92c6e511ecbf"
+						name="teardown">
+							<testmodule
+							id="4587db79-b828-4ba4-8a08-dd2dbfbe9794"
+							name="Logout">
+							</testmodule>
+							<testmodule
+							id="3cea5207-946b-47c8-8073-8ffa7b04285c"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
 	</testsuiteentryhierarchy>
 	<datasources>
+		<DataSource
+		filename="DataSource-CambiarParamSecFleetQuote.xlsx"
+		id="a4c7412e-018e-4621-8977-c81f804bd909"
+		includefile="Checked"
+		lastknownrowcount="2"
+		name="CambiarParamSecFleetQuote"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Hoja1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Ambiente
+				</column>
+				<column>
+					URL
+				</column>
+				<column>
+					Usuario
+				</column>
+				<column>
+					Contrasenia
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
 		<DataSource
 		filename="DataSource - CargaAdmDataPC.xlsx"
 		id="213c0142-c946-4a43-9d18-1a344440f5c3"
@@ -5386,7 +5638,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="PlanesComisionesPlanPagoBC">
+	default="CambiaParamSecExecFleetQuote">
 		<testconfiguration
 		name="ArchivodelaMuerte">
 			<testcontainer
@@ -5397,6 +5649,15 @@
 			</testcontainer>
 			<testcontainer
 			id="eb28c57d-a056-426b-bce2-4438c4aaa5e5">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="CambiaParamSecExecFleetQuote">
+			<testcontainer
+			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
+			</testcontainer>
+			<testcontainer
+			id="dd485e14-9aaa-4d01-a37a-70105b6a495e">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration

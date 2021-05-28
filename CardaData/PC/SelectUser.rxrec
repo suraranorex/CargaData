@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="de8fa7b1-f87e-4949-8235-59d86264efac"
+id="d9865b4e-59d3-4cd9-b458-71b91ff54daa"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,8 +19,8 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="MenuPpalAdmin"
-	namespace="CardaData.Generales.Menu">
+	classname="SelectUser"
+	namespace="CardaData.PC">
 	</codegen>
 	<variables>
 	</variables>
@@ -30,10 +30,10 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="CenterRight"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="9eba9ae0-98ee-4c20-a8ab-63949bbf1169"
+		searchpropertyid="c9609caf-07c6-4fbd-9248-982338af5b0f"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -42,20 +42,40 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="5c0b47c5-6521-41ca-b20d-58c3c66026de"
+			id="0b705348-7d74-4792-8cfc-1e9dfdfe555a"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[#'TabBar:AdministrationTab-btnInnerEl']//span[@innertext='Administración']
+					/dom[@domain=$Ambiente]//tbody[#'AdminUserSearchPage-tbody']//a[@innertext='Migration User']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="14d81de5-d23c-4d56-8e4c-de4bc05583d0"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="363a2be4-f90f-4b2c-b4ec-fbf60cddf659"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Usuario: Migration User']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
 	</recorditems>
 	<repository
 	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
 	name="CardaDataRepository"
-	relativepath="..\..\CardaDataRepository.rxrep">
+	relativepath="..\CardaDataRepository.rxrep">
 		<codegen
 		classname="CardaDataRepository"
 		namespace="CardaData">
@@ -67,7 +87,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		MenuPpalAdmin.UserCode.cs
+		SelectUser.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

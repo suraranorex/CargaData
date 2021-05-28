@@ -93,8 +93,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.bttn_Editar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'ApplicationUnderTest.input'", repo.ApplicationUnderTest.inputInfo, new ActionTimeout(20000), new RecordItemIndex(1));
-            repo.ApplicationUnderTest.inputInfo.WaitForExists(20000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'ApplicationUnderTest.txt_BuscarUsuario'", repo.ApplicationUnderTest.txt_BuscarUsuarioInfo, new ActionTimeout(20000), new RecordItemIndex(1));
+            repo.ApplicationUnderTest.txt_BuscarUsuarioInfo.WaitForExists(20000);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SolapaTarifa_CodPAS' at Center.", repo.ApplicationUnderTest.SolapaTarifa_CodPASInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.SolapaTarifa_CodPAS.Click();

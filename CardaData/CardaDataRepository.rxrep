@@ -302,17 +302,6 @@ name="CardaDataRepository">
 				/dom[@domain=$Ambiente]//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]/td/div/table/tbody/tr[2]/td/div/div/div/div/div[3]/div/div/div[2]/?/?/input[@name='fileContent']
 			</item>
 			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="17c1a456-d9b0-418a-92aa-2f132856c5e6"
-			name="XBorderBoxXMaskXMaskFixed"
-			refimgid="17c9211f-471c-4f3d-940d-208ab9665775"
-			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[14]"
-			robustPath=""
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]/body/div[14]
-			</item>
-			<item
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
 			id="f0eba019-019a-4b08-afbc-c057f12aca5e"
@@ -2809,11 +2798,11 @@ name="CardaDataRepository">
 			addcaps="unknown,webelement,spantag"
 			capname="inputtag"
 			id="a6d73d43-721e-4f3e-8912-d61d0f16961d"
-			name="input"
+			name="txt_BuscarUsuario"
 			refimgid="827812c4-2462-415c-826f-b172275fb533"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@id='AdminUserSearchPage:UserSearchScreen:UserSearchDV:Username-inputEl']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -2924,6 +2913,103 @@ name="CardaDataRepository">
 			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext~'Búsqueda']
+			</item>
+			<folder
+			capname="unknown"
+			id="b468b089-7b3b-4337-8906-ecbc69ad5b58"
+			isrooted="False"
+			name="Menu"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="371d7ff0-4358-44ae-a2f5-0c47dc44d404"
+				name="SubMenuUsuariosYSeguridad"
+				refimgid="bf6ec510-743a-4535-81dd-eae20635f8da"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//span[@innertext='Usuarios y seguridad']
+				</item>
+			</folder>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="0b705348-7d74-4792-8cfc-1e9dfdfe555a"
+			name="FilaUno_UserMigrationUser"
+			refimgid="3bd8cabc-648e-491a-b766-c86d601246ea"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'AdminUserSearchPage-tbody']//a[@innertext='Migration User']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="363a2be4-f90f-4b2c-b4ec-fbf60cddf659"
+			name="lbl_UsuarioMigrationUser"
+			refimgid="79f902fe-3c23-441d-afd5-5cf97e266f93"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Usuario: Migration User']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="1320f1c9-7b63-4c14-a42f-055345379185"
+			name="Solapa_FuncionesUser"
+			refimgid="9fb6a1e8-9ec3-4184-968c-8fe19ebba967"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Funciones']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="9c7270e3-8875-440a-a1a1-6b47360c28b1"
+			name="Checkcolumn"
+			refimgid="d3d0d885-81f6-49ac-b313-f96d99f990a7"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@class='x-grid-checkcolumn']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="77a9ff62-b6a3-4998-9236-3a2e15cec8c4"
+			name="Btn_AgregarFuncionUser"
+			refimgid="1b49dc46-a2da-4af3-9a5e-bedb9d0f20ca"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='gregar']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="trtag"
+			id="0a54c531-9d0d-4cb5-babd-4041435ae459"
+			name="FilaFuncionNuevaUser"
+			refimgid="e3c55158-521d-4bd3-b0a5-4cea13694a0b"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]/td/div/div[2]/?/?/table//div/div[3]/div[1]/div/table[6]/?/?/tr
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="62e1e81d-a7db-4e47-9fb6-e3b77e64e1ff"
+			name="txt_NombreFuncion"
+			refimgid="1407af8b-9ebd-4f1f-ab6d-cb7c80fbcec4"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]/td/div/div[2]/?/?/table//div/div[3]/div[1]/div[1]/table[6]/?/?/tr/td[2]/div
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="0abad50a-dda0-4a39-84c0-6c47e864ee71"
+			name="lbl_PermissionsForPolicyMigration"
+			refimgid="d1f76ab9-8d75-46a3-aafd-0476b0772ec9"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext&gt;'Permissions for policy mi']
 			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
@@ -3351,7 +3437,7 @@ AAAASUVORK5CYII=
 		<var
 		id="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 		name="Ambiente">
-			ssurgwsoadev4-oci.opc.oracleoutsourcing.com
+			suragwqa2.segurossura.com.ar
 		</var>
 		<var
 		id="658183a5-d45d-4ec1-a6ea-51dbf041ea2b"

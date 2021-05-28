@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="de8fa7b1-f87e-4949-8235-59d86264efac"
+id="12da9e2f-a851-48f1-84d2-67cfa01b7d62"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="MenuPpalAdmin"
+	classname="SubMenu_UsuariosY_Seguridad"
 	namespace="CardaData.Generales.Menu">
 	</codegen>
 	<variables>
@@ -30,10 +30,10 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="CenterRight"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="9eba9ae0-98ee-4c20-a8ab-63949bbf1169"
+		searchpropertyid="b05e1289-c2b8-41df-9a92-82216801ff01"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -42,15 +42,35 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="5c0b47c5-6521-41ca-b20d-58c3c66026de"
+			id="371d7ff0-4358-44ae-a2f5-0c47dc44d404"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[#'TabBar:AdministrationTab-btnInnerEl']//span[@innertext='Administración']
+					/dom[@domain=$Ambiente]//span[@innertext='Usuarios y seguridad']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5f6afb71-6a83-4a27-bb64-df013bec459a"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7e91060a-9659-4b3d-a9e2-1bb1f2c66451"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'AdminUserSearchPage-tbody']//span[@innertext='Usuarios']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
 	</recorditems>
 	<repository
 	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
@@ -67,7 +87,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		MenuPpalAdmin.UserCode.cs
+		SubMenu_UsuariosY_Seguridad.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

@@ -63,7 +63,7 @@ namespace CardaData
 
 #region Variables
 
-        string _Ambiente = "ssurgwsoadev4-oci.opc.oracleoutsourcing.com";
+        string _Ambiente = "suragwqa2.segurossura.com.ar";
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -298,6 +298,7 @@ namespace CardaData
             CardaDataRepositoryFolders.LoginFolder _login;
             CardaDataRepositoryFolders.XTableLayoutFolder _xtablelayout;
             CardaDataRepositoryFolders.Creacion_PlanEnlatado_AutonomiaFolder _creacion_planenlatado_autonomia;
+            CardaDataRepositoryFolders.MenuFolder _menu;
             RepoItemInfo _btn_aceptarerrorInfo;
             RepoItemInfo _nuevoInfo;
             RepoItemInfo _volverapolicycenterInfo;
@@ -319,7 +320,6 @@ namespace CardaData
             RepoItemInfo _submenuplandatawizardInfo;
             RepoItemInfo _optionnoloadconfigurationInfo;
             RepoItemInfo _copy_of_filecontentInfo;
-            RepoItemInfo _xborderboxxmaskxmaskfixedInfo;
             RepoItemInfo _lbl_uploadplandataexcelfileInfo;
             RepoItemInfo _cargandoarchivosInfo;
             RepoItemInfo _siguiente1Info;
@@ -500,7 +500,7 @@ namespace CardaData
             RepoItemInfo _tag_passInfo;
             RepoItemInfo _txt_codigoproductordetalleInfo;
             RepoItemInfo _bttn_editarInfo;
-            RepoItemInfo _inputInfo;
+            RepoItemInfo _txt_buscarusuarioInfo;
             RepoItemInfo _txt_configdiaspreviosrefacturacionInfo;
             RepoItemInfo _bttn_agregarplazoInfo;
             RepoItemInfo _celdavaciaInfo;
@@ -512,6 +512,14 @@ namespace CardaData
             RepoItemInfo _bttn_limpiarInfo;
             RepoItemInfo _check_actualizarlataflexInfo;
             RepoItemInfo _txt_busquedaInfo;
+            RepoItemInfo _filauno_usermigrationuserInfo;
+            RepoItemInfo _lbl_usuariomigrationuserInfo;
+            RepoItemInfo _solapa_funcionesuserInfo;
+            RepoItemInfo _checkcolumnInfo;
+            RepoItemInfo _btn_agregarfuncionuserInfo;
+            RepoItemInfo _filafuncionnuevauserInfo;
+            RepoItemInfo _txt_nombrefuncionInfo;
+            RepoItemInfo _lbl_permissionsforpolicymigrationInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -523,6 +531,7 @@ namespace CardaData
                 _login = new CardaDataRepositoryFolders.LoginFolder(this);
                 _xtablelayout = new CardaDataRepositoryFolders.XTableLayoutFolder(this);
                 _creacion_planenlatado_autonomia = new CardaDataRepositoryFolders.Creacion_PlanEnlatado_AutonomiaFolder(this);
+                _menu = new CardaDataRepositoryFolders.MenuFolder(this);
                 _btn_aceptarerrorInfo = new RepoItemInfo(this, "btn_AceptarError", ".//span[@innertext='Aceptar' and @visible='True']", "", 30000, null, "cb792193-8505-4295-aaaa-2eca180a0732");
                 _nuevoInfo = new RepoItemInfo(this, "Nuevo", ".//a[#'ServerTools:InternalToolsMenuActions']//span[@innertext='Nuevo ...']", "", 30000, null, "fa493492-f34c-4507-9fbe-423818204041");
                 _volverapolicycenterInfo = new RepoItemInfo(this, "VolverAPolicyCenter", "body/div[11]/div/div[2]//span[@innertext='Volver a PolicyCenter']", "", 30000, null, "a12d91b4-7bc4-4d08-b501-46987714fe0f");
@@ -544,7 +553,6 @@ namespace CardaData
                 _submenuplandatawizardInfo = new RepoItemInfo(this, "SubMenuPlanDataWizard", "body/div[13]/div/div[2]/div/div[2]/?/?/span[@innertext='Plan Data Wizard']", "", 30000, null, "f4db2b6d-12eb-4e24-9394-51b7a4c48ff4");
                 _optionnoloadconfigurationInfo = new RepoItemInfo(this, "OptionNoLoadConfiguration", ".//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]//table/tbody/tr[1]/td/div/div/?/?/table/?/?/tr/td[2]/div/div/?/?/input[@type='button']", "", 30000, null, "45d72592-40a3-4cb8-b598-4d051e663c67");
                 _copy_of_filecontentInfo = new RepoItemInfo(this, "Copy_of_FileContent", ".//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[4]//table/tbody/tr[2]/td/div/table/tbody/tr[2]/td/div/div/div/div/div[3]/div/div/div[2]/?/?/input[@name='fileContent']", "", 30000, null, "884cfe2f-b6f2-42d6-9127-bffcf3549632");
-                _xborderboxxmaskxmaskfixedInfo = new RepoItemInfo(this, "XBorderBoxXMaskXMaskFixed", "body/div[14]", "", 30000, null, "17c1a456-d9b0-418a-92aa-2f132856c5e6");
                 _lbl_uploadplandataexcelfileInfo = new RepoItemInfo(this, "lbl_UploadPlanDataExcelFile", ".//div[#'PlanDataLoaderWizard/upload']/table/tbody/tr[1]/td/div/div/div/div/?/?/span[@innertext>'Upload Plan Data Excel Fi']", "", 30000, null, "f0eba019-019a-4b08-afbc-c057f12aca5e");
                 _cargandoarchivosInfo = new RepoItemInfo(this, "CargandoArchivoS", "body/div[12]/div[1]//div[@innertext='Cargando archivo(s)...']", "", 30000, null, "f2fc38a4-43ec-4f25-8b67-7c9541acdadb");
                 _siguiente1Info = new RepoItemInfo(this, "Siguiente1", ".//a[#'AdminDataLoaderWizard:Next']/span/?/?/span[@innertext='Siguiente >']", "", 30000, null, "385a96fc-73d5-4c5c-be4f-e94e04415425");
@@ -725,7 +733,7 @@ namespace CardaData
                 _tag_passInfo = new RepoItemInfo(this, "tag_PASS", ".//tbody[#'ProducerCodeSearch-tbody']//a[@innertext=$PASS]", "", 30000, null, "03fbf8cc-b86c-4eb2-8f23-fd40df8cb250");
                 _txt_codigoproductordetalleInfo = new RepoItemInfo(this, "txt_CodigoProductorDetalle", ".//span[@innertext>'Código de Productor']", "", 30000, null, "06be0c31-9387-412a-84b0-5492b72ea0b2");
                 _bttn_editarInfo = new RepoItemInfo(this, "bttn_Editar", ".//tbody[#'centerPanel-tbody']//span[@innertext='ditar']", "", 30000, null, "02044059-5854-4fa2-8c7d-57cc6c9922ad");
-                _inputInfo = new RepoItemInfo(this, "input", ".//tbody[#'centerPanel-tbody']//input", "", 30000, null, "a6d73d43-721e-4f3e-8912-d61d0f16961d");
+                _txt_buscarusuarioInfo = new RepoItemInfo(this, "txt_BuscarUsuario", ".//tbody[#'centerPanel-tbody']//input[@id='AdminUserSearchPage:UserSearchScreen:UserSearchDV:Username-inputEl']", "", 30000, null, "a6d73d43-721e-4f3e-8912-d61d0f16961d");
                 _txt_configdiaspreviosrefacturacionInfo = new RepoItemInfo(this, "txt_ConfigDiasPreviosRefacturacion", ".//tbody[#'centerPanel-tbody']//span[@innertext>'Configuración Días Previos']", "", 30000, null, "66b4a37e-14d4-4e69-8bca-94d6d03ee118");
                 _bttn_agregarplazoInfo = new RepoItemInfo(this, "bttn_AgregarPlazo", ".//tbody[#'centerPanel-tbody']//span[@innertext>'Configuración Días Previos']/../../../../../..//span[@innertext='Agregar']", "", 30000, null, "eb5d6a98-2254-403b-9cdb-7b9e207e9f1d");
                 _celdavaciaInfo = new RepoItemInfo(this, "celdaVacia", ".//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']", "", 30000, null, "d96e2b8f-ff15-429a-b980-603cf11150e4");
@@ -737,6 +745,14 @@ namespace CardaData
                 _bttn_limpiarInfo = new RepoItemInfo(this, "bttn_Limpiar", ".//a[@innertext='Limpia']", "", 30000, null, "3425db24-9c27-4b9b-b050-e0022b4a4c05");
                 _check_actualizarlataflexInfo = new RepoItemInfo(this, "Check_ActualizarLataFlex", ".//div[#'HOPlansByProducerSuraPage']//div[@safeclass='x-grid-checkcolumn']", "", 30000, null, "5110b2b5-bd88-4aed-ac3c-eb219ba54d8b");
                 _txt_busquedaInfo = new RepoItemInfo(this, "txt_Busqueda", ".//span[@innertext~'Búsqueda']", "", 30000, null, "cea93dae-ffb9-4140-8c03-67da25b4df89");
+                _filauno_usermigrationuserInfo = new RepoItemInfo(this, "FilaUno_UserMigrationUser", ".//tbody[#'AdminUserSearchPage-tbody']//a[@innertext='Migration User']", "", 30000, null, "0b705348-7d74-4792-8cfc-1e9dfdfe555a");
+                _lbl_usuariomigrationuserInfo = new RepoItemInfo(this, "lbl_UsuarioMigrationUser", ".//tbody[#'centerPanel-tbody']//span[@innertext='Usuario: Migration User']", "", 30000, null, "363a2be4-f90f-4b2c-b4ec-fbf60cddf659");
+                _solapa_funcionesuserInfo = new RepoItemInfo(this, "Solapa_FuncionesUser", ".//tbody[#'centerPanel-tbody']//span[@innertext='Funciones']", "", 30000, null, "1320f1c9-7b63-4c14-a42f-055345379185");
+                _checkcolumnInfo = new RepoItemInfo(this, "Checkcolumn", ".//tbody[#'centerPanel-tbody']//div[@class='x-grid-checkcolumn']", "", 30000, null, "9c7270e3-8875-440a-a1a1-6b47360c28b1");
+                _btn_agregarfuncionuserInfo = new RepoItemInfo(this, "Btn_AgregarFuncionUser", ".//tbody[#'centerPanel-tbody']//span[@innertext='gregar']", "", 30000, null, "77a9ff62-b6a3-4998-9236-3a2e15cec8c4");
+                _filafuncionnuevauserInfo = new RepoItemInfo(this, "FilaFuncionNuevaUser", ".//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]/td/div/div[2]/?/?/table//div/div[3]/div[1]/div/table[6]/?/?/tr", "", 30000, null, "0a54c531-9d0d-4cb5-babd-4041435ae459");
+                _txt_nombrefuncionInfo = new RepoItemInfo(this, "txt_NombreFuncion", ".//tbody[#'centerPanel-tbody']//table/tbody/tr[4]/td/div/div[2]/?/?/table//div/div[3]/div[1]/div[1]/table[6]/?/?/tr/td[2]/div", "", 30000, null, "62e1e81d-a7db-4e47-9fb6-e3b77e64e1ff");
+                _lbl_permissionsforpolicymigrationInfo = new RepoItemInfo(this, "lbl_PermissionsForPolicyMigration", ".//tbody[#'centerPanel-tbody']//div[@innertext>'Permissions for policy mi']", "", 30000, null, "0abad50a-dda0-4a39-84c0-6c47e864ee71");
             }
 
             /// <summary>
@@ -1264,30 +1280,6 @@ namespace CardaData
                 get
                 {
                     return _copy_of_filecontentInfo;
-                }
-            }
-
-            /// <summary>
-            /// The XBorderBoxXMaskXMaskFixed item.
-            /// </summary>
-            [RepositoryItem("17c1a456-d9b0-418a-92aa-2f132856c5e6")]
-            public virtual Ranorex.DivTag XBorderBoxXMaskXMaskFixed
-            {
-                get
-                {
-                    return _xborderboxxmaskxmaskfixedInfo.CreateAdapter<Ranorex.DivTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The XBorderBoxXMaskXMaskFixed item info.
-            /// </summary>
-            [RepositoryItemInfo("17c1a456-d9b0-418a-92aa-2f132856c5e6")]
-            public virtual RepoItemInfo XBorderBoxXMaskXMaskFixedInfo
-            {
-                get
-                {
-                    return _xborderboxxmaskxmaskfixedInfo;
                 }
             }
 
@@ -5612,26 +5604,26 @@ namespace CardaData
             }
 
             /// <summary>
-            /// The input item.
+            /// The txt_BuscarUsuario item.
             /// </summary>
             [RepositoryItem("a6d73d43-721e-4f3e-8912-d61d0f16961d")]
-            public virtual Ranorex.InputTag input
+            public virtual Ranorex.InputTag txt_BuscarUsuario
             {
                 get
                 {
-                    return _inputInfo.CreateAdapter<Ranorex.InputTag>(true);
+                    return _txt_buscarusuarioInfo.CreateAdapter<Ranorex.InputTag>(true);
                 }
             }
 
             /// <summary>
-            /// The input item info.
+            /// The txt_BuscarUsuario item info.
             /// </summary>
             [RepositoryItemInfo("a6d73d43-721e-4f3e-8912-d61d0f16961d")]
-            public virtual RepoItemInfo inputInfo
+            public virtual RepoItemInfo txt_BuscarUsuarioInfo
             {
                 get
                 {
-                    return _inputInfo;
+                    return _txt_buscarusuarioInfo;
                 }
             }
 
@@ -5900,6 +5892,198 @@ namespace CardaData
             }
 
             /// <summary>
+            /// The FilaUno_UserMigrationUser item.
+            /// </summary>
+            [RepositoryItem("0b705348-7d74-4792-8cfc-1e9dfdfe555a")]
+            public virtual Ranorex.ATag FilaUno_UserMigrationUser
+            {
+                get
+                {
+                    return _filauno_usermigrationuserInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FilaUno_UserMigrationUser item info.
+            /// </summary>
+            [RepositoryItemInfo("0b705348-7d74-4792-8cfc-1e9dfdfe555a")]
+            public virtual RepoItemInfo FilaUno_UserMigrationUserInfo
+            {
+                get
+                {
+                    return _filauno_usermigrationuserInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lbl_UsuarioMigrationUser item.
+            /// </summary>
+            [RepositoryItem("363a2be4-f90f-4b2c-b4ec-fbf60cddf659")]
+            public virtual Ranorex.SpanTag lbl_UsuarioMigrationUser
+            {
+                get
+                {
+                    return _lbl_usuariomigrationuserInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lbl_UsuarioMigrationUser item info.
+            /// </summary>
+            [RepositoryItemInfo("363a2be4-f90f-4b2c-b4ec-fbf60cddf659")]
+            public virtual RepoItemInfo lbl_UsuarioMigrationUserInfo
+            {
+                get
+                {
+                    return _lbl_usuariomigrationuserInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Solapa_FuncionesUser item.
+            /// </summary>
+            [RepositoryItem("1320f1c9-7b63-4c14-a42f-055345379185")]
+            public virtual Ranorex.SpanTag Solapa_FuncionesUser
+            {
+                get
+                {
+                    return _solapa_funcionesuserInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Solapa_FuncionesUser item info.
+            /// </summary>
+            [RepositoryItemInfo("1320f1c9-7b63-4c14-a42f-055345379185")]
+            public virtual RepoItemInfo Solapa_FuncionesUserInfo
+            {
+                get
+                {
+                    return _solapa_funcionesuserInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Checkcolumn item.
+            /// </summary>
+            [RepositoryItem("9c7270e3-8875-440a-a1a1-6b47360c28b1")]
+            public virtual Ranorex.DivTag Checkcolumn
+            {
+                get
+                {
+                    return _checkcolumnInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Checkcolumn item info.
+            /// </summary>
+            [RepositoryItemInfo("9c7270e3-8875-440a-a1a1-6b47360c28b1")]
+            public virtual RepoItemInfo CheckcolumnInfo
+            {
+                get
+                {
+                    return _checkcolumnInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Btn_AgregarFuncionUser item.
+            /// </summary>
+            [RepositoryItem("77a9ff62-b6a3-4998-9236-3a2e15cec8c4")]
+            public virtual Ranorex.SpanTag Btn_AgregarFuncionUser
+            {
+                get
+                {
+                    return _btn_agregarfuncionuserInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Btn_AgregarFuncionUser item info.
+            /// </summary>
+            [RepositoryItemInfo("77a9ff62-b6a3-4998-9236-3a2e15cec8c4")]
+            public virtual RepoItemInfo Btn_AgregarFuncionUserInfo
+            {
+                get
+                {
+                    return _btn_agregarfuncionuserInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FilaFuncionNuevaUser item.
+            /// </summary>
+            [RepositoryItem("0a54c531-9d0d-4cb5-babd-4041435ae459")]
+            public virtual Ranorex.TrTag FilaFuncionNuevaUser
+            {
+                get
+                {
+                    return _filafuncionnuevauserInfo.CreateAdapter<Ranorex.TrTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FilaFuncionNuevaUser item info.
+            /// </summary>
+            [RepositoryItemInfo("0a54c531-9d0d-4cb5-babd-4041435ae459")]
+            public virtual RepoItemInfo FilaFuncionNuevaUserInfo
+            {
+                get
+                {
+                    return _filafuncionnuevauserInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_NombreFuncion item.
+            /// </summary>
+            [RepositoryItem("62e1e81d-a7db-4e47-9fb6-e3b77e64e1ff")]
+            public virtual Ranorex.DivTag txt_NombreFuncion
+            {
+                get
+                {
+                    return _txt_nombrefuncionInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_NombreFuncion item info.
+            /// </summary>
+            [RepositoryItemInfo("62e1e81d-a7db-4e47-9fb6-e3b77e64e1ff")]
+            public virtual RepoItemInfo txt_NombreFuncionInfo
+            {
+                get
+                {
+                    return _txt_nombrefuncionInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lbl_PermissionsForPolicyMigration item.
+            /// </summary>
+            [RepositoryItem("0abad50a-dda0-4a39-84c0-6c47e864ee71")]
+            public virtual Ranorex.DivTag lbl_PermissionsForPolicyMigration
+            {
+                get
+                {
+                    return _lbl_permissionsforpolicymigrationInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lbl_PermissionsForPolicyMigration item info.
+            /// </summary>
+            [RepositoryItemInfo("0abad50a-dda0-4a39-84c0-6c47e864ee71")]
+            public virtual RepoItemInfo lbl_PermissionsForPolicyMigrationInfo
+            {
+                get
+                {
+                    return _lbl_permissionsforpolicymigrationInfo;
+                }
+            }
+
+            /// <summary>
             /// The Logout folder.
             /// </summary>
             [RepositoryFolder("6b918787-41ac-4b0a-aca3-c576c1d40258")]
@@ -5933,6 +6117,15 @@ namespace CardaData
             public virtual CardaDataRepositoryFolders.Creacion_PlanEnlatado_AutonomiaFolder Creacion_PlanEnlatado_Autonomia
             {
                 get { return _creacion_planenlatado_autonomia; }
+            }
+
+            /// <summary>
+            /// The Menu folder.
+            /// </summary>
+            [RepositoryFolder("b468b089-7b3b-4337-8906-ecbc69ad5b58")]
+            public virtual CardaDataRepositoryFolders.MenuFolder Menu
+            {
+                get { return _menu; }
             }
         }
 
@@ -7784,6 +7977,60 @@ namespace CardaData
                 get
                 {
                     return _txt_planenlatadoautonomiaInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The MenuFolder folder.
+        /// </summary>
+        [RepositoryFolder("b468b089-7b3b-4337-8906-ecbc69ad5b58")]
+        public partial class MenuFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _submenuusuariosyseguridadInfo;
+
+            /// <summary>
+            /// Creates a new Menu  folder.
+            /// </summary>
+            public MenuFolder(RepoGenBaseFolder parentFolder) :
+                    base("Menu", "", parentFolder, 0, null, false, "b468b089-7b3b-4337-8906-ecbc69ad5b58", "")
+            {
+                _submenuusuariosyseguridadInfo = new RepoItemInfo(this, "SubMenuUsuariosYSeguridad", ".//span[@innertext='Usuarios y seguridad']", "", 30000, null, "371d7ff0-4358-44ae-a2f5-0c47dc44d404");
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("b468b089-7b3b-4337-8906-ecbc69ad5b58")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SubMenuUsuariosYSeguridad item.
+            /// </summary>
+            [RepositoryItem("371d7ff0-4358-44ae-a2f5-0c47dc44d404")]
+            public virtual Ranorex.SpanTag SubMenuUsuariosYSeguridad
+            {
+                get
+                {
+                    return _submenuusuariosyseguridadInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SubMenuUsuariosYSeguridad item info.
+            /// </summary>
+            [RepositoryItemInfo("371d7ff0-4358-44ae-a2f5-0c47dc44d404")]
+            public virtual RepoItemInfo SubMenuUsuariosYSeguridadInfo
+            {
+                get
+                {
+                    return _submenuusuariosyseguridadInfo;
                 }
             }
         }
