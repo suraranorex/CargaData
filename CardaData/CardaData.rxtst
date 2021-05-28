@@ -750,7 +750,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="3cea5207-946b-47c8-8073-8ffa7b04285c"
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
@@ -890,7 +889,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="4587db79-b828-4ba4-8a08-dd2dbfbe9794"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -3136,9 +3134,9 @@
 			datarangeactive="True"
 			datasource="CambiarParamSecFleetQuote"
 			id="dd485e14-9aaa-4d01-a37a-70105b6a495e"
-			maxrange="0"
-			minrange="0"
-			name="CambiarParamSecExecFleetQuote">
+			maxrange="1"
+			minrange="1"
+			name="AgregarFuncionUserMigration">
 			</testcase>
 			<testmodule
 			id="ddb83196-65d4-4053-bb76-deebd0cc3086"
@@ -4716,7 +4714,7 @@
 					</testcase>
 					<testcase
 					id="dd485e14-9aaa-4d01-a37a-70105b6a495e"
-					name="CambiarParamSecExecFleetQuote">
+					name="AgregarFuncionUserMigration">
 						<setup
 						id="a9e336aa-cd2d-4355-aecf-f0e82e03ba7b"
 						name="setup">
@@ -5638,7 +5636,16 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="CambiaParamSecExecFleetQuote">
+	default="AgregarFuncionUserMigration">
+		<testconfiguration
+		name="AgregarFuncionUserMigration">
+			<testcontainer
+			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
+			</testcontainer>
+			<testcontainer
+			id="dd485e14-9aaa-4d01-a37a-70105b6a495e">
+			</testcontainer>
+		</testconfiguration>
 		<testconfiguration
 		name="ArchivodelaMuerte">
 			<testcontainer
@@ -5653,12 +5660,6 @@
 		</testconfiguration>
 		<testconfiguration
 		name="CambiaParamSecExecFleetQuote">
-			<testcontainer
-			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
-			</testcontainer>
-			<testcontainer
-			id="dd485e14-9aaa-4d01-a37a-70105b6a495e">
-			</testcontainer>
 		</testconfiguration>
 		<testconfiguration
 		name="CargaProveedores">
