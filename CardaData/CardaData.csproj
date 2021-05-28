@@ -631,6 +631,30 @@
       <UserCode>true</UserCode>
       <id>056f4c27-4e07-4d34-b972-49db164bfb6a</id>
     </Compile>
+    <Compile Include="Generales\Menu\SubMenu_Utilidades.cs">
+      <BoundTo>dff02b9d-fb5d-44c0-ae24-a764cc32c53f</BoundTo>
+      <DependentUpon>SubMenu_Utilidades.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f3d1c2a9-8380-441f-8333-714fc7d7211a</id>
+    </Compile>
+    <Compile Include="Generales\Menu\SubMenu_Utilidades.UserCode.cs">
+      <BoundTo>dff02b9d-fb5d-44c0-ae24-a764cc32c53f</BoundTo>
+      <DependentUpon>SubMenu_Utilidades.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fae81fea-9e3a-4b7c-ad4b-468cc38b3708</id>
+    </Compile>
+    <Compile Include="Generales\Menu\SubMenu_Utilidades_ImportarDatos.cs">
+      <BoundTo>3fb28a29-353a-43b0-a0a7-b72d08e726e3</BoundTo>
+      <DependentUpon>SubMenu_Utilidades_ImportarDatos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e3dc94af-5160-4fc1-be29-3b37e2c1de2c</id>
+    </Compile>
+    <Compile Include="Generales\Menu\SubMenu_Utilidades_ImportarDatos.UserCode.cs">
+      <BoundTo>3fb28a29-353a-43b0-a0a7-b72d08e726e3</BoundTo>
+      <DependentUpon>SubMenu_Utilidades_ImportarDatos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ccf19509-de27-43db-a284-cb52eaa6f010</id>
+    </Compile>
     <Compile Include="Generales\Menu\SubMenu_Util_ImportarDatos.cs">
       <BoundTo>adaed4f9-5074-4df4-8d34-90a146230dad</BoundTo>
       <DependentUpon>SubMenu_Util_ImportarDatos.rxrec</DependentUpon>
@@ -774,6 +798,18 @@
       <DependentUpon>BusquedaDeCodigosDeProductor.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>3e3a607e-c6d5-4eed-bd33-f15834a72908</id>
+    </Compile>
+    <Compile Include="PC\CambiarFleeQuote.cs">
+      <BoundTo>58792038-7d5c-4942-af19-dcb6bdebc5c6</BoundTo>
+      <DependentUpon>CambiarFleeQuote.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fbc5444f-7dc0-493a-9564-26785210bc43</id>
+    </Compile>
+    <Compile Include="PC\CambiarFleeQuote.UserCode.cs">
+      <BoundTo>58792038-7d5c-4942-af19-dcb6bdebc5c6</BoundTo>
+      <DependentUpon>CambiarFleeQuote.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f2320203-9228-44dc-a5ad-dbeb26b1f421</id>
     </Compile>
     <Compile Include="PC\CompletarDatosBasicos_EnlatadoAP.cs">
       <BoundTo>3d22a9a4-fd7e-4100-b2b8-7051cf31ddc0</BoundTo>
@@ -1452,6 +1488,13 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>42a9bea3-23d4-4ebf-8c8b-270690038ec2</id>
     </Content>
+    <Content Include="DataSource-AgregarFuncionUserMigration.xlsx">
+      <Link>DataSource-AgregarFuncionUserMigration.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>6471ea7a-9207-45e2-b1f8-0876930fb751</id>
+    </Content>
     <None Include="Generales\CargaArchivo\CargaArchivosGeneral.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>c91b98d7-578a-42f4-a00e-2abdcbaacbb5</id>
@@ -1592,6 +1635,16 @@
       <id>864f3560-854a-45b3-91da-efb5ba321f9c</id>
       <recordtableid>12da9e2f-a851-48f1-84d2-67cfa01b7d62</recordtableid>
     </None>
+    <None Include="Generales\Menu\SubMenu_Utilidades.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>dff02b9d-fb5d-44c0-ae24-a764cc32c53f</id>
+      <recordtableid>282383ba-3813-483b-bb6d-6de09d27ae2a</recordtableid>
+    </None>
+    <None Include="Generales\Menu\SubMenu_Utilidades_ImportarDatos.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>3fb28a29-353a-43b0-a0a7-b72d08e726e3</id>
+      <recordtableid>83bbc045-7b74-4b4c-9d2c-12bd3d1c26b4</recordtableid>
+    </None>
     <None Include="Generales\Menu\SubMenu_Util_ImportarDatos.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>adaed4f9-5074-4df4-8d34-90a146230dad</id>
@@ -1651,6 +1704,11 @@
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>3679e84e-6cb7-40db-a2d0-24ebcc97fa53</id>
       <recordtableid>3ae507f2-717e-4833-840c-544845243977</recordtableid>
+    </None>
+    <None Include="PC\CambiarFleeQuote.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>58792038-7d5c-4942-af19-dcb6bdebc5c6</id>
+      <recordtableid>fda8659e-f1aa-4105-a63c-cf45acd423f8</recordtableid>
     </None>
     <None Include="PC\CompletarDatosBasicos_EnlatadoAP.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>

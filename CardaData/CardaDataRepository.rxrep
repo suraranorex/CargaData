@@ -780,6 +780,16 @@ name="CardaDataRepository">
 			<item
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
+			id="97d16cb8-604d-4690-9448-b531490d0655"
+			name="SubMenu_Utilidades"
+			refimgid="90719f1c-f0d1-42b0-9ac5-6dbb20f11bd1"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//span[@innertext~'Utilidades']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
 			id="cf67e51c-3053-490a-adee-c76197605295"
 			name="SubMenuImportarDatos"
 			refimgid="d2918d04-155f-46e4-a958-6a5b4b442b29"
@@ -1443,6 +1453,16 @@ name="CardaDataRepository">
 			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext='Parámetros de secuencia']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="df088975-10e2-470e-8c08-af403f7ffafa"
+			name="lbl_ParametrosDeSecuencia"
+			refimgid="abffdf05-a733-4d7e-9c3e-0276a5b58b5b"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ScriptParametersPage-tbody']//span[@innertext='Parámetros de secuencia']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -3010,6 +3030,37 @@ name="CardaDataRepository">
 			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext&gt;'Permissions for policy mi']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="8886584a-d588-49f3-9ea4-e8b7bd1f52a7"
+			name="fila_ExecuteFleetQuoteAsynchronouslySura"
+			refimgid="77ed496e-c05c-43ad-baeb-19ecb3f7ecbf"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ScriptParametersPage-tbody']//a[@innertext&gt;'ExecuteFleetQuoteAsynchro']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="7e69f60b-d5a7-47a4-86c0-f11614ae4d0c"
+			name="lbl_ExecuteFleetQuoteAsynchronouslySura"
+			refimgid="a45d89ea-c18c-4f83-b3b6-3f72ce97b3f1"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']//span[@innertext&gt;'ExecuteFleetQuoteAsynchro']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6900d9d5-9231-4670-ace7-9da2d1f3d23c"
+			name="OptionButton_No"
+			refimgid="985104c7-ac52-4e16-b5f9-b8b654ce6d0c"
+			refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'ScriptParameterDetail-tbody']/tr[4]/td/div/table/tbody/tr[4]/td/div/div/div/table/tbody/tr/td[2]/div/div/div/input[@type='button']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ScriptParameterDetail-tbody']/tr[4]//table/tbody/tr[4]/td/div/div/?/?/table/?/?/tr/td[2]/div/div/?/?/input[@type='button']
 			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="25bf0e36-d482-42a4-84db-c394a31d5bc7"
+id="83bbc045-7b74-4b4c-9d2c-12bd3d1c26b4"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,21 +19,47 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="SubMenu_Util_ParamSec"
+	classname="SubMenu_Utilidades_ImportarDatos"
 	namespace="CardaData.Generales.Menu">
 	</codegen>
 	<variables>
 	</variables>
 	<recorditems>
 		<mouseitem
-		action="Click"
+		action="Move"
 		button="Left"
 		duration="300ms"
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="8f3ecd09-194d-47c3-b50c-6b8c4d7500cd"
+		searchpropertyid="9c1b6c98-79ff-434f-b918-65d8362625dd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cf67e51c-3053-490a-adee-c76197605295"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext='Importar datos']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="082100e3-a097-42d2-ab19-fe41b51888f7"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -67,7 +93,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		SubMenu_Util_ParamSec.UserCode.cs
+		SubMenu_Utilidades_ImportarDatos.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

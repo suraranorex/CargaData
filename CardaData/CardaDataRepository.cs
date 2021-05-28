@@ -360,6 +360,7 @@ namespace CardaData
             RepoItemInfo _check_sistemadefacturacionInfo;
             RepoItemInfo _utilidadesInfo;
             RepoItemInfo _nav_subm1Info;
+            RepoItemInfo _submenu_utilidadesInfo;
             RepoItemInfo _submenuimportardatosInfo;
             RepoItemInfo _nav_subm2_visibleInfo;
             RepoItemInfo _nav_subm2Info;
@@ -426,6 +427,7 @@ namespace CardaData
             RepoItemInfo _plan_lfcountryInfo;
             RepoItemInfo _plan_lfdpto2degpisoosuperiorInfo;
             RepoItemInfo _submenu_util_parametrosdesecuenciaInfo;
+            RepoItemInfo _lbl_parametrosdesecuenciaInfo;
             RepoItemInfo _txt_numpagInfo;
             RepoItemInfo _sec_viewloadproducerinfobuttonsuraInfo;
             RepoItemInfo _lbl_viewloadproducerinfobuttonsuraInfo;
@@ -520,6 +522,9 @@ namespace CardaData
             RepoItemInfo _filafuncionnuevauserInfo;
             RepoItemInfo _txt_nombrefuncionInfo;
             RepoItemInfo _lbl_permissionsforpolicymigrationInfo;
+            RepoItemInfo _fila_executefleetquoteasynchronouslysuraInfo;
+            RepoItemInfo _lbl_executefleetquoteasynchronouslysuraInfo;
+            RepoItemInfo _optionbutton_noInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -593,6 +598,7 @@ namespace CardaData
                 _check_sistemadefacturacionInfo = new RepoItemInfo(this, "Check_SistemaDeFacturacion", ".//tbody[#'MessagingDestinationControlList-tbody']//div[@id~'gridview-[0-9]+']//a[@innertext='SistemaDeFacturación']/../../..//div[@innertext='Iniciado']", "", 30000, null, "a7f2ba96-2d6f-453e-8b26-f477dc0ee11f");
                 _utilidadesInfo = new RepoItemInfo(this, "Utilidades", ".//span[@innertext='Utilidades']", "", 30000, null, "fec87768-28a1-4249-aa58-6d287fb54cc7");
                 _nav_subm1Info = new RepoItemInfo(this, "Nav_SubM1", ".//span[@innertext=$SubM1]", "", 30000, null, "03c5c9a8-a91b-46f8-bb61-d9d9452de97b");
+                _submenu_utilidadesInfo = new RepoItemInfo(this, "SubMenu_Utilidades", ".//span[@innertext~'Utilidades']", "", 30000, null, "97d16cb8-604d-4690-9448-b531490d0655");
                 _submenuimportardatosInfo = new RepoItemInfo(this, "SubMenuImportarDatos", ".//span[@innertext='Importar datos']", "", 30000, null, "cf67e51c-3053-490a-adee-c76197605295");
                 _nav_subm2_visibleInfo = new RepoItemInfo(this, "Nav_SubM2_Visible", ".//span[@innertext=$SubM2 and @visible='true']", "", 30000, null, "5880c726-44a7-4ec3-8cde-79dd9467500e");
                 _nav_subm2Info = new RepoItemInfo(this, "Nav_SubM2", ".//*[@innertext=$SubM2]", "", 30000, null, "928044c9-ac25-470b-9dc9-7be5ace8ab96");
@@ -659,6 +665,7 @@ namespace CardaData
                 _plan_lfcountryInfo = new RepoItemInfo(this, "Plan_LFCountry", "body/div[23]/?/?/ul/li[@innertext='L.F. Country']", "", 30000, null, "67b23838-1d4f-4a7d-834f-5f9d48aa8da3");
                 _plan_lfdpto2degpisoosuperiorInfo = new RepoItemInfo(this, "Plan_LFDpto2DegPisoOSuperior", ".//li[@innertext>'L.F. Dpto 2° Piso o super']", "", 30000, null, "ea1223a9-8104-464d-ba88-7928b203ad56");
                 _submenu_util_parametrosdesecuenciaInfo = new RepoItemInfo(this, "SubMenu_util_ParametrosDeSecuencia", ".//span[@innertext='Parámetros de secuencia']", "", 30000, null, "e5cc9208-adc3-4d1a-a153-cdee361059b5");
+                _lbl_parametrosdesecuenciaInfo = new RepoItemInfo(this, "lbl_ParametrosDeSecuencia", ".//tbody[#'ScriptParametersPage-tbody']//span[@innertext='Parámetros de secuencia']", "", 30000, null, "df088975-10e2-470e-8c08-af403f7ffafa");
                 _txt_numpagInfo = new RepoItemInfo(this, "txt_NumPag", ".//tbody[#'ScriptParametersPage-tbody']/tr[3]/td/div/div[1]/div/div/div[3]/div//input[@name='inputItem']", "", 30000, null, "fc9300aa-a02c-4765-8f61-b863e67931a7");
                 _sec_viewloadproducerinfobuttonsuraInfo = new RepoItemInfo(this, "Sec_ViewLoadProducerInfoButtonSura", ".//tbody[#'ScriptParametersPage-tbody']//a[@innertext>'ViewLoadProducerInfoButto']", "", 30000, null, "b555ef22-c891-4d60-a615-36de7d45dedc");
                 _lbl_viewloadproducerinfobuttonsuraInfo = new RepoItemInfo(this, "lbl_ViewLoadProducerInfoButtonSura", ".//tbody[#'ScriptParameterDetail-tbody']/tr[1]/td/div/div/div/div/?/?/span[@innertext>'ViewLoadProducerInfoButto']", "", 30000, null, "5c663ec4-efee-4cf8-a8f5-9b3fd61fa18d");
@@ -753,6 +760,9 @@ namespace CardaData
                 _filafuncionnuevauserInfo = new RepoItemInfo(this, "FilaFuncionNuevaUser", ".//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]/td/div/div[2]/?/?/table//div/div[3]/div[1]/div/table[6]/?/?/tr", "", 30000, null, "0a54c531-9d0d-4cb5-babd-4041435ae459");
                 _txt_nombrefuncionInfo = new RepoItemInfo(this, "txt_NombreFuncion", ".//tbody[#'centerPanel-tbody']//table/tbody/tr[4]/td/div/div[2]/?/?/table//div/div[3]/div[1]/div[1]/table[6]/?/?/tr/td[2]/div", "", 30000, null, "62e1e81d-a7db-4e47-9fb6-e3b77e64e1ff");
                 _lbl_permissionsforpolicymigrationInfo = new RepoItemInfo(this, "lbl_PermissionsForPolicyMigration", ".//tbody[#'centerPanel-tbody']//div[@innertext>'Permissions for policy mi']", "", 30000, null, "0abad50a-dda0-4a39-84c0-6c47e864ee71");
+                _fila_executefleetquoteasynchronouslysuraInfo = new RepoItemInfo(this, "fila_ExecuteFleetQuoteAsynchronouslySura", ".//tbody[#'ScriptParametersPage-tbody']//a[@innertext>'ExecuteFleetQuoteAsynchro']", "", 30000, null, "8886584a-d588-49f3-9ea4-e8b7bd1f52a7");
+                _lbl_executefleetquoteasynchronouslysuraInfo = new RepoItemInfo(this, "lbl_ExecuteFleetQuoteAsynchronouslySura", ".//tbody[#'ScriptParameterDetail-tbody']//span[@innertext>'ExecuteFleetQuoteAsynchro']", "", 30000, null, "7e69f60b-d5a7-47a4-86c0-f11614ae4d0c");
+                _optionbutton_noInfo = new RepoItemInfo(this, "OptionButton_No", ".//tbody[#'ScriptParameterDetail-tbody']/tr[4]//table/tbody/tr[4]/td/div/div/?/?/table/?/?/tr/td[2]/div/div/?/?/input[@type='button']", "", 30000, null, "6900d9d5-9231-4670-ace7-9da2d1f3d23c");
             }
 
             /// <summary>
@@ -2240,6 +2250,30 @@ namespace CardaData
                 get
                 {
                     return _nav_subm1Info;
+                }
+            }
+
+            /// <summary>
+            /// The SubMenu_Utilidades item.
+            /// </summary>
+            [RepositoryItem("97d16cb8-604d-4690-9448-b531490d0655")]
+            public virtual Ranorex.SpanTag SubMenu_Utilidades
+            {
+                get
+                {
+                    return _submenu_utilidadesInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SubMenu_Utilidades item info.
+            /// </summary>
+            [RepositoryItemInfo("97d16cb8-604d-4690-9448-b531490d0655")]
+            public virtual RepoItemInfo SubMenu_UtilidadesInfo
+            {
+                get
+                {
+                    return _submenu_utilidadesInfo;
                 }
             }
 
@@ -3824,6 +3858,30 @@ namespace CardaData
                 get
                 {
                     return _submenu_util_parametrosdesecuenciaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lbl_ParametrosDeSecuencia item.
+            /// </summary>
+            [RepositoryItem("df088975-10e2-470e-8c08-af403f7ffafa")]
+            public virtual Ranorex.SpanTag lbl_ParametrosDeSecuencia
+            {
+                get
+                {
+                    return _lbl_parametrosdesecuenciaInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lbl_ParametrosDeSecuencia item info.
+            /// </summary>
+            [RepositoryItemInfo("df088975-10e2-470e-8c08-af403f7ffafa")]
+            public virtual RepoItemInfo lbl_ParametrosDeSecuenciaInfo
+            {
+                get
+                {
+                    return _lbl_parametrosdesecuenciaInfo;
                 }
             }
 
@@ -6080,6 +6138,78 @@ namespace CardaData
                 get
                 {
                     return _lbl_permissionsforpolicymigrationInfo;
+                }
+            }
+
+            /// <summary>
+            /// The fila_ExecuteFleetQuoteAsynchronouslySura item.
+            /// </summary>
+            [RepositoryItem("8886584a-d588-49f3-9ea4-e8b7bd1f52a7")]
+            public virtual Ranorex.ATag fila_ExecuteFleetQuoteAsynchronouslySura
+            {
+                get
+                {
+                    return _fila_executefleetquoteasynchronouslysuraInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The fila_ExecuteFleetQuoteAsynchronouslySura item info.
+            /// </summary>
+            [RepositoryItemInfo("8886584a-d588-49f3-9ea4-e8b7bd1f52a7")]
+            public virtual RepoItemInfo fila_ExecuteFleetQuoteAsynchronouslySuraInfo
+            {
+                get
+                {
+                    return _fila_executefleetquoteasynchronouslysuraInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lbl_ExecuteFleetQuoteAsynchronouslySura item.
+            /// </summary>
+            [RepositoryItem("7e69f60b-d5a7-47a4-86c0-f11614ae4d0c")]
+            public virtual Ranorex.SpanTag lbl_ExecuteFleetQuoteAsynchronouslySura
+            {
+                get
+                {
+                    return _lbl_executefleetquoteasynchronouslysuraInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lbl_ExecuteFleetQuoteAsynchronouslySura item info.
+            /// </summary>
+            [RepositoryItemInfo("7e69f60b-d5a7-47a4-86c0-f11614ae4d0c")]
+            public virtual RepoItemInfo lbl_ExecuteFleetQuoteAsynchronouslySuraInfo
+            {
+                get
+                {
+                    return _lbl_executefleetquoteasynchronouslysuraInfo;
+                }
+            }
+
+            /// <summary>
+            /// The OptionButton_No item.
+            /// </summary>
+            [RepositoryItem("6900d9d5-9231-4670-ace7-9da2d1f3d23c")]
+            public virtual Ranorex.InputTag OptionButton_No
+            {
+                get
+                {
+                    return _optionbutton_noInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OptionButton_No item info.
+            /// </summary>
+            [RepositoryItemInfo("6900d9d5-9231-4670-ace7-9da2d1f3d23c")]
+            public virtual RepoItemInfo OptionButton_NoInfo
+            {
+                get
+                {
+                    return _optionbutton_noInfo;
                 }
             }
 

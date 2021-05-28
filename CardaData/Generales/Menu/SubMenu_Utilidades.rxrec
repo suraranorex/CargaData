@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="25bf0e36-d482-42a4-84db-c394a31d5bc7"
+id="282383ba-3813-483b-bb6d-6de09d27ae2a"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,21 +19,21 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="SubMenu_Util_ParamSec"
+	classname="SubMenu_Utilidades"
 	namespace="CardaData.Generales.Menu">
 	</codegen>
 	<variables>
 	</variables>
 	<recorditems>
 		<mouseitem
-		action="Click"
+		action="Move"
 		button="Left"
 		duration="300ms"
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="8f3ecd09-194d-47c3-b50c-6b8c4d7500cd"
+		searchpropertyid="1b1cdc1b-ab1f-4683-879a-ec30e30f60ba"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -42,10 +42,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="e5cc9208-adc3-4d1a-a153-cdee361059b5"
+			id="97d16cb8-604d-4690-9448-b531490d0655"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[@innertext='Parámetros de secuencia']
+					/dom[@domain=$Ambiente]//span[@innertext~'Utilidades']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -67,7 +67,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		SubMenu_Util_ParamSec.UserCode.cs
+		SubMenu_Utilidades.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

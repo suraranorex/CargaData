@@ -95,6 +95,20 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="09ace9a6-b08d-405e-8c4e-2a0c0a0c7405"
+			name="SubMenu_Utilidades"
+			ref="282383ba-3813-483b-bb6d-6de09d27ae2a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="0bc07f12-d670-407e-8429-f32c5ac60c54"
 			name="teardown">
@@ -181,6 +195,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="0ef2b517-03a2-4427-92b4-58214faa1609"
+			name="teardown">
+			</teardown>
 			<testcase
 			datasource="PruebaMenu"
 			id="0f922fba-f32d-4092-b8ae-2d4eb9320ed2"
@@ -355,6 +373,20 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="1d10efc0-01cf-4201-93e7-f69c7338a21e"
+			name="CloseBrowser"
+			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
@@ -540,6 +572,20 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="2a33cd41-44c5-4f1c-af22-66e0d87e10f4"
+			name="OpenBrowser"
+			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
+					</var>
+				</databinding>
+			</testmodule>
 			<smartfoldernode
 			datasource="CoberturasAP"
 			id="2b611205-53a9-4402-9492-292a434d816f"
@@ -707,6 +753,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="391d8ae1-1f6d-4202-a7fc-844eb1c2ebba"
+			name="Logout"
+			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="3a2225f2-6cd3-4be7-8bd7-8d1ac51d23b3"
 			name="SubMenuClasificacion"
 			ref="d41f92bf-929c-4451-bbf0-9e797fa6d99c"
@@ -754,18 +814,10 @@
 			name="CloseBrowser"
 			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
-					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
-					variablename="Ambiente">
-					</var>
-				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Ambiente"
-					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
@@ -782,6 +834,20 @@
 					datasourceid="b65ca71b-ee75-4037-b0b7-a332d78f0910"
 					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
 					variablename="URL">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="3fa330ba-8786-49bf-8f53-2ec2893bfdca"
+			name="CambiarFleeQuote"
+			ref="fda8659e-f1aa-4105-a63c-cf45acd423f8"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -893,18 +959,10 @@
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
-					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
-					variablename="Ambiente">
-					</var>
-				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Ambiente"
-					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
@@ -974,6 +1032,20 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="36fdacf9-2598-4edc-957f-02587b75c522"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="499983f4-f55f-4d8a-b0ac-a776522e7ae6"
+			name="SubMenu_Utilidades_ImportarDatos"
+			ref="83bbc045-7b74-4b4c-9d2c-12bd3d1c26b4"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
@@ -1316,6 +1388,20 @@
 					datasourceid="98955795-76af-4125-b69c-b699e9c86017"
 					variableid="3e209b49-f075-415b-b2ff-947c6957ea01"
 					variablename="SubM2">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="5a78fb93-89bd-4d71-ac0e-34d49e1de230"
+			name="SubMenu_Util_ParamSec"
+			ref="25bf0e36-d482-42a4-84db-c394a31d5bc7"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -2153,6 +2239,32 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="92eae427-7482-49b9-97bb-89a6426be765"
+			name="Login"
+			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="953d29c1-027d-4815-920f-86e955295ad0"
 			name="OpenBrowser"
 			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
@@ -2347,23 +2459,23 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			datarangeactive="True"
+			datasource="CambiarParamSecFleetQuote"
+			id="a2ecf1c6-05da-469a-b0ac-4c75a3a540fc"
+			maxrange="1"
+			minrange="1"
+			name="CambiarParamSecFleeQuote">
+			</testcase>
 			<testmodule
 			id="a3e01c2f-bab1-402e-a3bf-a9efef81db56"
 			name="OpenBrowser"
 			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="URL"
-					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
-					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
-					variablename="URL">
-					</var>
-				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="URL"
-					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
 					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
 					variablename="URL">
 					</var>
@@ -2545,6 +2657,20 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
+			id="af74c23c-c8b3-4893-9ea4-b8df04087318"
+			name="MenuPpalAdmin"
+			ref="de8fa7b1-f87e-4949-8235-59d86264efac"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			enabled="False"
 			id="b0174a7a-1074-442d-b061-4b8e00b4b43c"
 			name="Form_tfs42429_Form_CECSMAP"
@@ -2570,14 +2696,14 @@
 			name="MenuPpalAdmin"
 			ref="de8fa7b1-f87e-4949-8235-59d86264efac"
 			type="Recording">
-				<databinding>
+				<missingdatabinding>
 					<var
 					dataname="Ambiente"
 					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="b2d9eb49-e3a3-49ca-9095-fd9fef20becb"
@@ -2750,42 +2876,22 @@
 			name="Login"
 			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
-					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="Usuario"
-					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
-					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
-					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
-					variablename="Contrasenia">
-					</var>
-				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Ambiente"
-					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
 					<var
 					dataname="Usuario"
-					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
 					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
 					variablename="Usuario">
 					</var>
 					<var
 					dataname="Contrasenia"
-					datasourceid="b76343c1-120d-4dcf-b68f-00cdebf348fc"
+					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
 					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
 					variablename="Contrasenia">
 					</var>
@@ -2847,6 +2953,10 @@
 			</teardown>
 			<setup
 			id="c3f41b2d-3ba9-457e-84ef-1b416d9e8a93"
+			name="setup">
+			</setup>
+			<setup
+			id="c4b23713-7144-45e5-b84e-f54a94e1e8e3"
 			name="setup">
 			</setup>
 			<testmodule
@@ -3132,7 +3242,7 @@
 			</testmodule>
 			<testcase
 			datarangeactive="True"
-			datasource="CambiarParamSecFleetQuote"
+			datasource="AgregarFuncionUserMigration"
 			id="dd485e14-9aaa-4d01-a37a-70105b6a495e"
 			maxrange="1"
 			minrange="1"
@@ -4764,11 +4874,85 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="a2ecf1c6-05da-469a-b0ac-4c75a3a540fc"
+					name="CambiarParamSecFleeQuote">
+						<setup
+						id="c4b23713-7144-45e5-b84e-f54a94e1e8e3"
+						name="setup">
+							<testmodule
+							id="2a33cd41-44c5-4f1c-af22-66e0d87e10f4"
+							name="OpenBrowser">
+							</testmodule>
+							<testmodule
+							id="92eae427-7482-49b9-97bb-89a6426be765"
+							name="Login">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="af74c23c-c8b3-4893-9ea4-b8df04087318"
+						name="MenuPpalAdmin">
+						</testmodule>
+						<testmodule
+						id="09ace9a6-b08d-405e-8c4e-2a0c0a0c7405"
+						name="SubMenu_Utilidades">
+						</testmodule>
+						<testmodule
+						id="499983f4-f55f-4d8a-b0ac-a776522e7ae6"
+						name="SubMenu_Utilidades_ImportarDatos">
+						</testmodule>
+						<testmodule
+						id="5a78fb93-89bd-4d71-ac0e-34d49e1de230"
+						name="SubMenu_Util_ParamSec">
+						</testmodule>
+						<testmodule
+						id="3fa330ba-8786-49bf-8f53-2ec2893bfdca"
+						name="CambiarFleeQuote">
+						</testmodule>
+						<teardown
+						id="0ef2b517-03a2-4427-92b4-58214faa1609"
+						name="teardown">
+							<testmodule
+							id="391d8ae1-1f6d-4202-a7fc-844eb1c2ebba"
+							name="Logout">
+							</testmodule>
+							<testmodule
+							id="1d10efc0-01cf-4201-93e7-f69c7338a21e"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
 	</testsuiteentryhierarchy>
 	<datasources>
+		<DataSource
+		filename="DataSource-AgregarFuncionUserMigration.xlsx"
+		id="4828872d-91a6-4d5f-bf8c-e21997b5909b"
+		includefile="Checked"
+		lastknownrowcount="2"
+		name="AgregarFuncionUserMigration"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Hoja1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Ambiente
+				</column>
+				<column>
+					URL
+				</column>
+				<column>
+					Usuario
+				</column>
+				<column>
+					Contrasenia
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
 		<DataSource
 		filename="DataSource-CambiarParamSecFleetQuote.xlsx"
 		id="a4c7412e-018e-4621-8977-c81f804bd909"
@@ -5660,6 +5844,12 @@
 		</testconfiguration>
 		<testconfiguration
 		name="CambiaParamSecExecFleetQuote">
+			<testcontainer
+			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
+			</testcontainer>
+			<testcontainer
+			id="a2ecf1c6-05da-469a-b0ac-4c75a3a540fc">
+			</testcontainer>
 		</testconfiguration>
 		<testconfiguration
 		name="CargaProveedores">

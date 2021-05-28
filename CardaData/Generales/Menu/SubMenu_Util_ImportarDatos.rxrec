@@ -108,6 +108,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]/body/div[18]/div/div[2]/div/div[1]/?/?/span[@innertext='Importar datos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 	</recorditems>
