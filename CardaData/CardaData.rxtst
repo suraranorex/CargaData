@@ -3094,8 +3094,8 @@
 			datarangeactive="True"
 			datasource="CargaLataFlex2344"
 			id="c68ea05f-77ca-4512-91bd-34aa497817eb"
-			maxrange="0"
-			minrange="0"
+			maxrange="2"
+			minrange="2"
 			name="CargarLataFlex_2344">
 			</testcase>
 			<testmodule
@@ -5211,7 +5211,7 @@
 		filename="DataSource - CargaLataflex2344.xlsx"
 		id="29b05c48-d6eb-4484-8fef-62f4178d332d"
 		includefile="Checked"
-		lastknownrowcount="6"
+		lastknownrowcount="3"
 		name="CargaLataFlex2344"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -5912,7 +5912,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="AgregarFuncionUserMigration">
+	default="CambiaParamSecExecFleetQuote">
 		<testconfiguration
 		name="AgregarFuncionUserMigration">
 			<testcontainer
