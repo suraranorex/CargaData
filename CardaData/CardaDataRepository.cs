@@ -63,7 +63,7 @@ namespace CardaData
 
 #region Variables
 
-        string _Ambiente = "suragwqa2.segurossura.com.ar";
+        string _Ambiente = "ssurgwsoadev4-oci.opc.oracleoutsourcing.com";
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -525,6 +525,9 @@ namespace CardaData
             RepoItemInfo _fila_executefleetquoteasynchronouslysuraInfo;
             RepoItemInfo _lbl_executefleetquoteasynchronouslysuraInfo;
             RepoItemInfo _optionbutton_noInfo;
+            RepoItemInfo _txt_documentoproveedorInfo;
+            RepoItemInfo _lbl_proveedorInfo;
+            RepoItemInfo _inputInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -763,6 +766,9 @@ namespace CardaData
                 _fila_executefleetquoteasynchronouslysuraInfo = new RepoItemInfo(this, "fila_ExecuteFleetQuoteAsynchronouslySura", ".//tbody[#'ScriptParametersPage-tbody']//a[@innertext>'ExecuteFleetQuoteAsynchro']", "", 30000, null, "8886584a-d588-49f3-9ea4-e8b7bd1f52a7");
                 _lbl_executefleetquoteasynchronouslysuraInfo = new RepoItemInfo(this, "lbl_ExecuteFleetQuoteAsynchronouslySura", ".//tbody[#'ScriptParameterDetail-tbody']//span[@innertext>'ExecuteFleetQuoteAsynchro']", "", 30000, null, "7e69f60b-d5a7-47a4-86c0-f11614ae4d0c");
                 _optionbutton_noInfo = new RepoItemInfo(this, "OptionButton_No", ".//tbody[#'ScriptParameterDetail-tbody']/tr[4]//table/tbody/tr[4]/td/div/div/?/?/table/?/?/tr/td[2]/div/div/?/?/input[@type='button']", "", 30000, null, "6900d9d5-9231-4670-ace7-9da2d1f3d23c");
+                _txt_documentoproveedorInfo = new RepoItemInfo(this, "txt_DocumentoProveedor", ".//tbody[#'ABContactSearch-tbody']//input[@name='ABContactSearch:ABContactSearchScreen:ContactSearchDV:TaxID']", "", 30000, null, "59f8ff9f-18d8-42e9-890f-7010365d4962");
+                _lbl_proveedorInfo = new RepoItemInfo(this, "lbl_Proveedor", ".//tbody[#'ABContactSearch-tbody']//a[@innertext='16VNEUMATICOS S.R.L.']", "", 30000, null, "f5f1e84f-6e13-4a23-83e3-f70c9a665806");
+                _inputInfo = new RepoItemInfo(this, "input", ".//tbody[#'centerPanel-tbody']//input", "element", 30000, null, "1046b8f3-b6e3-4180-b789-b8f5b4a783f7");
             }
 
             /// <summary>
@@ -6210,6 +6216,78 @@ namespace CardaData
                 get
                 {
                     return _optionbutton_noInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_DocumentoProveedor item.
+            /// </summary>
+            [RepositoryItem("59f8ff9f-18d8-42e9-890f-7010365d4962")]
+            public virtual Ranorex.InputTag txt_DocumentoProveedor
+            {
+                get
+                {
+                    return _txt_documentoproveedorInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_DocumentoProveedor item info.
+            /// </summary>
+            [RepositoryItemInfo("59f8ff9f-18d8-42e9-890f-7010365d4962")]
+            public virtual RepoItemInfo txt_DocumentoProveedorInfo
+            {
+                get
+                {
+                    return _txt_documentoproveedorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lbl_Proveedor item.
+            /// </summary>
+            [RepositoryItem("f5f1e84f-6e13-4a23-83e3-f70c9a665806")]
+            public virtual Ranorex.ATag lbl_Proveedor
+            {
+                get
+                {
+                    return _lbl_proveedorInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lbl_Proveedor item info.
+            /// </summary>
+            [RepositoryItemInfo("f5f1e84f-6e13-4a23-83e3-f70c9a665806")]
+            public virtual RepoItemInfo lbl_ProveedorInfo
+            {
+                get
+                {
+                    return _lbl_proveedorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The input item.
+            /// </summary>
+            [RepositoryItem("1046b8f3-b6e3-4180-b789-b8f5b4a783f7")]
+            public virtual Ranorex.InputTag input
+            {
+                get
+                {
+                    return _inputInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The input item info.
+            /// </summary>
+            [RepositoryItemInfo("1046b8f3-b6e3-4180-b789-b8f5b4a783f7")]
+            public virtual RepoItemInfo inputInfo
+            {
+                get
+                {
+                    return _inputInfo;
                 }
             }
 

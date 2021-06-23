@@ -428,6 +428,32 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="1ffb0808-4982-4ad3-92ca-d1d9aeef0d15"
+			name="Login"
+			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="f74e1ad6-7a0d-4236-be3e-c46dcaf2db14"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="f74e1ad6-7a0d-4236-be3e-c46dcaf2db14"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="f74e1ad6-7a0d-4236-be3e-c46dcaf2db14"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
+			</testmodule>
 			<setup
 			id="22df3148-c097-4c55-8b51-6e18516198cc"
 			name="setup">
@@ -2025,8 +2051,8 @@
 			datarangeactive="True"
 			datasource="DataSource_ConfigurarProductor"
 			id="80cbe614-4b4a-4f94-8e2c-f4c2f8785d1f"
-			maxrange="1"
-			minrange="1"
+			maxrange="0"
+			minrange="0"
 			name="ConfigurarProductor_FacturacionMensual">
 			</testcase>
 			<testmodule
@@ -3018,6 +3044,12 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="c2b3387b-3849-4bc2-95d2-f1a5cd151c72"
+			name="Buscar"
+			ref="9ca48d1d-b1c4-48a7-8f23-3cef647c096e"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="c2bc54ba-ae71-4336-8982-24ceb2e62bf8"
 			name="AsistenciaAutos"
 			ref="6731f328-a50f-49ed-90e2-aa545cdca218"
@@ -3149,8 +3181,8 @@
 			datarangeactive="True"
 			datasource="CargaProveedoresAB"
 			id="cdc6ca54-c944-4487-b9a0-7e317e6eb5be"
-			maxrange="2"
-			minrange="2"
+			maxrange="1"
+			minrange="1"
 			name="Carga_Proveedores_AB">
 			</testcase>
 			<testcase
@@ -3506,6 +3538,24 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="e67c0824-e733-48dd-ab7a-cf120c533a58"
+			name="OpenBrowser"
+			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="f74e1ad6-7a0d-4236-be3e-c46dcaf2db14"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
+					</var>
+				</databinding>
+			</testmodule>
+			<setup
+			id="e70d0fd2-5ab8-4044-a00b-ce447154405f"
+			name="setup">
+			</setup>
+			<testmodule
 			id="e7c82684-a5a3-4a89-abcf-6ec56825f910"
 			name="AgregarCoberturas_Proveedor"
 			ref="9bd8733b-1e75-4bdf-b6ea-df60c6b6a5bd"
@@ -3593,6 +3643,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="ec973d04-ab9c-4714-a880-39b2f1c550d5"
+			name="ValidarCarga"
+			retrycount="2">
+			</smartfoldernode>
 			<testmodule
 			id="ecd6abff-9400-476c-8201-daf051c11a79"
 			name="MenuPpalAdmin"
@@ -3630,6 +3685,20 @@
 			id="f356df1d-e212-4d52-b124-33886329b8e7"
 			name="setup">
 			</setup>
+			<testmodule
+			id="f38e65e3-cd00-4f52-a6b6-44755e04aba3"
+			name="CierraBrowserEnProceso"
+			ref="5c1b5c6c-dde2-4e61-a3ca-e4892e6aa4a2"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="f74e1ad6-7a0d-4236-be3e-c46dcaf2db14"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="f3b40a83-e6b9-4b40-acb8-aba59d54d7c9"
 			name="OpenBrowser"
@@ -3961,6 +4030,30 @@
 						id="46275953-b4bc-4358-b3f9-bf95b9b3c169"
 						name="AdminProveedores">
 						</testmodule>
+						<smartfoldernode
+						id="ec973d04-ab9c-4714-a880-39b2f1c550d5"
+						name="ValidarCarga">
+							<setup
+							id="e70d0fd2-5ab8-4044-a00b-ce447154405f"
+							name="setup">
+								<testmodule
+								id="f38e65e3-cd00-4f52-a6b6-44755e04aba3"
+								name="CierraBrowserEnProceso">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="e67c0824-e733-48dd-ab7a-cf120c533a58"
+							name="OpenBrowser">
+							</testmodule>
+							<testmodule
+							id="1ffb0808-4982-4ad3-92ca-d1d9aeef0d15"
+							name="Login">
+							</testmodule>
+							<testmodule
+							id="c2b3387b-3849-4bc2-95d2-f1a5cd151c72"
+							name="Buscar">
+							</testmodule>
+						</smartfoldernode>
 						<teardown
 						id="851d5a47-3443-48c6-a083-46c43c3c0f6d"
 						name="teardown">
@@ -5211,7 +5304,7 @@
 		filename="DataSource - CargaLataflex2344.xlsx"
 		id="29b05c48-d6eb-4484-8fef-62f4178d332d"
 		includefile="Checked"
-		lastknownrowcount="3"
+		lastknownrowcount="6"
 		name="CargaLataFlex2344"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -5912,7 +6005,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="CambiaParamSecExecFleetQuote">
+	default="ConfigurarProductor">
 		<testconfiguration
 		name="AgregarFuncionUserMigration">
 			<testcontainer
@@ -5950,6 +6043,9 @@
 			</testcontainer>
 			<testcontainer
 			id="cdc6ca54-c944-4487-b9a0-7e317e6eb5be">
+			</testcontainer>
+			<testcontainer
+			id="ec973d04-ab9c-4714-a880-39b2f1c550d5">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration

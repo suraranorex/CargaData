@@ -295,6 +295,30 @@
       <UserCode>true</UserCode>
       <id>495e7fcb-9fa7-4143-a7f2-ea968afe9e7d</id>
     </Compile>
+    <Compile Include="Generales\Buscar\Buscar.cs">
+      <BoundTo>5b8fe0ce-cda9-4edd-946b-cffc2335407b</BoundTo>
+      <DependentUpon>Buscar.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>17f026a2-4fc3-4d59-86e6-974e78200741</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\Buscar.UserCode.cs">
+      <BoundTo>5b8fe0ce-cda9-4edd-946b-cffc2335407b</BoundTo>
+      <DependentUpon>Buscar.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>834a3b7f-56f6-42e1-90cd-6a06d9b3090d</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\CierraBrowserEnProceso.cs">
+      <BoundTo>7e4ddc62-fa68-41c2-ad3b-f55b50d790b4</BoundTo>
+      <DependentUpon>CierraBrowserEnProceso.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>61899534-4016-4ff3-8721-cde76699a929</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\CierraBrowserEnProceso.UserCode.cs">
+      <BoundTo>7e4ddc62-fa68-41c2-ad3b-f55b50d790b4</BoundTo>
+      <DependentUpon>CierraBrowserEnProceso.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>92f215be-ecd4-4ad6-9cf7-680900225990</id>
+    </Compile>
     <Compile Include="Generales\CargaArchivo\CargaArchivosGeneral.cs">
       <BoundTo>c91b98d7-578a-42f4-a00e-2abdcbaacbb5</BoundTo>
       <DependentUpon>CargaArchivosGeneral.rxrec</DependentUpon>
@@ -1495,6 +1519,16 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>6471ea7a-9207-45e2-b1f8-0876930fb751</id>
     </Content>
+    <None Include="Generales\Buscar\Buscar.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>5b8fe0ce-cda9-4edd-946b-cffc2335407b</id>
+      <recordtableid>9ca48d1d-b1c4-48a7-8f23-3cef647c096e</recordtableid>
+    </None>
+    <None Include="Generales\Buscar\CierraBrowserEnProceso.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>7e4ddc62-fa68-41c2-ad3b-f55b50d790b4</id>
+      <recordtableid>5c1b5c6c-dde2-4e61-a3ca-e4892e6aa4a2</recordtableid>
+    </None>
     <None Include="Generales\CargaArchivo\CargaArchivosGeneral.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>c91b98d7-578a-42f4-a00e-2abdcbaacbb5</id>
@@ -1934,6 +1968,9 @@
     </Folder>
     <Folder Include="Generales\CargaArchivo">
       <id>fa183241-b897-4183-b30d-90ee114b67bd</id>
+    </Folder>
+    <Folder Include="Generales\Buscar">
+      <id>651eb7c0-c9e8-481b-a52c-cb051812e716</id>
     </Folder>
     <Folder Include="Utilitarios">
       <id>6f5ef69d-121f-4207-aec6-63a77ef103a2</id>

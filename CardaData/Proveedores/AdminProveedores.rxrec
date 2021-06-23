@@ -80,7 +80,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Adinistraci&#243;n
+						Adinistración
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -106,8 +106,10 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='suragwqa2.segurossura.com.ar']//a[#'TabBar:AdminTab']//span[@innertext='Adinistraci&#243;n']
+					/dom[@domain='suragwqa2.segurossura.com.ar']//a[#'TabBar:AdminTab']//span[@innertext='Adinistración']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
@@ -185,6 +187,8 @@ mode="Global">
 				<path>
 					/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'Admin:MenuLinks-body']/div[1]/div/table[3]//span[@innertext='Utilidades']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
@@ -262,6 +266,8 @@ mode="Global">
 				<path>
 					/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'Admin:MenuLinks-body']/div[1]/div/table[9]//span[@innertext&gt;'Importar Proveedores de S']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
@@ -356,6 +362,8 @@ mode="Global">
 				<path>
 					/dom[@domain='suragwqa2.segurossura.com.ar']//a[#'VendorImportSura:LoadSampleDataButton']//span[@innertext&gt;'Importar Proveedores de S']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -423,6 +431,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[#'VendorImportSura:ttlBar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -508,10 +518,12 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//a[#'VendorImportSura:LoadSampleDataButton']//span[@innertext&gt;'Importar Proveedores de S']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
-		duration="1000ms"
+		duration="180000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -520,7 +532,7 @@ mode="Global">
 			</bindings>
 		</explicitdelayitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="ea21e08d-d190-4c5e-8340-fdcf70ebca44"
 		waitaction="NotExists"
@@ -535,6 +547,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//a[#'VendorImportSura:LoadSampleDataButton']//span[@innertext&gt;'Importar Proveedores de S' and @data-tabindexsaved='true']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<separatoritem
@@ -547,7 +561,7 @@ mode="Global">
 			</bindings>
 		</separatoritem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="True"
 		searchpropertyid="570b21ae-e614-493a-8a87-042acb0f8300"
 		waitaction="Exists"
@@ -562,13 +576,15 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[@innertext~'Error en la solicitud de HTTP:' and @visible='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="True"
@@ -586,13 +602,15 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]/body//span[@innertext~'Aceptar' and @visible='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keyitem
 		action="Press"
 		data="F5"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		scancode="0"
@@ -607,7 +625,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="True"
@@ -625,6 +643,8 @@ mode="Global">
 				<path>
 					/form[@title&gt;'&#191;Deseas volver a cargar el']/container[@accessiblename='']//button[@accessiblename='Cargar de nuevo']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<separatoritem
@@ -637,11 +657,11 @@ mode="Global">
 			</bindings>
 		</separatoritem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="5701bffd-eae7-404e-8a8b-c43bda6b1db1"
 		waitaction="Exists"
-		waittimeout="120000ms">
+		waittimeout="300000ms">
 			<comment>
 			</comment>
 			<bindings>
@@ -652,6 +672,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//label[@innertext~'Fueron']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

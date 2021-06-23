@@ -121,41 +121,41 @@ namespace CardaData.Proveedores
             repo.ApplicationUnderTest.btn_ImportarProveedoresDeSura1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(9));
-            Delay.Duration(1000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3m.", new RecordItemIndex(9));
+            Delay.Duration(180000, false);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 2m to not exist. Associated repository item: 'ApplicationUnderTest.btn_ImportarProveedoresDeSura1_EnEspera'", repo.ApplicationUnderTest.btn_ImportarProveedoresDeSura1_EnEsperaInfo, new ActionTimeout(120000), new RecordItemIndex(10));
-            repo.ApplicationUnderTest.btn_ImportarProveedoresDeSura1_EnEsperaInfo.WaitForNotExists(120000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 2m to not exist. Associated repository item: 'ApplicationUnderTest.btn_ImportarProveedoresDeSura1_EnEspera'", repo.ApplicationUnderTest.btn_ImportarProveedoresDeSura1_EnEsperaInfo, new ActionTimeout(120000), new RecordItemIndex(10));
+            //repo.ApplicationUnderTest.btn_ImportarProveedoresDeSura1_EnEsperaInfo.WaitForNotExists(120000);
             
             // Acciones para el ambiente QA2 que da timeout
             Report.Log(ReportLevel.Info, "Section", "Acciones para el ambiente QA2 que da timeout", new RecordItemIndex(11));
             
             try {
-                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 3m to exist. Associated repository item: 'ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COF'", repo.ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COFInfo, new ActionTimeout(180000), new RecordItemIndex(12));
-                repo.ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COFInfo.WaitForExists(180000);
+                //Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 3m to exist. Associated repository item: 'ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COF'", repo.ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COFInfo, new ActionTimeout(180000), new RecordItemIndex(12));
+                //repo.ContinueOnFail.lbl_ErrorEnLaSolicitudDeHTTP503_COFInfo.WaitForExists(180000);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(12)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ContinueOnFail.bttn_Aceptar' at Center.", repo.ContinueOnFail.bttn_AceptarInfo, new RecordItemIndex(13));
-                repo.ContinueOnFail.bttn_Aceptar.Click();
-                Delay.Milliseconds(0);
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ContinueOnFail.bttn_Aceptar' at Center.", repo.ContinueOnFail.bttn_AceptarInfo, new RecordItemIndex(13));
+                //repo.ContinueOnFail.bttn_Aceptar.Click();
+                //Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(13)); }
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'F5' Press.", new RecordItemIndex(14));
-            Keyboard.Press(System.Windows.Forms.Keys.F5, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key 'F5' Press.", new RecordItemIndex(14));
+            //Keyboard.Press(System.Windows.Forms.Keys.F5, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            //Delay.Milliseconds(0);
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'AvisoChrome_COF.CargarDeNuevo' at Center.", repo.AvisoChrome_COF.CargarDeNuevoInfo, new RecordItemIndex(15));
-                repo.AvisoChrome_COF.CargarDeNuevo.Click();
-                Delay.Milliseconds(0);
+                //Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'AvisoChrome_COF.CargarDeNuevo' at Center.", repo.AvisoChrome_COF.CargarDeNuevoInfo, new RecordItemIndex(15));
+                //repo.AvisoChrome_COF.CargarDeNuevo.Click();
+                //Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(15)); }
             
             // ---
             Report.Log(ReportLevel.Info, "Section", "---", new RecordItemIndex(16));
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 2m to exist. Associated repository item: 'ApplicationUnderTest.ResultadoCargaProveedoresAB'", repo.ApplicationUnderTest.ResultadoCargaProveedoresABInfo, new ActionTimeout(120000), new RecordItemIndex(17));
-            repo.ApplicationUnderTest.ResultadoCargaProveedoresABInfo.WaitForExists(120000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 5m to exist. Associated repository item: 'ApplicationUnderTest.ResultadoCargaProveedoresAB'", repo.ApplicationUnderTest.ResultadoCargaProveedoresABInfo, new ActionTimeout(300000), new RecordItemIndex(17));
+            //repo.ApplicationUnderTest.ResultadoCargaProveedoresABInfo.WaitForExists(300000);
             
         }
 

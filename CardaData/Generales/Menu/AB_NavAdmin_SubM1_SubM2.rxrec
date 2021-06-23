@@ -45,8 +45,10 @@ mode="Global">
 			id="62a5f657-0162-47eb-bee6-879bb7d48dc8"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//a[#'TabBar:AdminTab']//span[@innertext='Adinistraci&#243;n']
+					/dom[@domain=$Ambiente]//a[#'TabBar:AdminTab']//span[@innertext='Adinistración']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -109,11 +111,13 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext=$SubM1]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<explicitdelayitem
 		duration="2000ms"
-		enabled="False"
+		enabled="True"
 		optional="False">
 			<comment>
 			</comment>
@@ -142,6 +146,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext='Utilidades']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -160,6 +166,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext=$SubM2]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -184,6 +192,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext=$SubM2]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 	</recorditems>
