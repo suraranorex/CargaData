@@ -93,108 +93,111 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Producto.Click("18;6");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_AccidentesPersonales' at 77;9.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_AccidentesPersonalesInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(1));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_AccidentesPersonales' at 77;9.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_AccidentesPersonalesInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_AccidentesPersonales.Click("77;9");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_Producto'", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_ProductoInfo, new ActionTimeout(30000), new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_Producto'", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_ProductoInfo, new ActionTimeout(30000), new RecordItemIndex(3));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_ProductoInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Plan' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PlanInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Plan' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PlanInfo, new RecordItemIndex(4));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Plan.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Autonomia v.1' with focus on 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Plan'.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PlanInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Autonomia v.1' with focus on 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Plan'.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PlanInfo, new RecordItemIndex(5));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Plan.PressKeys("Autonomia v.1");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Codigo' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CodigoInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Codigo' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CodigoInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Codigo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'MT01VLAF2' with focus on 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Codigo'.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CodigoInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'MT01VLAF2' with focus on 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Codigo'.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CodigoInfo, new RecordItemIndex(7));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Codigo.PressKeys("MT01VLAF2");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Subproducto' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_SubproductoInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Subproducto' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_SubproductoInfo, new RecordItemIndex(8));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Subproducto.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_Autonomia' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_AutonomiaInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_Autonomia' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_AutonomiaInfo, new RecordItemIndex(9));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_Autonomia.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_Subproducto'", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_SubproductoInfo, new ActionTimeout(30000), new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_Subproducto'", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_SubproductoInfo, new ActionTimeout(30000), new RecordItemIndex(10));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_SubproductoInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_ExtensionCobertura' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_ExtensionCoberturaInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_ExtensionCobertura' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_ExtensionCoberturaInfo, new RecordItemIndex(11));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_ExtensionCobertura.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_JornadaLaboral' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_JornadaLaboralInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_JornadaLaboral' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_JornadaLaboralInfo, new RecordItemIndex(12));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_JornadaLaboral.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_ExtensionCobertura'", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_ExtensionCoberturaInfo, new ActionTimeout(30000), new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_ExtensionCobertura'", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_ExtensionCoberturaInfo, new ActionTimeout(30000), new RecordItemIndex(13));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_ExtensionCoberturaInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_AmbitoCobertura' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_AmbitoCoberturaInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_AmbitoCobertura' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_AmbitoCoberturaInfo, new RecordItemIndex(14));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_AmbitoCobertura.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_RepublicaArgentina' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_RepublicaArgentinaInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_RepublicaArgentina' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_RepublicaArgentinaInfo, new RecordItemIndex(15));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_RepublicaArgentina.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_AmbitoCobertura'", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_AmbitoCoberturaInfo, new ActionTimeout(30000), new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_AmbitoCobertura'", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_AmbitoCoberturaInfo, new ActionTimeout(30000), new RecordItemIndex(16));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_AmbitoCoberturaInfo.WaitForNotExists(30000);
             
             // -------Segunda columna
-            Report.Log(ReportLevel.Info, "Section", "-------Segunda columna", new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Section", "-------Segunda columna", new RecordItemIndex(17));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CanalComercializacion' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CanalComercializacionInfo, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CanalComercializacion' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CanalComercializacionInfo, new RecordItemIndex(18));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CanalComercializacion.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_CallCenter' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_CallCenterInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_CallCenter' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_CallCenterInfo, new RecordItemIndex(19));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_CallCenter.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_TipoPoliza' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_TipoPolizaInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_TipoPoliza' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_TipoPolizaInfo, new RecordItemIndex(20));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_TipoPoliza.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_IndividualColectiva' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_IndividualColectivaInfo, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_IndividualColectiva' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_IndividualColectivaInfo, new RecordItemIndex(21));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_IndividualColectiva.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_TipoPoliza'", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_TipoPolizaInfo, new ActionTimeout(30000), new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_TipoPoliza'", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_TipoPolizaInfo, new ActionTimeout(30000), new RecordItemIndex(22));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_TipoPolizaInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Facturacion' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_FacturacionInfo, new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Facturacion' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_FacturacionInfo, new RecordItemIndex(23));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_Facturacion.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_Anual' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_AnualInfo, new RecordItemIndex(23));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_Anual' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_AnualInfo, new RecordItemIndex(24));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.option_Anual.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_Facturacion'", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_FacturacionInfo, new ActionTimeout(30000), new RecordItemIndex(24));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_Facturacion'", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_FacturacionInfo, new ActionTimeout(30000), new RecordItemIndex(25));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.Copy_of_input_FacturacionInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CantidadCapitas' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CantidadCapitasInfo, new RecordItemIndex(25));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CantidadCapitas' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CantidadCapitasInfo, new RecordItemIndex(26));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CantidadCapitas.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '1' with focus on 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CantidadCapitas'.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CantidadCapitasInfo, new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '1' with focus on 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CantidadCapitas'.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CantidadCapitasInfo, new RecordItemIndex(27));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_CantidadCapitas.PressKeys("1");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PremioFijoAnual' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PremioFijoAnualInfo, new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PremioFijoAnual' at Center.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PremioFijoAnualInfo, new RecordItemIndex(28));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PremioFijoAnual.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '9000' with focus on 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PremioFijoAnual'.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PremioFijoAnualInfo, new RecordItemIndex(28));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '9000' with focus on 'ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PremioFijoAnual'.", repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PremioFijoAnualInfo, new RecordItemIndex(29));
             repo.ApplicationUnderTest.Creacion_PlanEnlatado_Autonomia.input_PremioFijoAnual.PressKeys("9000");
             Delay.Milliseconds(0);
             

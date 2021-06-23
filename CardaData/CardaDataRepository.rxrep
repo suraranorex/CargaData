@@ -758,6 +758,16 @@ name="CardaDataRepository">
 				/dom[@domain=$Ambiente]//tbody[#'MessagingDestinationControlList-tbody']//div[@id~'gridview-[0-9]+']//a[@innertext='SistemaDeFacturación']/../../..//div[@innertext='Iniciado']
 			</item>
 			<item
+			addcaps="unknown,webelement,atag"
+			capname="divtag"
+			id="9065d6d6-6c51-459e-b51f-ab0ebbedd6a8"
+			name="lbl_EstadoDeSistemaDeFacturacion"
+			refimgid="0b364268-1ea6-4e0a-802b-f4b0a2e9aefe"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'MessagingDestinationControlList-tbody']//div[@id~'gridview-[0-9]+']//a[@innertext='SistemaDeFacturación']/../../..//div[@innertext='Iniciado']
+			</item>
+			<item
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
 			id="fec87768-28a1-4249-aa58-6d287fb54cc7"
@@ -3090,6 +3100,16 @@ name="CardaDataRepository">
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input
 			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="75044645-03f8-4e2d-a7fb-686230f76cad"
+			name="Btn_ReiniciarMotorDeMensajeriaPC"
+			refimgid="d35644c7-e90e-43f5-b43e-0a967594c51d"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'MessagingDestinationControlList-tbody']//span[@innertext&gt;'einiciar motor de mensaje']
+			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
 			</basepath>
@@ -3352,7 +3372,7 @@ ix0AAAAASUVORK5CYII=
 			name="bttn_Aceptar"
 			refimgid="6011cdad-eb8c-41b9-a443-79109bd0404e"
 			robustPath=""
-			searchtimeout="5000ms">
+			searchtimeout="0ms">
 				/dom[@domain=$Ambiente]/body//span[@innertext~'Aceptar' and @visible='True']
 			</item>
 			<item
@@ -3516,7 +3536,7 @@ AAAASUVORK5CYII=
 		<var
 		id="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 		name="Ambiente">
-			ssurgwsoadev4-oci.opc.oracleoutsourcing.com
+			suragwqa2.segurossura.com.ar
 		</var>
 		<var
 		id="658183a5-d45d-4ec1-a6ea-51dbf041ea2b"

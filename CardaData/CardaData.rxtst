@@ -3181,8 +3181,8 @@
 			datarangeactive="True"
 			datasource="CargaProveedoresAB"
 			id="cdc6ca54-c944-4487-b9a0-7e317e6eb5be"
-			maxrange="1"
-			minrange="1"
+			maxrange="2"
+			minrange="2"
 			name="Carga_Proveedores_AB">
 			</testcase>
 			<testcase
@@ -5304,7 +5304,7 @@
 		filename="DataSource - CargaLataflex2344.xlsx"
 		id="29b05c48-d6eb-4484-8fef-62f4178d332d"
 		includefile="Checked"
-		lastknownrowcount="6"
+		lastknownrowcount="3"
 		name="CargaLataFlex2344"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -6005,7 +6005,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="ConfigurarProductor">
+	default="LataFlexXML">
 		<testconfiguration
 		name="AgregarFuncionUserMigration">
 			<testcontainer

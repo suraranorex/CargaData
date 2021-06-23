@@ -63,7 +63,7 @@ namespace CardaData
 
 #region Variables
 
-        string _Ambiente = "ssurgwsoadev4-oci.opc.oracleoutsourcing.com";
+        string _Ambiente = "suragwqa2.segurossura.com.ar";
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -358,6 +358,7 @@ namespace CardaData
             RepoItemInfo _submenumensajesInfo;
             RepoItemInfo _submenucolasdemensajesInfo;
             RepoItemInfo _check_sistemadefacturacionInfo;
+            RepoItemInfo _lbl_estadodesistemadefacturacionInfo;
             RepoItemInfo _utilidadesInfo;
             RepoItemInfo _nav_subm1Info;
             RepoItemInfo _submenu_utilidadesInfo;
@@ -528,6 +529,7 @@ namespace CardaData
             RepoItemInfo _txt_documentoproveedorInfo;
             RepoItemInfo _lbl_proveedorInfo;
             RepoItemInfo _inputInfo;
+            RepoItemInfo _btn_reiniciarmotordemensajeriapcInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -599,6 +601,7 @@ namespace CardaData
                 _submenumensajesInfo = new RepoItemInfo(this, "SubMenuMensajes", ".//span[@innertext='Mensajes']", "", 30000, null, "747a1104-8fc0-46a2-8ead-9dfcb49c6bd3");
                 _submenucolasdemensajesInfo = new RepoItemInfo(this, "SubMenuColasDeMensajes", ".//span[@innertext='Colas de mensajes']", "", 30000, null, "4642699b-8598-4b59-affb-544a63660b0d");
                 _check_sistemadefacturacionInfo = new RepoItemInfo(this, "Check_SistemaDeFacturacion", ".//tbody[#'MessagingDestinationControlList-tbody']//div[@id~'gridview-[0-9]+']//a[@innertext='SistemaDeFacturación']/../../..//div[@innertext='Iniciado']", "", 30000, null, "a7f2ba96-2d6f-453e-8b26-f477dc0ee11f");
+                _lbl_estadodesistemadefacturacionInfo = new RepoItemInfo(this, "lbl_EstadoDeSistemaDeFacturacion", ".//tbody[#'MessagingDestinationControlList-tbody']//div[@id~'gridview-[0-9]+']//a[@innertext='SistemaDeFacturación']/../../..//div[@innertext='Iniciado']", "", 30000, null, "9065d6d6-6c51-459e-b51f-ab0ebbedd6a8");
                 _utilidadesInfo = new RepoItemInfo(this, "Utilidades", ".//span[@innertext='Utilidades']", "", 30000, null, "fec87768-28a1-4249-aa58-6d287fb54cc7");
                 _nav_subm1Info = new RepoItemInfo(this, "Nav_SubM1", ".//span[@innertext=$SubM1]", "", 30000, null, "03c5c9a8-a91b-46f8-bb61-d9d9452de97b");
                 _submenu_utilidadesInfo = new RepoItemInfo(this, "SubMenu_Utilidades", ".//span[@innertext~'Utilidades']", "", 30000, null, "97d16cb8-604d-4690-9448-b531490d0655");
@@ -769,6 +772,7 @@ namespace CardaData
                 _txt_documentoproveedorInfo = new RepoItemInfo(this, "txt_DocumentoProveedor", ".//tbody[#'ABContactSearch-tbody']//input[@name='ABContactSearch:ABContactSearchScreen:ContactSearchDV:TaxID']", "", 30000, null, "59f8ff9f-18d8-42e9-890f-7010365d4962");
                 _lbl_proveedorInfo = new RepoItemInfo(this, "lbl_Proveedor", ".//tbody[#'ABContactSearch-tbody']//a[@innertext='16VNEUMATICOS S.R.L.']", "", 30000, null, "f5f1e84f-6e13-4a23-83e3-f70c9a665806");
                 _inputInfo = new RepoItemInfo(this, "input", ".//tbody[#'centerPanel-tbody']//input", "element", 30000, null, "1046b8f3-b6e3-4180-b789-b8f5b4a783f7");
+                _btn_reiniciarmotordemensajeriapcInfo = new RepoItemInfo(this, "Btn_ReiniciarMotorDeMensajeriaPC", ".//tbody[#'MessagingDestinationControlList-tbody']//span[@innertext>'einiciar motor de mensaje']", "", 30000, null, "75044645-03f8-4e2d-a7fb-686230f76cad");
             }
 
             /// <summary>
@@ -2208,6 +2212,30 @@ namespace CardaData
                 get
                 {
                     return _check_sistemadefacturacionInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lbl_EstadoDeSistemaDeFacturacion item.
+            /// </summary>
+            [RepositoryItem("9065d6d6-6c51-459e-b51f-ab0ebbedd6a8")]
+            public virtual Ranorex.DivTag lbl_EstadoDeSistemaDeFacturacion
+            {
+                get
+                {
+                    return _lbl_estadodesistemadefacturacionInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lbl_EstadoDeSistemaDeFacturacion item info.
+            /// </summary>
+            [RepositoryItemInfo("9065d6d6-6c51-459e-b51f-ab0ebbedd6a8")]
+            public virtual RepoItemInfo lbl_EstadoDeSistemaDeFacturacionInfo
+            {
+                get
+                {
+                    return _lbl_estadodesistemadefacturacionInfo;
                 }
             }
 
@@ -6292,6 +6320,30 @@ namespace CardaData
             }
 
             /// <summary>
+            /// The Btn_ReiniciarMotorDeMensajeriaPC item.
+            /// </summary>
+            [RepositoryItem("75044645-03f8-4e2d-a7fb-686230f76cad")]
+            public virtual Ranorex.SpanTag Btn_ReiniciarMotorDeMensajeriaPC
+            {
+                get
+                {
+                    return _btn_reiniciarmotordemensajeriapcInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Btn_ReiniciarMotorDeMensajeriaPC item info.
+            /// </summary>
+            [RepositoryItemInfo("75044645-03f8-4e2d-a7fb-686230f76cad")]
+            public virtual RepoItemInfo Btn_ReiniciarMotorDeMensajeriaPCInfo
+            {
+                get
+                {
+                    return _btn_reiniciarmotordemensajeriapcInfo;
+                }
+            }
+
+            /// <summary>
             /// The Logout folder.
             /// </summary>
             [RepositoryFolder("6b918787-41ac-4b0a-aca3-c576c1d40258")]
@@ -8737,7 +8789,7 @@ namespace CardaData
                     base("ContinueOnFail", "/dom[@domain=$Ambiente]", parentFolder, 5000, null, false, "3cd7eb38-4d11-4d81-a5f9-1a0482293c43", "")
             {
                 _copy_of_bttn_aceptarInfo = new RepoItemInfo(this, "Copy_of_bttn_Aceptar", "body//span[@innertext~'Aceptar' and @visible='True']", "", 10000, null, "d7078ba3-fb76-4b7e-beee-5d1288c16278");
-                _bttn_aceptarInfo = new RepoItemInfo(this, "bttn_Aceptar", "body//span[@innertext~'Aceptar' and @visible='True']", "", 5000, null, "a2929b82-0454-49c8-a911-c1bd5c2e4bac");
+                _bttn_aceptarInfo = new RepoItemInfo(this, "bttn_Aceptar", "body//span[@innertext~'Aceptar' and @visible='True']", "", 0, null, "a2929b82-0454-49c8-a911-c1bd5c2e4bac");
                 _msg_porcentajecompleteformpolicyformasuraInfo = new RepoItemInfo(this, "Msg_PorcentajeCompleteFormPolicyFormaSura", ".//div[@innertext~'100%']", "", 10000, null, "6568c63a-ed92-4863-9c2a-962e04b67406");
                 _copy_of_lbl_100percentInfo = new RepoItemInfo(this, "Copy_of_lbl_100Percent", ".//div[@innertext~'100%']", "", 10000, null, "c700ddd2-617c-4c37-92bc-29d46d8861b5");
                 _lbl_errorenlasolicituddehttp503_cofInfo = new RepoItemInfo(this, "lbl_ErrorEnLaSolicitudDeHTTP503_COF", ".//div[@innertext~'Error en la solicitud de HTTP:' and @visible='True']", "", 5000, null, "c40165b4-282b-464b-a4c7-39ad8cd1300b");

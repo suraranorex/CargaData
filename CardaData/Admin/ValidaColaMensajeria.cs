@@ -118,18 +118,34 @@ namespace CardaData.Admin
             repo.ApplicationUnderTest.SubMenuColasDeMensajes.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.Check_SistemaDeFacturacion'.", repo.ApplicationUnderTest.Check_SistemaDeFacturacionInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_ReiniciarMotorDeMensajeriaPC' at Center.", repo.ApplicationUnderTest.Btn_ReiniciarMotorDeMensajeriaPCInfo, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.Btn_ReiniciarMotorDeMensajeriaPC.Click();
+            Delay.Milliseconds(0);
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ContinueOnFail.bttn_Aceptar' at Center.", repo.ContinueOnFail.bttn_AceptarInfo, new RecordItemIndex(5));
+                repo.ContinueOnFail.bttn_Aceptar.Click();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(6));
+            Delay.Duration(5000, false);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'ApplicationUnderTest.lbl_EstadoDeSistemaDeFacturacion'", repo.ApplicationUnderTest.lbl_EstadoDeSistemaDeFacturacionInfo, new ActionTimeout(60000), new RecordItemIndex(7));
+            repo.ApplicationUnderTest.lbl_EstadoDeSistemaDeFacturacionInfo.WaitForExists(60000);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.Check_SistemaDeFacturacion'.", repo.ApplicationUnderTest.Check_SistemaDeFacturacionInfo, new RecordItemIndex(8));
             Validate.Exists(repo.ApplicationUnderTest.Check_SistemaDeFacturacionInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Check_SistemaDeFacturacion' and assigning its value to variable 'estado'.", repo.ApplicationUnderTest.Check_SistemaDeFacturacionInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Check_SistemaDeFacturacion' and assigning its value to variable 'estado'.", repo.ApplicationUnderTest.Check_SistemaDeFacturacionInfo, new RecordItemIndex(9));
             estado = repo.ApplicationUnderTest.Check_SistemaDeFacturacion.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", "Cola de Sistema De facturación:", new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "User", "Cola de Sistema De facturación:", new RecordItemIndex(10));
             
             // Estado de Cola de Mensajeria SistemaDeFacturacion
-            Report.Log(ReportLevel.Info, "User", estado, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "User", estado, new RecordItemIndex(11));
             
         }
 
