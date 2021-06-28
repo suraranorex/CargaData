@@ -128,8 +128,8 @@ namespace CardaData.Admin
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(6));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 8s.", new RecordItemIndex(6));
+            Delay.Duration(8000, false);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'ApplicationUnderTest.lbl_EstadoDeSistemaDeFacturacion'", repo.ApplicationUnderTest.lbl_EstadoDeSistemaDeFacturacionInfo, new ActionTimeout(60000), new RecordItemIndex(7));
             repo.ApplicationUnderTest.lbl_EstadoDeSistemaDeFacturacionInfo.WaitForExists(60000);

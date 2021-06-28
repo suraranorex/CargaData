@@ -186,7 +186,7 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<explicitdelayitem
-		duration="5000ms"
+		duration="8000ms"
 		enabled="True"
 		optional="False">
 			<comment>
