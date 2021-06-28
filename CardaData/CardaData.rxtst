@@ -6005,7 +6005,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="InvoiceMensajeria">
+	default="LataFlexXML">
 		<testconfiguration
 		name="AgregarFuncionUserMigration">
 			<testcontainer
