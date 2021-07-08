@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="fc1e161a-6316-4def-b60f-298e656890a2"
+id="f78310c7-5a08-44e6-9cfd-657adc6e425d"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,8 +19,8 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="MenuPpalBuscar"
-	namespace="CardaData.Generales.Menu">
+	classname="LimpiarBusqueda"
+	namespace="CardaData.Generales.Buscar">
 	</codegen>
 	<variables>
 	</variables>
@@ -30,10 +30,10 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="CenterRight"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="4c1bd2da-7f11-47ee-995f-ba21e2ff8b54"
+		searchpropertyid="0d9b6599-fa1f-44e2-ac27-3d94a2a4d1a0"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -42,30 +42,35 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="ecfd3283-0ebb-4bed-b756-7e256415a927"
+			id="3425db24-9c27-4b9b-b050-e0022b4a4c05"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[@id='TabBar:SearchTab-btnWrap']
+					/dom[@domain=$Ambiente]//a[@innertext='Limpia']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 		</mouseitem>
-		<userrecorditem
-		classname="MenuPpalBuscar"
+		<WaitForRecordItem
 		enabled="True"
-		isexternaltestmethod="False"
-		methodname="ValidaContenidoMenu"
-		namespace="CardaData.Generales.Menu"
-		optional="False">
+		optional="False"
+		searchpropertyid="f711e0f9-3795-4b7b-b027-9ef5a5cafdb9"
+		waitaction="Exists"
+		waittimeout="10000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<arguments
-			id="3325a015-33de-4011-ad0a-afca8150eaf3">
-			</arguments>
-		</userrecorditem>
+			<info
+			id="2f97ef75-983e-4488-90ed-e01ff730867d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'ContactSearch-tbody']//input[@data-qtip='####']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
 	</recorditems>
 	<repository
 	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
@@ -82,7 +87,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		MenuPpalBuscar.UserCode.cs
+		LimpiarBusqueda.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

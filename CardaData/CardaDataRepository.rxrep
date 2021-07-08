@@ -436,6 +436,16 @@ name="CardaDataRepository">
 			<item
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
+			id="aa3ba9dd-ca66-4f42-a333-96e5fd48ef14"
+			name="lbl_BuscarEnLibretaDeDirecciones"
+			refimgid="45f34389-7ea4-49e7-8928-8b090d18b3c7"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'AddressBookSearch-tbody']//span[@innertext&gt;'Buscar en libreta de dire']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
 			id="8c8a1afc-ef7f-4a2d-9df0-4843452bc858"
 			name="SubMenu_NuevaProgramaDeCuotas"
 			refimgid="15ef206c-53f5-4e97-b64a-8af578c7ef38"
@@ -2764,6 +2774,46 @@ name="CardaDataRepository">
 					/dom[@domain=$Ambiente]//li[@innertext~'[a-z]+']
 				</item>
 				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="a5d542be-0c4b-40a2-ab85-2547780825f4"
+				name="SelectPrimerItemPais"
+				refimgid="84ef381d-57b9-4da3-a7ec-51c82af5059b"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//li[@innertext~'[a-z]+']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="105db4dd-29ee-4eeb-87f0-4744c93d5451"
+				name="SelectPrimerItemPaisesBajos"
+				refimgid="84ef381d-57b9-4da3-a7ec-51c82af5059b"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//li[@innertext~'Países Bajos']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="9407d7d9-e198-41b0-9320-11cf3a0072a5"
+				name="Copy_of_SelectPrimerItemPais"
+				refimgid="84ef381d-57b9-4da3-a7ec-51c82af5059b"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//li[@innertext~'[a-z]+']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="654f07aa-ad22-4f0a-9c0f-535de42c1e1a"
+				name="Copy_of_SelectPrimerItem"
+				refimgid="84ef381d-57b9-4da3-a7ec-51c82af5059b"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//li[2]
+				</item>
+				<item
 				addcaps="unknown,webelement,tdtag"
 				capname="inputtag"
 				id="c7a295ab-d552-47f3-b55d-2615c77b2f6b"
@@ -2960,6 +3010,16 @@ name="CardaDataRepository">
 				searchtimeout="30000ms">
 					/dom[@domain=$Ambiente]//span[@innertext='Usuarios y seguridad']
 				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="7a6e7b31-6993-44ac-b013-cb8e9cf83e56"
+				name="SubMenuBuscarContactos"
+				refimgid="dcb24118-2d38-49f2-95cb-fd32c2ab84f5"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//span[@innertext='Contactos']
+				</item>
 			</folder>
 			<item
 			addcaps="unknown,webelement,atag"
@@ -3096,9 +3156,46 @@ name="CardaDataRepository">
 			capname="inputtag"
 			id="1046b8f3-b6e3-4180-b789-b8f5b4a783f7"
 			name="input"
+			refimgid="28720ac0-2b5c-42cf-8b07-fa921fddf72b"
 			robustPath="/dom[@domain=$Ambiente]/element"
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input
+			</item>
+			<item
+			capname="inputtag"
+			id="43e88790-e822-40fc-b428-142102ce3a39"
+			name="txt_PaisBajoAmsterdamCM"
+			refimgid="28720ac0-2b5c-42cf-8b07-fa921fddf72b"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ABContactSearch-tbody']//input[@name='ABContactSearch:ABContactSearchScreen:ContactSearchDV:AddressSearchInputSet:globalAddressContainer:GlobalAddressInputSet:City']
+			</item>
+			<item
+			capname="inputtag"
+			id="db8d683a-5a57-4b2e-916b-3a609300e5d8"
+			name="lbl_txtLocalidadAmsterdamCC"
+			refimgid="28720ac0-2b5c-42cf-8b07-fa921fddf72b"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'AddressBookSearch-tbody']//input[@name='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:City' and @tagvalue='ÁMSTERDAM']
+			</item>
+			<item
+			capname="inputtag"
+			id="e9fd1278-6687-4eda-9d3a-6a2439ff7c80"
+			name="txt_LocalidadAmsterdam"
+			refimgid="28720ac0-2b5c-42cf-8b07-fa921fddf72b"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ContactSearch-tbody']//input[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:City-inputEl' and @tagvalue='ÁMSTERDAM']
+			</item>
+			<item
+			capname="inputtag"
+			id="76da02c6-3f8c-4fc2-92d9-f40d0354622d"
+			name="txt_BuscaPais"
+			refimgid="28720ac0-2b5c-42cf-8b07-fa921fddf72b"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ContactSearch-tbody']//input[@name='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:Country']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -3109,6 +3206,326 @@ name="CardaDataRepository">
 			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'MessagingDestinationControlList-tbody']//span[@innertext&gt;'einiciar motor de mensaje']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="3adc2cb1-b7ff-4d5c-bcf4-f985f29a87b7"
+			name="FlechitaPais"
+			refimgid="830e55b0-e560-49d1-9558-e26b2ae30730"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ContactSearch-tbody']//div[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:Country-trigger-picker']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="51dbaf1b-fead-47e4-813b-11d38ece7f97"
+			name="Copy_of_FlechitaPais"
+			refimgid="830e55b0-e560-49d1-9558-e26b2ae30730"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ContactSearch-tbody']//div[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:Country-trigger-picker' and @data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="f5f5fc76-a3d4-44d3-b27d-c1d99fb92f48"
+			name="FlechitaProvincia"
+			refimgid="e08dbfb3-44ff-42cf-802d-8998aaf28140"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ContactSearch-tbody']//div[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:State-trigger-picker']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="b99d956b-a514-4699-a23d-5ca252b82762"
+			name="Copy_of_FlechitaProvincia"
+			refimgid="e08dbfb3-44ff-42cf-802d-8998aaf28140"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ContactSearch-tbody']//div[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:State-trigger-picker' and @data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="8e1a2ed8-65a6-447b-9a17-33f3691ac35c"
+			name="FlechitaLocalidad"
+			refimgid="462b22ed-6189-4605-9044-f421e5995b80"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ContactSearch-tbody']//div[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:City-trigger-picker']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="e6c644c6-f8b6-4453-ae90-7d3e9d1285d0"
+			name="Copy_of_FlechitaLocalidad"
+			refimgid="462b22ed-6189-4605-9044-f421e5995b80"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ContactSearch-tbody']//div[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:City-trigger-picker' and @data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="58f6c2d3-87e7-45c5-bdac-e07735cdf324"
+			name="CodigoPostalLocalidad"
+			refimgid="332f4417-c57a-44b3-9a3d-c3c13f33cd21"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ContactSearch-tbody']//label/span[@innertext='Código postal']/../..//div[@innertext~'[0-9]+']
+			</item>
+			<item
+			addcaps="unknown,webelement,tdtag"
+			capname="inputtag"
+			id="2f97ef75-983e-4488-90ed-e01ff730867d"
+			name="txt_CodigoPostal"
+			refimgid="aab22614-179c-402f-a312-582d7388fd96"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ContactSearch-tbody']//input[@data-qtip='####']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="2a8fc002-6137-43ec-a958-feb1efd8932b"
+			name="SubMenuBuscarPolizasBC"
+			refimgid="47ae001c-1cf4-4fb9-b672-0a9a1988f25f"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//span[@innertext='Pólizas']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="73f33c36-43e3-4da0-84a4-877525bfaa58"
+			name="lbl_BuscarPolizasBC"
+			refimgid="a29c9036-7802-4a28-9b85-559df1afb6ca"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'PolicySearch-tbody']//span[@innertext='Buscar pólizas']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="7db043e3-b83a-4167-9e36-029bb804e0d4"
+			name="FlechitaProductoBC"
+			refimgid="a0573759-9fea-4f09-bdf9-89180e418396"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:ProductCriterion-trigger-picker']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="453dfbbf-7d12-4d07-9f98-7cdb5d042bd2"
+			name="lbl_DireccionDelBienAseguradoHogarBC"
+			refimgid="a7a3ef04-68b6-4a5e-a8a3-e037aed1e154"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'PolicySearch-tbody']//label[@innertext&gt;'Direcci&#243;n del Bien Asegur']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="b2b184bc-e76e-4945-91ff-fa6b8c95dd9c"
+			name="FlechitaPaisBuscaPolizaBC"
+			refimgid="20118237-8c2d-4eff-925d-fdbbfcf11026"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:PolicySearch_ProductLineInputSet:Country-trigger-picker']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="c891bc34-6a27-440a-8a86-09e939f4dee3"
+			name="Copy_of_FlechitaPaisBuscaPolizaBC"
+			refimgid="20118237-8c2d-4eff-925d-fdbbfcf11026"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:PolicySearch_ProductLineInputSet:Country-trigger-picker' and @data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="41192662-7e3a-4e3e-9899-a5e1c818d0ec"
+			name="FlechitaProvinciaBuscaPolizaBC"
+			refimgid="1aa39dda-8b86-44fd-8f6b-5685f48ba9a1"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:PolicySearch_ProductLineInputSet:State-trigger-picker']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="007712b4-8799-4bf4-9ed9-8a1aae19c293"
+			name="Copy_of_FlechitaProvinciaBuscaPolizaBC"
+			refimgid="1aa39dda-8b86-44fd-8f6b-5685f48ba9a1"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:PolicySearch_ProductLineInputSet:State-trigger-picker' and @data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="eaf7dfef-9295-44c4-a38f-96b5c780baa5"
+			name="FlechitaLocalidadBuscaPolizaBC"
+			refimgid="480d6a8a-9b13-4a92-95ea-04180564dfa2"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:PolicySearch_ProductLineInputSet:City-trigger-picker']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="8d645fe5-fa3e-4ed8-a523-38b222576d56"
+			name="Copy_of_FlechitaLocalidadBuscaPolizaBC"
+			refimgid="480d6a8a-9b13-4a92-95ea-04180564dfa2"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:PolicySearch_ProductLineInputSet:City-trigger-picker' and @data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="a221d2cf-8420-4e96-8713-4b551a2f729a"
+			name="MenuSupLibretaDireccionesCC"
+			refimgid="b7a04c2d-1473-4402-b174-0c3f79058e87"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//a[#'TabBar:AddressBookTab']//span[@innertext='Libreta de direcciones']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="b3823fff-e3a8-4675-9591-29866a201f1d"
+			name="FlechitaBuscaProvinciaCC"
+			refimgid="b9854699-5c58-4023-abeb-2b4266918c3e"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'AddressBookSearch-tbody']//div[@id='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:State-trigger-picker']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="2342dd08-d9c5-4fc0-ba80-6fc14cd69c88"
+			name="Copy_of_FlechitaBuscaProvinciaCC"
+			refimgid="b9854699-5c58-4023-abeb-2b4266918c3e"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'AddressBookSearch-tbody']//div[@id='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:State-trigger-picker' and @data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="1b07570d-cd06-434a-9e9f-270054e68b8d"
+			name="FlechitaBuscaLocalidadCC"
+			refimgid="696844e5-8079-4b64-a61d-2255b926d27c"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'AddressBookSearch-tbody']//div[@id='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:City-trigger-picker']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="48d5689e-4d40-48b3-a090-a8d9284c552f"
+			name="Copy_of_FlechitaBuscaLocalidadCC"
+			refimgid="696844e5-8079-4b64-a61d-2255b926d27c"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'AddressBookSearch-tbody']//div[@id='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:City-trigger-picker' and @data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="0a3ff048-7731-488a-a72e-0004901cdea9"
+			name="CodigoPostalLocalidadCC"
+			refimgid="1b6c7d90-a7f1-479a-a68f-76619a518255"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'AddressBookSearch-tbody']//span[@innertext='Código postal']/../..//div[@innertext~'[0-9]+']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="0eedbb44-d447-41f3-8102-f9be46dbe134"
+			name="FlechitaBuscaPaisCC"
+			refimgid="ae0907ef-ffac-4700-a6a9-83d78fe0e8d6"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'AddressBookSearch-tbody']//div[@id='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:Country-trigger-picker']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="4b018346-4d64-4088-b0b9-413ecfa5fed7"
+			name="Copy_of_FlechitaBuscaPaisCC"
+			refimgid="ae0907ef-ffac-4700-a6a9-83d78fe0e8d6"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'AddressBookSearch-tbody']//div[@id='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:Country-trigger-picker' and @data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="1a26f3f4-da95-43da-aa59-351d368ee717"
+			name="FlechitaProvinciaCM"
+			refimgid="3910efa5-ae24-45f0-9a98-3a13a7234b4d"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ABContactSearch-tbody']//div[@id='ABContactSearch:ABContactSearchScreen:ContactSearchDV:AddressSearchInputSet:globalAddressContainer:GlobalAddressInputSet:State-trigger-picker']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="9c2efd23-b826-497a-9fbb-2f7ca9f9a965"
+			name="Copy_of_FlechitaProvinciaCM"
+			refimgid="3910efa5-ae24-45f0-9a98-3a13a7234b4d"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ABContactSearch-tbody']//div[@id='ABContactSearch:ABContactSearchScreen:ContactSearchDV:AddressSearchInputSet:globalAddressContainer:GlobalAddressInputSet:State-trigger-picker' and @data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="36a623c4-b940-4146-93a3-2e652d74a4b6"
+			name="FlechitaLocalidadesCM"
+			refimgid="eeee54dd-5348-4f63-9bd4-a009642260b0"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ABContactSearch-tbody']//div[@id='ABContactSearch:ABContactSearchScreen:ContactSearchDV:AddressSearchInputSet:globalAddressContainer:GlobalAddressInputSet:City-trigger-picker']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="228f9185-96f3-4c45-a296-aad8192525c9"
+			name="Copy_of_FlechitaLocalidadesCM"
+			refimgid="eeee54dd-5348-4f63-9bd4-a009642260b0"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ABContactSearch-tbody']//div[@id='ABContactSearch:ABContactSearchScreen:ContactSearchDV:AddressSearchInputSet:globalAddressContainer:GlobalAddressInputSet:City-trigger-picker' and @data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="557ad789-99fb-4eb4-a5a1-0fe543be14a6"
+			name="CodigoPostalCM"
+			refimgid="743f649f-2936-4f21-9e8f-0d9e0f19d03b"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ABContactSearch-tbody']//span[@innertext='Código postal']/../..//div[@innertext~'[0-9]+']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="179f8281-681f-4892-ad65-2e4d9737d81f"
+			name="FlechitaPaisCM"
+			refimgid="4abaaf91-6a17-45ca-8f27-72b65d951e2b"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'ABContactSearch-tbody']//div[@id='ABContactSearch:ABContactSearchScreen:ContactSearchDV:AddressSearchInputSet:globalAddressContainer:GlobalAddressInputSet:Country-trigger-picker']
 			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]

@@ -295,6 +295,90 @@
       <UserCode>true</UserCode>
       <id>495e7fcb-9fa7-4143-a7f2-ea968afe9e7d</id>
     </Compile>
+    <Compile Include="Generales\Buscar\BuscaLocalidades.cs">
+      <BoundTo>18bc0daf-00c7-4b84-84d7-992120adac8f</BoundTo>
+      <DependentUpon>BuscaLocalidades.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a9d7bf20-87be-4c4d-9034-8adb717c9d93</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscaLocalidades.UserCode.cs">
+      <BoundTo>18bc0daf-00c7-4b84-84d7-992120adac8f</BoundTo>
+      <DependentUpon>BuscaLocalidades.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e190886a-869f-4fb6-b539-f2db23810ebe</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscaLocalidadesCM.cs">
+      <BoundTo>af55f5da-5188-4a5e-a223-de112bc13b8e</BoundTo>
+      <DependentUpon>BuscaLocalidadesCM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8899399e-ece8-497d-b8b4-73f8642b5c92</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscaLocalidadesCM.UserCode.cs">
+      <BoundTo>af55f5da-5188-4a5e-a223-de112bc13b8e</BoundTo>
+      <DependentUpon>BuscaLocalidadesCM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1e5c5529-7c84-4224-9df6-1fe02e356f4c</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscaLocalidadPolizaHogarBC.cs">
+      <BoundTo>2e19942c-0628-4c3c-a89a-2acfa77f60b1</BoundTo>
+      <DependentUpon>BuscaLocalidadPolizaHogarBC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>42e21e41-8151-42b0-b07f-9033e074e8a7</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscaLocalidadPolizaHogarBC.UserCode.cs">
+      <BoundTo>2e19942c-0628-4c3c-a89a-2acfa77f60b1</BoundTo>
+      <DependentUpon>BuscaLocalidadPolizaHogarBC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b4634f00-2743-41fd-8722-842279019675</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscaPaisesBajos.cs">
+      <BoundTo>19fd3bba-85c6-4227-b8d0-ba3f199d4023</BoundTo>
+      <DependentUpon>BuscaPaisesBajos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e1515560-ae0d-40bf-9799-424d24e6fa7c</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscaPaisesBajos.UserCode.cs">
+      <BoundTo>19fd3bba-85c6-4227-b8d0-ba3f199d4023</BoundTo>
+      <DependentUpon>BuscaPaisesBajos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7c64df1a-f205-453a-a0bf-80f73ed09d31</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscaPaisesBajosBC.cs">
+      <BoundTo>d6d976ca-6e03-4c1f-b7f9-8d5908be819e</BoundTo>
+      <DependentUpon>BuscaPaisesBajosBC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fd78750a-5a31-4c98-aa96-9abff4cc13ba</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscaPaisesBajosBC.UserCode.cs">
+      <BoundTo>d6d976ca-6e03-4c1f-b7f9-8d5908be819e</BoundTo>
+      <DependentUpon>BuscaPaisesBajosBC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bbfb537e-265b-4ec4-9e29-88d975f09088</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscaPaisesBajosCC.cs">
+      <BoundTo>c178c495-4240-4b71-b923-f60ed5e0b591</BoundTo>
+      <DependentUpon>BuscaPaisesBajosCC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>886c67b5-9797-42fc-b5d7-c85d1c3fe652</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscaPaisesBajosCC.UserCode.cs">
+      <BoundTo>c178c495-4240-4b71-b923-f60ed5e0b591</BoundTo>
+      <DependentUpon>BuscaPaisesBajosCC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ca8c8dee-9902-43d3-8c2a-7eac4473361c</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscaPaisesBajosCM.cs">
+      <BoundTo>e75047d2-5477-4ea8-a81a-2e507bd73d35</BoundTo>
+      <DependentUpon>BuscaPaisesBajosCM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>80d89986-0c9f-4b1e-a034-956db44277db</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscaPaisesBajosCM.UserCode.cs">
+      <BoundTo>e75047d2-5477-4ea8-a81a-2e507bd73d35</BoundTo>
+      <DependentUpon>BuscaPaisesBajosCM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>14901dee-cd76-499a-bff8-be852d35ad33</id>
+    </Compile>
     <Compile Include="Generales\Buscar\Buscar.cs">
       <BoundTo>5b8fe0ce-cda9-4edd-946b-cffc2335407b</BoundTo>
       <DependentUpon>Buscar.rxrec</DependentUpon>
@@ -307,6 +391,30 @@
       <UserCode>true</UserCode>
       <id>834a3b7f-56f6-42e1-90cd-6a06d9b3090d</id>
     </Compile>
+    <Compile Include="Generales\Buscar\BuscarLocalidadesCC.cs">
+      <BoundTo>d638f5f8-d89b-414c-9eb4-f4be8bff6314</BoundTo>
+      <DependentUpon>BuscarLocalidadesCC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5dbb9e66-492e-4b85-aff7-7c84b683e1e4</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscarLocalidadesCC.UserCode.cs">
+      <BoundTo>d638f5f8-d89b-414c-9eb4-f4be8bff6314</BoundTo>
+      <DependentUpon>BuscarLocalidadesCC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c5cb025b-cf88-4e30-9ffe-aef038dd2dfd</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscarProductoHogarBC.cs">
+      <BoundTo>807f5834-3860-4c5a-9da8-0b8359001374</BoundTo>
+      <DependentUpon>BuscarProductoHogarBC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3483cc28-9a10-4637-a574-ed88193ad876</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\BuscarProductoHogarBC.UserCode.cs">
+      <BoundTo>807f5834-3860-4c5a-9da8-0b8359001374</BoundTo>
+      <DependentUpon>BuscarProductoHogarBC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5f420454-214f-44fe-9dae-e3be12b72e32</id>
+    </Compile>
     <Compile Include="Generales\Buscar\CierraBrowserEnProceso.cs">
       <BoundTo>7e4ddc62-fa68-41c2-ad3b-f55b50d790b4</BoundTo>
       <DependentUpon>CierraBrowserEnProceso.rxrec</DependentUpon>
@@ -318,6 +426,30 @@
       <DependentUpon>CierraBrowserEnProceso.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>92f215be-ecd4-4ad6-9cf7-680900225990</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\LimpiarBusqueda.cs">
+      <BoundTo>f797e5ef-f7ac-485e-8ffe-739f9c79d7a9</BoundTo>
+      <DependentUpon>LimpiarBusqueda.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>78b98e51-4ed5-4654-b1cd-6c585df5fed4</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\LimpiarBusqueda.UserCode.cs">
+      <BoundTo>f797e5ef-f7ac-485e-8ffe-739f9c79d7a9</BoundTo>
+      <DependentUpon>LimpiarBusqueda.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4571e713-2f26-4955-bf62-4a9d9b40c10f</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\MenuPpalBuscarBC.cs">
+      <BoundTo>e32071a4-569b-493e-ac5a-3f6be4a53842</BoundTo>
+      <DependentUpon>MenuPpalBuscarBC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dfd140e3-e102-4e82-8ffc-525c88c7fbd9</id>
+    </Compile>
+    <Compile Include="Generales\Buscar\MenuPpalBuscarBC.UserCode.cs">
+      <BoundTo>e32071a4-569b-493e-ac5a-3f6be4a53842</BoundTo>
+      <DependentUpon>MenuPpalBuscarBC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0b5f8e5c-2efc-48b0-bc74-fc1e47f1e953</id>
     </Compile>
     <Compile Include="Generales\CargaArchivo\CargaArchivosGeneral.cs">
       <BoundTo>c91b98d7-578a-42f4-a00e-2abdcbaacbb5</BoundTo>
@@ -427,6 +559,18 @@
       <UserCode>true</UserCode>
       <id>fa950eb9-0927-460f-800e-a3baa3c5defe</id>
     </Compile>
+    <Compile Include="Generales\Menu\BuscarContacto.cs">
+      <BoundTo>6bf09719-79c5-404e-848a-006e10ac62aa</BoundTo>
+      <DependentUpon>BuscarContacto.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6e2e17d4-4773-4b15-bd82-d26b044eb18b</id>
+    </Compile>
+    <Compile Include="Generales\Menu\BuscarContacto.UserCode.cs">
+      <BoundTo>6bf09719-79c5-404e-848a-006e10ac62aa</BoundTo>
+      <DependentUpon>BuscarContacto.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>041b931e-865a-4054-917f-fe4945a1295b</id>
+    </Compile>
     <Compile Include="Generales\Menu\CC_NavAdmin_SubM1_SubM2.cs">
       <BoundTo>24f25725-94e7-4c4e-8ae4-8fab19b00888</BoundTo>
       <DependentUpon>CC_NavAdmin_SubM1_SubM2.rxrec</DependentUpon>
@@ -462,6 +606,18 @@
       <DependentUpon>MenuPpalBuscar.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>1b87c665-eb0d-4840-8673-5b725d43965b</id>
+    </Compile>
+    <Compile Include="Generales\Menu\MenuPpalLibretaDireccionesCC.cs">
+      <BoundTo>eb59541c-3ad3-457b-9c93-1ca0277fd647</BoundTo>
+      <DependentUpon>MenuPpalLibretaDireccionesCC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>47d2895f-ce80-4fd1-a9b5-f7fe306ffe1b</id>
+    </Compile>
+    <Compile Include="Generales\Menu\MenuPpalLibretaDireccionesCC.UserCode.cs">
+      <BoundTo>eb59541c-3ad3-457b-9c93-1ca0277fd647</BoundTo>
+      <DependentUpon>MenuPpalLibretaDireccionesCC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2a66c0e0-53ff-4515-b34f-fba0ea356a9d</id>
     </Compile>
     <Compile Include="Generales\Menu\MenuSuperior_Administracion_PlanesEnlatados.cs">
       <BoundTo>6b831410-0137-4f07-adbb-a9fa2bfdd1a2</BoundTo>
@@ -534,6 +690,18 @@
       <DependentUpon>SubMenuUtilidades.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>90b2a15a-4670-4aa9-a5c2-46667c35608d</id>
+    </Compile>
+    <Compile Include="Generales\Menu\SubMenu_Buscar_PolizaBC.cs">
+      <BoundTo>44728260-358b-451f-9494-650fc94971f1</BoundTo>
+      <DependentUpon>SubMenu_Buscar_PolizaBC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>67dcdd14-e5ab-478f-b441-82c68e246b4d</id>
+    </Compile>
+    <Compile Include="Generales\Menu\SubMenu_Buscar_PolizaBC.UserCode.cs">
+      <BoundTo>44728260-358b-451f-9494-650fc94971f1</BoundTo>
+      <DependentUpon>SubMenu_Buscar_PolizaBC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cfe0517d-50ba-474b-904d-3bb7b45b8ff5</id>
     </Compile>
     <Compile Include="Generales\Menu\SubMenu_Clasif_ActMasivaTarif.cs">
       <BoundTo>74a19e01-25ba-4092-88a7-da563428d351</BoundTo>
@@ -1519,15 +1687,77 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>6471ea7a-9207-45e2-b1f8-0876930fb751</id>
     </Content>
+    <Content Include="DataSource - ValidaLocalidadesPaisesBajos.xlsx">
+      <Link>DataSource - ValidaLocalidadesPaisesBajos.xlsx</Link>
+      <BoundTo>78df933b-8558-4dc4-88df-5ef79960ba39</BoundTo>
+      <DependentUpon>CardaData.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>98032b97-e4b2-4aaf-b2c7-6880236b8ea1</id>
+    </Content>
+    <None Include="Generales\Buscar\BuscaLocalidades.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>18bc0daf-00c7-4b84-84d7-992120adac8f</id>
+      <recordtableid>e03add06-18bd-4fcb-855d-30ddf3f6183e</recordtableid>
+    </None>
+    <None Include="Generales\Buscar\BuscaLocalidadesCM.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>af55f5da-5188-4a5e-a223-de112bc13b8e</id>
+      <recordtableid>1daddd65-8885-4e93-9e6c-642051928ae1</recordtableid>
+    </None>
+    <None Include="Generales\Buscar\BuscaLocalidadPolizaHogarBC.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>2e19942c-0628-4c3c-a89a-2acfa77f60b1</id>
+      <recordtableid>996da58e-8332-4a6a-9889-2faca4c854cf</recordtableid>
+    </None>
+    <None Include="Generales\Buscar\BuscaPaisesBajos.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>19fd3bba-85c6-4227-b8d0-ba3f199d4023</id>
+      <recordtableid>1be563a5-8eab-4a08-9ee4-7db21b5aa39b</recordtableid>
+    </None>
+    <None Include="Generales\Buscar\BuscaPaisesBajosBC.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>d6d976ca-6e03-4c1f-b7f9-8d5908be819e</id>
+      <recordtableid>89129aed-ffe0-4ebc-a77f-d9ce9592ca15</recordtableid>
+    </None>
+    <None Include="Generales\Buscar\BuscaPaisesBajosCC.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>c178c495-4240-4b71-b923-f60ed5e0b591</id>
+      <recordtableid>ee49d8b4-c8f7-4548-a454-28d403ded1de</recordtableid>
+    </None>
+    <None Include="Generales\Buscar\BuscaPaisesBajosCM.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>e75047d2-5477-4ea8-a81a-2e507bd73d35</id>
+      <recordtableid>62f94b97-b4c0-4dec-bf48-78a1c2570c53</recordtableid>
+    </None>
     <None Include="Generales\Buscar\Buscar.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>5b8fe0ce-cda9-4edd-946b-cffc2335407b</id>
       <recordtableid>9ca48d1d-b1c4-48a7-8f23-3cef647c096e</recordtableid>
     </None>
+    <None Include="Generales\Buscar\BuscarLocalidadesCC.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>d638f5f8-d89b-414c-9eb4-f4be8bff6314</id>
+      <recordtableid>6fbb68e1-85eb-4066-b983-d061db87ff88</recordtableid>
+    </None>
+    <None Include="Generales\Buscar\BuscarProductoHogarBC.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>807f5834-3860-4c5a-9da8-0b8359001374</id>
+      <recordtableid>93d6b53b-f98b-4e90-aa73-f64187a73fc8</recordtableid>
+    </None>
     <None Include="Generales\Buscar\CierraBrowserEnProceso.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>7e4ddc62-fa68-41c2-ad3b-f55b50d790b4</id>
       <recordtableid>5c1b5c6c-dde2-4e61-a3ca-e4892e6aa4a2</recordtableid>
+    </None>
+    <None Include="Generales\Buscar\LimpiarBusqueda.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>f797e5ef-f7ac-485e-8ffe-739f9c79d7a9</id>
+      <recordtableid>f78310c7-5a08-44e6-9cfd-657adc6e425d</recordtableid>
+    </None>
+    <None Include="Generales\Buscar\MenuPpalBuscarBC.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>e32071a4-569b-493e-ac5a-3f6be4a53842</id>
+      <recordtableid>162b26fe-7ef6-4110-b642-427d8a3a290c</recordtableid>
     </None>
     <None Include="Generales\CargaArchivo\CargaArchivosGeneral.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
@@ -1574,6 +1804,11 @@
       <id>d73b9082-62d5-4620-9df3-18704321b8e4</id>
       <recordtableid>24d23c8b-8978-48a5-a2f9-ba97c292ae15</recordtableid>
     </None>
+    <None Include="Generales\Menu\BuscarContacto.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>6bf09719-79c5-404e-848a-006e10ac62aa</id>
+      <recordtableid>b6d6f7f6-f0d6-493a-9e2f-66ef7c4b154c</recordtableid>
+    </None>
     <None Include="Generales\Menu\CC_NavAdmin_SubM1_SubM2.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>24f25725-94e7-4c4e-8ae4-8fab19b00888</id>
@@ -1588,6 +1823,11 @@
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>b40179be-be8b-499e-b895-543343153bad</id>
       <recordtableid>fc1e161a-6316-4def-b60f-298e656890a2</recordtableid>
+    </None>
+    <None Include="Generales\Menu\MenuPpalLibretaDireccionesCC.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>eb59541c-3ad3-457b-9c93-1ca0277fd647</id>
+      <recordtableid>6277137d-c241-4584-a150-fbf93e25e167</recordtableid>
     </None>
     <None Include="Generales\Menu\MenuSuperior_Administracion_PlanesEnlatados.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
@@ -1618,6 +1858,11 @@
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
       <id>3b0b1e80-c2ae-498b-88c4-11c183cb2dbb</id>
       <recordtableid>d23e11d1-fcd3-4810-9494-9dcf5c1ee2da</recordtableid>
+    </None>
+    <None Include="Generales\Menu\SubMenu_Buscar_PolizaBC.rxrec">
+      <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>
+      <id>44728260-358b-451f-9494-650fc94971f1</id>
+      <recordtableid>d799a811-75b1-4918-8782-a878fe35445a</recordtableid>
     </None>
     <None Include="Generales\Menu\SubMenu_Clasif_ActMasivaTarif.rxrec">
       <BoundTo>41569950-3707-4a00-800e-affa03179f86</BoundTo>

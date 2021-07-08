@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="fc1e161a-6316-4def-b60f-298e656890a2"
+id="6277137d-c241-4584-a150-fbf93e25e167"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="MenuPpalBuscar"
+	classname="MenuPpalLibretaDireccionesCC"
 	namespace="CardaData.Generales.Menu">
 	</codegen>
 	<variables>
@@ -30,10 +30,10 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="CenterRight"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="4c1bd2da-7f11-47ee-995f-ba21e2ff8b54"
+		searchpropertyid="98443eab-2830-4ed9-959c-52ccb7f062ad"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -42,30 +42,35 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="ecfd3283-0ebb-4bed-b756-7e256415a927"
+			id="a221d2cf-8420-4e96-8713-4b551a2f729a"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[@id='TabBar:SearchTab-btnWrap']
+					/dom[@domain=$Ambiente]//a[#'TabBar:AddressBookTab']//span[@innertext='Libreta de direcciones']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 		</mouseitem>
-		<userrecorditem
-		classname="MenuPpalBuscar"
+		<WaitForRecordItem
 		enabled="True"
-		isexternaltestmethod="False"
-		methodname="ValidaContenidoMenu"
-		namespace="CardaData.Generales.Menu"
-		optional="False">
+		optional="False"
+		searchpropertyid="fefc21da-bdbd-4899-927a-9c897fa53ba0"
+		waitaction="Exists"
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<arguments
-			id="3325a015-33de-4011-ad0a-afca8150eaf3">
-			</arguments>
-		</userrecorditem>
+			<info
+			id="aa3ba9dd-ca66-4f42-a333-96e5fd48ef14"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'AddressBookSearch-tbody']//span[@innertext&gt;'Buscar en libreta de dire']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
 	</recorditems>
 	<repository
 	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
@@ -82,7 +87,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		MenuPpalBuscar.UserCode.cs
+		MenuPpalLibretaDireccionesCC.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

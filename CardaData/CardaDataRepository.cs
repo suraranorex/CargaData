@@ -333,6 +333,7 @@ namespace CardaData
             RepoItemInfo _lbl_100percent_qa4Info;
             RepoItemInfo _divtag100percentInfo;
             RepoItemInfo _menu_accionesInfo;
+            RepoItemInfo _lbl_buscarenlibretadedireccionesInfo;
             RepoItemInfo _submenu_nuevaprogramadecuotasInfo;
             RepoItemInfo _lbl_subirarchivoexcelInfo;
             RepoItemInfo _siguiente2Info;
@@ -529,7 +530,43 @@ namespace CardaData
             RepoItemInfo _txt_documentoproveedorInfo;
             RepoItemInfo _lbl_proveedorInfo;
             RepoItemInfo _inputInfo;
+            RepoItemInfo _txt_paisbajoamsterdamcmInfo;
+            RepoItemInfo _lbl_txtlocalidadamsterdamccInfo;
+            RepoItemInfo _txt_localidadamsterdamInfo;
+            RepoItemInfo _txt_buscapaisInfo;
             RepoItemInfo _btn_reiniciarmotordemensajeriapcInfo;
+            RepoItemInfo _flechitapaisInfo;
+            RepoItemInfo _copy_of_flechitapaisInfo;
+            RepoItemInfo _flechitaprovinciaInfo;
+            RepoItemInfo _copy_of_flechitaprovinciaInfo;
+            RepoItemInfo _flechitalocalidadInfo;
+            RepoItemInfo _copy_of_flechitalocalidadInfo;
+            RepoItemInfo _codigopostallocalidadInfo;
+            RepoItemInfo _txt_codigopostalInfo;
+            RepoItemInfo _submenubuscarpolizasbcInfo;
+            RepoItemInfo _lbl_buscarpolizasbcInfo;
+            RepoItemInfo _flechitaproductobcInfo;
+            RepoItemInfo _lbl_direcciondelbienaseguradohogarbcInfo;
+            RepoItemInfo _flechitapaisbuscapolizabcInfo;
+            RepoItemInfo _copy_of_flechitapaisbuscapolizabcInfo;
+            RepoItemInfo _flechitaprovinciabuscapolizabcInfo;
+            RepoItemInfo _copy_of_flechitaprovinciabuscapolizabcInfo;
+            RepoItemInfo _flechitalocalidadbuscapolizabcInfo;
+            RepoItemInfo _copy_of_flechitalocalidadbuscapolizabcInfo;
+            RepoItemInfo _menusuplibretadireccionesccInfo;
+            RepoItemInfo _flechitabuscaprovinciaccInfo;
+            RepoItemInfo _copy_of_flechitabuscaprovinciaccInfo;
+            RepoItemInfo _flechitabuscalocalidadccInfo;
+            RepoItemInfo _copy_of_flechitabuscalocalidadccInfo;
+            RepoItemInfo _codigopostallocalidadccInfo;
+            RepoItemInfo _flechitabuscapaisccInfo;
+            RepoItemInfo _copy_of_flechitabuscapaisccInfo;
+            RepoItemInfo _flechitaprovinciacmInfo;
+            RepoItemInfo _copy_of_flechitaprovinciacmInfo;
+            RepoItemInfo _flechitalocalidadescmInfo;
+            RepoItemInfo _copy_of_flechitalocalidadescmInfo;
+            RepoItemInfo _codigopostalcmInfo;
+            RepoItemInfo _flechitapaiscmInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -576,6 +613,7 @@ namespace CardaData
                 _lbl_100percent_qa4Info = new RepoItemInfo(this, "lbl_100percent_QA4", "body/div[16]/div[2]/div/div/div[2]/div[2]/div[@innertext='100%']", "", 30000, null, "aa80ab73-b032-4b09-a5b2-4bbaaeba2fd5");
                 _divtag100percentInfo = new RepoItemInfo(this, "DivTag100Percent", "body/div[15]/div[2]/div/div/div[2]/div[2]/div[@innertext='100%']", "", 30000, null, "797bd7d0-2081-48d3-b4a9-d19da1a8626b");
                 _menu_accionesInfo = new RepoItemInfo(this, "Menu_Acciones", ".//span[@innertext~'cciones']", "", 30000, null, "81a5c194-a414-47a0-b1f2-bd718797e6b0");
+                _lbl_buscarenlibretadedireccionesInfo = new RepoItemInfo(this, "lbl_BuscarEnLibretaDeDirecciones", ".//tbody[#'AddressBookSearch-tbody']//span[@innertext>'Buscar en libreta de dire']", "", 30000, null, "aa3ba9dd-ca66-4f42-a333-96e5fd48ef14");
                 _submenu_nuevaprogramadecuotasInfo = new RepoItemInfo(this, "SubMenu_NuevaProgramaDeCuotas", ".//span[@innertext~'Nueva programa de cuotas']", "", 30000, null, "8c8a1afc-ef7f-4a2d-9df0-4843452bc858");
                 _lbl_subirarchivoexcelInfo = new RepoItemInfo(this, "lbl_SubirArchivoExcel", ".//div[#'ScheduleInvoiceSuraWizard/upload']/table/tbody/tr[1]/td//span[@innertext~'Subir archivo excel']", "", 30000, null, "0a03e804-793e-4c21-ac4b-1a4964f786c2");
                 _siguiente2Info = new RepoItemInfo(this, "Siguiente2", ".//a[#'ScheduleInvoiceSuraWizard:Next']//span[@innertext='Siguiente >']", "", 30000, null, "997b79d6-d157-4503-8dd4-95b051afa204");
@@ -772,7 +810,43 @@ namespace CardaData
                 _txt_documentoproveedorInfo = new RepoItemInfo(this, "txt_DocumentoProveedor", ".//tbody[#'ABContactSearch-tbody']//input[@name='ABContactSearch:ABContactSearchScreen:ContactSearchDV:TaxID']", "", 30000, null, "59f8ff9f-18d8-42e9-890f-7010365d4962");
                 _lbl_proveedorInfo = new RepoItemInfo(this, "lbl_Proveedor", ".//tbody[#'ABContactSearch-tbody']//a[@innertext='16VNEUMATICOS S.R.L.']", "", 30000, null, "f5f1e84f-6e13-4a23-83e3-f70c9a665806");
                 _inputInfo = new RepoItemInfo(this, "input", ".//tbody[#'centerPanel-tbody']//input", "element", 30000, null, "1046b8f3-b6e3-4180-b789-b8f5b4a783f7");
+                _txt_paisbajoamsterdamcmInfo = new RepoItemInfo(this, "txt_PaisBajoAmsterdamCM", ".//tbody[#'ABContactSearch-tbody']//input[@name='ABContactSearch:ABContactSearchScreen:ContactSearchDV:AddressSearchInputSet:globalAddressContainer:GlobalAddressInputSet:City']", "", 30000, null, "43e88790-e822-40fc-b428-142102ce3a39");
+                _lbl_txtlocalidadamsterdamccInfo = new RepoItemInfo(this, "lbl_txtLocalidadAmsterdamCC", ".//tbody[#'AddressBookSearch-tbody']//input[@name='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:City' and @tagvalue='ÁMSTERDAM']", "", 30000, null, "db8d683a-5a57-4b2e-916b-3a609300e5d8");
+                _txt_localidadamsterdamInfo = new RepoItemInfo(this, "txt_LocalidadAmsterdam", ".//tbody[#'ContactSearch-tbody']//input[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:City-inputEl' and @tagvalue='ÁMSTERDAM']", "", 30000, null, "e9fd1278-6687-4eda-9d3a-6a2439ff7c80");
+                _txt_buscapaisInfo = new RepoItemInfo(this, "txt_BuscaPais", ".//tbody[#'ContactSearch-tbody']//input[@name='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:Country']", "", 30000, null, "76da02c6-3f8c-4fc2-92d9-f40d0354622d");
                 _btn_reiniciarmotordemensajeriapcInfo = new RepoItemInfo(this, "Btn_ReiniciarMotorDeMensajeriaPC", ".//tbody[#'MessagingDestinationControlList-tbody']//span[@innertext>'einiciar motor de mensaje']", "", 30000, null, "75044645-03f8-4e2d-a7fb-686230f76cad");
+                _flechitapaisInfo = new RepoItemInfo(this, "FlechitaPais", ".//tbody[#'ContactSearch-tbody']//div[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:Country-trigger-picker']", "", 30000, null, "3adc2cb1-b7ff-4d5c-bcf4-f985f29a87b7");
+                _copy_of_flechitapaisInfo = new RepoItemInfo(this, "Copy_of_FlechitaPais", ".//tbody[#'ContactSearch-tbody']//div[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:Country-trigger-picker' and @data-tabindexsaved='True']", "", 30000, null, "51dbaf1b-fead-47e4-813b-11d38ece7f97");
+                _flechitaprovinciaInfo = new RepoItemInfo(this, "FlechitaProvincia", ".//tbody[#'ContactSearch-tbody']//div[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:State-trigger-picker']", "", 30000, null, "f5f5fc76-a3d4-44d3-b27d-c1d99fb92f48");
+                _copy_of_flechitaprovinciaInfo = new RepoItemInfo(this, "Copy_of_FlechitaProvincia", ".//tbody[#'ContactSearch-tbody']//div[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:State-trigger-picker' and @data-tabindexsaved='True']", "", 30000, null, "b99d956b-a514-4699-a23d-5ca252b82762");
+                _flechitalocalidadInfo = new RepoItemInfo(this, "FlechitaLocalidad", ".//tbody[#'ContactSearch-tbody']//div[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:City-trigger-picker']", "", 30000, null, "8e1a2ed8-65a6-447b-9a17-33f3691ac35c");
+                _copy_of_flechitalocalidadInfo = new RepoItemInfo(this, "Copy_of_FlechitaLocalidad", ".//tbody[#'ContactSearch-tbody']//div[@id='ContactSearch:ContactSearchScreen:AddressOwnerAddressInputSet:globalAddressContainer:GlobalAddressInputSet:City-trigger-picker' and @data-tabindexsaved='True']", "", 30000, null, "e6c644c6-f8b6-4453-ae90-7d3e9d1285d0");
+                _codigopostallocalidadInfo = new RepoItemInfo(this, "CodigoPostalLocalidad", ".//tbody[#'ContactSearch-tbody']//label/span[@innertext='Código postal']/../..//div[@innertext~'[0-9]+']", "", 30000, null, "58f6c2d3-87e7-45c5-bdac-e07735cdf324");
+                _txt_codigopostalInfo = new RepoItemInfo(this, "txt_CodigoPostal", ".//tbody[#'ContactSearch-tbody']//input[@data-qtip='####']", "", 30000, null, "2f97ef75-983e-4488-90ed-e01ff730867d");
+                _submenubuscarpolizasbcInfo = new RepoItemInfo(this, "SubMenuBuscarPolizasBC", ".//span[@innertext='Pólizas']", "", 30000, null, "2a8fc002-6137-43ec-a958-feb1efd8932b");
+                _lbl_buscarpolizasbcInfo = new RepoItemInfo(this, "lbl_BuscarPolizasBC", ".//tbody[#'PolicySearch-tbody']//span[@innertext='Buscar pólizas']", "", 30000, null, "73f33c36-43e3-4da0-84a4-877525bfaa58");
+                _flechitaproductobcInfo = new RepoItemInfo(this, "FlechitaProductoBC", ".//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:ProductCriterion-trigger-picker']", "", 30000, null, "7db043e3-b83a-4167-9e36-029bb804e0d4");
+                _lbl_direcciondelbienaseguradohogarbcInfo = new RepoItemInfo(this, "lbl_DireccionDelBienAseguradoHogarBC", ".//tbody[#'PolicySearch-tbody']//label[@innertext>'Dirección del Bien Asegur']", "", 30000, null, "453dfbbf-7d12-4d07-9f98-7cdb5d042bd2");
+                _flechitapaisbuscapolizabcInfo = new RepoItemInfo(this, "FlechitaPaisBuscaPolizaBC", ".//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:PolicySearch_ProductLineInputSet:Country-trigger-picker']", "", 30000, null, "b2b184bc-e76e-4945-91ff-fa6b8c95dd9c");
+                _copy_of_flechitapaisbuscapolizabcInfo = new RepoItemInfo(this, "Copy_of_FlechitaPaisBuscaPolizaBC", ".//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:PolicySearch_ProductLineInputSet:Country-trigger-picker' and @data-tabindexsaved='True']", "", 30000, null, "c891bc34-6a27-440a-8a86-09e939f4dee3");
+                _flechitaprovinciabuscapolizabcInfo = new RepoItemInfo(this, "FlechitaProvinciaBuscaPolizaBC", ".//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:PolicySearch_ProductLineInputSet:State-trigger-picker']", "", 30000, null, "41192662-7e3a-4e3e-9899-a5e1c818d0ec");
+                _copy_of_flechitaprovinciabuscapolizabcInfo = new RepoItemInfo(this, "Copy_of_FlechitaProvinciaBuscaPolizaBC", ".//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:PolicySearch_ProductLineInputSet:State-trigger-picker' and @data-tabindexsaved='True']", "", 30000, null, "007712b4-8799-4bf4-9ed9-8a1aae19c293");
+                _flechitalocalidadbuscapolizabcInfo = new RepoItemInfo(this, "FlechitaLocalidadBuscaPolizaBC", ".//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:PolicySearch_ProductLineInputSet:City-trigger-picker']", "", 30000, null, "eaf7dfef-9295-44c4-a38f-96b5c780baa5");
+                _copy_of_flechitalocalidadbuscapolizabcInfo = new RepoItemInfo(this, "Copy_of_FlechitaLocalidadBuscaPolizaBC", ".//tbody[#'PolicySearch-tbody']//div[@id='PolicySearch:PolicySearchScreen:PolicySearchDV:PolicySearch_ProductLineInputSet:City-trigger-picker' and @data-tabindexsaved='True']", "", 30000, null, "8d645fe5-fa3e-4ed8-a523-38b222576d56");
+                _menusuplibretadireccionesccInfo = new RepoItemInfo(this, "MenuSupLibretaDireccionesCC", ".//a[#'TabBar:AddressBookTab']//span[@innertext='Libreta de direcciones']", "", 30000, null, "a221d2cf-8420-4e96-8713-4b551a2f729a");
+                _flechitabuscaprovinciaccInfo = new RepoItemInfo(this, "FlechitaBuscaProvinciaCC", ".//tbody[#'AddressBookSearch-tbody']//div[@id='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:State-trigger-picker']", "", 30000, null, "b3823fff-e3a8-4675-9591-29866a201f1d");
+                _copy_of_flechitabuscaprovinciaccInfo = new RepoItemInfo(this, "Copy_of_FlechitaBuscaProvinciaCC", ".//tbody[#'AddressBookSearch-tbody']//div[@id='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:State-trigger-picker' and @data-tabindexsaved='True']", "", 30000, null, "2342dd08-d9c5-4fc0-ba80-6fc14cd69c88");
+                _flechitabuscalocalidadccInfo = new RepoItemInfo(this, "FlechitaBuscaLocalidadCC", ".//tbody[#'AddressBookSearch-tbody']//div[@id='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:City-trigger-picker']", "", 30000, null, "1b07570d-cd06-434a-9e9f-270054e68b8d");
+                _copy_of_flechitabuscalocalidadccInfo = new RepoItemInfo(this, "Copy_of_FlechitaBuscaLocalidadCC", ".//tbody[#'AddressBookSearch-tbody']//div[@id='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:City-trigger-picker' and @data-tabindexsaved='True']", "", 30000, null, "48d5689e-4d40-48b3-a090-a8d9284c552f");
+                _codigopostallocalidadccInfo = new RepoItemInfo(this, "CodigoPostalLocalidadCC", ".//tbody[#'AddressBookSearch-tbody']//span[@innertext='Código postal']/../..//div[@innertext~'[0-9]+']", "", 30000, null, "0a3ff048-7731-488a-a72e-0004901cdea9");
+                _flechitabuscapaisccInfo = new RepoItemInfo(this, "FlechitaBuscaPaisCC", ".//tbody[#'AddressBookSearch-tbody']//div[@id='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:Country-trigger-picker']", "", 30000, null, "0eedbb44-d447-41f3-8102-f9be46dbe134");
+                _copy_of_flechitabuscapaisccInfo = new RepoItemInfo(this, "Copy_of_FlechitaBuscaPaisCC", ".//tbody[#'AddressBookSearch-tbody']//div[@id='AddressBookSearch:AddressBookSearchScreen:AddressBookSearchDV:CCAddressBookSearchLocationInputSet:CCAddressInputSet:globalAddressContainer:globalAddress:GlobalAddressInputSet:Country-trigger-picker' and @data-tabindexsaved='True']", "", 30000, null, "4b018346-4d64-4088-b0b9-413ecfa5fed7");
+                _flechitaprovinciacmInfo = new RepoItemInfo(this, "FlechitaProvinciaCM", ".//tbody[#'ABContactSearch-tbody']//div[@id='ABContactSearch:ABContactSearchScreen:ContactSearchDV:AddressSearchInputSet:globalAddressContainer:GlobalAddressInputSet:State-trigger-picker']", "", 30000, null, "1a26f3f4-da95-43da-aa59-351d368ee717");
+                _copy_of_flechitaprovinciacmInfo = new RepoItemInfo(this, "Copy_of_FlechitaProvinciaCM", ".//tbody[#'ABContactSearch-tbody']//div[@id='ABContactSearch:ABContactSearchScreen:ContactSearchDV:AddressSearchInputSet:globalAddressContainer:GlobalAddressInputSet:State-trigger-picker' and @data-tabindexsaved='True']", "", 30000, null, "9c2efd23-b826-497a-9fbb-2f7ca9f9a965");
+                _flechitalocalidadescmInfo = new RepoItemInfo(this, "FlechitaLocalidadesCM", ".//tbody[#'ABContactSearch-tbody']//div[@id='ABContactSearch:ABContactSearchScreen:ContactSearchDV:AddressSearchInputSet:globalAddressContainer:GlobalAddressInputSet:City-trigger-picker']", "", 30000, null, "36a623c4-b940-4146-93a3-2e652d74a4b6");
+                _copy_of_flechitalocalidadescmInfo = new RepoItemInfo(this, "Copy_of_FlechitaLocalidadesCM", ".//tbody[#'ABContactSearch-tbody']//div[@id='ABContactSearch:ABContactSearchScreen:ContactSearchDV:AddressSearchInputSet:globalAddressContainer:GlobalAddressInputSet:City-trigger-picker' and @data-tabindexsaved='True']", "", 30000, null, "228f9185-96f3-4c45-a296-aad8192525c9");
+                _codigopostalcmInfo = new RepoItemInfo(this, "CodigoPostalCM", ".//tbody[#'ABContactSearch-tbody']//span[@innertext='Código postal']/../..//div[@innertext~'[0-9]+']", "", 30000, null, "557ad789-99fb-4eb4-a5a1-0fe543be14a6");
+                _flechitapaiscmInfo = new RepoItemInfo(this, "FlechitaPaisCM", ".//tbody[#'ABContactSearch-tbody']//div[@id='ABContactSearch:ABContactSearchScreen:ContactSearchDV:AddressSearchInputSet:globalAddressContainer:GlobalAddressInputSet:Country-trigger-picker']", "", 30000, null, "179f8281-681f-4892-ad65-2e4d9737d81f");
             }
 
             /// <summary>
@@ -1612,6 +1686,30 @@ namespace CardaData
                 get
                 {
                     return _menu_accionesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lbl_BuscarEnLibretaDeDirecciones item.
+            /// </summary>
+            [RepositoryItem("aa3ba9dd-ca66-4f42-a333-96e5fd48ef14")]
+            public virtual Ranorex.SpanTag lbl_BuscarEnLibretaDeDirecciones
+            {
+                get
+                {
+                    return _lbl_buscarenlibretadedireccionesInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lbl_BuscarEnLibretaDeDirecciones item info.
+            /// </summary>
+            [RepositoryItemInfo("aa3ba9dd-ca66-4f42-a333-96e5fd48ef14")]
+            public virtual RepoItemInfo lbl_BuscarEnLibretaDeDireccionesInfo
+            {
+                get
+                {
+                    return _lbl_buscarenlibretadedireccionesInfo;
                 }
             }
 
@@ -6320,6 +6418,102 @@ namespace CardaData
             }
 
             /// <summary>
+            /// The txt_PaisBajoAmsterdamCM item.
+            /// </summary>
+            [RepositoryItem("43e88790-e822-40fc-b428-142102ce3a39")]
+            public virtual Ranorex.InputTag txt_PaisBajoAmsterdamCM
+            {
+                get
+                {
+                    return _txt_paisbajoamsterdamcmInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_PaisBajoAmsterdamCM item info.
+            /// </summary>
+            [RepositoryItemInfo("43e88790-e822-40fc-b428-142102ce3a39")]
+            public virtual RepoItemInfo txt_PaisBajoAmsterdamCMInfo
+            {
+                get
+                {
+                    return _txt_paisbajoamsterdamcmInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lbl_txtLocalidadAmsterdamCC item.
+            /// </summary>
+            [RepositoryItem("db8d683a-5a57-4b2e-916b-3a609300e5d8")]
+            public virtual Ranorex.InputTag lbl_txtLocalidadAmsterdamCC
+            {
+                get
+                {
+                    return _lbl_txtlocalidadamsterdamccInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lbl_txtLocalidadAmsterdamCC item info.
+            /// </summary>
+            [RepositoryItemInfo("db8d683a-5a57-4b2e-916b-3a609300e5d8")]
+            public virtual RepoItemInfo lbl_txtLocalidadAmsterdamCCInfo
+            {
+                get
+                {
+                    return _lbl_txtlocalidadamsterdamccInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_LocalidadAmsterdam item.
+            /// </summary>
+            [RepositoryItem("e9fd1278-6687-4eda-9d3a-6a2439ff7c80")]
+            public virtual Ranorex.InputTag txt_LocalidadAmsterdam
+            {
+                get
+                {
+                    return _txt_localidadamsterdamInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_LocalidadAmsterdam item info.
+            /// </summary>
+            [RepositoryItemInfo("e9fd1278-6687-4eda-9d3a-6a2439ff7c80")]
+            public virtual RepoItemInfo txt_LocalidadAmsterdamInfo
+            {
+                get
+                {
+                    return _txt_localidadamsterdamInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_BuscaPais item.
+            /// </summary>
+            [RepositoryItem("76da02c6-3f8c-4fc2-92d9-f40d0354622d")]
+            public virtual Ranorex.InputTag txt_BuscaPais
+            {
+                get
+                {
+                    return _txt_buscapaisInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_BuscaPais item info.
+            /// </summary>
+            [RepositoryItemInfo("76da02c6-3f8c-4fc2-92d9-f40d0354622d")]
+            public virtual RepoItemInfo txt_BuscaPaisInfo
+            {
+                get
+                {
+                    return _txt_buscapaisInfo;
+                }
+            }
+
+            /// <summary>
             /// The Btn_ReiniciarMotorDeMensajeriaPC item.
             /// </summary>
             [RepositoryItem("75044645-03f8-4e2d-a7fb-686230f76cad")]
@@ -6340,6 +6534,774 @@ namespace CardaData
                 get
                 {
                     return _btn_reiniciarmotordemensajeriapcInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaPais item.
+            /// </summary>
+            [RepositoryItem("3adc2cb1-b7ff-4d5c-bcf4-f985f29a87b7")]
+            public virtual Ranorex.DivTag FlechitaPais
+            {
+                get
+                {
+                    return _flechitapaisInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaPais item info.
+            /// </summary>
+            [RepositoryItemInfo("3adc2cb1-b7ff-4d5c-bcf4-f985f29a87b7")]
+            public virtual RepoItemInfo FlechitaPaisInfo
+            {
+                get
+                {
+                    return _flechitapaisInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaPais item.
+            /// </summary>
+            [RepositoryItem("51dbaf1b-fead-47e4-813b-11d38ece7f97")]
+            public virtual Ranorex.DivTag Copy_of_FlechitaPais
+            {
+                get
+                {
+                    return _copy_of_flechitapaisInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaPais item info.
+            /// </summary>
+            [RepositoryItemInfo("51dbaf1b-fead-47e4-813b-11d38ece7f97")]
+            public virtual RepoItemInfo Copy_of_FlechitaPaisInfo
+            {
+                get
+                {
+                    return _copy_of_flechitapaisInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaProvincia item.
+            /// </summary>
+            [RepositoryItem("f5f5fc76-a3d4-44d3-b27d-c1d99fb92f48")]
+            public virtual Ranorex.DivTag FlechitaProvincia
+            {
+                get
+                {
+                    return _flechitaprovinciaInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaProvincia item info.
+            /// </summary>
+            [RepositoryItemInfo("f5f5fc76-a3d4-44d3-b27d-c1d99fb92f48")]
+            public virtual RepoItemInfo FlechitaProvinciaInfo
+            {
+                get
+                {
+                    return _flechitaprovinciaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaProvincia item.
+            /// </summary>
+            [RepositoryItem("b99d956b-a514-4699-a23d-5ca252b82762")]
+            public virtual Ranorex.DivTag Copy_of_FlechitaProvincia
+            {
+                get
+                {
+                    return _copy_of_flechitaprovinciaInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaProvincia item info.
+            /// </summary>
+            [RepositoryItemInfo("b99d956b-a514-4699-a23d-5ca252b82762")]
+            public virtual RepoItemInfo Copy_of_FlechitaProvinciaInfo
+            {
+                get
+                {
+                    return _copy_of_flechitaprovinciaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaLocalidad item.
+            /// </summary>
+            [RepositoryItem("8e1a2ed8-65a6-447b-9a17-33f3691ac35c")]
+            public virtual Ranorex.DivTag FlechitaLocalidad
+            {
+                get
+                {
+                    return _flechitalocalidadInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaLocalidad item info.
+            /// </summary>
+            [RepositoryItemInfo("8e1a2ed8-65a6-447b-9a17-33f3691ac35c")]
+            public virtual RepoItemInfo FlechitaLocalidadInfo
+            {
+                get
+                {
+                    return _flechitalocalidadInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaLocalidad item.
+            /// </summary>
+            [RepositoryItem("e6c644c6-f8b6-4453-ae90-7d3e9d1285d0")]
+            public virtual Ranorex.DivTag Copy_of_FlechitaLocalidad
+            {
+                get
+                {
+                    return _copy_of_flechitalocalidadInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaLocalidad item info.
+            /// </summary>
+            [RepositoryItemInfo("e6c644c6-f8b6-4453-ae90-7d3e9d1285d0")]
+            public virtual RepoItemInfo Copy_of_FlechitaLocalidadInfo
+            {
+                get
+                {
+                    return _copy_of_flechitalocalidadInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CodigoPostalLocalidad item.
+            /// </summary>
+            [RepositoryItem("58f6c2d3-87e7-45c5-bdac-e07735cdf324")]
+            public virtual Ranorex.DivTag CodigoPostalLocalidad
+            {
+                get
+                {
+                    return _codigopostallocalidadInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CodigoPostalLocalidad item info.
+            /// </summary>
+            [RepositoryItemInfo("58f6c2d3-87e7-45c5-bdac-e07735cdf324")]
+            public virtual RepoItemInfo CodigoPostalLocalidadInfo
+            {
+                get
+                {
+                    return _codigopostallocalidadInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_CodigoPostal item.
+            /// </summary>
+            [RepositoryItem("2f97ef75-983e-4488-90ed-e01ff730867d")]
+            public virtual Ranorex.InputTag txt_CodigoPostal
+            {
+                get
+                {
+                    return _txt_codigopostalInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_CodigoPostal item info.
+            /// </summary>
+            [RepositoryItemInfo("2f97ef75-983e-4488-90ed-e01ff730867d")]
+            public virtual RepoItemInfo txt_CodigoPostalInfo
+            {
+                get
+                {
+                    return _txt_codigopostalInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SubMenuBuscarPolizasBC item.
+            /// </summary>
+            [RepositoryItem("2a8fc002-6137-43ec-a958-feb1efd8932b")]
+            public virtual Ranorex.SpanTag SubMenuBuscarPolizasBC
+            {
+                get
+                {
+                    return _submenubuscarpolizasbcInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SubMenuBuscarPolizasBC item info.
+            /// </summary>
+            [RepositoryItemInfo("2a8fc002-6137-43ec-a958-feb1efd8932b")]
+            public virtual RepoItemInfo SubMenuBuscarPolizasBCInfo
+            {
+                get
+                {
+                    return _submenubuscarpolizasbcInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lbl_BuscarPolizasBC item.
+            /// </summary>
+            [RepositoryItem("73f33c36-43e3-4da0-84a4-877525bfaa58")]
+            public virtual Ranorex.SpanTag lbl_BuscarPolizasBC
+            {
+                get
+                {
+                    return _lbl_buscarpolizasbcInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lbl_BuscarPolizasBC item info.
+            /// </summary>
+            [RepositoryItemInfo("73f33c36-43e3-4da0-84a4-877525bfaa58")]
+            public virtual RepoItemInfo lbl_BuscarPolizasBCInfo
+            {
+                get
+                {
+                    return _lbl_buscarpolizasbcInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaProductoBC item.
+            /// </summary>
+            [RepositoryItem("7db043e3-b83a-4167-9e36-029bb804e0d4")]
+            public virtual Ranorex.DivTag FlechitaProductoBC
+            {
+                get
+                {
+                    return _flechitaproductobcInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaProductoBC item info.
+            /// </summary>
+            [RepositoryItemInfo("7db043e3-b83a-4167-9e36-029bb804e0d4")]
+            public virtual RepoItemInfo FlechitaProductoBCInfo
+            {
+                get
+                {
+                    return _flechitaproductobcInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lbl_DireccionDelBienAseguradoHogarBC item.
+            /// </summary>
+            [RepositoryItem("453dfbbf-7d12-4d07-9f98-7cdb5d042bd2")]
+            public virtual Ranorex.LabelTag lbl_DireccionDelBienAseguradoHogarBC
+            {
+                get
+                {
+                    return _lbl_direcciondelbienaseguradohogarbcInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lbl_DireccionDelBienAseguradoHogarBC item info.
+            /// </summary>
+            [RepositoryItemInfo("453dfbbf-7d12-4d07-9f98-7cdb5d042bd2")]
+            public virtual RepoItemInfo lbl_DireccionDelBienAseguradoHogarBCInfo
+            {
+                get
+                {
+                    return _lbl_direcciondelbienaseguradohogarbcInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaPaisBuscaPolizaBC item.
+            /// </summary>
+            [RepositoryItem("b2b184bc-e76e-4945-91ff-fa6b8c95dd9c")]
+            public virtual Ranorex.DivTag FlechitaPaisBuscaPolizaBC
+            {
+                get
+                {
+                    return _flechitapaisbuscapolizabcInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaPaisBuscaPolizaBC item info.
+            /// </summary>
+            [RepositoryItemInfo("b2b184bc-e76e-4945-91ff-fa6b8c95dd9c")]
+            public virtual RepoItemInfo FlechitaPaisBuscaPolizaBCInfo
+            {
+                get
+                {
+                    return _flechitapaisbuscapolizabcInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaPaisBuscaPolizaBC item.
+            /// </summary>
+            [RepositoryItem("c891bc34-6a27-440a-8a86-09e939f4dee3")]
+            public virtual Ranorex.DivTag Copy_of_FlechitaPaisBuscaPolizaBC
+            {
+                get
+                {
+                    return _copy_of_flechitapaisbuscapolizabcInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaPaisBuscaPolizaBC item info.
+            /// </summary>
+            [RepositoryItemInfo("c891bc34-6a27-440a-8a86-09e939f4dee3")]
+            public virtual RepoItemInfo Copy_of_FlechitaPaisBuscaPolizaBCInfo
+            {
+                get
+                {
+                    return _copy_of_flechitapaisbuscapolizabcInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaProvinciaBuscaPolizaBC item.
+            /// </summary>
+            [RepositoryItem("41192662-7e3a-4e3e-9899-a5e1c818d0ec")]
+            public virtual Ranorex.DivTag FlechitaProvinciaBuscaPolizaBC
+            {
+                get
+                {
+                    return _flechitaprovinciabuscapolizabcInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaProvinciaBuscaPolizaBC item info.
+            /// </summary>
+            [RepositoryItemInfo("41192662-7e3a-4e3e-9899-a5e1c818d0ec")]
+            public virtual RepoItemInfo FlechitaProvinciaBuscaPolizaBCInfo
+            {
+                get
+                {
+                    return _flechitaprovinciabuscapolizabcInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaProvinciaBuscaPolizaBC item.
+            /// </summary>
+            [RepositoryItem("007712b4-8799-4bf4-9ed9-8a1aae19c293")]
+            public virtual Ranorex.DivTag Copy_of_FlechitaProvinciaBuscaPolizaBC
+            {
+                get
+                {
+                    return _copy_of_flechitaprovinciabuscapolizabcInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaProvinciaBuscaPolizaBC item info.
+            /// </summary>
+            [RepositoryItemInfo("007712b4-8799-4bf4-9ed9-8a1aae19c293")]
+            public virtual RepoItemInfo Copy_of_FlechitaProvinciaBuscaPolizaBCInfo
+            {
+                get
+                {
+                    return _copy_of_flechitaprovinciabuscapolizabcInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaLocalidadBuscaPolizaBC item.
+            /// </summary>
+            [RepositoryItem("eaf7dfef-9295-44c4-a38f-96b5c780baa5")]
+            public virtual Ranorex.DivTag FlechitaLocalidadBuscaPolizaBC
+            {
+                get
+                {
+                    return _flechitalocalidadbuscapolizabcInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaLocalidadBuscaPolizaBC item info.
+            /// </summary>
+            [RepositoryItemInfo("eaf7dfef-9295-44c4-a38f-96b5c780baa5")]
+            public virtual RepoItemInfo FlechitaLocalidadBuscaPolizaBCInfo
+            {
+                get
+                {
+                    return _flechitalocalidadbuscapolizabcInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaLocalidadBuscaPolizaBC item.
+            /// </summary>
+            [RepositoryItem("8d645fe5-fa3e-4ed8-a523-38b222576d56")]
+            public virtual Ranorex.DivTag Copy_of_FlechitaLocalidadBuscaPolizaBC
+            {
+                get
+                {
+                    return _copy_of_flechitalocalidadbuscapolizabcInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaLocalidadBuscaPolizaBC item info.
+            /// </summary>
+            [RepositoryItemInfo("8d645fe5-fa3e-4ed8-a523-38b222576d56")]
+            public virtual RepoItemInfo Copy_of_FlechitaLocalidadBuscaPolizaBCInfo
+            {
+                get
+                {
+                    return _copy_of_flechitalocalidadbuscapolizabcInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MenuSupLibretaDireccionesCC item.
+            /// </summary>
+            [RepositoryItem("a221d2cf-8420-4e96-8713-4b551a2f729a")]
+            public virtual Ranorex.SpanTag MenuSupLibretaDireccionesCC
+            {
+                get
+                {
+                    return _menusuplibretadireccionesccInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MenuSupLibretaDireccionesCC item info.
+            /// </summary>
+            [RepositoryItemInfo("a221d2cf-8420-4e96-8713-4b551a2f729a")]
+            public virtual RepoItemInfo MenuSupLibretaDireccionesCCInfo
+            {
+                get
+                {
+                    return _menusuplibretadireccionesccInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaBuscaProvinciaCC item.
+            /// </summary>
+            [RepositoryItem("b3823fff-e3a8-4675-9591-29866a201f1d")]
+            public virtual Ranorex.DivTag FlechitaBuscaProvinciaCC
+            {
+                get
+                {
+                    return _flechitabuscaprovinciaccInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaBuscaProvinciaCC item info.
+            /// </summary>
+            [RepositoryItemInfo("b3823fff-e3a8-4675-9591-29866a201f1d")]
+            public virtual RepoItemInfo FlechitaBuscaProvinciaCCInfo
+            {
+                get
+                {
+                    return _flechitabuscaprovinciaccInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaBuscaProvinciaCC item.
+            /// </summary>
+            [RepositoryItem("2342dd08-d9c5-4fc0-ba80-6fc14cd69c88")]
+            public virtual Ranorex.DivTag Copy_of_FlechitaBuscaProvinciaCC
+            {
+                get
+                {
+                    return _copy_of_flechitabuscaprovinciaccInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaBuscaProvinciaCC item info.
+            /// </summary>
+            [RepositoryItemInfo("2342dd08-d9c5-4fc0-ba80-6fc14cd69c88")]
+            public virtual RepoItemInfo Copy_of_FlechitaBuscaProvinciaCCInfo
+            {
+                get
+                {
+                    return _copy_of_flechitabuscaprovinciaccInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaBuscaLocalidadCC item.
+            /// </summary>
+            [RepositoryItem("1b07570d-cd06-434a-9e9f-270054e68b8d")]
+            public virtual Ranorex.DivTag FlechitaBuscaLocalidadCC
+            {
+                get
+                {
+                    return _flechitabuscalocalidadccInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaBuscaLocalidadCC item info.
+            /// </summary>
+            [RepositoryItemInfo("1b07570d-cd06-434a-9e9f-270054e68b8d")]
+            public virtual RepoItemInfo FlechitaBuscaLocalidadCCInfo
+            {
+                get
+                {
+                    return _flechitabuscalocalidadccInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaBuscaLocalidadCC item.
+            /// </summary>
+            [RepositoryItem("48d5689e-4d40-48b3-a090-a8d9284c552f")]
+            public virtual Ranorex.DivTag Copy_of_FlechitaBuscaLocalidadCC
+            {
+                get
+                {
+                    return _copy_of_flechitabuscalocalidadccInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaBuscaLocalidadCC item info.
+            /// </summary>
+            [RepositoryItemInfo("48d5689e-4d40-48b3-a090-a8d9284c552f")]
+            public virtual RepoItemInfo Copy_of_FlechitaBuscaLocalidadCCInfo
+            {
+                get
+                {
+                    return _copy_of_flechitabuscalocalidadccInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CodigoPostalLocalidadCC item.
+            /// </summary>
+            [RepositoryItem("0a3ff048-7731-488a-a72e-0004901cdea9")]
+            public virtual Ranorex.DivTag CodigoPostalLocalidadCC
+            {
+                get
+                {
+                    return _codigopostallocalidadccInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CodigoPostalLocalidadCC item info.
+            /// </summary>
+            [RepositoryItemInfo("0a3ff048-7731-488a-a72e-0004901cdea9")]
+            public virtual RepoItemInfo CodigoPostalLocalidadCCInfo
+            {
+                get
+                {
+                    return _codigopostallocalidadccInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaBuscaPaisCC item.
+            /// </summary>
+            [RepositoryItem("0eedbb44-d447-41f3-8102-f9be46dbe134")]
+            public virtual Ranorex.DivTag FlechitaBuscaPaisCC
+            {
+                get
+                {
+                    return _flechitabuscapaisccInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaBuscaPaisCC item info.
+            /// </summary>
+            [RepositoryItemInfo("0eedbb44-d447-41f3-8102-f9be46dbe134")]
+            public virtual RepoItemInfo FlechitaBuscaPaisCCInfo
+            {
+                get
+                {
+                    return _flechitabuscapaisccInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaBuscaPaisCC item.
+            /// </summary>
+            [RepositoryItem("4b018346-4d64-4088-b0b9-413ecfa5fed7")]
+            public virtual Ranorex.DivTag Copy_of_FlechitaBuscaPaisCC
+            {
+                get
+                {
+                    return _copy_of_flechitabuscapaisccInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaBuscaPaisCC item info.
+            /// </summary>
+            [RepositoryItemInfo("4b018346-4d64-4088-b0b9-413ecfa5fed7")]
+            public virtual RepoItemInfo Copy_of_FlechitaBuscaPaisCCInfo
+            {
+                get
+                {
+                    return _copy_of_flechitabuscapaisccInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaProvinciaCM item.
+            /// </summary>
+            [RepositoryItem("1a26f3f4-da95-43da-aa59-351d368ee717")]
+            public virtual Ranorex.DivTag FlechitaProvinciaCM
+            {
+                get
+                {
+                    return _flechitaprovinciacmInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaProvinciaCM item info.
+            /// </summary>
+            [RepositoryItemInfo("1a26f3f4-da95-43da-aa59-351d368ee717")]
+            public virtual RepoItemInfo FlechitaProvinciaCMInfo
+            {
+                get
+                {
+                    return _flechitaprovinciacmInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaProvinciaCM item.
+            /// </summary>
+            [RepositoryItem("9c2efd23-b826-497a-9fbb-2f7ca9f9a965")]
+            public virtual Ranorex.DivTag Copy_of_FlechitaProvinciaCM
+            {
+                get
+                {
+                    return _copy_of_flechitaprovinciacmInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaProvinciaCM item info.
+            /// </summary>
+            [RepositoryItemInfo("9c2efd23-b826-497a-9fbb-2f7ca9f9a965")]
+            public virtual RepoItemInfo Copy_of_FlechitaProvinciaCMInfo
+            {
+                get
+                {
+                    return _copy_of_flechitaprovinciacmInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaLocalidadesCM item.
+            /// </summary>
+            [RepositoryItem("36a623c4-b940-4146-93a3-2e652d74a4b6")]
+            public virtual Ranorex.DivTag FlechitaLocalidadesCM
+            {
+                get
+                {
+                    return _flechitalocalidadescmInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaLocalidadesCM item info.
+            /// </summary>
+            [RepositoryItemInfo("36a623c4-b940-4146-93a3-2e652d74a4b6")]
+            public virtual RepoItemInfo FlechitaLocalidadesCMInfo
+            {
+                get
+                {
+                    return _flechitalocalidadescmInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaLocalidadesCM item.
+            /// </summary>
+            [RepositoryItem("228f9185-96f3-4c45-a296-aad8192525c9")]
+            public virtual Ranorex.DivTag Copy_of_FlechitaLocalidadesCM
+            {
+                get
+                {
+                    return _copy_of_flechitalocalidadescmInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FlechitaLocalidadesCM item info.
+            /// </summary>
+            [RepositoryItemInfo("228f9185-96f3-4c45-a296-aad8192525c9")]
+            public virtual RepoItemInfo Copy_of_FlechitaLocalidadesCMInfo
+            {
+                get
+                {
+                    return _copy_of_flechitalocalidadescmInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CodigoPostalCM item.
+            /// </summary>
+            [RepositoryItem("557ad789-99fb-4eb4-a5a1-0fe543be14a6")]
+            public virtual Ranorex.DivTag CodigoPostalCM
+            {
+                get
+                {
+                    return _codigopostalcmInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CodigoPostalCM item info.
+            /// </summary>
+            [RepositoryItemInfo("557ad789-99fb-4eb4-a5a1-0fe543be14a6")]
+            public virtual RepoItemInfo CodigoPostalCMInfo
+            {
+                get
+                {
+                    return _codigopostalcmInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaPaisCM item.
+            /// </summary>
+            [RepositoryItem("179f8281-681f-4892-ad65-2e4d9737d81f")]
+            public virtual Ranorex.DivTag FlechitaPaisCM
+            {
+                get
+                {
+                    return _flechitapaiscmInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FlechitaPaisCM item info.
+            /// </summary>
+            [RepositoryItemInfo("179f8281-681f-4892-ad65-2e4d9737d81f")]
+            public virtual RepoItemInfo FlechitaPaisCMInfo
+            {
+                get
+                {
+                    return _flechitapaiscmInfo;
                 }
             }
 
@@ -6791,6 +7753,10 @@ namespace CardaData
             RepoItemInfo _input_coberturaInfo;
             RepoItemInfo _input_proveedorInfo;
             RepoItemInfo _option_proveedorcualquieraInfo;
+            RepoItemInfo _selectprimeritempaisInfo;
+            RepoItemInfo _selectprimeritempaisesbajosInfo;
+            RepoItemInfo _copy_of_selectprimeritempaisInfo;
+            RepoItemInfo _copy_of_selectprimeritemInfo;
             RepoItemInfo _copy_of_input_primafijaInfo;
             RepoItemInfo _bttn_actualizarInfo;
             RepoItemInfo _txt_planenlatadoautonomiaInfo;
@@ -6855,6 +7821,10 @@ namespace CardaData
                 _input_coberturaInfo = new RepoItemInfo(this, "input_Cobertura", ".//span[@innertext=$Cobertura]/../..//input", "", 30000, null, "040ca779-ec8c-470d-bcfc-72fb39006898");
                 _input_proveedorInfo = new RepoItemInfo(this, "input_Proveedor", ".//span[@innertext=$Cobertura]/../../../../..//span[@innertext='Proveedor']/../..//input[@tagvalue!~'[a-z]+']", "", 30000, null, "156c5441-3cdc-4c26-87f9-d0c956430988");
                 _option_proveedorcualquieraInfo = new RepoItemInfo(this, "option_ProveedorCualquiera", ".//li[@innertext~'[a-z]+']", "", 30000, null, "1ab58607-2b6a-4b85-81be-346ddde92d79");
+                _selectprimeritempaisInfo = new RepoItemInfo(this, "SelectPrimerItemPais", ".//li[@innertext~'[a-z]+']", "", 30000, null, "a5d542be-0c4b-40a2-ab85-2547780825f4");
+                _selectprimeritempaisesbajosInfo = new RepoItemInfo(this, "SelectPrimerItemPaisesBajos", ".//li[@innertext~'Países Bajos']", "", 30000, null, "105db4dd-29ee-4eeb-87f0-4744c93d5451");
+                _copy_of_selectprimeritempaisInfo = new RepoItemInfo(this, "Copy_of_SelectPrimerItemPais", ".//li[@innertext~'[a-z]+']", "", 30000, null, "9407d7d9-e198-41b0-9320-11cf3a0072a5");
+                _copy_of_selectprimeritemInfo = new RepoItemInfo(this, "Copy_of_SelectPrimerItem", ".//li[2]", "", 30000, null, "654f07aa-ad22-4f0a-9c0f-535de42c1e1a");
                 _copy_of_input_primafijaInfo = new RepoItemInfo(this, "Copy_of_input_PrimaFija", ".//span[@innertext=$Cobertura]/../../../../..//span[@innertext='Prima Fija']/../..//input[@data-tabindexsaved='True']", "", 30000, null, "c7a295ab-d552-47f3-b55d-2615c77b2f6b");
                 _bttn_actualizarInfo = new RepoItemInfo(this, "bttn_Actualizar", ".//span[@innertext='Actalizar']", "", 30000, null, "3b8d4273-c8c2-4858-8aca-a381c3bf626e");
                 _txt_planenlatadoautonomiaInfo = new RepoItemInfo(this, "txt_PlanEnlatadoAutonomia", ".//span[@innertext>'Plan Enlatado : Autonomia']", "", 30000, null, "5eab9b8f-d8fc-4c50-bc25-c021a68fefd4");
@@ -8169,6 +9139,102 @@ namespace CardaData
             }
 
             /// <summary>
+            /// The SelectPrimerItemPais item.
+            /// </summary>
+            [RepositoryItem("a5d542be-0c4b-40a2-ab85-2547780825f4")]
+            public virtual Ranorex.LiTag SelectPrimerItemPais
+            {
+                get
+                {
+                    return _selectprimeritempaisInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SelectPrimerItemPais item info.
+            /// </summary>
+            [RepositoryItemInfo("a5d542be-0c4b-40a2-ab85-2547780825f4")]
+            public virtual RepoItemInfo SelectPrimerItemPaisInfo
+            {
+                get
+                {
+                    return _selectprimeritempaisInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SelectPrimerItemPaisesBajos item.
+            /// </summary>
+            [RepositoryItem("105db4dd-29ee-4eeb-87f0-4744c93d5451")]
+            public virtual Ranorex.LiTag SelectPrimerItemPaisesBajos
+            {
+                get
+                {
+                    return _selectprimeritempaisesbajosInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SelectPrimerItemPaisesBajos item info.
+            /// </summary>
+            [RepositoryItemInfo("105db4dd-29ee-4eeb-87f0-4744c93d5451")]
+            public virtual RepoItemInfo SelectPrimerItemPaisesBajosInfo
+            {
+                get
+                {
+                    return _selectprimeritempaisesbajosInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_SelectPrimerItemPais item.
+            /// </summary>
+            [RepositoryItem("9407d7d9-e198-41b0-9320-11cf3a0072a5")]
+            public virtual Ranorex.LiTag Copy_of_SelectPrimerItemPais
+            {
+                get
+                {
+                    return _copy_of_selectprimeritempaisInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_SelectPrimerItemPais item info.
+            /// </summary>
+            [RepositoryItemInfo("9407d7d9-e198-41b0-9320-11cf3a0072a5")]
+            public virtual RepoItemInfo Copy_of_SelectPrimerItemPaisInfo
+            {
+                get
+                {
+                    return _copy_of_selectprimeritempaisInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_SelectPrimerItem item.
+            /// </summary>
+            [RepositoryItem("654f07aa-ad22-4f0a-9c0f-535de42c1e1a")]
+            public virtual Ranorex.LiTag Copy_of_SelectPrimerItem
+            {
+                get
+                {
+                    return _copy_of_selectprimeritemInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_SelectPrimerItem item info.
+            /// </summary>
+            [RepositoryItemInfo("654f07aa-ad22-4f0a-9c0f-535de42c1e1a")]
+            public virtual RepoItemInfo Copy_of_SelectPrimerItemInfo
+            {
+                get
+                {
+                    return _copy_of_selectprimeritemInfo;
+                }
+            }
+
+            /// <summary>
             /// The Copy_of_input_PrimaFija item.
             /// </summary>
             [RepositoryItem("c7a295ab-d552-47f3-b55d-2615c77b2f6b")]
@@ -8248,6 +9314,7 @@ namespace CardaData
         public partial class MenuFolder : RepoGenBaseFolder
         {
             RepoItemInfo _submenuusuariosyseguridadInfo;
+            RepoItemInfo _submenubuscarcontactosInfo;
 
             /// <summary>
             /// Creates a new Menu  folder.
@@ -8256,6 +9323,7 @@ namespace CardaData
                     base("Menu", "", parentFolder, 0, null, false, "b468b089-7b3b-4337-8906-ecbc69ad5b58", "")
             {
                 _submenuusuariosyseguridadInfo = new RepoItemInfo(this, "SubMenuUsuariosYSeguridad", ".//span[@innertext='Usuarios y seguridad']", "", 30000, null, "371d7ff0-4358-44ae-a2f5-0c47dc44d404");
+                _submenubuscarcontactosInfo = new RepoItemInfo(this, "SubMenuBuscarContactos", ".//span[@innertext='Contactos']", "", 30000, null, "7a6e7b31-6993-44ac-b013-cb8e9cf83e56");
             }
 
             /// <summary>
@@ -8291,6 +9359,30 @@ namespace CardaData
                 get
                 {
                     return _submenuusuariosyseguridadInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SubMenuBuscarContactos item.
+            /// </summary>
+            [RepositoryItem("7a6e7b31-6993-44ac-b013-cb8e9cf83e56")]
+            public virtual Ranorex.SpanTag SubMenuBuscarContactos
+            {
+                get
+                {
+                    return _submenubuscarcontactosInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SubMenuBuscarContactos item info.
+            /// </summary>
+            [RepositoryItemInfo("7a6e7b31-6993-44ac-b013-cb8e9cf83e56")]
+            public virtual RepoItemInfo SubMenuBuscarContactosInfo
+            {
+                get
+                {
+                    return _submenubuscarcontactosInfo;
                 }
             }
         }

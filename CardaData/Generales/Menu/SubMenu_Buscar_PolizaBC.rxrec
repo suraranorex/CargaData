@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="fc1e161a-6316-4def-b60f-298e656890a2"
+id="d799a811-75b1-4918-8782-a878fe35445a"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="MenuPpalBuscar"
+	classname="SubMenu_Buscar_PolizaBC"
 	namespace="CardaData.Generales.Menu">
 	</codegen>
 	<variables>
@@ -30,10 +30,10 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="CenterRight"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="4c1bd2da-7f11-47ee-995f-ba21e2ff8b54"
+		searchpropertyid="6ba60f30-b0bf-4cdd-8216-e4e48f8c689b"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -42,30 +42,35 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="ecfd3283-0ebb-4bed-b756-7e256415a927"
+			id="2a8fc002-6137-43ec-a958-feb1efd8932b"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[@id='TabBar:SearchTab-btnWrap']
+					/dom[@domain=$Ambiente]//span[@innertext='Pólizas']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 		</mouseitem>
-		<userrecorditem
-		classname="MenuPpalBuscar"
+		<WaitForRecordItem
 		enabled="True"
-		isexternaltestmethod="False"
-		methodname="ValidaContenidoMenu"
-		namespace="CardaData.Generales.Menu"
-		optional="False">
+		optional="False"
+		searchpropertyid="010ad9e9-562d-4f66-a402-c3956ccef969"
+		waitaction="Exists"
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<arguments
-			id="3325a015-33de-4011-ad0a-afca8150eaf3">
-			</arguments>
-		</userrecorditem>
+			<info
+			id="73f33c36-43e3-4da0-84a4-877525bfaa58"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'PolicySearch-tbody']//span[@innertext='Buscar pólizas']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
 	</recorditems>
 	<repository
 	id="2a0a9fab-6d64-4305-908d-893e5460c59f"
@@ -82,7 +87,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		MenuPpalBuscar.UserCode.cs
+		SubMenu_Buscar_PolizaBC.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

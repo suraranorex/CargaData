@@ -58,6 +58,53 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			datarangeactive="True"
+			datasource="ValidaLocalidadesPaisesBajos"
+			id="03fc374b-8cae-49fe-a29a-5df665d73f3e"
+			maxrange="2"
+			minrange="2"
+			name="BC">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Modulo"
+								id="a8a46050-f003-49ab-93ec-30db8a272110">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="BC">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
+			<testmodule
+			id="04675cb2-4fd5-422c-a9be-f13a6637c9b5"
+			name="CloseBrowser"
+			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<setup
+			id="05dba6aa-754b-45ed-ad5c-1b488ee49800"
+			name="setup">
+			</setup>
 			<testmodule
 			id="06509dad-61bb-42e4-9ab4-8af833e2ad39"
 			name="Logout"
@@ -454,6 +501,35 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			datarangeactive="True"
+			datasource="ValidaLocalidadesPaisesBajos"
+			id="20d94b37-1d02-40ff-99b4-09829b30d601"
+			maxrange="4"
+			minrange="4"
+			name="CM">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Modulo"
+								id="a8a46050-f003-49ab-93ec-30db8a272110">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="CM">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
 			<setup
 			id="22df3148-c097-4c55-8b51-6e18516198cc"
 			name="setup">
@@ -607,6 +683,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="29d0dad5-0473-40b8-89a0-047ddb8d9b4f"
+			name="CloseBrowser"
+			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="2a33cd41-44c5-4f1c-af22-66e0d87e10f4"
 			name="OpenBrowser"
 			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
@@ -726,6 +816,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="3275e1ee-4ba9-41fe-a125-bcbe1a10ffc1"
+			name="BuscaLocalidadPolizaHogarBC"
+			ref="996da58e-8332-4a6a-9889-2faca4c854cf"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="358b9e95-6c25-4886-9aeb-dc05b4eb0fb3"
 			name="SubMenuClasificacion"
 			ref="d41f92bf-929c-4451-bbf0-9e797fa6d99c"
@@ -814,6 +918,35 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			datarangeactive="True"
+			datasource="ValidaLocalidadesPaisesBajos"
+			id="3af47668-e59f-4d9c-992c-dba5150ff46c"
+			maxrange="1"
+			minrange="1"
+			name="PC">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Modulo"
+								id="a8a46050-f003-49ab-93ec-30db8a272110">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="PC">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
 			<testmodule
 			enabled="False"
 			id="3b33e687-0675-4fc0-beaa-e49eb378667b"
@@ -824,6 +957,20 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="6425a583-9ca7-47f9-8285-5f9e140fc5e6"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="3c93f79b-e3cd-4055-921c-b8c5fa8a2f69"
+			name="CloseBrowser"
+			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
@@ -997,6 +1144,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="453d443e-466f-4e19-a769-865aeb2eb0ad"
+			name="OpenBrowser"
+			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="4587db79-b828-4ba4-8a08-dd2dbfbe9794"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -1029,6 +1190,58 @@
 					datasourceid="f74e1ad6-7a0d-4236-be3e-c46dcaf2db14"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="46b43f12-2a24-439f-bf21-00533c64efcc"
+			name="Login"
+			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="46eafeb5-7a10-4460-af59-9e3d642c64dc"
+			name="Login"
+			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
 					</var>
 				</databinding>
 			</testmodule>
@@ -1193,6 +1406,20 @@
 			name="setup">
 			</setup>
 			<testmodule
+			id="4f468a7f-baf8-415e-83e1-8dc0b83230fc"
+			name="BuscaPaisesBajosBC"
+			ref="89129aed-ffe0-4ebc-a77f-d9ce9592ca15"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="507f8e68-59f4-4abf-bf39-8592365e36c7"
 			name="NavegaMenuPlanesPagoBC"
 			ref="e11f2a85-9da9-4008-9ca9-db195c0f3183"
@@ -1206,6 +1433,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="50a7c992-f3ce-4088-bfc3-18a2f01975d0"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="516a4ad4-3997-4cc5-aa78-e13b0d3715b6"
 			name="Login"
@@ -1283,6 +1514,34 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="20f8dd55-639f-4344-a1c7-fc197298492f"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="52b4123a-392f-47f5-8ec7-6205fc64931e"
+			name="Logout"
+			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="52c062ef-47ab-402c-908f-91cf72fe70e2"
+			name="BuscaLocalidades"
+			ref="e03add06-18bd-4fcb-855d-30ddf3f6183e"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
@@ -1385,6 +1644,32 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="57af7aac-e0d7-4afd-994b-ad75afc0c1da"
+			name="Login"
+			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="58207810-66f5-4ec9-9d3e-b4b33cd9e524"
 			name="SubMenuPatronesDeActividad"
 			ref="4839a044-e14e-4e86-9e2f-37f3e989d69a"
@@ -1468,6 +1753,20 @@
 					datasourceid="a4c7412e-018e-4621-8977-c81f804bd909"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="5aee9508-23fb-4894-b0bd-70e18e6b7e1b"
+			name="OpenBrowser"
+			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
 					</var>
 				</databinding>
 			</testmodule>
@@ -1592,6 +1891,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="62b972bb-f52c-40bc-99b7-869c589ed9be"
+			name="BuscaLocalidadesCM"
+			ref="1daddd65-8885-4e93-9e6c-642051928ae1"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			enabled="False"
 			id="62fd83b9-8160-47b8-8a5f-e8a4f66e4392"
 			name="SubMenu_Clasif_LibroDeTasas"
@@ -1638,6 +1951,20 @@
 					datasourceid="f785edf4-c1c1-4d1a-b64d-99ee1cce3b2f"
 					variableid="a26fe692-3319-4eb3-b594-05efee2057f3"
 					variablename="RutaArchivo">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="67a20b95-22a6-4083-99b7-db8cdf031539"
+			name="OpenBrowser"
+			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
 					</var>
 				</databinding>
 			</testmodule>
@@ -1831,6 +2158,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="749e3e1e-316f-407a-b907-ace6991d88d1"
+			name="teardown">
+			</teardown>
 			<testmodule
 			enabled="False"
 			id="74a04da6-801c-4c6f-952e-a551c7ce95fe"
@@ -1898,6 +2229,20 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="213c0142-c946-4a43-9d18-1a344440f5c3"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="7941fd2d-c310-4ccb-aaac-d3d780aa1944"
+			name="BuscaPaisesBajosCC"
+			ref="ee49d8b4-c8f7-4548-a454-28d403ded1de"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
@@ -1986,6 +2331,34 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="7f156912-568f-4d4a-bb28-97fb073cedf7"
+			name="BuscarContacto"
+			ref="b6d6f7f6-f0d6-493a-9e2f-66ef7c4b154c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="7f2f3e8c-f38e-4c3b-9892-5452ca66b05b"
+			name="LimpiarBusqueda"
+			ref="f78310c7-5a08-44e6-9cfd-657adc6e425d"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="7f5d4e63-54fe-413c-bf2a-a46602f7ae93"
 			name="BC_NavMenu_SubM1_SubM2"
 			ref="24d23c8b-8978-48a5-a2f9-ba97c292ae15"
@@ -2055,6 +2428,20 @@
 			minrange="0"
 			name="ConfigurarProductor_FacturacionMensual">
 			</testcase>
+			<testmodule
+			id="81219743-dcdd-4ec7-93c1-df419c4199ed"
+			name="SubMenu_Buscar_PolizaBC"
+			ref="d799a811-75b1-4918-8782-a878fe35445a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="817070a8-bbb3-4edf-9cca-4aa2228f34ac"
 			name="Configurar_PlazoFacturacion"
@@ -2213,6 +2600,20 @@
 			name="teardown">
 			</teardown>
 			<testmodule
+			id="899d1aa8-f99f-4a38-881a-11435b6c23f3"
+			name="BuscarLocalidadesCC"
+			ref="6fbb68e1-85eb-4066-b983-d061db87ff88"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="8a68e7f6-a87e-4470-8855-fa68b4439781"
 			name="Logout"
 			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
@@ -2305,6 +2706,32 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="90c33436-dee9-479b-8366-9788557dbe55"
+			name="Login"
+			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="e9835d8f-c8c8-444e-8564-b15ccdce9628"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="ceffe547-efb0-417f-9e67-a03ec36b6299"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="92eae427-7482-49b9-97bb-89a6426be765"
 			name="Login"
 			ref="ff77de51-9c7d-40f7-a71e-98ce7096109f"
@@ -2331,6 +2758,34 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="93930752-4918-455b-830f-1511a5a13b3c"
+			name="OpenBrowser"
+			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
+					variablename="URL">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="93b4c8e2-54f4-495c-8b52-b6eea7c159f5"
+			name="Logout"
+			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="953d29c1-027d-4815-920f-86e955295ad0"
 			name="OpenBrowser"
 			ref="51cd0732-f74a-4fb5-8571-e5a0cbfe5cd3"
@@ -2341,6 +2796,20 @@
 					datasourceid="02590535-358d-4d92-b77a-0fb24a9f46b6"
 					variableid="24124be0-a7e8-400a-84e8-0877803ed437"
 					variablename="URL">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="95790201-58a5-40c4-ba7f-5c9444602f83"
+			name="MenuPpalBuscar"
+			ref="fc1e161a-6316-4def-b60f-298e656890a2"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -2499,6 +2968,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="9fefb440-6649-4136-92e6-633d71e5f9b1"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="a1987c7e-5775-4f8e-9370-108b72e3b9a8"
 			name="Login"
@@ -2555,6 +3028,10 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
+			<setup
+			id="a4042216-8621-4335-99d5-a1bb41d5c1c9"
+			name="setup">
+			</setup>
 			<testmodule
 			id="a41d4edf-b509-4e6a-bca5-53f1516c322a"
 			name="SeleccionarProductores_Answer"
@@ -2679,6 +3156,20 @@
 			name="Validar_PlanesComisiones_BC">
 			</testcase>
 			<testmodule
+			id="aab6ee00-1bad-421e-a306-692e66a03fe0"
+			name="BuscaPaisesBajos"
+			ref="1be563a5-8eab-4a08-9ee4-7db21b5aa39b"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="ab03986e-fa57-40e9-8342-439a967af5d5"
 			name="MenuPpalAdmin"
 			ref="de8fa7b1-f87e-4949-8235-59d86264efac"
@@ -2687,6 +3178,20 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="3d7a0f12-a136-4680-80f8-c038c04e3b83"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="ab741f20-c1bd-4422-b49e-a1e13a68bb0d"
+			name="MenuPpalLibretaDireccionesCC"
+			ref="6277137d-c241-4584-a150-fbf93e25e167"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
 					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
 					variablename="Ambiente">
 					</var>
@@ -2730,6 +3235,12 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
+			<testcase
+			id="af62ef38-019d-47a1-ba64-3c53e3cae873"
+			maxrange="2"
+			minrange="1"
+			name="ValidaLocalidadesPaisesBajos">
+			</testcase>
 			<testmodule
 			id="af74c23c-c8b3-4893-9ea4-b8df04087318"
 			name="MenuPpalAdmin"
@@ -2961,6 +3472,39 @@
 			id="baaa77fa-0f53-4eef-a700-bdcfe02d38d9"
 			name="setup">
 			</setup>
+			<smartfoldernode
+			datarangeactive="True"
+			datasource="ValidaLocalidadesPaisesBajos"
+			id="bcc2f9c4-0a8e-4dbd-8926-b0e6f2625599"
+			maxrange="3"
+			minrange="3"
+			name="CC">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Modulo"
+								id="a8a46050-f003-49ab-93ec-30db8a272110">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="CC">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
+			<setup
+			id="bd0cfd16-7869-49bf-8c0a-7ea19fd6b98f"
+			name="setup">
+			</setup>
 			<testmodule
 			id="bd340976-f318-4a02-9a2e-f3e6dda49e69"
 			name="Login"
@@ -3131,6 +3675,20 @@
 			name="CargarLataFlex_2344">
 			</testcase>
 			<testmodule
+			id="c6b88e72-f73f-4533-8a5d-92adcb3ff313"
+			name="BuscaPaisesBajosCM"
+			ref="62f94b97-b4c0-4dec-bf48-78a1c2570c53"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="caa171b8-5b09-43e1-aba4-d12371b36e92"
 			name="SubMenu_ConfCom_Campanias"
 			ref="7a3deb23-a0f6-418d-8e0c-c5349415d968"
@@ -3200,6 +3758,38 @@
 				</parameters>
 			</testcase>
 			<testmodule
+			id="d15141c0-740d-410a-a19f-674b17baea60"
+			name="MenuPpalBuscarBC"
+			ref="162b26fe-7ef6-4110-b642-427d8a3a290c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="d178c83e-14aa-438e-bf32-c44ae8b84f3f"
+			name="Logout"
+			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<teardown
+			id="d2402b69-0dad-462b-b082-417370461704"
+			name="teardown">
+			</teardown>
+			<testmodule
 			id="d28fa4e1-39fc-48b9-a810-5006e6e5770c"
 			name="EditUser"
 			ref="904d324d-3d92-4347-a10d-e642dcf65d31"
@@ -3217,6 +3807,10 @@
 			id="d2c135da-3c7a-4761-aac6-49fd034e618d"
 			name="teardown">
 			</teardown>
+			<setup
+			id="d36cd74f-bc0a-4f23-aeb1-6cb8d2ab850e"
+			name="setup">
+			</setup>
 			<testmodule
 			enabled="False"
 			id="d4fb64c4-2dc5-421c-b526-2558c5c53410"
@@ -3426,6 +4020,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="e0bd7330-6a79-4589-890c-9756d993d99f"
+			name="BuscarProductoHogarBC"
+			ref="93d6b53b-f98b-4e90-aa73-f64187a73fc8"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="e0c5f5ee-0dcd-411b-8c56-a2da76481375"
 			name="CargaArchivosGeneral"
 			ref="8e12e590-b4f5-42ff-87f7-ee8b8e4da839"
@@ -3448,6 +4056,20 @@
 					datasourceid="cf6f1038-0179-4c88-93c4-56286538b128"
 					variableid="a26fe692-3319-4eb3-b594-05efee2057f3"
 					variablename="RutaArchivo">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="e1c26da3-64cc-45c6-95d1-34dcfe570af3"
+			name="CloseBrowser"
+			ref="f14587b0-7c80-4198-8a00-c19bd3ac86b6"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -3927,6 +4549,20 @@
 			id="fb2e2929-cbda-4ce1-96f6-08cbc1663765"
 			name="setup">
 			</setup>
+			<testmodule
+			id="fdf1dc1b-1666-4548-84d7-0aec6dee4a6b"
+			name="Logout"
+			ref="568f863f-4028-45b6-9ecc-e080aa4bff51"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a8a46050-f003-49ab-93ec-30db8a272110"
+					variableid="8bb4d90e-0931-42e5-a69e-df43fdd1058a"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="fdfc7f4c-8975-40c6-9f7f-96fa5cc126e8"
 			name="SubMenuConfiComercial"
@@ -5107,6 +5743,182 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="af62ef38-019d-47a1-ba64-3c53e3cae873"
+					name="ValidaLocalidadesPaisesBajos">
+						<smartfoldernode
+						id="3af47668-e59f-4d9c-992c-dba5150ff46c"
+						name="PC">
+							<setup
+							id="05dba6aa-754b-45ed-ad5c-1b488ee49800"
+							name="setup">
+								<testmodule
+								id="67a20b95-22a6-4083-99b7-db8cdf031539"
+								name="OpenBrowser">
+								</testmodule>
+								<testmodule
+								id="46eafeb5-7a10-4460-af59-9e3d642c64dc"
+								name="Login">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="95790201-58a5-40c4-ba7f-5c9444602f83"
+							name="MenuPpalBuscar">
+							</testmodule>
+							<testmodule
+							id="7f156912-568f-4d4a-bb28-97fb073cedf7"
+							name="BuscarContacto">
+							</testmodule>
+							<testmodule
+							id="52c062ef-47ab-402c-908f-91cf72fe70e2"
+							name="BuscaLocalidades">
+							</testmodule>
+							<testmodule
+							id="7f2f3e8c-f38e-4c3b-9892-5452ca66b05b"
+							name="LimpiarBusqueda">
+							</testmodule>
+							<testmodule
+							id="aab6ee00-1bad-421e-a306-692e66a03fe0"
+							name="BuscaPaisesBajos">
+							</testmodule>
+							<teardown
+							id="50a7c992-f3ce-4088-bfc3-18a2f01975d0"
+							name="teardown">
+								<testmodule
+								id="52b4123a-392f-47f5-8ec7-6205fc64931e"
+								name="Logout">
+								</testmodule>
+								<testmodule
+								id="04675cb2-4fd5-422c-a9be-f13a6637c9b5"
+								name="CloseBrowser">
+								</testmodule>
+							</teardown>
+						</smartfoldernode>
+						<smartfoldernode
+						id="03fc374b-8cae-49fe-a29a-5df665d73f3e"
+						name="BC">
+							<setup
+							id="d36cd74f-bc0a-4f23-aeb1-6cb8d2ab850e"
+							name="setup">
+								<testmodule
+								id="93930752-4918-455b-830f-1511a5a13b3c"
+								name="OpenBrowser">
+								</testmodule>
+								<testmodule
+								id="46b43f12-2a24-439f-bf21-00533c64efcc"
+								name="Login">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="d15141c0-740d-410a-a19f-674b17baea60"
+							name="MenuPpalBuscarBC">
+							</testmodule>
+							<testmodule
+							id="81219743-dcdd-4ec7-93c1-df419c4199ed"
+							name="SubMenu_Buscar_PolizaBC">
+							</testmodule>
+							<testmodule
+							id="e0bd7330-6a79-4589-890c-9756d993d99f"
+							name="BuscarProductoHogarBC">
+							</testmodule>
+							<testmodule
+							id="3275e1ee-4ba9-41fe-a125-bcbe1a10ffc1"
+							name="BuscaLocalidadPolizaHogarBC">
+							</testmodule>
+							<testmodule
+							id="4f468a7f-baf8-415e-83e1-8dc0b83230fc"
+							name="BuscaPaisesBajosBC">
+							</testmodule>
+							<teardown
+							id="d2402b69-0dad-462b-b082-417370461704"
+							name="teardown">
+								<testmodule
+								id="fdf1dc1b-1666-4548-84d7-0aec6dee4a6b"
+								name="Logout">
+								</testmodule>
+								<testmodule
+								id="29d0dad5-0473-40b8-89a0-047ddb8d9b4f"
+								name="CloseBrowser">
+								</testmodule>
+							</teardown>
+						</smartfoldernode>
+						<smartfoldernode
+						id="bcc2f9c4-0a8e-4dbd-8926-b0e6f2625599"
+						name="CC">
+							<setup
+							id="a4042216-8621-4335-99d5-a1bb41d5c1c9"
+							name="setup">
+								<testmodule
+								id="5aee9508-23fb-4894-b0bd-70e18e6b7e1b"
+								name="OpenBrowser">
+								</testmodule>
+								<testmodule
+								id="57af7aac-e0d7-4afd-994b-ad75afc0c1da"
+								name="Login">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="ab741f20-c1bd-4422-b49e-a1e13a68bb0d"
+							name="MenuPpalLibretaDireccionesCC">
+							</testmodule>
+							<testmodule
+							id="899d1aa8-f99f-4a38-881a-11435b6c23f3"
+							name="BuscarLocalidadesCC">
+							</testmodule>
+							<testmodule
+							id="7941fd2d-c310-4ccb-aaac-d3d780aa1944"
+							name="BuscaPaisesBajosCC">
+							</testmodule>
+							<teardown
+							id="749e3e1e-316f-407a-b907-ace6991d88d1"
+							name="teardown">
+								<testmodule
+								id="93b4c8e2-54f4-495c-8b52-b6eea7c159f5"
+								name="Logout">
+								</testmodule>
+								<testmodule
+								id="3c93f79b-e3cd-4055-921c-b8c5fa8a2f69"
+								name="CloseBrowser">
+								</testmodule>
+							</teardown>
+						</smartfoldernode>
+						<smartfoldernode
+						id="20d94b37-1d02-40ff-99b4-09829b30d601"
+						name="CM">
+							<setup
+							id="bd0cfd16-7869-49bf-8c0a-7ea19fd6b98f"
+							name="setup">
+								<testmodule
+								id="453d443e-466f-4e19-a769-865aeb2eb0ad"
+								name="OpenBrowser">
+								</testmodule>
+								<testmodule
+								id="90c33436-dee9-479b-8366-9788557dbe55"
+								name="Login">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="62b972bb-f52c-40bc-99b7-869c589ed9be"
+							name="BuscaLocalidadesCM">
+							</testmodule>
+							<testmodule
+							id="c6b88e72-f73f-4533-8a5d-92adcb3ff313"
+							name="BuscaPaisesBajosCM">
+							</testmodule>
+							<teardown
+							id="9fefb440-6649-4136-92e6-633d71e5f9b1"
+							name="teardown">
+								<testmodule
+								id="d178c83e-14aa-438e-bf32-c44ae8b84f3f"
+								name="Logout">
+								</testmodule>
+								<testmodule
+								id="e1c26da3-64cc-45c6-95d1-34dcfe570af3"
+								name="CloseBrowser">
+								</testmodule>
+							</teardown>
+						</smartfoldernode>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -5900,6 +6712,35 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
+		filename="DataSource - ValidaLocalidadesPaisesBajos.xlsx"
+		id="a8a46050-f003-49ab-93ec-30db8a272110"
+		includefile="Checked"
+		lastknownrowcount="5"
+		name="ValidaLocalidadesPaisesBajos"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Sheet1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Ambiente
+				</column>
+				<column>
+					URL
+				</column>
+				<column>
+					Usuario
+				</column>
+				<column>
+					Contrasenia
+				</column>
+				<column>
+					Modulo
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
 		filename="DataSource - ValidarMensajeria.xlsx"
 		id="5b95dc2d-52cb-4176-a0dd-d39db74fb7e5"
 		includefile="Checked"
@@ -6005,7 +6846,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="LataFlexXML">
+	default="ValidaLocalidadesPaisesBajos">
 		<testconfiguration
 		name="AgregarFuncionUserMigration">
 			<testcontainer
@@ -6108,6 +6949,9 @@
 			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
 			</testcontainer>
 			<testcontainer
+			id="af62ef38-019d-47a1-ba64-3c53e3cae873">
+			</testcontainer>
+			<testcontainer
 			id="b922c33f-e2dd-48cb-9803-7152b01e08e8">
 			</testcontainer>
 			<testcontainer
@@ -6154,6 +6998,27 @@
 			</testcontainer>
 			<testcontainer
 			id="f785edf4-c1c1-4d1a-b64d-99ee1cce3b2f">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="ValidaLocalidadesPaisesBajos">
+			<testcontainer
+			id="03fc374b-8cae-49fe-a29a-5df665d73f3e">
+			</testcontainer>
+			<testcontainer
+			id="20d94b37-1d02-40ff-99b4-09829b30d601">
+			</testcontainer>
+			<testcontainer
+			id="3af47668-e59f-4d9c-992c-dba5150ff46c">
+			</testcontainer>
+			<testcontainer
+			id="8cfd82f4-cf19-4d47-99c3-9c86d4deadbc">
+			</testcontainer>
+			<testcontainer
+			id="af62ef38-019d-47a1-ba64-3c53e3cae873">
+			</testcontainer>
+			<testcontainer
+			id="bcc2f9c4-0a8e-4dbd-8926-b0e6f2625599">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
