@@ -505,7 +505,7 @@ namespace CardaData
             RepoItemInfo _txt_codigoproductordetalleInfo;
             RepoItemInfo _bttn_editarInfo;
             RepoItemInfo _txt_buscarusuarioInfo;
-            RepoItemInfo _txt_configdiaspreviosrefacturacionInfo;
+            RepoItemInfo _txt_configperiodofacturacionInfo;
             RepoItemInfo _bttn_agregarplazoInfo;
             RepoItemInfo _celdavaciaInfo;
             RepoItemInfo _celdavacia_tipoplazoInfo;
@@ -785,8 +785,8 @@ namespace CardaData
                 _txt_codigoproductordetalleInfo = new RepoItemInfo(this, "txt_CodigoProductorDetalle", ".//span[@innertext>'Código de Productor']", "", 30000, null, "06be0c31-9387-412a-84b0-5492b72ea0b2");
                 _bttn_editarInfo = new RepoItemInfo(this, "bttn_Editar", ".//tbody[#'centerPanel-tbody']//span[@innertext='ditar']", "", 30000, null, "02044059-5854-4fa2-8c7d-57cc6c9922ad");
                 _txt_buscarusuarioInfo = new RepoItemInfo(this, "txt_BuscarUsuario", ".//tbody[#'centerPanel-tbody']//input[@id='AdminUserSearchPage:UserSearchScreen:UserSearchDV:Username-inputEl']", "", 30000, null, "a6d73d43-721e-4f3e-8912-d61d0f16961d");
-                _txt_configdiaspreviosrefacturacionInfo = new RepoItemInfo(this, "txt_ConfigDiasPreviosRefacturacion", ".//tbody[#'centerPanel-tbody']//span[@innertext>'Configuración Días Previos']", "", 30000, null, "66b4a37e-14d4-4e69-8bca-94d6d03ee118");
-                _bttn_agregarplazoInfo = new RepoItemInfo(this, "bttn_AgregarPlazo", ".//tbody[#'centerPanel-tbody']//span[@innertext>'Configuración Días Previos']/../../../../../..//span[@innertext='Agregar']", "", 30000, null, "eb5d6a98-2254-403b-9cdb-7b9e207e9f1d");
+                _txt_configperiodofacturacionInfo = new RepoItemInfo(this, "txt_ConfigPeriodoFacturacion", ".//tbody[#'centerPanel-tbody']//span[@innertext>'Configuración periodo de facturación']", "", 30000, null, "66b4a37e-14d4-4e69-8bca-94d6d03ee118");
+                _bttn_agregarplazoInfo = new RepoItemInfo(this, "bttn_AgregarPlazo", ".//tbody[#'centerPanel-tbody']//span[@innertext>'Configuración periodo de facturación']/../../../../../..//span[@innertext='Agregar']", "", 30000, null, "eb5d6a98-2254-403b-9cdb-7b9e207e9f1d");
                 _celdavaciaInfo = new RepoItemInfo(this, "celdaVacia", ".//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']", "", 30000, null, "d96e2b8f-ff15-429a-b980-603cf11150e4");
                 _celdavacia_tipoplazoInfo = new RepoItemInfo(this, "celdaVacia_TipoPlazo", ".//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[2]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']", "", 30000, null, "a7903621-2d16-4413-8056-7a807a47245f");
                 _celdavacia_diaspreviosInfo = new RepoItemInfo(this, "celdaVacia_DiasPrevios", ".//tbody[#'centerPanel-tbody']//div[@id='AdminProducerCodeDetail:ProducerCodeDetailScreen:ProducerCodeDetail_ReInvoicingSuraLV']//td[3]//div[@safeclass='x-grid-cell-inner' and @innertext!~'[0-9]+']", "", 30000, null, "cfa6fb27-fee9-4701-be5d-8f90a1b87d8f");
@@ -5818,26 +5818,26 @@ namespace CardaData
             }
 
             /// <summary>
-            /// The txt_ConfigDiasPreviosRefacturacion item.
+            /// The txt_ConfigPeriodoFacturacion item.
             /// </summary>
             [RepositoryItem("66b4a37e-14d4-4e69-8bca-94d6d03ee118")]
-            public virtual Ranorex.SpanTag txt_ConfigDiasPreviosRefacturacion
+            public virtual Ranorex.SpanTag txt_ConfigPeriodoFacturacion
             {
                 get
                 {
-                    return _txt_configdiaspreviosrefacturacionInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                    return _txt_configperiodofacturacionInfo.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
             /// <summary>
-            /// The txt_ConfigDiasPreviosRefacturacion item info.
+            /// The txt_ConfigPeriodoFacturacion item info.
             /// </summary>
             [RepositoryItemInfo("66b4a37e-14d4-4e69-8bca-94d6d03ee118")]
-            public virtual RepoItemInfo txt_ConfigDiasPreviosRefacturacionInfo
+            public virtual RepoItemInfo txt_ConfigPeriodoFacturacionInfo
             {
                 get
                 {
-                    return _txt_configdiaspreviosrefacturacionInfo;
+                    return _txt_configperiodofacturacionInfo;
                 }
             }
 

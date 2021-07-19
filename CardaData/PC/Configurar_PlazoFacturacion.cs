@@ -100,8 +100,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.SolapaTarifa_CodPAS.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacion'", repo.ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacionInfo, new ActionTimeout(10000), new RecordItemIndex(3));
-            repo.ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacionInfo.WaitForExists(10000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.txt_ConfigPeriodoFacturacion'", repo.ApplicationUnderTest.txt_ConfigPeriodoFacturacionInfo, new ActionTimeout(30000), new RecordItemIndex(3));
+            repo.ApplicationUnderTest.txt_ConfigPeriodoFacturacionInfo.WaitForExists(30000);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.bttn_AgregarPlazo' at Center.", repo.ApplicationUnderTest.bttn_AgregarPlazoInfo, new RecordItemIndex(4));
             repo.ApplicationUnderTest.bttn_AgregarPlazo.Click();
@@ -135,8 +135,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.celdaVacia_DiasPrevios.PressKeys("15");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacion' at Center.", repo.ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacionInfo, new RecordItemIndex(13));
-            repo.ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacion.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_ConfigPeriodoFacturacion' at Center.", repo.ApplicationUnderTest.txt_ConfigPeriodoFacturacionInfo, new RecordItemIndex(13));
+            repo.ApplicationUnderTest.txt_ConfigPeriodoFacturacion.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.celdaVacia_InicioVigencia' at Center.", repo.ApplicationUnderTest.celdaVacia_InicioVigenciaInfo, new RecordItemIndex(14));
@@ -147,8 +147,8 @@ namespace CardaData.PC
             repo.ApplicationUnderTest.celdaVacia_InicioVigencia.PressKeys("26/05/2021");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacion' at Center.", repo.ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacionInfo, new RecordItemIndex(16));
-            repo.ApplicationUnderTest.txt_ConfigDiasPreviosRefacturacion.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_ConfigPeriodoFacturacion' at Center.", repo.ApplicationUnderTest.txt_ConfigPeriodoFacturacionInfo, new RecordItemIndex(16));
+            repo.ApplicationUnderTest.txt_ConfigPeriodoFacturacion.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 400 units.", new RecordItemIndex(17));

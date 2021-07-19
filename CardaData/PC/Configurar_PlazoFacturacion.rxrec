@@ -163,7 +163,7 @@ mode="Global">
 		optional="False"
 		searchpropertyid="e50a5911-533b-490a-b1b3-77f1a0165a8f"
 		waitaction="Exists"
-		waittimeout="10000ms">
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>

@@ -2888,11 +2888,11 @@ name="CardaDataRepository">
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
 			id="66b4a37e-14d4-4e69-8bca-94d6d03ee118"
-			name="txt_ConfigDiasPreviosRefacturacion"
+			name="txt_ConfigPeriodoFacturacion"
 			refimgid="a75bd8f5-90ef-4447-8c37-4a4946e64639"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext&gt;'Configuraci&#243;n D&#237;as Previos']
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext&gt;'Configuraci&#243;n periodo de facturaci&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -2902,7 +2902,7 @@ name="CardaDataRepository">
 			refimgid="a75bd8f5-90ef-4447-8c37-4a4946e64639"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext&gt;'Configuraci&#243;n D&#237;as Previos']/../../../../../..//span[@innertext='Agregar']
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext&gt;'Configuraci&#243;n periodo de facturaci&#243;n']/../../../../../..//span[@innertext='Agregar']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
