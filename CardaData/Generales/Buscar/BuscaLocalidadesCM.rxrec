@@ -272,11 +272,6 @@ mode="Global">
 						[Modo DEV - 9.0.3.160] Guidewire ContactCenter
 					</attribute>
 					<attribute
-					name="browser"
-					type="Ranorex.Form, Ranorex.Core, Culture=neutral">
-						{Form:[Modo DEV - 9.0.3.160] Guidewire ContactCenter - Google Chrome}
-					</attribute>
-					<attribute
 					name="browsername"
 					type="System.String">
 						Chrome

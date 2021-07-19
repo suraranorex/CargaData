@@ -41,6 +41,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']/tr[4]/td/div/div[4]/div[1]/div/table[1]/?/?/tr
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -65,6 +67,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'ProducerCodeSearch-tbody']//a[@innertext='6254']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -81,8 +85,10 @@ mode="Global">
 			id="30b6fa6a-af8b-41ee-9f4e-ed693030905f"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='C&#243;digo de Productor: 6254']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Código de Productor: 6254']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -168,6 +174,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Tarifa']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -252,6 +260,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]/td/div/div[2]/?/?/table/tbody/tr[4]/td/div/div[2]/?/?/table/tbody/tr[2]/td/div/div[4]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

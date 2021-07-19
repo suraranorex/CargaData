@@ -249,11 +249,6 @@ mode="Global">
 						[Modo DEV - 9.0.3.165] Guidewire ClaimCenter
 					</attribute>
 					<attribute
-					name="browser"
-					type="Ranorex.Form, Ranorex.Core, Culture=neutral">
-						{Form:[Modo DEV - 9.0.3.165] Guidewire ClaimCenter - Google Chrome}
-					</attribute>
-					<attribute
 					name="browsername"
 					type="System.String">
 						Chrome
